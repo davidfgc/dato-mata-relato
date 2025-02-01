@@ -1,0 +1,147 @@
+{
+  "parties": [
+    {
+      "id": "PL",
+      "name": "Partido Liberal Colombiano",
+      "founding_year": 1848,
+      "ideology": [
+        "Liberalism",
+        "Social democracy",
+        "Social liberalism",
+        "Laborism",
+        "Secularism"
+      ],
+      "position": "Center to center-left",
+      "government_position": "Independent",
+      "senators": 13,
+      "representatives": 32,
+      "president": "César Gaviria",
+      "international_affiliation": "Socialist International"
+    },
+    {
+      "id": "PC",
+      "name": "Partido Conservador Colombiano", 
+      "founding_year": 1849,
+      "ideology": [
+        "Conservatism",
+        "Christian democracy",
+        "Social conservatism",
+        "Economic liberalism"
+      ],
+      "position": "Center-right to right",
+      "government_position": "Independent",
+      "senators": 15,
+      "representatives": 25,
+      "president": "Nadia Blel",
+      "international_affiliation": "International Democrat Center"
+    },
+    {
+      "id": "CR",
+      "name": "Partido Cambio Radical",
+      "founding_year": 1997, 
+      "ideology": [
+        "Economic liberalism",
+        "Conservative liberalism",
+        "Cultural liberalism"
+      ],
+      "position": "Center-right",
+      "government_position": "Opposition",
+      "senators": 11,
+      "representatives": 16,
+      "president": "Germán Córdoba"
+    },
+    {
+      "id": "CD",
+      "name": "Partido Centro Democrático",
+      "founding_year": 2013,
+      "ideology": [
+        "Uribism",
+        "Right-wing populism",
+        "Conservative liberalism",
+        "Liberal conservatism", 
+        "Social conservatism",
+        "Anti-communism"
+      ],
+      "position": "Right",
+      "government_position": "Opposition",
+      "senators": 12,
+      "representatives": 16,
+      "president": "Gabriel Jaime Vallejo",
+      "international_affiliation": "International Democrat Union"
+    },
+    {
+      "id": "PU",
+      "name": "Partido de la Unión por la Gente",
+      "founding_year": 2005,
+      "ideology": [
+        "Economic liberalism",
+        "Conservative liberalism",
+        "Social liberalism",
+        "Third Way"
+      ],
+      "position": "Center",
+      "government_position": "Independent",
+      "senators": 10,
+      "representatives": 15,
+      "president": "Clara Luz Roldán",
+      "international_affiliation": "Liberal International"
+    },
+    {
+      "id": "AV", 
+      "name": "Partido Alianza Verde",
+      "founding_year": 2009,
+      "ideology": [
+        "Social democracy",
+        "Progressivism",
+        "Civic politics",
+        "Green politics",
+        "Social market economy"
+      ],
+      "position": "Center to center-left",
+      "government_position": "Government",
+      "senators": 8,
+      "representatives": 11,
+      "president": "Carlos Ramón González",
+      "international_affiliation": "Global Greens"
+    },
+    {
+      "id": "CH",
+      "name": "Partido Colombia Humana",
+      "founding_year": 2011,
+      "ideology": [
+        "Progressivism",
+        "Social democracy",
+        "Democratic socialism",
+        "Anti-neoliberalism",
+        "Left-wing populism",
+        "Feminism"
+      ],
+      "position": "Left",
+      "government_position": "Government",
+      "senators": 5,
+      "representatives": 13,
+      "president": "Gustavo Petro",
+      "international_affiliation": "Grupo de Puebla"
+    },
+    {
+      "id": "PDA",
+      "name": "Partido Polo Democrático Alternativo",
+      "founding_year": 2005,
+      "ideology": [
+        "Progressivism",
+        "Protectionism",
+        "Social democracy", 
+        "Welfare state",
+        "Democratic socialism",
+        "Feminism",
+        "Latin Americanism"
+      ],
+      "position": "Left",
+      "government_position": "Government",
+      "senators": 5,
+      "representatives": 9,
+      "president": "Alexander López Maya",
+      "international_affiliation": "Foro de São Paulo"
+    }
+  ]
+}
