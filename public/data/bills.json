@@ -1,0 +1,44 @@
+{
+  "bills": [
+    {
+      "id": "312/2024C",
+      "title": "Por medio del cual se transforma el sistema de salud y se dictan otras disposiciones",
+      "description": "La presente ley tiene por objeto transformar el Sistema General de Seguridad Social en Salud en un Sistema de Salud basado en el Aseguramiento Social en Salud, para garantizar el derecho fundamental a la salud",
+      "tags": ["Salud", "Seguridad Social"],
+      "status": "Trámite en Plenaria",
+      "date": "2024-09-13",
+      "type": "Ley Ordinaria",
+      "author": "Guillermo Alfonso Jaramillo Martínez",
+      "authorRole": "Ministro de Salud y Protección Social",
+      "committee": "Comisión Séptima Constitucional Permanente",
+      "legislature": "2024 - 2025",
+      "origin": "Cámara",
+      "partyVotes": {
+        "PL": { "favor": 17, "contra": 0 },
+        "PC": { "favor": 10, "contra": 0 },
+        "PU": { "favor": 5, "contra": 0 }
+      },
+      "coordinators": [
+        "María Eugenia Lopera Monsalve",
+        "Alfredo Mondragón Garzón",
+        "Camilo Esteban Ávila Morales",
+        "Jorge Alexander Quevedo Herrera",
+        "Andrés Eduardo Forero Molina",
+        "Jairo Humberto Cristo Correa",
+        "Juan Camilo Londoño Barrera",
+        "Karen Juliana López Salazar",
+        "Germán José Gómez López"
+      ],
+      "sources": [
+        {
+          "title": "Proyecto Cámara",
+          "url": "https://www.camara.gov.co/reforma-a-la-salud-10"
+        },
+        {
+          "title": "X post 1",
+          "url": "https://x.com/ghitis/status/1729636498385826243"
+        }
+      ]
+    }
+  ]
+}
