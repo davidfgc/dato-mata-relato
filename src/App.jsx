@@ -1,14 +1,37 @@
-// import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
-import VotingRecord from './components/voting-record/VotingRecord'
+import { ThemeProvider, createTheme } from '@mui/material';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
+import { useMemo } from 'react';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+
+import './App.css';
+import FiscalInefficiency from './components/government-waste-tracker/FiscalInefficiency';
+import VotingRecord from './components/voting-record/VotingRecord';
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  const theme = useMemo(
+    () =>
+      createTheme({
+        palette: {
+          mode: prefersDarkMode ? 'dark' : 'light',
+        },
+      }),
+    [prefersDarkMode]
+  );
 
   return (
-    <VotingRecord />
+    <ThemeProvider theme={theme}>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<VotingRecord />} />
+          <Route path="/voting-record" element={<VotingRecord />} />
+          <Route path="/fiscal-inefficiency" element={<FiscalInefficiency />} />
+        </Routes>
+      </HashRouter>
+    </ThemeProvider>
     // <>
     //   <div>
     //     <a href="https://vite.dev" target="_blank">
@@ -31,7 +54,7 @@ function App() {
     //     Click on the Vite and React logos to learn more
     //   </p>
     // </>
-  )
+  );
 }
 
-export default App
+export default App;

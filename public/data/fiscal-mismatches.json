@@ -1,0 +1,72 @@
+{
+  "fiscalMismatches": [
+    {
+      "id": 1,
+      "title": "Concierto de la esperanza de Petro y Hollman Morris en RTVC",
+      "amount": 3965523131,
+      "date": "2024-11-21",
+      "description": "El señor RESIDENTE cobrará $2.185.000.000 y el resto se irá en la producción del evento. Todo esto en medio de una crisis fiscal.",
+      "sources": ["https://x.com/Danielbricen/status/1885183820216832238"]
+    },
+    {
+      "id": 2,
+      "title": "Pauta publicitaria programa La Cloaca (Levy Rincon y Wally)",
+      "amount": 71400000,
+      "date": "2024-11-12",
+      "description": "Pago de pauta de prosperidad social para publicidad en el programa La Cloaca",
+      "sources": ["https://x.com/Danielbricen/status/1885668846394028478"]
+    },
+    {
+      "id": 3,
+      "title": "Contrato UNGRD apoyo gestión - Laura Julieth Martinez",
+      "amount": 101400000,
+      "date": "2024-09-20",
+      "description": "PRESTAR SERVICIOS DE APOYO A LA GESTION AL ORDENADOR DEL GASTO DEL FONDO NACIONAL DE GESTION DEL RIESGO DE DESASTRES FNGRD",
+      "contract": "9677-PPAL001-475-2024",
+      "sources": ["https://x.com/Danielbricen/status/1885183820216832238"]
+    },
+    {
+      "id": 4,
+      "title": "Presupuesto Ministerio de Igualdad y Equidad 2024",
+      "amount": 1800455000000,
+      "date": "2024-01-01",
+      "description": "De un presupuesto de 1.8 billones, solo se ha ejecutado el 0.24% en pagos",
+      "stats": {
+        "apropiacion": 1800455000000,
+        "compromisos": 1308725805203,
+        "obligaciones": 4231518869,
+        "pagos": 4216534076
+      },
+      "sources": ["https://x.com/Danielbricen/status/1779652751183458408"]
+    },
+    {
+      "id": 5,
+      "title": "Óperas transexuales en Colombia - USAID",
+      "amount": 188000000,
+      "date": "2022-03-16",
+      "description": "Fondos de USAID destinados a óperas transexuales en Colombia",
+      "sources": [
+        "https://x.com/EmmaRincon/status/1886519837934969178",
+        "https://x.com/silvajonathan01/status/1886557401161035987"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Traer a los 306 colombianos deportados desde Estados Unidos - Fuerza Aérea",
+      "amount": 2200000000,
+      "date": "2025-01-28",
+      "description": "EEUU pagaba estos vuelos hasta que Petro decidió no autorizar más vuelos.",
+      "sources": [
+        "https://www.noticiasrcn.com/economia/esto-costo-traer-a-los-colombianos-deportados-desde-estados-unidos-849273"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Fiesta fin de año Ministerio TIC",
+      "amount": 5000000000,
+      "date": "2023-12",
+      "description": "Fiesta de fin de año ministerio de las TIC, Andrés carne de res, concierto, comida, bebidas ilimitadas, regalos",
+      "sources": ["https://x.com/ojocolombia2026/status/1867066332358803703"]
+    }
+  ]
+}

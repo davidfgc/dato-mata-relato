@@ -1,4 +1,4 @@
-import { Cancel as CancelIcon, CheckCircle as CheckCircleIcon, ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon } from '@mui/icons-material';
+import { Cancel as CancelIcon, CheckCircle as CheckCircleIcon, ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon, Warning as WarningIcon } from '@mui/icons-material';
 import {
   Alert,
   Box,
@@ -15,8 +15,6 @@ import {
 } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import _ from 'lodash';
-
-
 
 import { useEffect, useState } from 'react';
 
@@ -181,6 +179,28 @@ const VotingRecord = () => {
           </Stack>
         </CardContent>
       </Card>
+
+      <Alert
+        icon={<WarningIcon />}
+        severity="warning"
+        sx={{
+          mb: 4,
+          '& .MuiAlert-message': {
+            width: '100%', // This ensures the message container takes full width
+          },
+        }}
+      >
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            width: '100%',
+            alignItems: 'center',
+          }}
+        >
+          <Typography>Estamos trabjando completando la información</Typography>
+        </Box>
+      </Alert>
 
       {/* Party Voting Records */}
       <Stack spacing={2}>
