@@ -43,9 +43,30 @@
       "id": 5,
       "title": "Óperas transexuales en Colombia - USAID",
       "amount": 188000000,
-      "date": "2025-02-03",
+      "date": "2022-03-16",
       "description": "Fondos de USAID destinados a óperas transexuales en Colombia",
-      "sources": ["https://x.com/EmmaRincon/status/1886519837934969178"]
+      "sources": [
+        "https://x.com/EmmaRincon/status/1886519837934969178",
+        "https://x.com/silvajonathan01/status/1886557401161035987"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Traer a los 306 colombianos deportados desde Estados Unidos - Fuerza Aérea",
+      "amount": 2200000000,
+      "date": "2025-01-28",
+      "description": "EEUU pagaba estos vuelos hasta que Petro decidió no autorizar más vuelos.",
+      "sources": [
+        "https://www.noticiasrcn.com/economia/esto-costo-traer-a-los-colombianos-deportados-desde-estados-unidos-849273"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Fiesta fin de año Ministerio TIC",
+      "amount": 5000000000,
+      "date": "2023-12",
+      "description": "Fiesta de fin de año ministerio de las TIC, Andrés carne de res, concierto, comida, bebidas ilimitadas, regalos",
+      "sources": ["https://x.com/ojocolombia2026/status/1867066332358803703"]
     }
   ]
 }
