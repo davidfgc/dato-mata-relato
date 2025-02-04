@@ -12,6 +12,8 @@ import { CircularProgress } from '@mui/material';
 import { useEffect } from 'react';
 import { useState } from 'react';
 
+import { ENDPOINTS } from '../../config/api';
+
 const FiscalInefficiency = () => {
   const [expandedCard, setExpandedCard] = useState(null);
   const [fiscalMismatches, setFiscalMismatches] = useState([]);
@@ -21,13 +23,13 @@ const FiscalInefficiency = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          'https://davidfgc.github.io/dato-mata-relato/data/fiscal-mismatches.json'
-          // 'http://localhost:5173/dato-mata-relato/data/fiscal-mismatches.json'
-        );
+        const response = await fetch(ENDPOINTS.fiscalMismatches);
         const data = await response.json();
+        const cutoffDate = new Date('2022-08-07');
         setFiscalMismatches(
-          data.fiscalMismatches.sort((a, b) => new Date(b.date) - new Date(a.date))
+          data.fiscalMismatches
+            .filter((item) => new Date(item.date) > cutoffDate)
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
         );
       } catch (err) {
         console.error(err);

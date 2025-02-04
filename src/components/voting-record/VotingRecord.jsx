@@ -18,6 +18,8 @@ import _ from 'lodash';
 
 import { useEffect, useState } from 'react';
 
+import { ENDPOINTS } from '../../config/api';
+
 const VotingRecord = () => {
   const [expandedParty, setExpandedParty] = useState(null);
   const [bill, setBill] = useState(null);
@@ -32,10 +34,10 @@ const VotingRecord = () => {
         setLoading(true);
 
         const [billsResponse, votesResponse, repsResponse, partiesResponse] = await Promise.all([
-          fetch('https://davidfgc.github.io/dato-mata-relato/data/bills.json'),
-          fetch('https://davidfgc.github.io/dato-mata-relato/data/votes.json'),
-          fetch('https://davidfgc.github.io/dato-mata-relato/data/representatives.json'),
-          fetch('https://davidfgc.github.io/dato-mata-relato/data/parties.json'),
+          fetch(ENDPOINTS.bills),
+          fetch(ENDPOINTS.votes),
+          fetch(ENDPOINTS.representatives),
+          fetch(ENDPOINTS.parties),
         ]);
 
         const [billsData, votesData, repsData, partiesData] = await Promise.all([

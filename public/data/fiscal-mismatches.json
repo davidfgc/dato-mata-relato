@@ -67,6 +67,109 @@
       "date": "2023-12",
       "description": "Fiesta de fin de año ministerio de las TIC, Andrés carne de res, concierto, comida, bebidas ilimitadas, regalos",
       "sources": ["https://x.com/ojocolombia2026/status/1867066332358803703"]
+    },
+    {
+      "id": 8,
+      "title": "Presupuesto JEP 2018",
+      "amount": 160905334450,
+      "date": "2018",
+      "description": "Presupuesto de la Jurisdicción Especial para la Paz (JEP) para el año 2018. Inversión: $21.884.891.604, Funcionamiento: $139.020.442.846",
+      "stats": {
+        "inversion": 21884891604,
+        "funcionamiento": 139020442846
+      },
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+    },
+    {
+      "id": 9,
+      "title": "Presupuesto JEP 2019",
+      "amount": 284585470760,
+      "date": "2019",
+      "description": "Presupuesto JEP 2019 con incremento del 77%. Inversión: $82.477.847.651, Funcionamiento: $202.107.623.109",
+      "stats": {
+        "inversion": 82477847651,
+        "funcionamiento": 202107623109,
+        "variacion": 77
+      },
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+    },
+    {
+      "id": 10,
+      "title": "Presupuesto JEP 2020",
+      "amount": 316851000000,
+      "date": "2020",
+      "description": "Presupuesto JEP 2020 con variación del 11%. Inversión: $115,137,000,000, Funcionamiento: $201,714,000,000",
+      "stats": {
+        "inversion": 115137000000,
+        "funcionamiento": 201714000000,
+        "variacion": 11
+      },
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+    },
+    {
+      "id": 11,
+      "title": "Presupuesto JEP 2021",
+      "amount": 330748000000,
+      "date": "2021",
+      "description": "Presupuesto JEP 2021 con variación del 4%. Inversión: $119,157,000,000, Funcionamiento: $211,591,000,000",
+      "stats": {
+        "inversion": 119157000000,
+        "funcionamiento": 211591000000,
+        "variacion": 4
+      },
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+    },
+    {
+      "id": 12,
+      "title": "Presupuesto JEP 2022",
+      "amount": 349523504821,
+      "date": "2022",
+      "description": "Presupuesto JEP 2022 con variación del 6%. Inversión: $131,074,504,821, Funcionamiento: $218,449,000,000",
+      "stats": {
+        "inversion": 131074504821,
+        "funcionamiento": 218449000000,
+        "variacion": 6
+      },
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+    },
+    {
+      "id": 13,
+      "title": "Presupuesto JEP 2023",
+      "amount": 568211815028,
+      "date": "2023",
+      "description": "Presupuesto JEP 2023 con variación del 63%. Inversión: $177,667,270,465, Funcionamiento: $390,544,544,563",
+      "stats": {
+        "inversion": 177667270465,
+        "funcionamiento": 390544544563,
+        "variacion": 63
+      },
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+    },
+    {
+      "id": 14,
+      "title": "Presupuesto JEP 2024",
+      "amount": 690091775282,
+      "date": "2024",
+      "description": "Presupuesto JEP 2024 con variación del 21%. Inversión: $189,400,007,093, Funcionamiento: $500,691,768,189",
+      "stats": {
+        "inversion": 189400007093,
+        "funcionamiento": 500691768189,
+        "variacion": 21
+      },
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+    },
+    {
+      "id": 15,
+      "title": "Presupuesto JEP 2025",
+      "amount": 737232300973,
+      "date": "2025",
+      "description": "Presupuesto JEP 2025 con variación del 7%. Inversión: $189,521,300,973, Funcionamiento: $547,711,000,000",
+      "stats": {
+        "inversion": 189521300973,
+        "funcionamiento": 547711000000,
+        "variacion": 7
+      },
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
     }
   ]
 }
