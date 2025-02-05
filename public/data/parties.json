@@ -2,15 +2,10 @@
   "parties": [
     {
       "id": "PL",
-      "name": "Partido Liberal Colombiano",
+      "name": "Partido Liberal",
+      "official_name": "Partido Liberal Colombiano",
       "founding_year": 1848,
-      "ideology": [
-        "Liberalism",
-        "Social democracy",
-        "Social liberalism",
-        "Laborism",
-        "Secularism"
-      ],
+      "ideology": ["Liberalism", "Social democracy", "Social liberalism", "Laborism", "Secularism"],
       "position": "Center to center-left",
       "government_position": "Independent",
       "senators": 13,
@@ -20,14 +15,10 @@
     },
     {
       "id": "PC",
-      "name": "Partido Conservador Colombiano", 
+      "name": "Partido Conservador",
+      "oficial_name": "Partido Conservador Colombiano",
       "founding_year": 1849,
-      "ideology": [
-        "Conservatism",
-        "Christian democracy",
-        "Social conservatism",
-        "Economic liberalism"
-      ],
+      "ideology": ["Conservatism", "Christian democracy", "Social conservatism", "Economic liberalism"],
       "position": "Center-right to right",
       "government_position": "Independent",
       "senators": 15,
@@ -37,13 +28,9 @@
     },
     {
       "id": "CR",
-      "name": "Partido Cambio Radical",
-      "founding_year": 1997, 
-      "ideology": [
-        "Economic liberalism",
-        "Conservative liberalism",
-        "Cultural liberalism"
-      ],
+      "name": "Cambio Radical",
+      "founding_year": 1997,
+      "ideology": ["Economic liberalism", "Conservative liberalism", "Cultural liberalism"],
       "position": "Center-right",
       "government_position": "Opposition",
       "senators": 11,
@@ -52,13 +39,13 @@
     },
     {
       "id": "CD",
-      "name": "Partido Centro Democrático",
+      "name": "Centro Democrático",
       "founding_year": 2013,
       "ideology": [
         "Uribism",
         "Right-wing populism",
         "Conservative liberalism",
-        "Liberal conservatism", 
+        "Liberal conservatism",
         "Social conservatism",
         "Anti-communism"
       ],
@@ -71,14 +58,10 @@
     },
     {
       "id": "PU",
-      "name": "Partido de la Unión por la Gente",
+      "name": "Partido de la U",
+      "official_name": "Partido de la Unión por la Gente",
       "founding_year": 2005,
-      "ideology": [
-        "Economic liberalism",
-        "Conservative liberalism",
-        "Social liberalism",
-        "Third Way"
-      ],
+      "ideology": ["Economic liberalism", "Conservative liberalism", "Social liberalism", "Third Way"],
       "position": "Center",
       "government_position": "Independent",
       "senators": 10,
@@ -87,16 +70,10 @@
       "international_affiliation": "Liberal International"
     },
     {
-      "id": "AV", 
-      "name": "Partido Alianza Verde",
+      "id": "AV",
+      "name": "Alianza Verde",
       "founding_year": 2009,
-      "ideology": [
-        "Social democracy",
-        "Progressivism",
-        "Civic politics",
-        "Green politics",
-        "Social market economy"
-      ],
+      "ideology": ["Social democracy", "Progressivism", "Civic politics", "Green politics", "Social market economy"],
       "position": "Center to center-left",
       "government_position": "Government",
       "senators": 8,
@@ -106,16 +83,9 @@
     },
     {
       "id": "CH",
-      "name": "Partido Colombia Humana",
+      "name": "Colombia Humana",
       "founding_year": 2011,
-      "ideology": [
-        "Progressivism",
-        "Social democracy",
-        "Democratic socialism",
-        "Anti-neoliberalism",
-        "Left-wing populism",
-        "Feminism"
-      ],
+      "ideology": ["Progressivism", "Social democracy", "Democratic socialism", "Anti-neoliberalism", "Left-wing populism", "Feminism"],
       "position": "Left",
       "government_position": "Government",
       "senators": 5,
@@ -125,12 +95,13 @@
     },
     {
       "id": "PDA",
-      "name": "Partido Polo Democrático Alternativo",
+      "name": "Polo Democrático",
+      "official_name": "Polo Democrático Alternativo",
       "founding_year": 2005,
       "ideology": [
         "Progressivism",
         "Protectionism",
-        "Social democracy", 
+        "Social democracy",
         "Welfare state",
         "Democratic socialism",
         "Feminism",
@@ -142,6 +113,31 @@
       "representatives": 9,
       "president": "Alexander López Maya",
       "international_affiliation": "Foro de São Paulo"
+    },
+    {
+      "id": "COM",
+      "name": "Comunes",
+      "founding_year": 2017,
+      "ideology": ["Democratic socialism", "Marxism", "Left-wing politics", "Revolutionary socialism", "Anti-imperialism"],
+      "position": "Left",
+      "government_position": "Government",
+      "senators": 5,
+      "representatives": 5,
+      "president": "Pastor Alape",
+      "international_affiliation": "Foro de São Paulo"
+    },
+    {
+      "id": "CITREP",
+      "name": "CITREP",
+      "official_name": "Circunscripción Transitoria Especial de Paz",
+      "founding_year": 2021,
+      "ideology": ["Peace process representation", "Victims' rights", "Social justice", "Rural development"],
+      "position": "Various",
+      "government_position": "Independent",
+      "senators": 0,
+      "representatives": 16,
+      "president": "N/A",
+      "notes": "Special temporary peace constituency created as part of the 2016 peace agreement to give representation to conflict-affected regions"
     }
   ]
 }

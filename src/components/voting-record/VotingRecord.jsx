@@ -1,4 +1,11 @@
-import { Cancel as CancelIcon, CheckCircle as CheckCircleIcon, ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon, Warning as WarningIcon } from '@mui/icons-material';
+import {
+  DoNotDisturbOnRounded as AbsentIcon,
+  ExpandLess as ExpandLessIcon,
+  ExpandMore as ExpandMoreIcon,
+  Cancel as NoIcon,
+  Warning as WarningIcon,
+  CheckCircle as YesIcon,
+} from '@mui/icons-material';
 import {
   Alert,
   Box,
@@ -19,6 +26,18 @@ import _ from 'lodash';
 import { useEffect, useState } from 'react';
 
 import { ENDPOINTS } from '../../config/api';
+
+const VoteChip = ({ vote }) => {
+  switch (vote) {
+    case 'yes':
+      return <YesIcon />;
+    case 'no':
+      return <NoIcon />;
+    case 'absent':
+    default:
+      return <AbsentIcon />;
+  }
+};
 
 const VotingRecord = () => {
   const [expandedParty, setExpandedParty] = useState(null);
@@ -57,12 +76,10 @@ const VotingRecord = () => {
           throw new Error('Bill not found');
         }
 
-        const billVotes = votesData.votes
+        const billVotes = votesData.sessions[0].votes
           .filter((vote) => vote.billId === '312/2024C')
           .map((vote) => {
-            const representative = repsData.representatives.find(
-              (rep) => rep.id === vote.representativeId
-            );
+            const representative = repsData.representatives.find((rep) => rep.id === vote.representativeId);
             const partyId = representative?.party_id;
             const party = partiesLookup[partyId];
             return {
@@ -119,8 +136,9 @@ const VotingRecord = () => {
       party: partyName,
       partyInfo: sampleVote.partyInfo,
       votes: partyVotes,
-      favor: partyVotes.filter((v) => v.vote === 'favor').length,
-      contra: partyVotes.filter((v) => v.vote === 'contra').length,
+      yes: partyVotes.filter((v) => v.vote === 'yes').length,
+      no: partyVotes.filter((v) => v.vote === 'no').length,
+      absent: partyVotes.filter((v) => v.vote === 'absent').length,
     };
   });
 
@@ -144,7 +162,7 @@ const VotingRecord = () => {
             </Grid>
             <Grid>
               <Stack spacing={1} alignItems="flex-end">
-                <Chip label={bill.status} size="small" color="warning" variant="outlined" />
+                <Chip label={bill.status} size="small" color="error" variant="outlined" />
                 <Typography variant="body2" color="text.secondary">
                   {bill.date}
                 </Typography>
@@ -160,24 +178,8 @@ const VotingRecord = () => {
             {bill.tags?.map((tag) => (
               <Chip key={tag} label={tag} size="small" sx={{ mb: 1 }} />
             ))}
-            {bill.committee && (
-              <Chip
-                label={bill.committee}
-                size="small"
-                color="primary"
-                variant="outlined"
-                sx={{ mb: 1 }}
-              />
-            )}
-            {bill.origin && (
-              <Chip
-                label={bill.origin}
-                size="small"
-                color="secondary"
-                variant="outlined"
-                sx={{ mb: 1 }}
-              />
-            )}
+            {bill.committee && <Chip label={bill.committee} size="small" color="primary" variant="outlined" sx={{ mb: 1 }} />}
+            {bill.origin && <Chip label={bill.origin} size="small" color="secondary" variant="outlined" sx={{ mb: 1 }} />}
           </Stack>
         </CardContent>
       </Card>
@@ -192,21 +194,21 @@ const VotingRecord = () => {
           },
         }}
       >
-        <Box
+        <Stack
           sx={{
             display: 'flex',
-            justifyContent: 'space-between',
             width: '100%',
-            alignItems: 'center',
+            alignItems: 'flex-start',
           }}
         >
-          <Typography>Estamos trabjando completando la información</Typography>
-        </Box>
+          <Typography>Votación Primer Debate</Typography>
+          <Typography>Estamos trabajando completando la información</Typography>
+        </Stack>
       </Alert>
 
       {/* Party Voting Records */}
       <Stack spacing={2}>
-        {partyStats.map(({ party, partyInfo, votes, favor, contra }) => (
+        {partyStats.map(({ party, partyInfo, votes, yes, no, absent }) => (
           <Paper
             key={party}
             elevation={1}
@@ -235,34 +237,28 @@ const VotingRecord = () => {
                     </Typography>
                   </Tooltip>
                   <Chip
-                    label={favor > contra ? 'A favor' : contra > favor ? 'En contra' : 'Empate'}
+                    label={yes > no ? 'A favor' : no > yes ? 'En contra' : 'Empate'}
                     size="small"
-                    color={favor > contra ? 'success' : contra > favor ? 'error' : 'default'}
+                    color={yes > no ? 'success' : no > yes ? 'error' : 'default'}
                     variant="outlined"
                   />
                 </Stack>
 
-                <Grid xs="auto" container spacing={2} alignItems="center">
-                  <Box
-                    sx={{ color: 'success.main', display: 'flex', alignItems: 'center', gap: 0.5 }}
-                  >
-                    <CheckCircleIcon fontSize="small" />
-                    <Typography>{favor}</Typography>
+                <Stack direction={'row'} xs="auto" spacing={1} alignItems="center">
+                  <Box sx={{ color: 'success.main', display: 'flex', alignItems: 'center', gap: 0.5 }}>
+                    <YesIcon fontSize="small" />
+                    <Typography>{yes}</Typography>
                   </Box>
-                  <Grid>
-                    <Box
-                      sx={{ color: 'error.main', display: 'flex', alignItems: 'center', gap: 0.5 }}
-                    >
-                      <CancelIcon fontSize="small" />
-                      <Typography>{contra}</Typography>
-                    </Box>
-                  </Grid>
-                  <Grid>
-                    <IconButton size="small">
-                      {expandedParty === party ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-                    </IconButton>
-                  </Grid>
-                </Grid>
+                  <Box sx={{ color: 'error.main', display: 'flex', alignItems: 'center', gap: 0.5 }}>
+                    <NoIcon fontSize="small" />
+                    <Typography>{no}</Typography>
+                  </Box>
+                  <Box sx={{ color: 'default.main', display: 'flex', alignItems: 'center', gap: 0.5 }}>
+                    <AbsentIcon fontSize="small" />
+                    <Typography>{absent}</Typography>
+                  </Box>
+                  <IconButton size="small">{expandedParty === party ? <ExpandLessIcon /> : <ExpandMoreIcon />}</IconButton>
+                </Stack>
               </Grid>
 
               <Collapse in={expandedParty === party}>
@@ -271,9 +267,9 @@ const VotingRecord = () => {
                     {votes.map((vote, index) => (
                       <Chip
                         key={index}
-                        icon={vote.vote === 'favor' ? <CheckCircleIcon /> : <CancelIcon />}
+                        icon={<VoteChip vote={vote.vote} />}
                         label={vote.representative}
-                        color={vote.vote === 'favor' ? 'success' : 'error'}
+                        color={vote.vote === 'yes' ? 'success' : vote.vote === 'no' ? 'error' : 'default'}
                         variant="outlined"
                         size="medium"
                       />

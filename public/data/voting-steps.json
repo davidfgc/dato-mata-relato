@@ -1,0 +1,24 @@
+{
+  "steps": [
+    {
+      "id": 1,
+      "name": "Primer debate, Comisión de Cámara"
+    },
+    {
+      "id": 2,
+      "name": "Segundo debate, Plenaria de Cámara"
+    },
+    {
+      "id": 3,
+      "name": "Tercer debate, Comisión de Senado"
+    },
+    {
+      "id": 4,
+      "name": "Cuarto debate, Plenaria de Senado"
+    },
+    {
+      "id": 5,
+      "name": "Debate de conciliación"
+    }
+  ]
+}
