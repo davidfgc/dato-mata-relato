@@ -2,19 +2,23 @@
   "steps": [
     {
       "id": 1,
-      "name": "Primer debate, Comisión de Cámara"
+      "name": "Primer debate",
+      "description": "Comisión de Cámara"
     },
     {
       "id": 2,
-      "name": "Segundo debate, Plenaria de Cámara"
+      "name": "Segundo debate",
+      "description": "Plenaria de Cámara"
     },
     {
       "id": 3,
-      "name": "Tercer debate, Comisión de Senado"
+      "name": "Tercer debate",
+      "description": "Comisión de Senado"
     },
     {
       "id": 4,
-      "name": "Cuarto debate, Plenaria de Senado"
+      "name": "Cuarto debate",
+      "description": "Plenaria de Senado"
     },
     {
       "id": 5,

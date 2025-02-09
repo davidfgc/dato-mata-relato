@@ -14,4 +14,5 @@ export const ENDPOINTS = {
   representatives: `${API_BASE_URL}/data/representatives.json`,
   parties: `${API_BASE_URL}/data/parties.json`,
   fiscalMismatches: `${API_BASE_URL}/data/fiscal-mismatches.json`,
+  votingSteps: `${API_BASE_URL}/data/voting-steps.json`,
 };
