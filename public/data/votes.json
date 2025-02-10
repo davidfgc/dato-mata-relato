@@ -1016,7 +1016,7 @@
       "billId": "312/2024C",
       "voting-step": 3,
       "date": "2024-05-22",
-      "warning": "Voting for archiving the bill",
+      "warning": "Votación para ARCHIVAR el proyecto de ley, colores invertidos",
       "motion": "archive",
       "votes": [
         { "billId": "312/2024C", "voting-step": 3, "representativeId": 230, "vote": "yes" },

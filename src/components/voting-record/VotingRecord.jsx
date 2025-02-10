@@ -4,12 +4,11 @@ import _ from 'lodash';
 import { useEffect, useState } from 'react';
 
 import { ENDPOINTS } from '../../config/api';
-import WarningAlert from '../common/WarningAlert';
 import BillCard from './BillCard';
 import VotingTabs from './VotingTabs';
 
 const VotingRecord = () => {
-  const [bill, setBill] = useState(null);
+  const [bill, setBill] = useState({});
   const [sessions, setSessions] = useState([]);
   const [parties, setParties] = useState({});
   const [loading, setLoading] = useState(true);
@@ -48,6 +47,7 @@ const VotingRecord = () => {
           throw new Error('Bill not found');
         }
 
+        setSelectedTab(votesData.sessions.length - 1);
         const processedSessions = votesData.sessions.map((session) => {
           const sessionVotes = session.votes
             .filter((vote) => vote.billId === '312/2024C')
@@ -65,6 +65,15 @@ const VotingRecord = () => {
             })
             .sort((a, b) => a.representative.localeCompare(b.representative));
 
+          const sessionTotals = sessionVotes.reduce(
+            (acc, vote) => {
+              acc[vote.vote]++;
+              acc.total++;
+              return acc;
+            },
+            { yes: 0, no: 0, absent: 0, total: 0 }
+          );
+
           const groupedVotes = _.groupBy(sessionVotes, 'party');
           const partyStats = Object.entries(groupedVotes).map(([partyName, partyVotes]) => {
             const sampleVote = partyVotes[0];
@@ -80,8 +89,11 @@ const VotingRecord = () => {
 
           return {
             stepId: session['voting-step'],
+            motion: session.motion,
+            warning: session.warning,
             date: session.date,
             partyStats,
+            sessionTotals,
           };
         });
 
@@ -130,7 +142,6 @@ const VotingRecord = () => {
   return (
     <Box sx={{ maxWidth: 'lg', mx: 'auto', p: 3 }}>
       <BillCard bill={bill} />
-      <WarningAlert message="Estamos trabajando completando la información" />
       <VotingTabs votingSteps={votingSteps} sessions={sessions} selectedTab={selectedTab} onTabChange={handleTabChange} />
     </Box>
   );

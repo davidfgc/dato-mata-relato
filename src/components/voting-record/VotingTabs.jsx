@@ -1,18 +1,25 @@
 import { Box, Tab, Tabs } from '@mui/material';
 
+import WarningAlert from '../common/WarningAlert';
 import PartyVotingList from './PartyVotingList';
+import TabLabel from './TabLabel';
 
 const VotingTabs = ({ votingSteps, sessions, selectedTab, onTabChange }) => {
+  const session = sessions[selectedTab];
   return (
     <Box sx={{ borderBottom: 1, borderColor: 'divider', mb: 3 }}>
       <Tabs value={selectedTab} onChange={onTabChange} aria-label="voting sessions">
-        {votingSteps.map((step) => (
-          <Tab key={step.id} label={step.name} disabled={!sessions.some((session) => session.stepId === step.id)} />
-        ))}
+        {votingSteps.map((step, index) => {
+          const session = sessions.find((s) => s.stepId === step.id);
+          return session && <Tab key={step.id} label={<TabLabel step={step} session={session} />} />;
+        })}
       </Tabs>
+
+      {session.warning && session.warning.length > 0 && <WarningAlert message={session.warning} />}
+
       {sessions.map((session, index) => (
         <Box key={session.stepId} hidden={selectedTab !== index}>
-          <PartyVotingList partyStats={session.partyStats} />
+          <PartyVotingList session={session} />
         </Box>
       ))}
     </Box>

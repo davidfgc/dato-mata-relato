@@ -1,5 +1,6 @@
 import { Card, CardContent, Chip, Stack, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
+import PropTypes from 'prop-types';
 
 const BillCard = ({ bill }) => {
   return (
@@ -42,6 +43,22 @@ const BillCard = ({ bill }) => {
       </CardContent>
     </Card>
   );
+};
+
+BillCard.propTypes = {
+  bill: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    legislature: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    authorRole: PropTypes.string.isRequired,
+    status: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    tags: PropTypes.arrayOf(PropTypes.string),
+    committee: PropTypes.string,
+    origin: PropTypes.string,
+  }).isRequired,
 };
 
 export default BillCard;

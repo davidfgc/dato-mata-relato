@@ -8,7 +8,10 @@ import {
 import { Box, Chip, Collapse, IconButton, Paper, Stack, Tooltip, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 
-import React, { useState } from 'react';
+import { useState } from 'react';
+
+import VotingDecisionChip from '../common/VotingDecisionChip';
+import VotingTotals from './VotingTotals';
 
 const VoteChip = ({ vote }) => {
   switch (vote) {
@@ -22,7 +25,7 @@ const VoteChip = ({ vote }) => {
   }
 };
 
-const PartyVotingPanel = ({ party, partyInfo, votes, yes, no, absent }) => {
+const PartyVotingPanel = ({ party, partyInfo, votes, yes, no, absent, invertColors }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -52,27 +55,11 @@ const PartyVotingPanel = ({ party, partyInfo, votes, yes, no, absent }) => {
                 {party}
               </Typography>
             </Tooltip>
-            <Chip
-              label={yes > no ? 'A favor' : no > yes ? 'En contra' : 'Empate'}
-              size="small"
-              color={yes > no ? 'success' : no > yes ? 'error' : 'default'}
-              variant="outlined"
-            />
+            <VotingDecisionChip yes={yes} no={no} invertColors={invertColors} />
           </Stack>
 
           <Stack direction="row" xs="auto" spacing={1} alignItems="center">
-            <Box sx={{ color: 'success.main', display: 'flex', alignItems: 'center', gap: 0.5 }}>
-              <YesIcon fontSize="small" />
-              <Typography>{yes}</Typography>
-            </Box>
-            <Box sx={{ color: 'error.main', display: 'flex', alignItems: 'center', gap: 0.5 }}>
-              <NoIcon fontSize="small" />
-              <Typography>{no}</Typography>
-            </Box>
-            <Box sx={{ color: 'default.main', display: 'flex', alignItems: 'center', gap: 0.5 }}>
-              <AbsentIcon fontSize="small" />
-              <Typography>{absent}</Typography>
-            </Box>
+            <VotingTotals yes={yes} no={no} absent={absent} invertColors={invertColors} />
             <IconButton size="small">{expanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}</IconButton>
           </Stack>
         </Grid>
