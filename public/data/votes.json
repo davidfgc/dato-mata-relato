@@ -27,6 +27,1013 @@
         { "billId": "312/2024C", "voting-step": 1, "representativeId": 63, "vote": "yes" },
         { "billId": "312/2024C", "voting-step": 1, "representativeId": 64, "vote": "yes" }
       ]
+    },
+    {
+      "voting-step": 2,
+      "date": "2024-04-23",
+      "billId": "312/2024C",
+      "votes": [
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 50, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 51, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 65, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 66, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 67, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 68, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 69, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 70, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 71, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 72, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 73, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 74, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 75, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 76, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 77, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 78, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 79, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 80, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 81, "vote": "absent" },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 44,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 82,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 83,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 84,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 85,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 45,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 86,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 46,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 87,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 88,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 89,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 90,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 91,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 92,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 93,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 94,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 95,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 96,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 97,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 38,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 98,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 62,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 99,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 100,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 101,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 63,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 102,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 103,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 104,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 105,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 52,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 106,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 107,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 108,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 109,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 110,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 111,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 112,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 113,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 53,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 114,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 115,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 116,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 117,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 118,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 119,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 120,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 121,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 122,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 123,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 124,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 125,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 9,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 56,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 126,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 57,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 58,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 127,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 128,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 129,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 130,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 131,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 132,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 133,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 134,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 135,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 59,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 136,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 137,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 138,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 139,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 140,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 141,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 142,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 143,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 144,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 145,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 146,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 147,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 21,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 148,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 149,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 54,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 150,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 151,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 55,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 152,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 153,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 154,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 155,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 156,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 157,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 158,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 159,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 160,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 161,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 162,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 163,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 164,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 165,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 166,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 47,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 167,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 168,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 169,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 170,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 171,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 172,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 173,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 174,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 48,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 175,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 176,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 177,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 178,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 179,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 180,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 181,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 182,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 49,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 183,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 184,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 185,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 186,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 187,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 188,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 189,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 190,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 191,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 64,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 192,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 193,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 194,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 195,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 196,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 197,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 198,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 199,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 200,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 201,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 202,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 203,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 204,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 205,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 206,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 207,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 208,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 209,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 210,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 211,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 212,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 213,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 214,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 215,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 216,
+          "vote": "absent"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 217,
+          "vote": "no"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 218,
+          "vote": "yes"
+        },
+        {
+          "billId": "312/2024C",
+          "voting-step": 2,
+          "representativeId": 219,
+          "vote": "no"
+        },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 220, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 221, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 222, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 223, "vote": "no" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 224, "vote": "no" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 225, "vote": "absent" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 226, "vote": "no" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 227, "vote": "no" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 228, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 2, "representativeId": 229, "vote": "absent" }
+      ]
+    },
+    {
+      "billId": "312/2024C",
+      "voting-step": 3,
+      "date": "2024-05-22",
+      "warning": "Voting for archiving the bill",
+      "motion": "archive",
+      "votes": [
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 230, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 231, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 232, "vote": "no" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 233, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 234, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 235, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 236, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 237, "vote": "no" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 238, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 239, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 240, "vote": "no" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 241, "vote": "yes" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 242, "vote": "no" },
+        { "billId": "312/2024C", "voting-step": 3, "representativeId": 243, "vote": "no" }
+      ]
     }
   ]
 }
