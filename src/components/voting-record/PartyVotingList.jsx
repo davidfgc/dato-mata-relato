@@ -5,9 +5,10 @@ import PartyVotingPanel from './PartyVotingPanel';
 
 const PartyVotingList = ({ session }) => {
   const invertColors = session?.motion === 'archive';
+  const maxTotal = Math.max(...session.partyStats.map((p) => p.yes + p.no + p.absent));
 
   return (
-    <Stack spacing={2}>
+    <Stack>
       {session.partyStats.map(({ party, partyInfo, votes, yes, no, absent }) => (
         <PartyVotingPanel
           key={party}
@@ -17,6 +18,7 @@ const PartyVotingList = ({ session }) => {
           yes={yes}
           no={no}
           absent={absent}
+          maxTotal={maxTotal}
           invertColors={invertColors}
         />
       ))}
@@ -31,7 +33,12 @@ PartyVotingList.propTypes = {
       PropTypes.shape({
         party: PropTypes.string.isRequired,
         partyInfo: PropTypes.object.isRequired,
-        votes: PropTypes.number.isRequired,
+        votes: PropTypes.arrayOf(
+          PropTypes.shape({
+            vote: PropTypes.string.isRequired,
+            representativeId: PropTypes.number.isRequired,
+          })
+        ).isRequired,
         yes: PropTypes.number.isRequired,
         no: PropTypes.number.isRequired,
         absent: PropTypes.number.isRequired,

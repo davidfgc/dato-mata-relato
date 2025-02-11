@@ -75,17 +75,25 @@ const VotingRecord = () => {
           );
 
           const groupedVotes = _.groupBy(sessionVotes, 'party');
-          const partyStats = Object.entries(groupedVotes).map(([partyName, partyVotes]) => {
-            const sampleVote = partyVotes[0];
-            return {
-              party: partyName,
-              partyInfo: sampleVote.partyInfo,
-              votes: partyVotes,
-              yes: partyVotes.filter((v) => v.vote === 'yes').length,
-              no: partyVotes.filter((v) => v.vote === 'no').length,
-              absent: partyVotes.filter((v) => v.vote === 'absent').length,
-            };
-          });
+          const partyStats = Object.entries(groupedVotes)
+            .map(([partyName, partyVotes]) => {
+              const sampleVote = partyVotes[0];
+              return {
+                party: partyName,
+                partyInfo: sampleVote.partyInfo,
+                votes: partyVotes,
+                yes: partyVotes.filter((v) => v.vote === 'yes').length,
+                no: partyVotes.filter((v) => v.vote === 'no').length,
+                absent: partyVotes.filter((v) => v.vote === 'absent').length,
+              };
+            })
+            .sort((a, b) => {
+              const diffA = a.yes - a.no;
+              const diffB = b.yes - b.no;
+              if (diffA !== diffB) return diffB - diffA;
+              if (a.yes !== b.yes) return b.yes - a.yes;
+              return b.total - a.total;
+            });
 
           return {
             stepId: session['voting-step'],
@@ -140,7 +148,7 @@ const VotingRecord = () => {
   };
 
   return (
-    <Box sx={{ maxWidth: 'lg', mx: 'auto', p: 3 }}>
+    <Box sx={{ maxWidth: 'md', mx: 'auto', p: 3, minWidth: { xs: '100%', sm: '100%', md: '800px' } }}>
       <BillCard bill={bill} />
       <VotingTabs votingSteps={votingSteps} sessions={sessions} selectedTab={selectedTab} onTabChange={handleTabChange} />
     </Box>

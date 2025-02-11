@@ -7,9 +7,9 @@ const BillCard = ({ bill }) => {
     <Card elevation={2} sx={{ mb: 3 }}>
       <CardContent>
         <Grid container justifyContent={'space-between'}>
-          <Grid xs justifyItems={'flex-start'}>
+          <Grid justifyItems={'flex-start'}>
             <Typography variant="h5" component="h1" gutterBottom>
-              {bill.title}
+              {bill.shortTitle}
             </Typography>
             <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
               {bill.type} • {bill.legislature}
@@ -29,7 +29,7 @@ const BillCard = ({ bill }) => {
           </Grid>
         </Grid>
 
-        <Typography variant="body1" sx={{ my: 2 }} textAlign={'justify'}>
+        {/* <Typography variant="body1" sx={{ my: 2 }} textAlign={'justify'}>
           {bill.description}
         </Typography>
 
@@ -39,7 +39,7 @@ const BillCard = ({ bill }) => {
           ))}
           {bill.committee && <Chip label={bill.committee} size="small" color="primary" variant="outlined" sx={{ mb: 1 }} />}
           {bill.origin && <Chip label={bill.origin} size="small" color="secondary" variant="outlined" sx={{ mb: 1 }} />}
-        </Stack>
+        </Stack> */}
       </CardContent>
     </Card>
   );
@@ -48,6 +48,7 @@ const BillCard = ({ bill }) => {
 BillCard.propTypes = {
   bill: PropTypes.shape({
     title: PropTypes.string.isRequired,
+    shortTitle: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired,
     legislature: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,

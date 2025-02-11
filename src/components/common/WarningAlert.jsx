@@ -1,12 +1,13 @@
 import { Warning as WarningIcon } from '@mui/icons-material';
 import { Alert, Stack, Typography } from '@mui/material';
 
-const WarningAlert = ({ message }) => (
+const WarningAlert = ({ message, mb = 2 }) => (
   <Alert
     icon={<WarningIcon />}
     severity="warning"
     sx={{
-      mb: 4,
+      mb: mb,
+      mt: 2,
       '& .MuiAlert-message': {
         width: '100%',
       },
