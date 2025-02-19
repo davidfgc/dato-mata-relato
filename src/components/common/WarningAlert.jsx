@@ -1,5 +1,6 @@
 import { Warning as WarningIcon } from '@mui/icons-material';
 import { Alert, Stack, Typography } from '@mui/material';
+import PropTypes from 'prop-types';
 
 const WarningAlert = ({ message, mb = 2 }) => (
   <Alert
@@ -24,5 +25,9 @@ const WarningAlert = ({ message, mb = 2 }) => (
     </Stack>
   </Alert>
 );
+WarningAlert.propTypes = {
+  message: PropTypes.string.isRequired,
+  mb: PropTypes.number,
+};
 
 export default WarningAlert;

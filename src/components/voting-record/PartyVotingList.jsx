@@ -36,7 +36,7 @@ PartyVotingList.propTypes = {
         votes: PropTypes.arrayOf(
           PropTypes.shape({
             vote: PropTypes.string.isRequired,
-            representativeId: PropTypes.number.isRequired,
+            representative: PropTypes.string.isRequired,
           })
         ).isRequired,
         yes: PropTypes.number.isRequired,

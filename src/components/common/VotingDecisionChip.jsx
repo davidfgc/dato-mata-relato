@@ -1,4 +1,5 @@
 import { Chip } from '@mui/material';
+import PropTypes from 'prop-types';
 
 const VotingDecisionChip = ({ yes, no, invertColors = false }) => {
   const getColor = () => {
@@ -14,6 +15,12 @@ const VotingDecisionChip = ({ yes, no, invertColors = false }) => {
   };
 
   return <Chip label={getLabel()} size="small" color={getColor()} variant="outlined" />;
+};
+
+VotingDecisionChip.propTypes = {
+  yes: PropTypes.number.isRequired,
+  no: PropTypes.number.isRequired,
+  invertColors: PropTypes.bool,
 };
 
 export default VotingDecisionChip;

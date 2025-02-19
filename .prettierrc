@@ -16,7 +16,7 @@
   "endOfLine": "lf",
   "embeddedLanguageFormatting": "auto",
   "singleAttributePerLine": false,
-  "plugins": ["prettier-plugin-organize-imports", "@trivago/prettier-plugin-sort-imports"],
+  "plugins": ["prettier-plugin-organize-imports"],
   "importOrder": ["^react", "^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,

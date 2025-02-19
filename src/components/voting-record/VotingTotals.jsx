@@ -1,5 +1,6 @@
 import { DoNotDisturbOnRounded as AbsentIcon, Cancel as NoIcon, CheckCircle as YesIcon } from '@mui/icons-material';
 import { Box, Stack, Typography } from '@mui/material';
+import PropTypes from 'prop-types';
 
 const VotingTotals = ({ yes, no, absent, showIcons = true, invertColors = false }) => {
   const yesColor = invertColors ? 'error.main' : 'success.main';
@@ -21,6 +22,13 @@ const VotingTotals = ({ yes, no, absent, showIcons = true, invertColors = false 
       </Box>
     </Stack>
   );
+};
+VotingTotals.propTypes = {
+  yes: PropTypes.number.isRequired,
+  no: PropTypes.number.isRequired,
+  absent: PropTypes.number.isRequired,
+  showIcons: PropTypes.bool,
+  invertColors: PropTypes.bool,
 };
 
 export default VotingTotals;

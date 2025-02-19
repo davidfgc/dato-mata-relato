@@ -1,4 +1,5 @@
 import { Box, Typography } from '@mui/material';
+import PropTypes from 'prop-types';
 
 import VotingTotals from './VotingTotals';
 
@@ -16,5 +17,19 @@ const TabLabel = ({ step, session }) => (
     )}
   </Box>
 );
+
+TabLabel.propTypes = {
+  step: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+  }).isRequired,
+  session: PropTypes.shape({
+    sessionTotals: PropTypes.shape({
+      yes: PropTypes.number,
+      no: PropTypes.number,
+      absent: PropTypes.number,
+    }),
+    motion: PropTypes.string,
+  }),
+};
 
 export default TabLabel;

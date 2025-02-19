@@ -1,21 +1,12 @@
-import { DoNotDisturbOnRounded as AbsentIcon, ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon, Cancel as NoIcon, CheckCircle as YesIcon } from '@mui/icons-material';
-import { Box, Chip, Collapse, IconButton, Paper, Stack, Tooltip, Typography } from '@mui/material';
+import { DoNotDisturbOnRounded as AbsentIcon, Cancel as NoIcon, CheckCircle as YesIcon } from '@mui/icons-material';
+import { Box, Chip, Collapse, Paper, Stack, Tooltip, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
-import { get } from 'lodash';
 import PropTypes from 'prop-types';
-
-
 
 import { useState } from 'react';
 
-
-
 import VotingDecisionChip from '../common/VotingDecisionChip';
 import PartyVoteBar from '../graphs/PartyVoteBar';
-
-
-
-
 
 const VoteChip = ({ vote }) => {
   switch (vote) {

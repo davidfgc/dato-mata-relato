@@ -1,16 +1,18 @@
 import { Box, Tab, Tabs } from '@mui/material';
 import PropTypes from 'prop-types';
 
+
+
 import WarningAlert from '../common/WarningAlert';
 import PartyVotingList from './PartyVotingList';
 import TabLabel from './TabLabel';
 
-const VotingTabs = ({ votingSteps, sessions, selectedTab, onTabChange }) => {
+const VotingTabs = ({ votingStages, sessions, selectedTab, onTabChange }) => {
   const session = sessions[selectedTab];
   return (
     <Box sx={{ borderBottom: 1, borderColor: 'divider', mb: 3 }}>
       <Tabs value={selectedTab} onChange={onTabChange} aria-label="voting sessions">
-        {votingSteps.map((step, index) => {
+        {votingStages.map((step) => {
           const session = sessions.find((s) => s.stepId === step.id);
           return session && <Tab key={step.id} label={<TabLabel step={step} session={session} />} />;
         })}
@@ -28,7 +30,7 @@ const VotingTabs = ({ votingSteps, sessions, selectedTab, onTabChange }) => {
 };
 
 VotingTabs.propTypes = {
-  votingSteps: PropTypes.arrayOf(
+  votingStages: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
     })
