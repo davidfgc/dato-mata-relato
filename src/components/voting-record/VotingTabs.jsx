@@ -1,14 +1,24 @@
-import { Box, Tab, Tabs } from '@mui/material';
+import { Box, Checkbox, FormControlLabel, FormGroup, Switch, Tab, Tabs } from '@mui/material';
 import PropTypes from 'prop-types';
 
-
-
+import { useState } from 'react';
 import WarningAlert from '../common/WarningAlert';
+import PartyWeightChart from '../graphs/PartyWeightChart';
 import PartyVotingList from './PartyVotingList';
 import TabLabel from './TabLabel';
 
-const VotingTabs = ({ votingStages, sessions, selectedTab, onTabChange }) => {
+const VotingTabs = ({ votingStages, sessions, graphData, selectedTab, onTabChange }) => {
   const session = sessions[selectedTab];
+  const invertColors = session.motion === 'archive';
+  const [switchLabel, setSwitchLabel] = useState('Peso de partidos en la decisión');
+  const [showChart, setShowChart] = useState(true);
+
+  const handleShowChartChange = (event) => {
+    setShowChart(event.target.checked);
+    const label = event.target.checked ? 'Peso de partidos en la decisión' : 'Votos';
+    setSwitchLabel(label);
+  };
+
   return (
     <Box sx={{ borderBottom: 1, borderColor: 'divider', mb: 3 }}>
       <Tabs value={selectedTab} onChange={onTabChange} aria-label="voting sessions">
@@ -20,11 +30,12 @@ const VotingTabs = ({ votingStages, sessions, selectedTab, onTabChange }) => {
 
       {session.warning && session.warning.length > 0 && <WarningAlert message={session.warning} mb={0} />}
 
-      {sessions.map((session, index) => (
-        <Box key={session.stepId} hidden={selectedTab !== index}>
-          <PartyVotingList session={session} />
-        </Box>
-      ))}
+      <FormGroup sx={{ marginTop: 2, marginBottom: 1 }}>
+        <FormControlLabel control={<Switch checked={showChart} onChange={handleShowChartChange} />} label={switchLabel} />
+        {showChart && <FormControlLabel control={<Checkbox checked={true} disabled />} label="Sumar ausencias al ganador" />}
+      </FormGroup>
+
+      {showChart ? <PartyWeightChart data={graphData[selectedTab]} invertColors={invertColors} /> : <PartyVotingList session={session} />}
     </Box>
   );
 };

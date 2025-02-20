@@ -1,5 +1,3 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import { ThemeProvider, createTheme } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
