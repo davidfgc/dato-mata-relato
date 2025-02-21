@@ -5,15 +5,16 @@ import { useEffect, useState } from 'react';
 import { useVotingRecordData } from '../../hooks/useVotingRecordData';
 import BillCard from './BillCard';
 import VotingTabs from './VotingTabs';
+import PartyStagesVoteChart from '../graphs/PartyStagesVoteChart';
 
 const VotingRecord = () => {
   const { bill, votingRecords, sessions, loading, error, votingStages, graphData } = useVotingRecordData();
   const [selectedTab, setSelectedTab] = useState(0);
 
   const getPosition = (party) => {
-    const positiveVotes = party.yes + party.absent;
-    if (positiveVotes > party.no) return 'supporting';
-    if (positiveVotes === party.no) return 'neutral';
+    const positiveVotes = party.result.yes + party.result.absent;
+    if (positiveVotes > party.result.no) return 'supporting';
+    if (positiveVotes === party.result.no) return 'neutral';
     return 'against';
   };
   const getColor = (position, invertColors) => {
@@ -27,12 +28,12 @@ const VotingRecord = () => {
       return '#f44336';
     }
   };
-  const partiesWeightData = graphData.map((stage, index) =>
+  const partiesWeightData = graphData.stages.map((stage, index) =>
     stage.partyStats
       .map((party) => ({
         name: party.party,
-        weight: ((party.yes + party.absent) / (stage.result.yes + stage.result.absent)) * 100,
-        votes: party.yes + party.absent,
+        weight: ((party.result.yes + party.result.absent) / (stage.result.yes + stage.result.absent)) * 100,
+        votes: party.result.yes + party.result.absent,
         position: getPosition(party),
         color: getColor(getPosition(party), sessions[index].motion === 'archive'),
       }))
@@ -74,6 +75,7 @@ const VotingRecord = () => {
   return (
     <Box sx={{ maxWidth: 'md', mx: 'auto', p: 3, minWidth: { xs: '100%', sm: '100%', md: '800px' } }}>
       <BillCard bill={bill} />
+      <PartyStagesVoteChart rawData={graphData} />
       <VotingTabs
         votingStages={votingStages}
         sessions={sessions}

@@ -11,7 +11,7 @@ export const useVotingRecordData = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [votingStages, setVotingStages] = useState([]);
-  const [graphData, setGraphData] = useState([]);
+  const [graphData, setGraphData] = useState({ stages: [] });
 
   useEffect(() => {
     const fetchData = async () => {
@@ -27,14 +27,35 @@ export const useVotingRecordData = () => {
         ]);
 
         const data = processData(bills, votingRecords, reps, parties, votingStages);
-        const graphData = data.sessions.map((session) => {
-          return {
-            billId: data.bill.id,
-            votingStage: session,
-            result: { ...session.sessionTotals },
-            partyStats: [...session.partyStats],
-          };
-        });
+        const graphData = {
+          bill: {
+            id: data.bill.id,
+            title: data.bill.title,
+          },
+          stages: data.sessions.map((stage) => {
+            const decisionStageVotes =
+              (stage.sessionTotals.yes > stage.sessionTotals.no ? stage.sessionTotals.yes : stage.sessionTotals.no) +
+              stage.sessionTotals.absent;
+            return {
+              id: stage.stepId,
+              date: stage.date,
+              motion: stage.motion,
+              partyStats: stage.partyStats.map((party) => {
+                const decisionPartyVotes = (party.yes > party.no ? party.yes : party.no) + party.absent;
+                return {
+                  party: party.party,
+                  result: {
+                    absent: party.absent,
+                    yes: party.yes,
+                    no: party.no,
+                    weight: (decisionPartyVotes / decisionStageVotes) * 100,
+                  },
+                };
+              }),
+              result: { ...stage.sessionTotals },
+            };
+          }),
+        };
 
         setBill(data.bill);
         setVotingRecords(votingRecords);

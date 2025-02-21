@@ -24,9 +24,9 @@ const Chart = ({ data }) => {
     });
   }, [data]);
 
-  // Find the position of the 50% threshold for the reference line
   const thresholdPosition = useMemo(() => {
     const threshold = processedData.find((item) => item.isThreshold);
+
     return threshold ? threshold.name : null;
   }, [processedData]);
 
@@ -41,7 +41,7 @@ const Chart = ({ data }) => {
             y={thresholdPosition}
             stroke="#ff0000"
             strokeWidth={2}
-            strokeDasharray="5 5"
+            strokeDasharray="3 3"
             label={{
               value: '50% necesario',
               fill: '#ff0000',
@@ -50,7 +50,7 @@ const Chart = ({ data }) => {
             }}
           />
         )}
-        <Tooltip formatter={(value, name) => [`${value.toFixed(2)}%`, `Peso en resultado`]} labelFormatter={(value) => value} />
+        <Tooltip formatter={(value) => [`${value.toFixed(2)}%`, `Peso en resultado`]} labelFormatter={(value) => value} />
         <Bar dataKey="weight" name="Peso en resultado (%)">
           {data.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={entry.color} />
