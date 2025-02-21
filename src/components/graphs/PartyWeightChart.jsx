@@ -1,17 +1,56 @@
-import { Box, Typography } from '@mui/material';
-import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Box } from '@mui/material';
 import PropTypes from 'prop-types';
+import { useMemo } from 'react';
+import { Bar, BarChart, CartesianGrid, Cell, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Chart = ({ data }) => {
-  const height = data.length * 40;
+  const height = (data.length + 1) * 40;
+  const processedData = useMemo(() => {
+    let cumulative = 0;
+    let thresholdIndex = -1;
+
+    return data.map((item, index) => {
+      cumulative += item.weight;
+
+      if (cumulative >= 50 && thresholdIndex === -1) {
+        thresholdIndex = index;
+      }
+
+      return {
+        ...item,
+        cumulative,
+        isThreshold: thresholdIndex === index,
+      };
+    });
+  }, [data]);
+
+  // Find the position of the 50% threshold for the reference line
+  const thresholdPosition = useMemo(() => {
+    const threshold = processedData.find((item) => item.isThreshold);
+    return threshold ? threshold.name : null;
+  }, [processedData]);
 
   return (
     <ResponsiveContainer width="100%" height={height}>
-      <BarChart data={data} layout="vertical" margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+      <BarChart data={data} layout="vertical" margin={{ top: 20, right: 30, left: 20, bottom: 15 }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis type="number" label={{ value: 'Peso en el resultado (%)', position: 'insideBottom', offset: -5 }} />
         <YAxis dataKey="name" type="category" width={200} />
-        <Tooltip formatter={(value, name) => [`${value.toFixed(2)}%`, `${name}`]} labelFormatter={(value) => `${value}`} />
+        {thresholdPosition && (
+          <ReferenceLine
+            y={thresholdPosition}
+            stroke="#ff0000"
+            strokeWidth={2}
+            strokeDasharray="5 5"
+            label={{
+              value: '50% necesario',
+              fill: '#ff0000',
+              position: 'insideTopRight',
+              fontSize: 12,
+            }}
+          />
+        )}
+        <Tooltip formatter={(value, name) => [`${value.toFixed(2)}%`, `Peso en resultado`]} labelFormatter={(value) => value} />
         <Bar dataKey="weight" name="Peso en resultado (%)">
           {data.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={entry.color} />
