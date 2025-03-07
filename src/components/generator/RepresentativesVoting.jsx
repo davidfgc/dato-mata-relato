@@ -1,0 +1,250 @@
+import { Cancel, CheckCircle, MoreHoriz } from '@mui/icons-material';
+import {
+  Box,
+  Button,
+  Card,
+  CardContent,
+  Checkbox,
+  Chip,
+  Divider,
+  FormControl,
+  FormControlLabel,
+  Grid,
+  InputLabel,
+  MenuItem,
+  Paper,
+  Radio,
+  RadioGroup,
+  Select,
+  TextField,
+  Typography,
+} from '@mui/material';
+import { useEffect, useState } from 'react';
+
+const RepresentativesVoting = ({ representatives, parties }) => {
+  // State for the representatives data and votes
+  const [filteredReps, setFilteredReps] = useState([]);
+  const [allReps, setAllReps] = useState([]);
+  const [votes, setVotes] = useState({});
+  const [filters, setFilters] = useState({
+    name: '',
+    partyId: '',
+    hideVoted: false,
+  });
+
+  // Initialize representatives with voting state
+  useEffect(() => {
+    if (representatives && representatives.length > 0) {
+      const repsWithVoting = representatives.map((rep) => ({
+        ...rep,
+        vote: null, // Initially no vote
+      }));
+      setAllReps(repsWithVoting);
+      setFilteredReps(repsWithVoting);
+    }
+  }, [representatives]);
+
+  // Update filtered representatives when filters change
+  useEffect(() => {
+    if (allReps.length === 0) return;
+
+    let filtered = [...allReps];
+
+    // Filter by name
+    if (filters.name) {
+      filtered = filtered.filter((rep) => rep.name.toLowerCase().includes(filters.name.toLowerCase()));
+    }
+
+    // Filter by party
+    if (filters.partyId) {
+      filtered = filtered.filter((rep) => rep.party_id === filters.partyId);
+    }
+
+    // Filter out representatives that already have votes
+    if (filters.hideVoted) {
+      filtered = filtered.filter((rep) => !votes[rep.id]);
+    }
+
+    setFilteredReps(filtered);
+  }, [filters, allReps, votes]);
+
+  // Handle vote selection
+  const handleVote = (repId, voteValue) => {
+    setVotes((prev) => ({
+      ...prev,
+      [repId]: voteValue,
+    }));
+  };
+
+  // Handle filter changes
+  const handleFilterChange = (field, value) => {
+    setFilters((prev) => ({
+      ...prev,
+      [field]: value,
+    }));
+  };
+
+  // Generate JSON with voting data
+  const generateVotingData = () => {
+    const votingData = Object.entries(votes).map(([repId, vote]) => ({
+      representativeId: parseInt(repId, 10),
+      vote,
+    }));
+
+    console.log(JSON.stringify(votingData, null, 2));
+    return votingData;
+  };
+
+  // Get party name from party ID
+  const getPartyName = (partyId) => {
+    if (!parties) return partyId;
+    const party = parties.find((p) => p.id === partyId);
+    return party ? party.name : partyId;
+  };
+
+  // Get party color based on party ID (simplified version)
+  const getPartyColor = (partyId) => {
+    const colorMap = {
+      PL: '#FF0000', // Liberal - Red
+      PC: '#0000FF', // Conservador - Blue
+      AV: '#00CC00', // Alianza Verde - Green
+      CD: '#0066CC', // Centro Democrático - Blue
+      PU: '#FF9900', // Partido de la U - Orange
+      CR: '#FFCC00', // Cambio Radical - Yellow
+      PDA: '#CC0000', // Polo Democrático - Dark Red
+      CH: '#660066', // Colombia Humana - Purple
+      COM: '#990000', // Comunes - Dark Red
+      CITREP: '#009999', // CITREP - Teal
+      MAIS: '#006633', // MAIS - Dark Green
+      LIGA: '#FF6600', // Liga - Orange
+      PH: '#CC3366', // Pacto Histórico - Pink
+      VO: '#33CC33', // Verde Oxígeno - Light Green
+    };
+
+    return colorMap[partyId] || '#AAAAAA'; // Default gray
+  };
+
+  return (
+    <Box sx={{ width: '100%', p: 2 }}>
+      <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
+        <Typography variant="h4" gutterBottom>
+          Representatives Voting Panel
+        </Typography>
+
+        {/* Filters Section */}
+        <Grid container spacing={2} sx={{ mb: 3 }}>
+          <Grid item xs={12} md={4}>
+            <TextField
+              fullWidth
+              label="Filter by Name"
+              variant="outlined"
+              value={filters.name}
+              onChange={(e) => handleFilterChange('name', e.target.value)}
+            />
+          </Grid>
+
+          <Grid item xs={12} md={4}>
+            <FormControl fullWidth>
+              <InputLabel>Filter by Party</InputLabel>
+              <Select value={filters.partyId} label="Filter by Party" onChange={(e) => handleFilterChange('partyId', e.target.value)}>
+                <MenuItem value="">
+                  <em>All Parties</em>
+                </MenuItem>
+                {parties &&
+                  parties.map((party) => (
+                    <MenuItem key={party.id} value={party.id}>
+                      {party.name}
+                    </MenuItem>
+                  ))}
+              </Select>
+            </FormControl>
+          </Grid>
+
+          <Grid item xs={12} md={4}>
+            <FormControlLabel
+              control={<Checkbox checked={filters.hideVoted} onChange={(e) => handleFilterChange('hideVoted', e.target.checked)} />}
+              label="Hide Representatives Already Voted"
+            />
+          </Grid>
+        </Grid>
+
+        <Divider sx={{ my: 2 }} />
+
+        {/* Generate JSON Button */}
+        <Button variant="contained" color="primary" onClick={generateVotingData} sx={{ mb: 3 }}>
+          Generate Voting Data
+        </Button>
+
+        {/* Statistics */}
+        <Box sx={{ mb: 3 }}>
+          <Typography variant="subtitle1">
+            Showing {filteredReps.length} of {allReps.length} representatives
+          </Typography>
+          <Typography variant="subtitle1">Votes recorded: {Object.keys(votes).length}</Typography>
+        </Box>
+      </Paper>
+
+      {/* Representatives List */}
+      <Grid container spacing={2}>
+        {filteredReps.map((rep) => (
+          <Grid item xs={12} sm={6} md={4} key={rep.id}>
+            <Card
+              sx={{
+                mb: 2,
+                borderLeft: `4px solid ${getPartyColor(rep.party_id)}`,
+                boxShadow: votes[rep.id] ? '0 0 10px rgba(0,0,0,0.2)' : 'none',
+              }}
+            >
+              <CardContent>
+                <Grid container spacing={1}>
+                  <Grid item xs={8}>
+                    <Typography variant="h6" component="div">
+                      {rep.name}
+                    </Typography>
+                    <Chip
+                      label={getPartyName(rep.party_id)}
+                      size="small"
+                      sx={{
+                        backgroundColor: getPartyColor(rep.party_id),
+                        color: '#FFFFFF',
+                        mb: 1,
+                      }}
+                    />
+                    {rep.social_media && (
+                      <Typography variant="body2" color="text.secondary">
+                        {rep.social_media}
+                      </Typography>
+                    )}
+                  </Grid>
+
+                  <Grid item xs={4}>
+                    <FormControl component="fieldset">
+                      <RadioGroup value={votes[rep.id] || ''} onChange={(e) => handleVote(rep.id, e.target.value)}>
+                        <FormControlLabel value="yes" control={<Radio size="small" color="success" />} label="Yes" />
+                        <FormControlLabel value="no" control={<Radio size="small" color="error" />} label="No" />
+                        <FormControlLabel value="absent" control={<Radio size="small" color="default" />} label="Absent" />
+                      </RadioGroup>
+                    </FormControl>
+                  </Grid>
+                </Grid>
+
+                {votes[rep.id] && (
+                  <Box sx={{ mt: 1, display: 'flex', justifyContent: 'flex-end' }}>
+                    <Chip
+                      icon={votes[rep.id] === 'yes' ? <CheckCircle /> : votes[rep.id] === 'no' ? <Cancel /> : <MoreHoriz />}
+                      label={votes[rep.id].toUpperCase()}
+                      color={votes[rep.id] === 'yes' ? 'success' : votes[rep.id] === 'no' ? 'error' : 'default'}
+                      size="small"
+                    />
+                  </Box>
+                )}
+              </CardContent>
+            </Card>
+          </Grid>
+        ))}
+      </Grid>
+    </Box>
+  );
+};
+
+export default RepresentativesVoting;
