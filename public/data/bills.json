@@ -1,18 +1,18 @@
 {
   "bills": [
     {
-      "id": "312/2024C",
-      "title": "Por medio del cual se transforma el sistema de salud y se dictan otras disposiciones",
+      "id": "346/2023C",
+      "title": "Por medio de la cual se dictan disposiciones orientadas a ajustar y fortalecer el Sistema General de Seguridad Social en Salud, garantizar a toda la población el derecho fundamental a la salud consagrado en la Ley 1751 de 2015, mejorar los resultados en salud, aumentar la satisfacción del usuario y garantizar la sostenibilidad del Sistema de Salud",
       "shortTitle": "Reforma a la Salud",
-      "description": "La presente ley tiene por objeto transformar el Sistema General de Seguridad Social en Salud en un Sistema de Salud basado en el Aseguramiento Social en Salud, para garantizar el derecho fundamental a la salud",
+      "description": "Por medio de la presente ley se realizan ajustes al sistema de salud en el marco del Sistema General de Seguridad Social en Salud, se desarrolla lo consagrado en la Ley 1751 de 2015, y se dictan medidas para garantizar a toda la población el derecho fundamental a la salud, mejorar los resultados en salud, aumentar la satisfacción del usuario y del talento humano en salud, y garantizar la sostenibilidad del Sistema.",
       "tags": ["Salud", "Seguridad Social"],
       "status": "archivado",
-      "date": "2024-09-13",
+      "date": "2023-02-28",
       "type": "Ley Ordinaria",
       "author": "Guillermo Alfonso Jaramillo Martínez",
       "authorRole": "Ministro de Salud y Protección Social",
       "committee": "Comisión Séptima Constitucional Permanente",
-      "legislature": "2024 - 2025",
+      "legislature": "2022 - 2023",
       "origin": "Cámara",
       "partyVotes": {
         "PL": { "favor": 17, "contra": 0 },
@@ -33,11 +33,37 @@
       "sources": [
         {
           "title": "Proyecto Cámara",
-          "url": "https://www.camara.gov.co/reforma-a-la-salud-10"
+          "url": "https://www.camara.gov.co/reforma-a-la-salud-6"
         },
         {
           "title": "X post 1",
           "url": "https://x.com/ghitis/status/1729636498385826243"
+        }
+      ]
+    },
+    {
+      "id": "312/2024C",
+      "title": "Por medio del cual se transforma el sistema de salud y se dictan otras disposiciones",
+      "shortTitle": "Reforma a la Salud",
+      "description": "La presente ley tiene por objeto transformar el Sistema General de Seguridad Social en Salud en un Sistema de Salud basado en el Aseguramiento Social en Salud, para garantizar el derecho fundamental a la salud",
+      "tags": ["Salud", "Seguridad Social"],
+      "status": "Trámite a Senado",
+      "date": "2024-09-13",
+      "type": "Ley Ordinaria",
+      "author": "Guillermo Alfonso Jaramillo Martínez",
+      "authorRole": "Ministro de Salud y Protección Social",
+      "committee": "Comisión Séptima Constitucional Permanente",
+      "legislature": "2024 - 2025",
+      "origin": "Cámara",
+      "coordinators": [],
+      "sources": [
+        {
+          "title": "Proyecto Cámara",
+          "url": "https://www.camara.gov.co/reforma-a-la-salud-10"
+        },
+        {
+          "title": "Acta 17",
+          "url": "https://www.camara.gov.co/camara/visor?doc=/sites/default/files/2025-02/acta%20-%2017%20%282%29.pdf"
         }
       ]
     }

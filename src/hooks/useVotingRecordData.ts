@@ -5,7 +5,6 @@ import { processData } from '../api/processData';
 
 export const useVotingRecordData = () => {
   const [bill, setBill] = useState({});
-  const [votingRecords, setVotingRecords] = useState([]);
   const [sessions, setSessions] = useState([]);
   const [parties, setParties] = useState({});
   const [loading, setLoading] = useState(true);
@@ -58,7 +57,6 @@ export const useVotingRecordData = () => {
         };
 
         setBill(data.bill);
-        setVotingRecords(votingRecords);
         setSessions(data.sessions);
         setParties(data.parties);
         setVotingStages(data.stages);
@@ -75,7 +73,6 @@ export const useVotingRecordData = () => {
 
   return {
     bill,
-    votingRecords,
     sessions,
     parties,
     loading,

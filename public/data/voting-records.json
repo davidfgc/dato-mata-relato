@@ -3,7 +3,7 @@
     {
       "voting-stage": 1,
       "date": "2023-05-22",
-      "billId": "312/2024C",
+      "billId": "346/2023C",
       "votes": [
         { "representativeId": 44, "vote": "yes" },
         { "representativeId": 45, "vote": "yes" },
@@ -31,7 +31,7 @@
     {
       "voting-stage": 2,
       "date": "2024-04-23",
-      "billId": "312/2024C",
+      "billId": "346/2023C",
       "votes": [
         { "representativeId": 50, "vote": "absent" },
         { "representativeId": 51, "vote": "absent" },
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "billId": "312/2024C",
+      "billId": "346/2023C",
       "voting-stage": 3,
       "date": "2024-05-22",
       "warning": "Votación para ARCHIVAR el proyecto de ley, colores invertidos",
@@ -243,6 +243,97 @@
         { "representativeId": 241, "vote": "yes" },
         { "representativeId": 242, "vote": "no" },
         { "representativeId": 243, "vote": "no" }
+      ]
+    },
+    {
+      "voting-stage": 1,
+      "date": "2024-11-18",
+      "billId": "312/2024C",
+      "votes": [
+        {
+          "representativeId": 62,
+          "vote": "absent"
+        },
+        {
+          "representativeId": 58,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 52,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 46,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 57,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 49,
+          "vote": "no"
+        },
+        {
+          "representativeId": 51,
+          "vote": "no"
+        },
+        {
+          "representativeId": 44,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 48,
+          "vote": "no"
+        },
+        {
+          "representativeId": 64,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 63,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 59,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 61,
+          "vote": "absent"
+        },
+        {
+          "representativeId": 47,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 50,
+          "vote": "no"
+        },
+        {
+          "representativeId": 55,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 56,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 53,
+          "vote": "absent"
+        },
+        {
+          "representativeId": 60,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 45,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 54,
+          "vote": "yes"
+        }
       ]
     }
   ]

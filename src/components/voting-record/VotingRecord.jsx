@@ -8,7 +8,7 @@ import VotingTabs from './VotingTabs';
 import PartyStagesVoteChart from '../graphs/PartyStagesVoteChart';
 
 const VotingRecord = () => {
-  const { bill, votingRecords, sessions, loading, error, votingStages, graphData } = useVotingRecordData();
+  const { bill, sessions, loading, error, votingStages, graphData } = useVotingRecordData();
   const [selectedTab, setSelectedTab] = useState(0);
 
   const getPosition = (party) => {
@@ -41,8 +41,8 @@ const VotingRecord = () => {
   );
 
   useEffect(() => {
-    if (votingRecords.length > 0) setSelectedTab(votingRecords.length - 1);
-  }, [votingRecords]);
+    if (sessions.length > 0) setSelectedTab(sessions.length - 1);
+  }, [sessions]);
 
   if (loading) {
     return (
@@ -75,7 +75,7 @@ const VotingRecord = () => {
   return (
     <Box sx={{ maxWidth: 'md', mx: 'auto', p: 3, minWidth: { xs: '100%', sm: '100%', md: '800px' } }}>
       <BillCard bill={bill} />
-      <PartyStagesVoteChart rawData={graphData} />
+      {sessions.length > 1 && <PartyStagesVoteChart rawData={graphData} />}
       <VotingTabs
         votingStages={votingStages}
         sessions={sessions}
