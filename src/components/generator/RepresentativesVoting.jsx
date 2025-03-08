@@ -21,7 +21,7 @@ import {
 } from '@mui/material';
 import { useEffect, useState } from 'react';
 
-const RepresentativesVoting = ({ representatives, parties }) => {
+const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) => {
   // State for the representatives data and votes
   const [filteredReps, setFilteredReps] = useState([]);
   const [allReps, setAllReps] = useState([]);
@@ -32,7 +32,7 @@ const RepresentativesVoting = ({ representatives, parties }) => {
     hideVoted: false,
   });
 
-  // Initialize representatives with voting state
+  // Initialize representatives with voting state and load initial votes
   useEffect(() => {
     if (representatives && representatives.length > 0) {
       const repsWithVoting = representatives.map((rep) => ({
@@ -40,30 +40,28 @@ const RepresentativesVoting = ({ representatives, parties }) => {
         vote: null, // Initially no vote
       }));
       setAllReps(repsWithVoting);
-      setFilteredReps(repsWithVoting);
-    }
-  }, [representatives]);
 
-  // Update filtered representatives when filters change
+      // Process initial votes if provided
+      if (initialVotes && initialVotes.length > 0) {
+        const votesObj = {};
+        initialVotes.forEach((vote) => {
+          votesObj[vote.representativeId] = vote.vote;
+        });
+        setVotes(votesObj);
+      }
+    }
+  }, [representatives, initialVotes]);
+
   useEffect(() => {
     if (allReps.length === 0) return;
 
-    let filtered = [...allReps];
-
-    // Filter by name
-    if (filters.name) {
-      filtered = filtered.filter((rep) => rep.name.toLowerCase().includes(filters.name.toLowerCase()));
-    }
-
-    // Filter by party
-    if (filters.partyId) {
-      filtered = filtered.filter((rep) => rep.party_id === filters.partyId);
-    }
-
-    // Filter out representatives that already have votes
-    if (filters.hideVoted) {
-      filtered = filtered.filter((rep) => !votes[rep.id]);
-    }
+    let filtered = [...allReps].filter(
+      (rep) =>
+        (filters.name || filters.partyId) &&
+        (!filters.name || (filters.name && rep.name.toLowerCase().includes(filters.name.toLowerCase()))) &&
+        (!filters.partyId || (filters.partyId && rep.party_id === filters.partyId)) &&
+        (!filters.hideVoted || (filters.hideVoted && !votes[rep.id]))
+    );
 
     setFilteredReps(filtered);
   }, [filters, allReps, votes]);
@@ -105,15 +103,15 @@ const RepresentativesVoting = ({ representatives, parties }) => {
   // Get party color based on party ID (simplified version)
   const getPartyColor = (partyId) => {
     const colorMap = {
-      PL: '#FF0000', // Liberal - Red
-      PC: '#0000FF', // Conservador - Blue
-      AV: '#00CC00', // Alianza Verde - Green
-      CD: '#0066CC', // Centro Democrático - Blue
+      PL: '#cc0000', // Liberal
+      PC: '#1863dc', // Conservador
+      CD: '#234874', // Centro Democrático
+      AV: '#008138', // Alianza Verde
+      CR: '#00539b', // Cambio Radical to #ce0610
+      PDA: '#FEEC2D', // Polo Democrático
+      COM: '#cc3366', // Comunes
       PU: '#FF9900', // Partido de la U - Orange
-      CR: '#FFCC00', // Cambio Radical - Yellow
-      PDA: '#CC0000', // Polo Democrático - Dark Red
       CH: '#660066', // Colombia Humana - Purple
-      COM: '#990000', // Comunes - Dark Red
       CITREP: '#009999', // CITREP - Teal
       MAIS: '#006633', // MAIS - Dark Green
       LIGA: '#FF6600', // Liga - Orange
@@ -247,4 +245,4 @@ const RepresentativesVoting = ({ representatives, parties }) => {
   );
 };
 
-export default RepresentativesVoting;
+export default VotingRecordGenerator;
