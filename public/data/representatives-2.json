@@ -1,0 +1,1730 @@
+[
+  {
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JAIME%20RAUL%20SALAMANCA.png?itok=3CB2m-Ey",
+    "label": "Boyacá Partido Alianza Verde",
+    "category": "mesa",
+    "link": "https://www.camara.gov.co/representantes/jaime-raul-salamanca-torres",
+    "saloon_id": "presidente_1_",
+    "name": "Jaime Raúl Salamanca Torres",
+    "chamber_id": 2
+  },
+  {
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-08/JORGE%20RODRIGO%20TOVAR.png?itok=jkhzpHlv",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Asociación Paz es vida (Pa-Vida)",
+    "category": "mesa",
+    "link": "https://www.camara.gov.co/representantes/jorge-rodrigo-tovar-velez",
+    "saloon_id": "_x31_vicepresidente_1_",
+    "name": "Jorge Rodrigo Tovar Vélez",
+    "chamber_id": 2
+  },
+  {
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-03/LINA%20MARIA%20GARRIDO.png?itok=rfgoawas",
+    "label": "Arauca Cambio Radical",
+    "category": "mesa",
+    "link": "https://www.camara.gov.co/representantes/lina-maria-garrido-martin",
+    "saloon_id": "_x32_vicepresidente_2_",
+    "name": "Lina María Garrido Martín",
+    "chamber_id": 2
+  },
+  {
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-07/JAIME%20LUIS%20LACOUTURE.png?itok=V01lPsyX",
+    "label": "Secretario General",
+    "category": "secretaria",
+    "link": "https://www.camara.gov.co/funcionarios/jaime-luis-lacouture-penaloza",
+    "saloon_id": "secretario_1_",
+    "name": "Jaime Luis Lacouture Peñaloza",
+    "chamber_id": 2
+  },
+  {
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-09/RAUL%20AVILA.png?itok=JrS9LC5H",
+    "label": "Subsecretario General",
+    "category": "secretaria",
+    "link": "https://www.camara.gov.co/funcionarios/raul-enrique-avila-hernandez",
+    "saloon_id": "subsecretario_1_",
+    "name": "Raúl Enrique Ávila Hernández",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ADRIANA%20CAROLINA%20ARBELAEZ.png?itok=iW4Gibyx",
+    "label": "Bogotá Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/adriana-carolina-arbelaez-giraldo",
+    "saloon_id": "p107_2_",
+    "name": "Adriana Carolina Arbeláez Giraldo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/AGMETH%20ESCAF%20TIGERINO.png?itok=OcQvkIUM",
+    "label": "Atlántico Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/agmeth-jose-escaf-tijerino",
+    "saloon_id": "p4",
+    "name": "Agmeth José Escaf Tijerino",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALEJANDRO%20GARCIA%20RIOS.png?itok=UV3otiie",
+    "label": "Risaralda Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/alejandro-garcia-rios",
+    "saloon_id": "p164_1",
+    "name": "Alejandro García Ríos",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALEXANDER%20GUARIN%20SILVA.png?itok=h_idNAh1",
+    "label": "Guainía Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/alexander-guarin-silva",
+    "saloon_id": "p94_2_12",
+    "name": "Alexander Guarín Silva",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALEXANDER%20HARLEY%20BERMUDEZ.png?itok=O5kmHpay",
+    "label": "Guaviare Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/alexander-harley-bermudez-lasso",
+    "saloon_id": "p113",
+    "name": "Alexander Harley Bermúdez Lasso",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALFREDO%20APE%20CUELLO.png?itok=6y9YduOm",
+    "label": "Cesar Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/alfredo-ape-cuello-baute",
+    "saloon_id": "p28_1_",
+    "name": "Alfredo Ape Cuello Baute",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALFREDO%20MONDRAGON%20GARZON.png?itok=rmvqnzHf",
+    "label": "Valle del Cauca Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/alfredo-mondragon-garzon",
+    "saloon_id": "p37",
+    "name": "Alfredo Mondragón Garzón",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALIRIO%20URIBE%20MU%C3%91OZ.png?itok=jmLGwYKG",
+    "label": "Bogotá Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/alirio-uribe-munoz",
+    "saloon_id": "p33",
+    "name": "Alirio Uribe Muñoz",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALVARO%20HENRY%20MONEDERO.png?itok=9UwVLn6i",
+    "label": "Valle del Cauca Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/alvaro-henry-monedero-rivera",
+    "saloon_id": "p56",
+    "name": "Álvaro Henry Monedero Rivera",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-09/ALVARO%20LEONEL%20RUEDA_0.png?itok=7i-a2Btt",
+    "label": "Santander Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/alvaro-leonel-rueda-caballero",
+    "saloon_id": "p136_2_",
+    "name": "Álvaro Leonel Rueda caballero",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/ALVARO%20MAURICIO%20LONDO%C3%91O.png?itok=3Toi1nJl",
+    "label": "Vichada Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/alvaro-mauricio-londono-lugo",
+    "saloon_id": "p46_2_",
+    "name": "Álvaro Mauricio Londoño Lugo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANA%20PAOLA%20GARCIA.png?itok=lzNn2Czu",
+    "label": "Córdoba Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/ana-paola-garcia-soto",
+    "saloon_id": "p92_2_",
+    "name": "Ana Paola García Soto",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-09/ANA%20ROGELIA%20MONSALVE_1.png?itok=6Zxc9dm8",
+    "label": "Circ. Esp. Com. Afro, Raizales y Palenqueras Partido Demócrata Colombiano",
+    "link": "https://www.camara.gov.co/representantes/ana-rogelia-monsalve-alvarez",
+    "saloon_id": "p157_2",
+    "name": "Ana Rogelia Monsalve Álvarez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANDRES%20DAVID%20CALLE.png?itok=AyktCPJ3",
+    "label": "Córdoba Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/andres-david-calle-aguas",
+    "saloon_id": "p50",
+    "name": "Andrés David Calle Aguas",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANDRES%20EDUARDO%20FORERO.png?itok=2_Rbf6YN",
+    "label": "Bogotá Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/andres-eduardo-forero-molina",
+    "saloon_id": "p146_2_2",
+    "name": "Andrés Eduardo Forero Molina",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANDRES%20FELIPE%20JIMENEZ.png?itok=AL2zUn-A",
+    "label": "Antioquia Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/andres-felipe-jimenez-vargas",
+    "saloon_id": "p48_2_",
+    "name": "Andrés Felipe Jiménez Vargas",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANDRES%20GUILLERMO%20MONTES.png?itok=WOuP0GUV",
+    "label": "Bolívar Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/andres-guillermo-montes-celedon",
+    "saloon_id": "p24_1_",
+    "name": "Andrés Guillermo Montes Celedón",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-02/ANGELA%20MARIA%20VERGARA.png?itok=rOkQEPs6",
+    "label": "Bolívar Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/angela-maria-vergara-gonzalez",
+    "saloon_id": "p25_1_",
+    "name": "Ángela María Vergara González",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANIBAL%20GUSTAVO%20HOYOS.png?itok=1DzicJXc",
+    "label": "Risaralda Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/anibal-gustavo-hoyos-franco",
+    "saloon_id": "p88_2_2",
+    "name": "Aníbal Gustavo Hoyos Franco",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2017-06/ARMANDO%20ANTONIO%20ZABARA%C3%8DN%20DE%20ARCE.jpg?itok=j-nkkswI",
+    "label": "Atlántico Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/armando-antonio-zabarain-de-arce",
+    "saloon_id": "p21_1_",
+    "name": "Armando Antonio Zabaraín de Arce",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ASTRID%20SANCHEZ%20MONTES_0.png?itok=wkaSqAqG",
+    "label": "Chocó Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/astrid-sanchez-montes-de-oca",
+    "saloon_id": "p61",
+    "name": "Astrid Sánchez Montes De Oca",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/BAYARDO%20GILBERTO%20BETANCOURT.png?itok=G8rp-LWa",
+    "label": "Nariño Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/bayardo-gilberto-betancourt-perez",
+    "saloon_id": "p15_1",
+    "name": "Bayardo Gilberto Betancourt Pérez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/BETSY%20JUDITH%20PEREZ.png?itok=iQxFxB9g",
+    "label": "Atlántico Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/betsy-judith-perez-arango",
+    "saloon_id": "p110_2_",
+    "name": "Betsy Judith Pérez Arango",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/CAMILO%20ESTEBAN%20AVILA.png?itok=e4x2ew9z",
+    "label": "Vaupés Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/camilo-esteban-avila-morales",
+    "saloon_id": "p45_2_",
+    "name": "Camilo Esteban Ávila Morales",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/CARLOS%20ADOLFO%20ARDILA%20ESPINOSA_0.png?itok=oRNKB7kN",
+    "label": "Putumayo Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/carlos-adolfo-ardila-espinosa",
+    "saloon_id": "p48_2",
+    "name": "Carlos Adolfo Ardila Espinosa",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CARLOS%20ALBERTO%20CARRE%C3%91O.png?itok=pcbw5bxu",
+    "label": "Bogotá Partido Comunes",
+    "link": "https://www.camara.gov.co/representantes/carlos-alberto-carreno-marin",
+    "saloon_id": "p153",
+    "name": "Carlos Alberto Carreño Marín",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CARLOS%20ALBERTO%20CUENCA.png?itok=nPVHfC9Q",
+    "label": "Guainía Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/carlos-alberto-cuenca-chaux",
+    "saloon_id": "p1_1",
+    "name": "Carlos Alberto Cuenca Chaux",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-02/CARLOS%20ARTURO%20VALLEJO_0.png?itok=2VpTNFQs",
+    "label": "Meta Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/carlos-arturo-vallejo-beltran",
+    "saloon_id": "p140_10",
+    "name": "Carlos Arturo Vallejo Beltrán",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CARLOS%20EDWARD%20OSORIO.png?itok=7e6oFo29",
+    "label": "Tolima Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/carlos-edward-osorio-aguiar",
+    "saloon_id": "p108",
+    "name": "Carlos Edward Osorio Aguiar",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CARLOS%20FELIPE%20QUINTERO%20OVALLE.png?itok=9ZDrPdr1",
+    "label": "Cesar Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/carlos-felipe-quintero-ovalle",
+    "saloon_id": "p90_2_2_",
+    "name": "Carlos Felipe Quintero Ovalle",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2025-02/repreCarmen.png?itok=HwjwT7AE",
+    "label": "Ciudadanos en el exterior Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/carmen-felisa-ramirez-boscan",
+    "saloon_id": "p17",
+    "name": "Carmen Felisa Ramírez Boscán",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CAROLINA%20GIRALDO%20BOTERO.png?itok=MgeHuoU4",
+    "label": "Risaralda Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/carolina-giraldo-botero",
+    "saloon_id": "p144_2_1",
+    "name": "Carolina Giraldo Botero",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CATHERINE%20JUVINAO%20CLAVIJO.png?itok=CqiVChyC",
+    "label": "Bogotá Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/catherine-juvinao-clavijo",
+    "saloon_id": "p139_2_",
+    "name": "Catherine Juvinao Clavijo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/CESAR%20CRISTIAN%20GOMEZ.png?itok=le3r9oOX",
+    "label": "Cauca Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/cesar-cristian-gomez-castro",
+    "saloon_id": "p64_2_2",
+    "name": "César Cristian Gómez Castro",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CHRISTIAN%20MUNIR%20GARCES.png?itok=vsKL5UpK",
+    "label": "Valle del Cauca Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/christian-munir-garces-aljure",
+    "saloon_id": "p150",
+    "name": "Christian Munir Garcés Aljure",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CIRO%20ANTONIO%20RODRIGUEZ.png?itok=vJIjxZmR",
+    "label": "Norte de Santander Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/ciro-antonio-rodriguez-pinzon",
+    "saloon_id": "p7",
+    "name": "Ciro Antonio Rodríguez Pinzón",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/CRISTIAN%20DANILO%20AVENDA%C3%91O.png?itok=gxBxzUK1",
+    "label": "Santander Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/cristian-danilo-avendano-fino",
+    "saloon_id": "p140_2_1",
+    "name": "Cristian Danilo Avendaño Fino",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CRISTOBAL%20CAICEDO%20ANGULO.png?itok=INN4xvG0",
+    "label": "Valle del Cauca Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/cristobal-caicedo-angulo",
+    "saloon_id": "p35_2",
+    "name": "Cristóbal Caicedo Angulo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DANIEL%20CARVALO%20MEJIA.png?itok=X_nNWvBy",
+    "label": "Antioquia Coalición Centro Esperanza",
+    "link": "https://www.camara.gov.co/representantes/daniel-carvalho-mejia",
+    "saloon_id": "p161_2",
+    "name": "Daniel Carvalho Mejía",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DANIEL%20RESTREPO%20CARMONA.png?itok=7VW6hnft",
+    "label": "Antioquia Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/daniel-restrepo-carmona",
+    "saloon_id": "p11",
+    "name": "Daniel Restrepo Carmona",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DAVID%20ALEJANDRO%20TORO.png?itok=yHSuFx11",
+    "label": "Antioquia Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/david-alejandro-toro-ramirez",
+    "saloon_id": "p2",
+    "name": "David Alejandro Toro Ramírez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-07/DAVID%20RICARDO%20RACERO.png?itok=3a-AM-2C",
+    "label": "Bogotá Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/david-ricardo-racero-mayorca",
+    "saloon_id": "p36",
+    "name": "David Ricardo Racero Mayorca",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DELCY%20ESPERANZA%20ISAZA.png?itok=7mAqV0hw",
+    "label": "Tolima Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/delcy-esperanza-isaza-buenaventura",
+    "saloon_id": "p9",
+    "name": "Delcy Esperanza Isaza Buenaventura",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DIEGO%20FERNANDO%20CAICEDO.png?itok=CkX2o5r0",
+    "label": "Cundinamarca Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/diego-fernando-caicedo-navas",
+    "saloon_id": "p94_2_",
+    "name": "Diego Fernando Caicedo Navas",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DIEGO%20PATI%C3%91O%20AMARILES.png?itok=t7IQJvIj",
+    "label": "Risaralda Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/diego-patino-amariles",
+    "saloon_id": "p47_2",
+    "name": "Diego Patiño Amariles",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DIOGENES%20QUINTERO%20AMAYA.png?itok=ypcrEoo0",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Asociación de Familias Desplazadas de Hacarí",
+    "link": "https://www.camara.gov.co/representantes/diogenes-quintero-amaya",
+    "saloon_id": "p186",
+    "name": "Diógenes Quintero Amaya",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-11/DOLCEY%20OSCAR%20TORRES.png?itok=6TAJbC43",
+    "label": "Atlántico Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/dolcey-oscar-torres-romero",
+    "saloon_id": "p82_2_",
+    "name": "Dolcey Oscar Torres Romero",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DORINA%20HERNANDEZ%20PALOMINO.png?itok=5GlpbCQ7",
+    "label": "Bolívar Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/dorina-hernandez-palomino",
+    "saloon_id": "p51",
+    "name": "Dorina Hernández Palomino",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DUVALIER%20SANCHEZ%20ARANGO.png?itok=iyA5Cd-5",
+    "label": "Valle del Cauca Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/duvalier-sanchez-arango",
+    "saloon_id": "p138_2_",
+    "name": "Duvalier Sánchez Arango",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/EDINSON%20VLADIMIR%20OLAYA.png?itok=jE_5SJox",
+    "label": "Casanare Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/edinson-vladimir-olaya-mancipe",
+    "saloon_id": "p150_2_2",
+    "name": "Edinson Vladimir Olaya Mancipe",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/EDUAR%20ALEXIS%20TRIANA.png?itok=lD2zc0FB",
+    "label": "Boyacá Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/eduard-alexis-triana-rincon",
+    "saloon_id": "p146_2_",
+    "name": "Eduard Alexis Triana Rincón",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/EDUARD%20GIOVANNY%20SARMIENTO.png?itok=XEs6WsZP",
+    "label": "Cundinamarca Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/eduard-giovanny-sarmiento-hidalgo",
+    "saloon_id": "p20",
+    "name": "Eduard Giovanny Sarmiento Hidalgo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ELIZABET%20JAI-PANG.png?itok=0VBAlqCE",
+    "label": "San Andrés y Providencia Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/elizabeth-jay-pang-diaz",
+    "saloon_id": "p49",
+    "name": "Elizabeth Jay-Pang Díaz",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ELKIN%20RODOLFO%20OSPINA.png?itok=N4Ugo2rQ",
+    "label": "Antioquia Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/elkin-rodolfo-ospina-ospina",
+    "saloon_id": "p143_2_",
+    "name": "Elkin Rodolfo Ospina Ospina",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ERICK%20ADRIAN%20VELASCO.png?itok=Rs0NY0NJ",
+    "label": "Nariño Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/erick-adrian-velasco-burbano",
+    "saloon_id": "p16",
+    "name": "Erick Adrián Velasco Burbano",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-07/ERIKA%20TATIANA%20SANCHEZ.png?itok=7VQ8mkLD",
+    "label": "Santander Ninguno",
+    "link": "https://www.camara.gov.co/representantes/erika-tatiana-sanchez-pinto",
+    "saloon_id": "p155_2",
+    "name": "Erika Tatiana Sánchez Pinto",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ERMES%20EVELIO%20PETE.png?itok=SYQ_8fnh",
+    "label": "Cauca Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/ermes-evelio-pete-vivas",
+    "saloon_id": "p29",
+    "name": "Ermes Evelio Pete Vivas",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ETNA%20TAMARA%20ARGOTE.png?itok=uExHygNJ",
+    "label": "Bogotá Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/etna-tamara-argote-calderon",
+    "saloon_id": "p30",
+    "name": "Etna Tamara Argote Calderón",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/FERNANDO%20DAVID%20NI%C3%91O.png?itok=U63vZyk7",
+    "label": "Bolívar Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/fernando-david-nino-mendoza",
+    "saloon_id": "p23_1_",
+    "name": "Fernando David Niño Mendoza",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-03/FLORA%20PERDOMO%20ANDRADE.png?itok=F86379iO",
+    "label": "Huila Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/flora-perdomo-andrade",
+    "saloon_id": "p71",
+    "name": "Flora Perdomo Andrade",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GABRIEL%20BECERRA%20YA%C3%91EZ.png?itok=0zNcKyD1",
+    "label": "Bogotá Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/gabriel-becerra-yanez",
+    "saloon_id": "p34",
+    "name": "Gabriel Becerra Yañez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GABRIEL%20ERNESTO%20PARRADO.png?itok=jLTp40Rp",
+    "label": "Meta Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/gabriel-ernesto-parrado-duran",
+    "saloon_id": "p18",
+    "name": "Gabriel Ernesto Parrado Durán",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERARDO%20YEPES%20CARO.png?itok=5-FnVX2o",
+    "label": "Tolima Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/gerardo-yepes-caro",
+    "saloon_id": "p38",
+    "name": "Gerardo Yepes Caro",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERMAN%20JOSE%20GOMEZ.png?itok=qmvfs2lD",
+    "label": "Atlántico Partido Comunes",
+    "link": "https://www.camara.gov.co/representantes/german-jose-gomez-lopez",
+    "saloon_id": "p165",
+    "name": "Germán José Gómez López",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERMAN%20ROGELIO%20ROZO.png?itok=ZnSPMRGX",
+    "label": "Arauca Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/german-rogelio-rozo-anis",
+    "saloon_id": "p64_2_",
+    "name": "Germán Rogelio Rozo Anís",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERSEL%20LUIS%20PEREZ.png?itok=PReU060j",
+    "label": "Atlántico Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/gersel-luis-perez-altamiranda",
+    "saloon_id": "p111_2_",
+    "name": "Gersel Luis Pérez Altamiranda",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERSON%20LISIMACO%20MONTA%C3%91O.png?itok=OVqea16M",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Corporación Red de Consejos Comunitarios del Pacífico Sur Recompas",
+    "link": "https://www.camara.gov.co/representantes/gerson-lisimaco-montano-arizala",
+    "saloon_id": "p179",
+    "name": "Gerson Lisímaco Montaño Arizala",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-04/GILDARDO%20SILVA%20MOLINA.png?itok=nShZs6id",
+    "label": "Valle del Cauca Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/gildardo-silva-molina",
+    "saloon_id": "p140_11",
+    "name": "Gildardo Silva Molina",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GILMA%20DIAZ%20ARIAS.png?itok=LVJQFYwG",
+    "label": "Caquetá Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/gilma-diaz-arias",
+    "saloon_id": "p60_2_",
+    "name": "Gilma Díaz Arias",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/GLORIA%20ELENA%20ARIZABALETA.png?itok=GKMxvW8I",
+    "label": "Valle del Cauca Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/gloria-elena-arizabaleta-corral",
+    "saloon_id": "p53",
+    "name": "Gloria Elena Arizabaleta Corral",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GLORIA%20LILIANA%20RODRIGUEZ.png?itok=NDfWTg5h",
+    "label": "Cundinamarca Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/gloria-liliana-rodriguez-valencia",
+    "saloon_id": "p141_2",
+    "name": "Gloria Liliana Rodríguez Valencia",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HAIVER%20RINCON%20GUTIERREZ.png?itok=VGilV8uB",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Asociación Víctimas Núcleo Santiago Pérez",
+    "link": "https://www.camara.gov.co/representantes/haiver-rincon-gutierrez",
+    "saloon_id": "p187",
+    "name": "Haiver Rincón Gutiérrez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HECTOR%20DAVID%20CHAPARRO.png?itok=Gd6H_UoR",
+    "label": "Boyacá Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/hector-david-chaparro-chaparro",
+    "saloon_id": "p90_2_2_hdc",
+    "name": "Héctor David Chaparro Chaparro",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/HECTOR%20MAURICIO%20CUELLAR.png?itok=N1rxfWhI",
+    "label": "Caquetá Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/hector-mauricio-cuellar-pinzon",
+    "saloon_id": "p91_2_1",
+    "name": "Héctor Mauricio Cuéllar Pinzón",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HERACLITO%20LANDINES%20SUAREZ.png?itok=jd2ytUry",
+    "label": "Bogotá Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/heraclito-landinez-suarez",
+    "saloon_id": "p35_1_2",
+    "name": "Heraclito Landinez Suárez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HERNAN%20DARIO%20CADAVID.png?itok=pzP1WFXp",
+    "label": "Antioquia Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/hernan-dario-cadavid-marquez",
+    "saloon_id": "p145_2_11",
+    "name": "Hernán Darío Cadavid Márquez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HERNANDO%20GONZALEZ.png?itok=6cbYO7op",
+    "label": "Valle del Cauca Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/hernando-gonzalez",
+    "saloon_id": "p95_2_4",
+    "name": "Hernando González",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/HERNANDO%20GUIDA%20PONCE.png?itok=trFjdEwt",
+    "label": "Magdalena Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/hernando-guida-ponce",
+    "saloon_id": "p64",
+    "name": "Hernando Guida Ponce",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-09/HUGO%20ALFONSO%20ARCHILA.png?itok=QEBpS3b0",
+    "label": "Casanare Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/hugo-alfonso-archila-suarez",
+    "saloon_id": "p135_2_",
+    "name": "Hugo Alfonso Archila Suárez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HUGO%20DANILO%20LOZANO.png?itok=N1FoYg43",
+    "label": "Vaupés Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/hugo-danilo-lozano-pimiento",
+    "saloon_id": "p148_2",
+    "name": "Hugo Danilo Lozano Pimiento",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/INGRID%20JOHANA%20AGUIRRE.png?itok=7AZF32CR",
+    "label": "Magdalena Movimiento Fuerza Ciudadana",
+    "link": "https://www.camara.gov.co/representantes/ingrid-johana-aguirre-juvinao",
+    "saloon_id": "p3",
+    "name": "Ingrid Johana Aguirre Juvinao",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/INGRID%20MARLEN%20SOGAMOSO_0.png?itok=F3erMNrq",
+    "label": "Boyacá Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/ingrid-marlen-sogamoso-alfonso",
+    "saloon_id": "p43",
+    "name": "Ingrid Marlen Sogamoso Alfonso",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-05/IRMA%20LUZ%20HERRERA.png?itok=3ioxp2Xa",
+    "label": "Bogotá MIRA",
+    "link": "https://www.camara.gov.co/representantes/irma-luz-herrera-rodriguez",
+    "saloon_id": "p157",
+    "name": "Irma Luz Herrera Rodríguez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JAIME%20RAUL%20SALAMANCA.png?itok=3CB2m-Ey",
+    "label": "Boyacá Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/jaime-raul-salamanca-torres",
+    "saloon_id": "p145_2_",
+    "name": "Jaime Raúl Salamanca Torres",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JAIME%20RODRIGUEZ%20CONTRERAS.png?itok=aC1GtkEL",
+    "label": "Meta Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/jaime-rodriguez-contreras",
+    "saloon_id": "p47",
+    "name": "Jaime Rodríguez Contreras",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JAIRO%20HUMBERTO%20CRISTO%20CORREA.png?itok=hdfR4_1U",
+    "label": "Norte de Santander Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/jairo-humberto-cristo-correa",
+    "saloon_id": "p48",
+    "name": "Jairo Humberto Cristo Correa",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JAIRO%20REINALDO%20CALA.png?itok=AbZmZ4NS",
+    "label": "Santander Partido Comunes",
+    "link": "https://www.camara.gov.co/representantes/jairo-reinaldo-cala-suarez",
+    "saloon_id": "p154",
+    "name": "Jairo Reinaldo Cala Suárez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JAMES%20HERMENEGILDO%20MOSQUERA.png?itok=co20SiLp",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Consejo Comunitario Mayor de Nóvita (Cocoman)",
+    "link": "https://www.camara.gov.co/representantes/james-hermenegildo-mosquera-torres",
+    "saloon_id": "p170",
+    "name": "James Hermenegildo Mosquera Torres",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-11/JAVIER%20ALEXANDER%20SANCHEZ.png?itok=fJMi34uV",
+    "label": "Vichada Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/javier-alexander-sanchez-reyes",
+    "saloon_id": "p99_2",
+    "name": "Javier Alexander Sánchez Reyes",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JENNIFER%20DALLEY%20PEDRAZA.png?itok=FULSBsUq",
+    "label": "Bogotá Coalición Centro Esperanza",
+    "link": "https://www.camara.gov.co/representantes/jennifer-dalley-pedraza-sandoval",
+    "saloon_id": "p160_2",
+    "name": "Jennifer Dalley Pedraza Sandoval",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JEZMI%20LIZETH%20BARRAZA.png?itok=laiNN7eH",
+    "label": "Atlántico Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/jezmi-lizeth-barraza-arraut",
+    "saloon_id": "p94",
+    "name": "Jezmi Lizeth Barraza Arraut",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JHOANY%20CARLOS%20PALACIOS.png?itok=ux2okeLG",
+    "label": "Chocó Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/jhoany-carlos-alberto-palacios-mosquera",
+    "saloon_id": "p137_2_2",
+    "name": "Jhoany Carlos Alberto Palacios Mosquera",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JOHN%20FREDY%20VALENCIA.png?itok=NvKVBaII",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Consejo Comunitario los Andes",
+    "link": "https://www.camara.gov.co/representantes/jhon-fredi-valencia-caicedo",
+    "saloon_id": "p180",
+    "name": "Jhon Fredi Valencia Caicedo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JOHN%20FREDY%20NU%C3%91EZ.png?itok=jEhSAlXx",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Fundación Igualdad social",
+    "link": "https://www.camara.gov.co/representantes/jhon-fredy-nunez-ramos",
+    "saloon_id": "p185",
+    "name": "Jhon Fredy Núñez Ramos",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JHON%20JAIRO%20BERRIO%20LOPEZ.png?itok=ftQa4Qcg",
+    "label": "Antioquia Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/jhon-jairo-berrio-lopez",
+    "saloon_id": "p130",
+    "name": "Jhon Jairo Berrio López",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/JOHN%20EDGAR%20PEREZ_0.png?itok=kfF2bmKE",
+    "label": "Quindío Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/john-edgar-perez-rojas",
+    "saloon_id": "p95_2_",
+    "name": "John Edgar Pérez Rojas",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JOHN%20JAIRO%20GONZALEZ.png?itok=Hx7dQwDq",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Asociación de Desplazados del Municipio de Briceño",
+    "link": "https://www.camara.gov.co/representantes/john-jairo-gonzalez-agudelo",
+    "saloon_id": "p181",
+    "name": "John Jairo González Agudelo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20ALBERTO%20CERCHIARO.png?itok=KwjxGTcH",
+    "label": "La Guajira Partido Colombia Renaciente",
+    "link": "https://www.camara.gov.co/representantes/jorge-alberto-cerchiaro-figueroa",
+    "saloon_id": "p158_2",
+    "name": "Jorge Alberto Cerchiaro Figueroa",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20ALEJANDRO%20CAMPO.png?itok=o71cbS3D",
+    "label": "Valle del Cauca Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/jorge-alejandro-ocampo-giraldo",
+    "saloon_id": "p52",
+    "name": "Jorge Alejandro Ocampo Giraldo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20ALEXANDER%20QUEVEDO.png?itok=qKbqw_bP",
+    "label": "Guaviare Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/jorge-alexander-quevedo-herrera",
+    "saloon_id": "p50_2_",
+    "name": "Jorge Alexander Quevedo Herrera",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/JORGE%20ANDRES%20CANCIMANCE.png?itok=ljfd0UJQ",
+    "label": "Putumayo Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/jorge-andres-cancimance-lopez",
+    "saloon_id": "p5",
+    "name": "Jorge Andrés Cancimance López",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20ELIECER%20TAMAYO.png?itok=JdXSLfz5",
+    "label": "Valle del Cauca Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/jorge-eliecer-tamayo-marulanda",
+    "saloon_id": "p83",
+    "name": "Jorge Eliécer Tamayo Marulanda",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20HERNAN%20BASTIDAS.png?itok=vGytZLQe",
+    "label": "Cauca Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/jorge-hernan-bastidas-rosero",
+    "saloon_id": "p1",
+    "name": "Jorge Hernán Bastidas Rosero",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-07/JORGE%20MENDEZ.png?itok=1PLH5v25",
+    "label": "San Andrés y Providencia Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/jorge-mendez-hernandez",
+    "saloon_id": "p35",
+    "name": "Jorge Méndez Hernández",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-08/JORGE%20RODRIGO%20TOVAR.png?itok=jkhzpHlv",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Asociación Paz es vida (Pa-Vida)",
+    "link": "https://www.camara.gov.co/representantes/jorge-rodrigo-tovar-velez",
+    "saloon_id": "p182",
+    "name": "Jorge Rodrigo Tovar Vélez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JOSE%20ALEJANDRO%20MARTINEZ.png?itok=hxpVUTkE",
+    "label": "Tolima Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/jose-alejandro-martinez-sanchez",
+    "saloon_id": "p39_2",
+    "name": "José Alejandro Martínez Sánchez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-11/JOSE%20ELIECER%20SALAZAR_0.png?itok=hmQ9gtdI",
+    "label": "Cesar Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/jose-eliecer-salazar-lopez",
+    "saloon_id": "p85",
+    "name": "José Eliécer Salazar López",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-02/JOSE%20JAIME%20USCATEGUI.png?itok=NxggtOB7",
+    "label": "Bogotá Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/jose-jaime-uscategui-pastrana",
+    "saloon_id": "p104_1_",
+    "name": "José Jaime Uscátegui Pastrana",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-01/JOSE%20OCTAVIO%20CARDONA.png?itok=EJ2tgciV",
+    "label": "Caldas Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/jose-octavio-cardona-leon",
+    "saloon_id": "p63_2_",
+    "name": "José Octavio Cardona León",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20CAMILO%20LONDO%C3%91O.png?itok=VwApFYE4",
+    "label": "Antioquia Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/juan-camilo-londono-barrera",
+    "saloon_id": "p163",
+    "name": "Juan Camilo Londoño Barrera",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JUAN%20CARLOS%20LOZADA%20VARGAS.png?itok=ansUP1P0",
+    "label": "Bogotá Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/juan-carlos-lozada-vargas",
+    "saloon_id": "p74",
+    "name": "Juan Carlos Lozada Vargas",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20CARLOS%20VARGAS.png?itok=LCC3iFos",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Asociación de Productores de Cacao (Aprocasur)",
+    "link": "https://www.camara.gov.co/representantes/juan-carlos-vargas-soler",
+    "saloon_id": "p184",
+    "name": "Juan Carlos Vargas Soler",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20CARLOS%20WILLS.png?itok=OTZ_TIjH",
+    "label": "Bogotá Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/juan-carlos-wills-ospina",
+    "saloon_id": "p46",
+    "name": "Juan Carlos Wills Ospina",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20DANIEL%20PE%C3%91UELA.png?itok=nF1crZ6A",
+    "label": "Nariño Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/juan-daniel-penuela-calvache",
+    "saloon_id": "p8",
+    "name": "Juan Daniel Peñuela Calvache",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/JUAN%20FELIPE%20CORZO.png?itok=CVl_ghRK",
+    "label": "Norte de Santander Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/juan-felipe-corzo-alvarez",
+    "saloon_id": "p188",
+    "name": "Juan Felipe Corzo Álvarez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JUAN%20FERNANDO%20ESPINAL%20RAMIREZ_0.png?itok=3rfxQ-u0",
+    "label": "Antioquia Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/juan-fernando-espinal-ramirez",
+    "saloon_id": "p102_1_",
+    "name": "Juan Fernando Espinal Ramírez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20LORETO%20GOMEZ.png?itok=vqplvhx9",
+    "label": "La Guajira Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/juan-loreto-gomez-soto",
+    "saloon_id": "p44",
+    "name": "Juan Loreto Gómez Soto",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-03/JUAN%20MANUEL%20CORTES.png?itok=nIEUDaZ_",
+    "label": "Santander Ninguno",
+    "link": "https://www.camara.gov.co/representantes/juan-manuel-cortes-duenas",
+    "saloon_id": "p153_2_",
+    "name": "Juan Manuel Cortés Dueñas",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20PABLO%20SALAZAR.png?itok=MEo5kmrY",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) ASOINTEC",
+    "link": "https://www.camara.gov.co/representantes/juan-pablo-salazar-rivera",
+    "saloon_id": "p183",
+    "name": "Juan Pablo Salazar Rivera",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20SEBASTIAN%20GOMEZ.png?itok=7h233cAe",
+    "label": "Caldas Partido Nuevo Liberalismo",
+    "link": "https://www.camara.gov.co/representantes/juan-sebastian-gomez-gonzales",
+    "saloon_id": "p162",
+    "name": "Juan Sebastián Gómez Gonzáles",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUANA%20CAROLINA%20LONDO%C3%91O.png?itok=w47Ffx2G",
+    "label": "Caldas Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/juana-carolina-londono-jaramillo",
+    "saloon_id": "p12",
+    "name": "Juana Carolina Londoño Jaramillo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JULIA%20MIRANDA%20LONDO%C3%91O.png?itok=_SW1_fZF",
+    "label": "Bogotá Partido Nuevo Liberalismo",
+    "link": "https://www.camara.gov.co/representantes/julia-miranda-londono",
+    "saloon_id": "p137_2_",
+    "name": "Julia Miranda Londoño",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JULIAN%20DAVID%20LOPEZ.png?itok=tQ3H0jb6",
+    "label": "Valle del Cauca Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/julian-david-lopez-tenorio",
+    "saloon_id": "p39_2_",
+    "name": "Julián David López Tenorio",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JULIAN%20PEINADO%20RAMIREZ.png?itok=mj54BoJp",
+    "label": "Antioquia Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/julian-peinado-ramirez",
+    "saloon_id": "p115",
+    "name": "Julián Peinado Ramírez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-03/JULIANA%20ARAY%20FRANCO.png?itok=O-0Iq8Aj",
+    "label": "Bolívar Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/juliana-aray-franco",
+    "saloon_id": "p26_2_",
+    "name": "Juliana Aray Franco",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JULIO%20CESAR%20TRIANA%20QUINTERO.png?itok=VfH1eRIN",
+    "label": "Huila Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/julio-cesar-triana-quintero",
+    "saloon_id": "p100_2_",
+    "name": "Julio César Triana Quintero",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JULIO%20ROBERTO%20SALAZAR.png?itok=bsCmGxYJ",
+    "label": "Cundinamarca Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/julio-roberto-salazar-perdomo",
+    "saloon_id": "p42",
+    "name": "Julio Roberto Salazar Pérdomo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-06/KAREN%20ASTRID%20MANRIQUE.png?itok=QcSlMyC7",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Asociación de Víctimas Intercultural y Regional",
+    "link": "https://www.camara.gov.co/representantes/karen-astrith-manrique-olarte",
+    "saloon_id": "p169",
+    "name": "Karen Astrith Manrique Olarte",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-05/KAREN%20JULIANA%20LOPEZ.png?itok=G8I_mT8-",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Yo soy Urabá",
+    "link": "https://www.camara.gov.co/representantes/karen-juliana-lopez-salazar",
+    "saloon_id": "p168",
+    "name": "Karen Juliana López Salazar",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/KARIME%20ADRIANA%20COTES.png?itok=iYVw_hip",
+    "label": "Sucre Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/karyme-adrana-cotes-martinez",
+    "saloon_id": "p84_2_",
+    "name": "Karyme Adrana Cotes Martínez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/KELYN%20JOHANA%20GONZALEZ.png?itok=hjDuh_UQ",
+    "label": "Magdalena Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/kelyn-johana-gonzalez-duarte",
+    "saloon_id": "p96",
+    "name": "Kelyn Johana González Duarte",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LEIDER%20ALEXANDRA%20VASQUEZ.png?itok=wUllInMf",
+    "label": "Cundinamarca Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/leider-alexandra-vasquez-ochoa",
+    "saloon_id": "p19",
+    "name": "Leider Alexandra Vásquez Ochoa",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LEONARDO%20DE%20JESUS%20GALLEGO.png?itok=iRvPUCxX",
+    "label": "Valle del Cauca Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/leonardo-de-jesus-gallego-arroyave",
+    "saloon_id": "p87_2_",
+    "name": "Leonardo de Jesús Gallego Arroyave",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LEONOR%20MARIA%20PALENCIA.png?itok=6TNqWyUM",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Asociación Agropecuaria de Mujeres Víctimas de Jericó",
+    "link": "https://www.camara.gov.co/representantes/leonor-maria-palencia-vega",
+    "saloon_id": "p167",
+    "name": "Leonor María Palencia Vega",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LEYLA%20MARLENY%20RICON.png?itok=_c4WCEk3",
+    "label": "Huila Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/leyla-marleny-rincon-trujillo",
+    "saloon_id": "p6",
+    "name": "Leyla Marleny Rincón Trujillo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LIBARDO%20CRUZ%20CASADO.png?itok=HRAofnf-",
+    "label": "Cesar Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/libardo-cruz-casado",
+    "saloon_id": "p22_1_",
+    "name": "Libardo Cruz Casado",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-03/LINA%20MARIA%20GARRIDO.png?itok=rfgoawas",
+    "label": "Arauca Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/lina-maria-garrido-martin",
+    "saloon_id": "p108_2_2",
+    "name": "Lina María Garrido Martín",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/LUIS%20ALBERTO%20ALBAN%20URBANO.png?itok=asSclGCW",
+    "label": "Valle del Cauca Partido Comunes",
+    "link": "https://www.camara.gov.co/representantes/luis-alberto-alban-urbano",
+    "saloon_id": "p155",
+    "name": "Luis Alberto Albán Urbano",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20CARLOS%20OCHOA.png?itok=-Nq0rssI",
+    "label": "Antioquia Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/luis-carlos-ochoa-tobon",
+    "saloon_id": "p90_2_2",
+    "name": "Luis Carlos Ochoa Tobón",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20DAVID%20SUAREZ.png?itok=KlsR_yg3",
+    "label": "Sucre Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/luis-david-suarez-chadid",
+    "saloon_id": "p41",
+    "name": "Luis David Súarez Chadid",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20EDUARDO%20DIAZ.png?itok=NG1ev4R9",
+    "label": "Santander Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/luis-eduardo-diaz-mateus",
+    "saloon_id": "p40",
+    "name": "Luis Eduardo Díaz Mateus",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20MIGUEL%20LOPEZ.png?itok=m-bIaPyF",
+    "label": "Antioquia Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/luis-miguel-lopez-aristizabal",
+    "saloon_id": "p47_2_",
+    "name": "Luis Miguel López Aristizábal",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20RAMIRO%20RICARDO.png?itok=pnB0PRLa",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Corporación Narrar Para Vivir",
+    "link": "https://www.camara.gov.co/representantes/luis-ramiro-ricardo-buelvas",
+    "saloon_id": "p178_1",
+    "name": "Luis Ramiro Ricardo Buelvas",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUVI%20KATHERINE%20MIRANDA.png?itok=IwbcoPVI",
+    "label": "Bogotá Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/luvi-katherine-miranda-pena",
+    "saloon_id": "p135_1_",
+    "name": "Luvi Katherine Miranda Peña",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-04/LUZ%20AYDA%20PASTRANA_0.png?itok=C1Ub1fpL",
+    "label": "Huila Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/luz-ayda-pastrana-loaiza",
+    "saloon_id": "p140_12",
+    "name": "Luz Ayda Pastrana Loaiza",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARELEN%20CASTILLO%20TORRES.png?itok=HomHkGv4",
+    "label": "C.P. Art. 112, A.L. 02 de 2015 Art. 1 y Est. de Oposición Ley, 1909 de 2018 Art. 24 Ninguno",
+    "link": "https://www.camara.gov.co/representantes/marelen-castillo-torres",
+    "saloon_id": "p154_2_",
+    "name": "Marelen Castillo Torres",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARIA%20DEL%20MAR%20PIZARRO.png?itok=l9BUCmYQ",
+    "label": "Bogotá Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/maria-del-mar-pizarro-garcia",
+    "saloon_id": "p54_2_",
+    "name": "María del Mar Pizarro García",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARIA%20EUGENIA%20LOPERA.png?itok=pxzist78",
+    "label": "Antioquia Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/maria-eugenia-lopera-monsalve",
+    "saloon_id": "p90_2_",
+    "name": "María Eugenia Lopera Monsalve",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARIA%20FERNANDA%20CARRASCAL.png?itok=v_z7zWyl",
+    "label": "Bogotá Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/maria-fernanda-carrascal-rojas",
+    "saloon_id": "p51_2_",
+    "name": "María Fernanda Carrascal Rojas",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARTHA%20LISBETH%20ALFOSO.png?itok=QyEdCzuS",
+    "label": "Tolima Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/martha-lisbeth-alfonso-jurado",
+    "saloon_id": "p165_2",
+    "name": "Martha Lisbeth Alfonso Jurado",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARY%20ANNE%20ANDREA.png?itok=bt-bwKxl",
+    "label": "Santander Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/mary-anne-andrea-perdomo",
+    "saloon_id": "p15",
+    "name": "Mary Anne Andrea Perdomo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-06/FOTO%20MAURICIO%20PARODI.jpg?itok=Q3f3ryhM",
+    "label": "Antioquia Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/mauricio-parodi-diaz",
+    "saloon_id": "p111",
+    "name": "Mauricio Parodi Díaz",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MIGUEL%20ABRAHAM%20POLO.png?itok=l4Gkhw1b",
+    "label": "Circ. Esp. Com. Afro, Raizales y Palenqueras Consejo Comunitario Fernando Rios Hidalgo",
+    "link": "https://www.camara.gov.co/representantes/miguel-abraham-polo-polo",
+    "saloon_id": "p151_2",
+    "name": "Miguel Abraham Polo Polo",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MILENE%20JARAVA%20DIAZ.png?itok=yRbqnZwp",
+    "label": "Sucre Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/milene-jarava-diaz",
+    "saloon_id": "p158",
+    "name": "Milene Jarava Díaz",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/MODESTO%20ENRIQUE%20AGUILERA%20VIDES.png?itok=YSs6r3zE",
+    "label": "Atlántico Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/modesto-enrique-aguilera-vides",
+    "saloon_id": "p17_2_",
+    "name": "Modesto Enrique Aguilera Vides",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MONICA%20KARINA%20BOCANEGRA.png?itok=S4k6RRq3",
+    "label": "Amazonas Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/monica-karina-bocanegra-pantoja",
+    "saloon_id": "p59_2_",
+    "name": "Mónica Karina Bocanegra Pantoja",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-06/NESTOR%20LEONARDO%20RICO.png?itok=L40HCuyy",
+    "label": "Cundinamarca Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/nestor-leonardo-rico-rico",
+    "saloon_id": "p32_2",
+    "name": "Néstor Leonardo Rico Rico",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/NICOLAS%20ANTONIO%20BARGUIL.png?itok=BEYdIlGf",
+    "label": "Córdoba Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/nicolas-antonio-barguil-cubillos",
+    "saloon_id": "p45",
+    "name": "Nicolás Antonio Barguil Cubillos",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/NORMAN%20DAVID%20MU%C3%91OZ.png?itok=YwAnGYgS",
+    "label": "Circ. Esp. Indígenas Movimiento Alternativo Indígena y Social",
+    "link": "https://www.camara.gov.co/representantes/norman-david-banol-alvarez",
+    "saloon_id": "p156_2",
+    "name": "Norman David Bañol Álvarez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/OLGA%20BEATRIZ%20GONZALEZ.png?itok=KFTpXnXI",
+    "label": "Tolima Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/olga-beatriz-gonzalez-correa",
+    "saloon_id": "p83_2_",
+    "name": "Olga Beatriz González Correa",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-03/OLGA%20LUCIA%20VELASQUEZ.png?itok=PIcnCeLI",
+    "label": "Bogotá Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/olga-lucia-velasquez-nieto",
+    "saloon_id": "p140_2_",
+    "name": "Olga Lucia Velásquez Nieto",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/OLMES%20DE%20JESUS%20ECHEVERRIA.png?itok=4hVqooa5",
+    "label": "Magdalena Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/olmes-de-jesus-echeverria-de-la-rosa",
+    "saloon_id": "p150_2_",
+    "name": "Olmes de Jesús Echeverría de la Rosa",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ORLANDO%20CASTILLO%20ADVINCULA.png?itok=7ny6VPI2",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Consejo Comunitario del Río Naya",
+    "link": "https://www.camara.gov.co/representantes/orlando-castillo-advincula",
+    "saloon_id": "p171",
+    "name": "Orlando Castillo Advincula",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/OSCAR%20DARIO%20PEREZ.png?itok=SOcEOluX",
+    "label": "Antioquia Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/oscar-dario-perez-pineda",
+    "saloon_id": "p131",
+    "name": "Óscar Darío Pérez Pineda",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2017-12/OSCAR%20HERN%C3%81N%20S%C3%81NCHEZ%20LE%C3%93N.png?itok=-gnIo6sF",
+    "label": "Cundinamarca Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/oscar-hernan-sanchez-leon",
+    "saloon_id": "p92",
+    "name": "Oscar Hernán Sánchez León",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/OSCAR%20LEONARDO%20VILLAMIZAR%20MENESES.png?itok=7K5BCtdK",
+    "label": "Santander Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/oscar-leonardo-villamizar-meneses",
+    "saloon_id": "p144_1_",
+    "name": "Oscar Leonardo Villamizar Meneses",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/OSCAR%20RODRIGO%20CAMPO.png?itok=mhIEtPrj",
+    "label": "Cauca Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/oscar-rodrigo-campo-hurtado",
+    "saloon_id": "p120_2_",
+    "name": "Oscar Rodrigo Campo Hurtado",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/PEDRO%20BARACUTAO%20GARCIA.png?itok=5HZ6uZeO",
+    "label": "Antioquia Partido Comunes",
+    "link": "https://www.camara.gov.co/representantes/pedro-baracutao-garcia-ospina",
+    "saloon_id": "p164",
+    "name": "Pedro Baracutao García Ospina",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/PEDRO%20JOSE%20SUAREZ.png?itok=k9Xf3Kl4",
+    "label": "Boyacá Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/pedro-jose-suarez-vacca",
+    "saloon_id": "p14",
+    "name": "Pedro José Súarez Vacca",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/PIEDAD%20CORREAL%20RUBIANO.png?itok=cwWWTuyT",
+    "label": "Quindío Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/piedad-correal-rubiano",
+    "saloon_id": "p89_2_",
+    "name": "Piedad Correal Rubiano",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/RUTH%20AMELIA%20CAICEDO_0.png?itok=mMkPEEfj",
+    "label": "Nariño Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/ruth-amelia-caycedo-rosero",
+    "saloon_id": "p10",
+    "name": "Ruth Amelia Caycedo Rosero",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/SANDRA%20VIVIANA%20ARISTIZABAL.png?itok=jatXanqB",
+    "label": "Quindío Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/sandra-bibiana-aristizabal-saleg",
+    "saloon_id": "p65_2_",
+    "name": "Sandra Bibiana Aristizábal Saleg",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/SANDRA%20MULENA%20RAMIREZ.png?itok=iqp8Y2gB",
+    "label": "Magdalena Cambio Radical",
+    "link": "https://www.camara.gov.co/representantes/sandra-milena-ramirez-caviedes",
+    "saloon_id": "p98_2_",
+    "name": "Sandra Milena Ramírez Caviedes",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/SANTIAGO%20OSORIO%20MARIN.png?itok=8d1enS49",
+    "label": "Caldas Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/santiago-osorio-marin",
+    "saloon_id": "p166",
+    "name": "Santiago Osorio Marín",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/SARAY%20ELENA%20ROBAYO.png?itok=tGVWXzs7",
+    "label": "Córdoba Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/saray-elena-robayo-bechara",
+    "saloon_id": "p91_2_",
+    "name": "Saray Elena Robayo Bechara",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-07/SILVIO%20JOSE%20CARRASQUILLA.png?itok=zBoIWLX4",
+    "label": "Bolívar Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/silvio-jose-carrasquilla-torres",
+    "saloon_id": "p97",
+    "name": "Silvio José Carrasquilla Torres",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-07/SUSANA%20GOMEZ%20CASTA%C3%91O.png?itok=YZAZaomo",
+    "label": "Antioquia Coalición Pacto Histórico",
+    "link": "https://www.camara.gov.co/representantes/susana-gomez-castano",
+    "saloon_id": "p55_2_",
+    "name": "Susana Gómez Castaño",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-03/TERESA%20DE%20JESUS%20ENRIQUEZ.png?itok=onKW4w-n",
+    "label": "Nariño Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/teresa-de-jesus-enriquez-rosero",
+    "saloon_id": "p39",
+    "name": "Teresa De Jesús Enríquez Rosero",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/VICTOR%20MANUEL%20SALCEDO.png?itok=thc8fCRs",
+    "label": "Valle del Cauca Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/victor-manuel-salcedo-guerrero",
+    "saloon_id": "p41_2_",
+    "name": "Víctor Manuel Salcedo Guerrero",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WADITH%20ALBERTO%20MANZUR.png?itok=zJBi5Umh",
+    "label": "Córdoba Partido Conservador Colombiano",
+    "link": "https://www.camara.gov.co/representantes/wadith-alberto-manzur-imbett",
+    "saloon_id": "p27_1_",
+    "name": "Wadith Alberto Manzur Imbett",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WILDER%20IBERSON%20ESCOBAR.png?itok=XMhszj3b",
+    "label": "Caldas Grupo Significativo de Ciudadanos Gente en Movimiento",
+    "link": "https://www.camara.gov.co/representantes/wilder-iberson-escobar-ortiz",
+    "saloon_id": "p159_2",
+    "name": "Wilder Iberson Escobar Ortiz",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WILLIAM%20FERNEY%20ALJURE.png?itok=auiJIilM",
+    "label": "Circ. Trans. Esp. de Paz (CITREP) Asocamproariari",
+    "link": "https://www.camara.gov.co/representantes/william-ferney-aljure-martinez",
+    "saloon_id": "p178",
+    "name": "William Ferney Aljure Martínez",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2017-08/WILMER%20RAMIRO%20CARRILLO%20MENDOZA.png?itok=JCVVFC4N",
+    "label": "Norte de Santander Partido de la U",
+    "link": "https://www.camara.gov.co/representantes/wilmer-ramiro-carrillo-mendoza",
+    "saloon_id": "p90",
+    "name": "Wilmer Ramiro Carrillo Mendoza",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WILMER%20YAIR%20CASTELLANOS.png?itok=NHru7F1y",
+    "label": "Boyacá Partido Alianza Verde",
+    "link": "https://www.camara.gov.co/representantes/wilmer-yair-castellanos-hernandez",
+    "saloon_id": "p144_2_",
+    "name": "Wilmer Yair Castellanos Hernández",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WILMER%20YESID%20GUERRERO.png?itok=Zw4ViQov",
+    "label": "Norte de Santander Partido Liberal",
+    "link": "https://www.camara.gov.co/representantes/wilmer-yesid-guerrero-avendano",
+    "saloon_id": "p133_2_",
+    "name": "Wilmer Yesid Guerrero Avendaño",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/YENICA%20SUGEIN%20ACOSTA.png?itok=0E_a5HYm",
+    "label": "Amazonas Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/yenica-sugein-acosta-infante",
+    "saloon_id": "p143_1_",
+    "name": "Yenica Sugein Acosta Infante",
+    "chamber_id": 2
+  },
+  {
+    "category": "integrante",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/YULIETH%20ANDREA%20SANCHEZ.png?itok=zK_KFSNZ",
+    "label": "Antioquia Centro Democrático",
+    "link": "https://www.camara.gov.co/representantes/yulieth-andrea-sanchez-carreno",
+    "saloon_id": "p130_2_2",
+    "name": "Yulieth Andrea Sánchez Carreño",
+    "chamber_id": 2
+  }
+]

@@ -43,7 +43,7 @@ const Chart = ({ data }) => {
             strokeWidth={2}
             strokeDasharray="3 3"
             label={{
-              value: '50% necesario',
+              value: 'umbral',
               fill: '#ff0000',
               position: 'insideTopRight',
               fontSize: 12,

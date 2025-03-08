@@ -21,10 +21,24 @@ export const fetchVotingRecords = async (): Promise<VotingRecord[]> => {
 };
 
 export const fetchRepresentatives = async (): Promise<Representative[]> => {
-  const response = await fetch(ENDPOINTS.representatives);
+  const senators = await fetchSenators();
+  const representatives = await fetchChamber2();
+
+  return [...senators, ...representatives] as Representative[];
+};
+
+export const fetchSenators = async (): Promise<Representative[]> => {
+  const response = await fetch(ENDPOINTS.chamber1);
   const data = await response.json();
 
-  return data.representatives as Representative[];
+  return data as Representative[];
+};
+
+export const fetchChamber2 = async (): Promise<Representative[]> => {
+  const response = await fetch(ENDPOINTS.chamber2);
+  const data = await response.json();
+
+  return data as Representative[];
 };
 
 export const fetchParties = async (): Promise<Party> => {

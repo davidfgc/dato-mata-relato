@@ -58,7 +58,7 @@ const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) 
     let filtered = [...allReps].filter(
       (rep) =>
         (filters.name || filters.partyId) &&
-        (!filters.name || (filters.name && rep.name.toLowerCase().includes(filters.name.toLowerCase()))) &&
+        (!filters.name || (filters.name && filters.name.length > 2 && rep.name.toLowerCase().includes(filters.name.toLowerCase()))) &&
         (!filters.partyId || (filters.partyId && rep.party_id === filters.partyId)) &&
         (!filters.hideVoted || (filters.hideVoted && !votes[rep.id]))
     );
