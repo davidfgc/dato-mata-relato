@@ -7,6 +7,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import FiscalInefficiency from './components/government-waste-tracker/FiscalInefficiency';
 import VotingRecord from './components/voting-record/VotingRecord';
+import VotingFilters from './components/voting-view/VotingFilters';
 
 function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<VotingRecord />} />
           <Route path="/voting-record" element={<VotingRecord />} />
+          <Route path="/filtros" element={<VotingFilters />} />
           <Route path="/fiscal-inefficiency" element={<FiscalInefficiency />} />
         </Routes>
       </HashRouter>
