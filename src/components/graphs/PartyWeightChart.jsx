@@ -4,61 +4,61 @@ import { useMemo } from 'react';
 import { Bar, BarChart, CartesianGrid, Cell, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Chart = ({ data }) => {
-  const height = (data.length + 1) * 40;
-  const processedData = useMemo(() => {
-    let cumulative = 0;
-    let thresholdIndex = -1;
+    const height = (data.length + 1) * 40;
+    const processedData = useMemo(() => {
+      let cumulative = 0;
+      let thresholdIndex = -1;
 
-    return data.map((item, index) => {
-      cumulative += item.weight;
+      return data.map((item, index) => {
+        cumulative += item.weight;
 
-      if (cumulative >= 50 && thresholdIndex === -1) {
-        thresholdIndex = index;
-      }
+        if (cumulative >= 50 && thresholdIndex === -1) {
+          thresholdIndex = index;
+        }
 
-      return {
-        ...item,
-        cumulative,
-        isThreshold: thresholdIndex === index,
-      };
-    });
-  }, [data]);
+        return {
+          ...item,
+          cumulative,
+          isThreshold: thresholdIndex === index,
+        };
+      });
+    }, [data]);
 
-  const thresholdPosition = useMemo(() => {
-    const threshold = processedData.find((item) => item.isThreshold);
+    const thresholdPosition = useMemo(() => {
+      const threshold = processedData.find((item) => item.isThreshold);
 
-    return threshold ? threshold.name : null;
-  }, [processedData]);
+      return threshold ? threshold.name : null;
+    }, [processedData]);
 
-  return (
-    <ResponsiveContainer width="100%" height={height}>
-      <BarChart data={data} layout="vertical" margin={{ top: 20, right: 30, left: 20, bottom: 15 }}>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis type="number" label={{ value: 'Peso en el resultado (%)', position: 'insideBottom', offset: -5 }} />
-        <YAxis dataKey="name" type="category" width={200} />
-        {thresholdPosition && (
-          <ReferenceLine
-            y={thresholdPosition}
-            stroke="#ff0000"
-            strokeWidth={2}
-            strokeDasharray="3 3"
-            label={{
-              value: 'umbral',
-              fill: '#ff0000',
-              position: 'insideTopRight',
-              fontSize: 12,
-            }}
-          />
-        )}
-        <Tooltip formatter={(value) => [`${value.toFixed(2)}%`, `Peso en resultado`]} labelFormatter={(value) => value} />
-        <Bar dataKey="weight" name="Peso en resultado (%)">
-          {data.map((entry, index) => (
-            <Cell key={`cell-${index}`} fill={entry.color} />
-          ))}
-        </Bar>
-      </BarChart>
-    </ResponsiveContainer>
-  );
+    return (
+      <ResponsiveContainer width="100%" height={height}>
+        <BarChart data={data} layout="vertical" margin={{ top: 20, right: 30, left: 20, bottom: 15 }}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis type="number" label={{ value: 'Peso en el resultado (%)', position: 'insideBottom', offset: -5 }} />
+          <YAxis dataKey="name" type="category" width={80} />
+          {thresholdPosition && (
+            <ReferenceLine
+              y={thresholdPosition}
+              stroke="#ff0000"
+              strokeWidth={2}
+              strokeDasharray="3 3"
+              label={{
+                value: '50%',
+                fill: '#ff0000',
+                position: 'insideTopRight',
+                fontSize: 12,
+              }}
+            />
+          )}
+          <Tooltip formatter={(value) => [`${value.toFixed(2)}%`, `Peso en resultado`]} labelFormatter={(value) => value} />
+          <Bar dataKey="weight" name="Peso en resultado (%)">
+            {data.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={entry.color} />
+            ))}
+          </Bar>
+        </BarChart>
+      </ResponsiveContainer>
+    );
 };
 
 Chart.propTypes = {

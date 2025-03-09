@@ -73,7 +73,16 @@ const VotingRecord = () => {
   };
 
   return (
-    <Box sx={{ maxWidth: 'md', mx: 'auto', p: 3, minWidth: { xs: '100%', sm: '100%', md: '800px' } }}>
+    <Box
+      sx={{
+        padding: { xs: 0, sm: 2 },
+        margin: { xs: 0 },
+        maxWidth: 'md',
+        mx: 'auto',
+        p: 3,
+        minWidth: { xs: '100%', sm: '100%', md: '800px' },
+      }}
+    >
       <BillCard bill={bill} />
       {sessions.length > 1 && <PartyStagesVoteChart rawData={graphData} />}
       <VotingTabs

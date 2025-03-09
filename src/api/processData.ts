@@ -32,10 +32,13 @@ export const processData = (
           const representative = reps.find((rep) => rep.id === vote.representativeId);
           const partyId = representative?.party_id;
           const party = partiesLookup[partyId];
+
+          if (!party.name) throw 'No party name';
+
           return {
             ...vote,
             representative: representative?.name || 'Unknown',
-            party: party?.name || 'Unknown Party',
+            party: party.name.length < 20 ? party.name : party.id || 'Unknown Party',
             partyId: partyId,
             partyInfo: party,
           };
