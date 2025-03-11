@@ -52,7 +52,7 @@ const FiscalInefficiency = () => {
   };
 
   return (
-    <Box sx={{ maxWidth: 'lg', mx: 'auto', p: { xs: 1.5, sm: 3 } }}>
+    <Box sx={{ maxWidth: 'lg', mx: 'auto', p: { xs: 2, lg: 1 } }}>
       {/* Statistics Alerts */}
       <StatisticsAlerts totalWaste={totalWaste} />
 

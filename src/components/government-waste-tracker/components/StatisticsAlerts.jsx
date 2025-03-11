@@ -1,31 +1,23 @@
 import { Error as ErrorIcon, Info as InfoIcon, Warning as WarningIcon } from '@mui/icons-material';
-import { Alert, Box, Stack, Typography } from '@mui/material';
+import { Alert, AlertTitle, Box, Stack, Typography } from '@mui/material';
 import PropTypes from 'prop-types';
-import { calculateDaysSince, formatCurrency } from './utils';
+import { calculateDaysSince, formatCurrency, getAmountDescription } from './utils';
 
 const StatAlert = ({ icon, severity, label, value }) => (
-  <Alert
-    icon={icon}
-    severity={severity}
-    sx={{
-      width: '100%',
-      '& .MuiAlert-message': {
-        width: '100%',
-      },
-    }}
-  >
+  <Alert icon={icon} severity={severity} sx={{ display: 'flex', flexGrow: 1 }}>
+    <AlertTitle sx={{ display: 'flex', flexGrow: 1 }}>{label}</AlertTitle>
     <Box
       sx={{
         display: 'flex',
-        flexDirection: { xs: 'column', sm: 'row' },
-        justifyContent: 'space-between',
-        width: '100%',
-        alignItems: { xs: 'flex-start', sm: 'center' },
-        gap: { xs: 0.5, sm: 1 },
+        flexGrow: 1,
+        flexDirection: { xs: 'column' },
+        alignItems: 'flex-start',
       }}
     >
-      <Typography>{label}</Typography>
       <Typography fontWeight="medium">{value}</Typography>
+      <Typography fontSize={'12px'} color={'text.secondary'}>
+        {getAmountDescription(parseFloat(value.replace(/[^\d]/g, '')))}
+      </Typography>
     </Box>
   </Alert>
 );
@@ -42,7 +34,7 @@ const StatisticsAlerts = ({ totalWaste }) => {
 
   return (
     <>
-      <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} sx={{ mb: 4 }}>
+      <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} sx={{ mb: 2 }}>
         <StatAlert icon={<ErrorIcon />} severity="error" label="Total Dinero Desperdiciado:" value={formatCurrency(totalWaste)} />
 
         <StatAlert icon={<WarningIcon />} severity="warning" label="Promedio diario:" value={formatCurrency(totalWaste / daysSince)} />

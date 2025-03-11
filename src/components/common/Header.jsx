@@ -1,23 +1,10 @@
-import { AppBar, Box, IconButton, Toolbar, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { AppBar, Box, IconButton, Toolbar } from '@mui/material';
 
 const Header = () => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-
   return (
     <AppBar position="static" color="default" elevation={1}>
       <Toolbar>
-        <Typography
-          variant={isMobile ? 'h6' : 'h5'}
-          component="div"
-          sx={{
-            flexGrow: 1,
-            fontWeight: 'bold',
-            color: 'primary.main',
-          }}
-        ></Typography>
-
-        <Box sx={{ display: 'flex', alignItems: 'center' }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1, justifyContent: 'flex-end' }}>
           <IconButton
             aria-label="Twitter/X profile"
             color="inherit"

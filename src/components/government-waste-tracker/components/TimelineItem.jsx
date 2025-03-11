@@ -10,21 +10,28 @@ const TimelineItem = ({ item, isLast, isExpanded, onToggle }) => {
       sx={{
         display: 'flex',
         flexDirection: 'row',
-        gap: 2,
+        gap: { xs: 1, sm: 2 },
         position: 'relative',
       }}
     >
       {/* Date Column */}
       <Box
         sx={{
-          width: { xs: 80, sm: 120 },
+          width: { xs: 60, sm: 100 },
           textAlign: 'right',
           pt: 2,
           flexShrink: 0,
+          display: 'flex',
+          flexDirection: { xs: 'column', sm: 'row' },
+          gap: { xs: 0.5, sm: 1 },
+          justifyContent: { xs: 'flex-start', sm: 'flex-end' },
         }}
       >
         <Typography variant="body2" color="text.secondary">
-          {formatDate(item.date)}
+          {formatDate(item.date).split(',')[0]}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {formatDate(item.date).split(',')[1]}
         </Typography>
       </Box>
 
@@ -66,7 +73,7 @@ const TimelineItem = ({ item, isLast, isExpanded, onToggle }) => {
       <Box
         sx={{
           flexGrow: 1,
-          pb: 2,
+          pt: 2,
           minWidth: 0,
         }}
       >
