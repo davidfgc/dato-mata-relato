@@ -45,10 +45,7 @@
       "amount": 188000000,
       "date": "2022-03-16",
       "description": "Fondos de USAID destinados a óperas transexuales en Colombia",
-      "sources": [
-        "https://x.com/EmmaRincon/status/1886519837934969178",
-        "https://x.com/silvajonathan01/status/1886557401161035987"
-      ]
+      "sources": ["https://x.com/EmmaRincon/status/1886519837934969178", "https://x.com/silvajonathan01/status/1886557401161035987"]
     },
     {
       "id": 6,
@@ -56,9 +53,7 @@
       "amount": 2200000000,
       "date": "2025-01-28",
       "description": "EEUU pagaba estos vuelos hasta que Petro decidió no autorizar más vuelos.",
-      "sources": [
-        "https://www.noticiasrcn.com/economia/esto-costo-traer-a-los-colombianos-deportados-desde-estados-unidos-849273"
-      ]
+      "sources": ["https://www.noticiasrcn.com/economia/esto-costo-traer-a-los-colombianos-deportados-desde-estados-unidos-849273"]
     },
     {
       "id": 7,
@@ -170,6 +165,20 @@
         "variacion": 7
       },
       "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+    },
+    {
+      "id": 16,
+      "title": "Viaje de Francia Marquéz con su pareja a África",
+      "amount": 1600000000,
+      "aprox": true,
+      "date": "2023",
+      "description": "Visita de alto nivel a tres naciones africanas. Solamente gasolina",
+      "sources": [
+        "https://x.com/FranciaMarquezM/status/1151884892550107136",
+        "https://x.com/petrogustavo/status/1655961154940796929",
+        "https://www.infobae.com/colombia/2023/05/10/no-tengo-que-aclarar-nada-francia-marquez-sobre-el-costo-de-su-viaje-a-africa/",
+        "https://www.vicepresidencia.gov.co/prensa/Paginas/Vicepresidenta-Francia-Marquez-Mina-inicia-visita-de-alto-nivel-a-tres-naciones-africanas.aspx"
+      ]
     }
   ]
 }

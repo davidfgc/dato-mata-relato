@@ -31,7 +31,7 @@ function App() {
             <Route path="/" element={<VotingRecord />} />
             <Route path="/voting-record" element={<VotingRecord />} />
             <Route path="/filtros" element={<VotingFilters />} />
-            <Route path="/fiscal-inefficiency" element={<FiscalInefficiency />} />
+            <Route path="/despilfarro" element={<FiscalInefficiency />} />
           </Routes>
         </HashRouter>
       </Box>

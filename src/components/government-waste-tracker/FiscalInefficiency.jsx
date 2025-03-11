@@ -84,52 +84,53 @@ const FiscalInefficiency = () => {
   return (
     <Box sx={{ maxWidth: 'lg', mx: 'auto', p: 3 }}>
       {/* Total Waste */}
-      <Alert
-        icon={<ErrorIcon />}
-        severity="error"
-        sx={{
-          mb: 4,
-          '& .MuiAlert-message': {
-            width: '100%', // This ensures the message container takes full width
-          },
-        }}
-      >
-        <Box
+      <Stack direction={'row'} spacing={{ xs: 1, sm: 2 }} justifyContent={'space-between'} useFlexGap>
+        <Alert
+          icon={<ErrorIcon />}
+          severity="error"
           sx={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            width: '100%',
-            alignItems: 'center',
+            mb: 4,
+            '& .MuiAlert-message': {
+              width: '100%', // This ensures the message container takes full width
+            },
           }}
         >
-          <Typography>Total Dinero Desperdiciado:</Typography>
-          <Typography fontWeight="medium">{formatCurrency(totalWaste)}</Typography>
-        </Box>
-      </Alert>
+          <Box
+            sx={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              width: '100%',
+              alignItems: 'center',
+            }}
+          >
+            <Typography>Total Dinero Desperdiciado:</Typography>
+            <Typography fontWeight="medium">{formatCurrency(totalWaste)}</Typography>
+          </Box>
+        </Alert>
 
-      {/* Average per day */}
-      <Alert
-        icon={<WarningIcon />}
-        severity="warning"
-        sx={{
-          mb: 4,
-          '& .MuiAlert-message': {
-            width: '100%', // This ensures the message container takes full width
-          },
-        }}
-      >
-        <Box
+        <Alert
+          icon={<WarningIcon />}
+          severity="warning"
           sx={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            width: '100%',
-            alignItems: 'center',
+            mb: 4,
+            '& .MuiAlert-message': {
+              width: '100%', // This ensures the message container takes full width
+            },
           }}
         >
-          <Typography>Promedio diario:</Typography>
-          <Typography fontWeight="medium">{formatCurrency(totalWaste / daysSince)}</Typography>
-        </Box>
-      </Alert>
+          <Box
+            sx={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              width: '100%',
+              alignItems: 'center',
+            }}
+          >
+            <Typography>Promedio diario:</Typography>
+            <Typography fontWeight="medium">{formatCurrency(totalWaste / daysSince)}</Typography>
+          </Box>
+        </Alert>
+      </Stack>
 
       <Alert
         icon={<InfoIcon />}
@@ -246,10 +247,7 @@ const FiscalInefficiency = () => {
                         </Typography>
                         <Stack spacing={1}>
                           {item.sources.map((source, sourceIndex) => (
-                            <Box
-                              key={sourceIndex}
-                              sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
-                            >
+                            <Box key={sourceIndex} sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                               <LinkIcon sx={{ fontSize: 16, color: 'text.secondary' }} />
                               <a
                                 href={source}
