@@ -816,6 +816,98 @@
           "vote": "yes"
         }
       ]
+    },
+    {
+      "voting-stage": 1,
+      "billId": "166/2023C",
+      "date": "2024-06-18",
+      "chamberId": "2",
+      "votes": [
+        {
+          "representativeId": 44,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 45,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 46,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 47,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 48,
+          "vote": "no"
+        },
+        {
+          "representativeId": 49,
+          "vote": "absent"
+        },
+        {
+          "representativeId": 50,
+          "vote": "no"
+        },
+        {
+          "representativeId": 51,
+          "vote": "no"
+        },
+        {
+          "representativeId": 52,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 53,
+          "vote": "absent"
+        },
+        {
+          "representativeId": 54,
+          "vote": "absent"
+        },
+        {
+          "representativeId": 55,
+          "vote": "no"
+        },
+        {
+          "representativeId": 56,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 57,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 58,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 59,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 62,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 63,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 64,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 207,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 210,
+          "vote": "yes"
+        }
+      ]
     }
   ]
 }

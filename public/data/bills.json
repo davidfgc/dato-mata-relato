@@ -66,6 +66,25 @@
           "url": "https://www.camara.gov.co/camara/visor?doc=/sites/default/files/2025-02/acta%20-%2017%20%282%29.pdf"
         }
       ]
+    },
+    {
+      "id": "166/2023C",
+      "title": "Por medio del cual se adopta una reforma laboral para el trabajo digno y decente en Colombia",
+      "shortTitle": "Reforma Laboral",
+      "description": "La presente ley tiene por objeto adoptar una reforma laboral mediante la modificación del Código Sustantivo del Trabajo, la Ley 50 de 1990, Ley 789 de 2002 y otras normas laborales, además se dictan disposiciones para el trabajo digno y decente en Colombia.",
+      "date": "2023-08-24",
+      "origen": "Cámara",
+      "author": "Gloria Ines Ramirez Rios",
+      "authorRole": "Ministra del Trabajo",
+      "type": "Ley Ordinaria",
+      "legislature": "2023 - 2024",
+      "status": "Trámite a Senado",
+      "sources": [
+        {
+          "title": "Proyecto Cámara",
+          "url": "https://www.camara.gov.co/reforma-laboral-1"
+        }
+      ]
     }
   ]
 }
