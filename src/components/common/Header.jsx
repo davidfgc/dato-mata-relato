@@ -1,10 +1,27 @@
-import { AppBar, Box, IconButton, Toolbar } from '@mui/material';
+import { AppBar, Box, Button, IconButton, Stack, Toolbar } from '@mui/material';
 
 const Header = () => {
   return (
     <AppBar position="static" color="default" elevation={1}>
       <Toolbar>
-        <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1, justifyContent: 'flex-end' }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
+          <Stack direction="row" spacing={2}>
+            <Button color="inherit" href="#/">
+              Home
+            </Button>
+            <Button color="inherit" href="#/reformas">
+              Reformas
+            </Button>
+            <Button color="inherit" href="#/congresistas">
+              Congresistas
+            </Button>
+            <Button color="inherit" href="#/despilfarro">
+              Despilfarro
+            </Button>
+          </Stack>
+        </Box>
+
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
           <IconButton
             aria-label="Twitter/X profile"
             color="inherit"
