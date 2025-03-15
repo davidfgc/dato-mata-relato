@@ -6,16 +6,16 @@ const Header = () => {
       <Toolbar>
         <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
           <Stack direction="row" spacing={2}>
-            <Button color="inherit" href="#/">
+            <Button color="inherit" href="/#/">
               Home
             </Button>
-            <Button color="inherit" href="#/reformas">
+            <Button color="inherit" href="/#/reformas">
               Reformas
             </Button>
-            <Button color="inherit" href="#/congresistas">
+            <Button color="inherit" href="/#/congresistas">
               Congresistas
             </Button>
-            <Button color="inherit" href="#/despilfarro">
+            <Button color="inherit" href="/#/despilfarro">
               Despilfarro
             </Button>
           </Stack>

@@ -183,19 +183,19 @@ const CongressList = () => {
     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
       <Paper elevation={3} sx={{ p: 3, mb: 4 }}>
         <Typography variant="h4" gutterBottom>
-          Congress Members
+          Congresistas
         </Typography>
 
         <Grid container spacing={3} sx={{ mb: 3 }}>
           {/* Congress Type Selector */}
           <Grid item xs={12} md={4}>
             <FormControl fullWidth>
-              <InputLabel id="congress-type-label">Congress Type</InputLabel>
+              <InputLabel id="congress-type-label">Cámara</InputLabel>
               <Select
                 labelId="congress-type-label"
                 id="congress-type-select"
                 value={congressType}
-                label="Congress Type"
+                label="Cámara"
                 onChange={handleCongressTypeChange}
               >
                 <MenuItem value="senate">Senado</MenuItem>
@@ -208,21 +208,21 @@ const CongressList = () => {
           <Grid item xs={12} md={4}>
             <TextField
               fullWidth
-              label="Filter by Name"
+              label="Por Nombre"
               variant="outlined"
               value={filters.name}
               onChange={(e) => handleFilterChange('name', e.target.value)}
-              helperText="Start typing at least 3 characters"
+              helperText="Al menos 3 caracteres"
             />
           </Grid>
 
           {/* Party Filter */}
           <Grid item xs={12} md={4}>
             <FormControl fullWidth>
-              <InputLabel>Filter by Party</InputLabel>
+              <InputLabel>Por Partido</InputLabel>
               <Select value={filters.partyId} label="Filter by Party" onChange={(e) => handleFilterChange('partyId', e.target.value)}>
                 <MenuItem value="">
-                  <em>All Parties</em>
+                  <em>Todos...</em>
                 </MenuItem>
                 {parties &&
                   parties.map((party) => (
@@ -236,7 +236,7 @@ const CongressList = () => {
         </Grid>
 
         {/* Statistics and Console Log Button */}
-        <Box sx={{ mb: 3, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        {/* <Box sx={{ mb: 3, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Box>
             <Typography variant="subtitle1">
               Showing {filteredMembers.length} of {members.length} members
@@ -252,7 +252,7 @@ const CongressList = () => {
           >
             Print to Console
           </Button>
-        </Box>
+        </Box> */}
       </Paper>
 
       {/* Members List */}
