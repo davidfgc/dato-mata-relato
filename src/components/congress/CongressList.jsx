@@ -138,17 +138,16 @@ const CongressList = () => {
     // Log to console
     // console.log('Congress Members Data:', congressData.members);
 
-    const nextId = 262;
-    const newMembers = [...members];
-
-    newMembers.forEach((member, index) => {
-      if (!member.id) {
-        member.id = nextId + index;
-      }
-    });
+    // Create a new array with only name and party_id fields
+    const data = filteredMembers.map((member) => ({
+      id: member.id,
+      name: member.name,
+      party_id: member.party_id,
+      party_name: getPartyName(member.party_id),
+    }));
 
     // console.log('Congress Members Data:', newMembers);
-    console.log(JSON.stringify(newMembers, null, 2));
+    console.log(JSON.stringify(data, null, 2));
 
     // Add a more visible message for users
     // console.log(

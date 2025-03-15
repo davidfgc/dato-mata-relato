@@ -33,7 +33,9 @@ export const processData = (
           const partyId = representative?.party_id;
           const party = partiesLookup[partyId];
 
-          if (!party.name) throw 'No party name';
+          if (!party) {
+            throw `Party not found for representative: ${representative?.name}`;
+          }
 
           return {
             ...vote,
