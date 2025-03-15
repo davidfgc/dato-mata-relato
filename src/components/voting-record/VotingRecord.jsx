@@ -1,14 +1,15 @@
 import { Alert, Box, CircularProgress } from '@mui/material';
-
 import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 import { useVotingRecordData } from '../../hooks/useVotingRecordData';
+import PartyStagesVoteChart from '../graphs/PartyStagesVoteChart';
 import BillCard from './BillCard';
 import VotingTabs from './VotingTabs';
-import PartyStagesVoteChart from '../graphs/PartyStagesVoteChart';
 
 const VotingRecord = () => {
-  const { bill, sessions, loading, error, votingStages, graphData } = useVotingRecordData();
+  const { year, id } = useParams();
+  const { bill, sessions, loading, error, votingStages, graphData } = useVotingRecordData(`${id}/${year}`);
   const [selectedTab, setSelectedTab] = useState(0);
 
   const getPosition = (party) => {

@@ -11,15 +11,17 @@ export const processData = (
   votingRecords: VotingRecord[],
   reps: Representative[],
   parties: Party[],
-  stages: VotingStage[]
+  stages: VotingStage[],
+  billId?: string
 ) => {
   const partiesLookup = parties.reduce((acc, party) => {
     acc[party.id] = party;
+
     return acc;
   }, {});
 
-  const bill = bills.find((b) => b.id === '312/2024C');
-  // const bill = bills.find((b) => b.id === '346/2023C');
+  // Use the provided billId if available, otherwise use the default
+  const bill = billId ? bills.find((b) => b.id === billId) : bills.find((b) => b.id === '312/2024C');
   if (!bill) {
     throw new Error('Bill not found');
   }
@@ -29,22 +31,28 @@ export const processData = (
     .map((votingRecord) => {
       const votingStageVotes = votingRecord.votes
         .map((vote) => {
-          const representative = reps.find((rep) => rep.id === vote.representativeId);
-          const partyId = representative?.party_id;
-          const party = partiesLookup[partyId];
+          try {
+            const representative = reps.find((rep) => rep.id === vote.representativeId);
+            const partyId = representative?.party_id;
+            const party = partiesLookup[partyId];
 
-          if (!party) {
-            throw `Party not found for representative: ${representative?.name}`;
+            if (!party) {
+              throw `Party not found for representative: ${representative?.name}`;
+            }
+
+            return {
+              ...vote,
+              representative: representative?.name || 'Unknown',
+              party: party.name.length < 20 ? party.name : party.id || 'Unknown Party',
+              partyId: partyId,
+              partyInfo: party,
+            };
+          } catch (error) {
+            console.error('Error processing vote:', error);
+            return null;
           }
-
-          return {
-            ...vote,
-            representative: representative?.name || 'Unknown',
-            party: party.name.length < 20 ? party.name : party.id || 'Unknown Party',
-            partyId: partyId,
-            partyInfo: party,
-          };
         })
+        .filter((vote) => vote !== null)
         .sort((a, b) => a.representative.localeCompare(b.representative));
 
       const sessionTotals = votingStageVotes.reduce(

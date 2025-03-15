@@ -3,10 +3,10 @@ import { useEffect, useState } from 'react';
 import { fetchBills, fetchParties, fetchRepresentatives, fetchVotingRecords, fetchVotingStages } from '../api/api';
 import { processData } from '../api/processData';
 
-export const useVotingRecordData = () => {
+export const useVotingRecordData = (billId) => {
   const [bill, setBill] = useState({});
   const [sessions, setSessions] = useState([]);
-  const [parties, setParties] = useState({});
+  const [parties, setParties] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [votingStages, setVotingStages] = useState([]);
@@ -25,7 +25,9 @@ export const useVotingRecordData = () => {
           fetchVotingStages(),
         ]);
 
-        const data = processData(bills, votingRecords, reps, parties, votingStages);
+        // Process data with the specific bill ID if provided
+        const data = processData(bills, votingRecords, reps, parties, votingStages, billId);
+
         const graphData = {
           bill: {
             id: data.bill.id,
@@ -69,7 +71,7 @@ export const useVotingRecordData = () => {
     };
 
     fetchData();
-  }, []);
+  }, [billId]);
 
   return {
     bill,

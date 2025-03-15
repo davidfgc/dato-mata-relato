@@ -9,6 +9,14 @@
     "saloon_id": "presidente_1_"
   },
   {
+    "id": 198,
+    "party_id": "PH",
+    "name": "Jose Alberto Tejada Echeverri",
+    "thumbnail": "https://www.camara.gov.co/sites/default/files/2022-08/JOSE%20ALBERTO%20TEJADA.png",
+    "chamber_id": 2,
+    "social_media": ""
+  },
+  {
     "id": 206,
     "party_id": "CITREP",
     "name": "Jorge Rodrigo Tovar Vélez",

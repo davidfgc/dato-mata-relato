@@ -30,6 +30,7 @@ function App() {
         <HashRouter>
           <Routes>
             <Route path="/" element={<VotingRecord />} />
+            <Route path="/reformas/:year/:id/votacion" element={<VotingRecord />} />
             <Route path="/voting-record" element={<VotingRecord />} />
             <Route path="/filtros" element={<VotingFilters />} />
             <Route path="/congresistas" element={<CongressList />} />

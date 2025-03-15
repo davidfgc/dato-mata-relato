@@ -175,6 +175,7 @@
     "comision": "Séptima",
     "gender": "Femenino",
     "chamber_id": 1,
+    "party_id": "CJL",
     "id": 231
   },
   {
@@ -809,6 +810,7 @@
     "comision": "Séptima",
     "gender": "Femenino",
     "chamber_id": 1,
+    "party_id": "MAIS",
     "id": 237
   },
   {
@@ -1047,6 +1049,7 @@
     "comision": "Séptima",
     "gender": "Femenino",
     "chamber_id": 1,
+    "party_id": "ASI",
     "id": 241
   },
   {
