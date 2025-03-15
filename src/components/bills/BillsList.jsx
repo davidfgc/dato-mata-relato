@@ -3,6 +3,7 @@ import { Box, CircularProgress, List, ListItem, ListItemButton, ListItemText, Pa
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { fetchBills } from '../../api/api';
+import StatusChip from '../common/StatusChip';
 
 const BillsList = () => {
   const [bills, setBills] = useState([]);
@@ -70,7 +71,8 @@ const BillsList = () => {
               <ListItem key={bill.id} disablePadding divider>
                 <ListItemButton component={Link} to={formatBillPath(bill.id)}>
                   <ListItemText primary={`${bill.shortTitle}: ${bill.id}`} secondary={new Date(bill.date).toLocaleDateString()} />
-                  <ArrowForwardIosIcon fontSize="small" color="action" />
+                  <StatusChip status={bill.status} />
+                  <ArrowForwardIosIcon fontSize="small" color="action" sx={{ marginLeft: 1 }} />
                 </ListItemButton>
               </ListItem>
             ))

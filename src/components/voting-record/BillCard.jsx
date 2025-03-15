@@ -1,6 +1,7 @@
-import { Card, CardContent, Chip, Stack, Typography } from '@mui/material';
+import { Card, CardContent, Stack, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import PropTypes from 'prop-types';
+import StatusChip from '../common/StatusChip';
 
 const BillCard = ({ bill }) => {
   return (
@@ -21,25 +22,13 @@ const BillCard = ({ bill }) => {
           </Grid>
           <Grid>
             <Stack spacing={1} alignItems="flex-end">
-              <Chip label={bill.status} size="small" color="error" variant="outlined" />
+              <StatusChip status={bill.status} />
               <Typography variant="body2" color="text.secondary">
                 {bill.date}
               </Typography>
             </Stack>
           </Grid>
         </Grid>
-
-        {/* <Typography variant="body1" sx={{ my: 2 }} textAlign={'justify'}>
-          {bill.description}
-        </Typography>
-
-        <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
-          {bill.tags?.map((tag) => (
-            <Chip key={tag} label={tag} size="small" sx={{ mb: 1 }} />
-          ))}
-          {bill.committee && <Chip label={bill.committee} size="small" color="primary" variant="outlined" sx={{ mb: 1 }} />}
-          {bill.origin && <Chip label={bill.origin} size="small" color="secondary" variant="outlined" sx={{ mb: 1 }} />}
-        </Stack> */}
       </CardContent>
     </Card>
   );
