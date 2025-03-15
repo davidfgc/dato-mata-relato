@@ -59,7 +59,7 @@ const BillsList = () => {
   }
 
   return (
-    <Box sx={{ width: '100%', maxWidth: 800, mx: 'auto', my: 4, px: 2 }}>
+    <Box sx={{ maxWidth: 'sm', mx: 'auto' }}>
       <Typography variant="h4" component="h1" gutterBottom>
         Reformas
       </Typography>

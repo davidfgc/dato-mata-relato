@@ -1,6 +1,4 @@
-import { Box, Container, ThemeProvider, createTheme } from '@mui/material';
-import useMediaQuery from '@mui/material/useMediaQuery';
-
+import { Box, Container, createTheme, ThemeProvider, useMediaQuery } from '@mui/material';
 import { useMemo } from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
@@ -43,43 +41,30 @@ function App() {
             display: 'flex',
             flexDirection: 'column',
             minHeight: '100vh',
+            overflow: 'hidden', // Prevent any potential overflow
+            alignItems: 'stretch', // Ensure children stretch to full width
           }}
         >
-          {/* Header fixed at the top */}
-          <Box
-            component="header"
+          <Header />
+          <Container
+            maxWidth="lg"
             sx={{
-              width: '100%',
-              position: 'sticky',
-              top: 0,
-              zIndex: 1100,
+              mt: 4,
+              px: 2,
             }}
+            disableGutters
           >
-            <Header />
-          </Box>
-
-          {/* Main content area */}
-          <Box
-            component="main"
-            sx={{
-              flexGrow: 1,
-              py: { xs: 2, sm: 3 },
-              px: { xs: 1, sm: 2, md: 3 },
-            }}
-          >
-            <Container maxWidth="lg" disableGutters sx={{ height: '100%' }}>
-              <Routes>
-                <Route path="/" element={<BillsList />} />
-                <Route path="/reformas" element={<BillsList />} />
-                <Route path="/reformas/:year/:id/votacion" element={<VotingRecord />} />
-                <Route path="/voting-record" element={<VotingRecord />} />
-                <Route path="/filtros" element={<VotingFilters />} />
-                <Route path="/congresistas" element={<CongressList />} />
-                <Route path="/despilfarro" element={<FiscalInefficiency />} />
-                <Route path="/generator" element={<GeneratorApp />} />
-              </Routes>
-            </Container>
-          </Box>
+            <Routes>
+              <Route path="/" element={<BillsList />} />
+              <Route path="/reformas" element={<BillsList />} />
+              <Route path="/reformas/:year/:id/votacion" element={<VotingRecord />} />
+              <Route path="/voting-record" element={<VotingRecord />} />
+              <Route path="/filtros" element={<VotingFilters />} />
+              <Route path="/congresistas" element={<CongressList />} />
+              <Route path="/despilfarro" element={<FiscalInefficiency />} />
+              <Route path="/generator" element={<GeneratorApp />} />
+            </Routes>
+          </Container>
         </Box>
       </HashRouter>
     </ThemeProvider>

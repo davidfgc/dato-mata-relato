@@ -15,9 +15,22 @@
     <meta property="og:title" content="Votos Progres" />
     <meta property="og:description" content="Cómo votan los congresistas las reformas progres?" />
     <meta property="og:image" content="https://votos.progres.website/images/thumbnail.png" />
+    <style>
+      html, body, #root {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      #root {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+      }
+    </style>
   </head>
   <body>
-     <div id="root" style="padding: 0;"></div>
+     <div id="root" style="padding: 0; width: 100%;"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

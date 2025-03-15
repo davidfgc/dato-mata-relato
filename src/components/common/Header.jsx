@@ -1,24 +1,70 @@
-import { AppBar, Box, Button, IconButton, Stack, Toolbar } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
+import {
+  AppBar,
+  Box,
+  Button,
+  Drawer,
+  IconButton,
+  List,
+  ListItem,
+  ListItemText,
+  Stack,
+  Toolbar,
+  useMediaQuery,
+  useTheme,
+} from '@mui/material';
+import { useState } from 'react';
 
 const Header = () => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  const toggleDrawer = (open) => (event) => {
+    if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+      return;
+    }
+    setDrawerOpen(open);
+  };
+
+  const navItems = [
+    { text: 'Home', href: '/#/' },
+    { text: 'Reformas', href: '/#/reformas' },
+    { text: 'Congresistas', href: '/#/congresistas' },
+    { text: 'Despilfarro', href: '/#/despilfarro' },
+  ];
+
+  const drawer = (
+    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)} onKeyDown={toggleDrawer(false)}>
+      <List>
+        {navItems.map((item) => (
+          <ListItem button key={item.text} component="a" href={item.href}>
+            <ListItemText primary={item.text} />
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
+
   return (
     <AppBar position="static" color="default" elevation={1}>
       <Toolbar>
+        {isMobile && (
+          <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={toggleDrawer(true)} sx={{ mr: 2 }}>
+            <MenuIcon />
+          </IconButton>
+        )}
+
         <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
-          <Stack direction="row" spacing={2}>
-            <Button color="inherit" href="/#/">
-              Home
-            </Button>
-            <Button color="inherit" href="/#/reformas">
-              Reformas
-            </Button>
-            <Button color="inherit" href="/#/congresistas">
-              Congresistas
-            </Button>
-            <Button color="inherit" href="/#/despilfarro">
-              Despilfarro
-            </Button>
-          </Stack>
+          {!isMobile && (
+            <Stack direction="row" spacing={2}>
+              {navItems.map((item) => (
+                <Button color="inherit" href={item.href} key={item.text}>
+                  {item.text}
+                </Button>
+              ))}
+            </Stack>
+          )}
         </Box>
 
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
@@ -36,6 +82,10 @@ const Header = () => {
           </IconButton>
         </Box>
       </Toolbar>
+
+      <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
+        {drawer}
+      </Drawer>
     </AppBar>
   );
 };
