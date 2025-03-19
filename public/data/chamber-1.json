@@ -96,7 +96,8 @@
     "gender": "Femenino",
     "chamber_id": 1,
     "id": 230,
-    "party_id": "MIRA"
+    "party_id": "MIRA",
+    "social_media": ["https://x.com/AnaPaolaAgudelo"]
   },
   {
     "name": "Andrea Padilla Villarraga",
@@ -433,7 +434,8 @@
     "gender": "Masculino",
     "chamber_id": 1,
     "id": 233,
-    "party_id": "CD"
+    "party_id": "CD",
+    "social_media": ["https://x.com/honohenriquez"]
   },
   {
     "name": "Humberto De La Calle Lombana",
@@ -622,7 +624,8 @@
     "gender": "Masculino",
     "chamber_id": 1,
     "id": 234,
-    "party_id": "CD"
+    "party_id": "CD",
+    "social_media": ["https://x.com/JAlirioBarreraR"]
   },
   {
     "name": "José Vicente Carreño Castro*",
@@ -1140,5 +1143,15 @@
     "chamber_id": 1,
     "id": 243,
     "party_id": "CH"
+  },
+  {
+    "name": "Esperanza Andrade Serrano",
+    "thumbnail": "https://www.senado.gov.co/images/Fotos_Senadores_2022/EsperanzaAndrade.jpg",
+    "party_name": "Partido Conservador",
+    "comision": "Séptima",
+    "gender": "Femenino",
+    "chamber_id": 1,
+    "id": 376,
+    "party_id": "PC"
   }
 ]

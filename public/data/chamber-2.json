@@ -3,7 +3,7 @@
     "id": 97,
     "party_id": "AV",
     "name": "Jaime Raúl Salamanca Torres",
-    "social_media": "https://www.camara.gov.co/representantes/jaime-raul-salamanca-torres",
+    "social_media": ["https://www.camara.gov.co/representantes/jaime-raul-salamanca-torres"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JAIME%20RAUL%20SALAMANCA.png?itok=3CB2m-Ey",
     "chamber_id": 2,
     "saloon_id": "presidente_1_"
@@ -20,7 +20,7 @@
     "id": 206,
     "party_id": "CITREP",
     "name": "Jorge Rodrigo Tovar Vélez",
-    "social_media": "https://www.camara.gov.co/representantes/jorge-rodrigo-tovar-velez",
+    "social_media": ["https://www.camara.gov.co/representantes/jorge-rodrigo-tovar-velez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-08/JORGE%20RODRIGO%20TOVAR.png?itok=jkhzpHlv",
     "chamber_id": 2,
     "saloon_id": "_x31_vicepresidente_1_"
@@ -29,7 +29,7 @@
     "id": 65,
     "party_id": "CR",
     "name": "Adriana Carolina Arbeláez Giraldo",
-    "social_media": "https://www.camara.gov.co/representantes/adriana-carolina-arbelaez-giraldo",
+    "social_media": ["https://www.camara.gov.co/representantes/adriana-carolina-arbelaez-giraldo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ADRIANA%20CAROLINA%20ARBELAEZ.png?itok=iW4Gibyx",
     "chamber_id": 2,
     "saloon_id": "p107_2_"
@@ -38,7 +38,7 @@
     "id": 44,
     "party_id": "PH",
     "name": "Agmeth José Escaf Tijerino",
-    "social_media": "https://www.camara.gov.co/representantes/agmeth-jose-escaf-tijerino",
+    "social_media": ["https://www.camara.gov.co/representantes/agmeth-jose-escaf-tijerino"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/AGMETH%20ESCAF%20TIGERINO.png?itok=OcQvkIUM",
     "chamber_id": 2,
     "saloon_id": "p4"
@@ -47,7 +47,7 @@
     "id": 90,
     "party_id": "AV",
     "name": "Alejandro García Ríos",
-    "social_media": "https://www.camara.gov.co/representantes/alejandro-garcia-rios",
+    "social_media": ["https://www.camara.gov.co/representantes/alejandro-garcia-rios"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALEJANDRO%20GARCIA%20RIOS.png?itok=UV3otiie",
     "chamber_id": 2,
     "saloon_id": "p164_1"
@@ -56,7 +56,7 @@
     "id": 102,
     "party_id": "PU",
     "name": "Alexander Guarín Silva",
-    "social_media": "https://www.camara.gov.co/representantes/alexander-guarin-silva",
+    "social_media": ["https://www.camara.gov.co/representantes/alexander-guarin-silva"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALEXANDER%20GUARIN%20SILVA.png?itok=h_idNAh1",
     "chamber_id": 2,
     "saloon_id": "p94_2_12"
@@ -65,7 +65,7 @@
     "id": 115,
     "party_id": "PL",
     "name": "Alexander Harley Bermúdez Lasso",
-    "social_media": "https://www.camara.gov.co/representantes/alexander-harley-bermudez-lasso",
+    "social_media": ["https://www.camara.gov.co/representantes/alexander-harley-bermudez-lasso"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALEXANDER%20HARLEY%20BERMUDEZ.png?itok=O5kmHpay",
     "chamber_id": 2,
     "saloon_id": "p113"
@@ -74,7 +74,7 @@
     "id": 143,
     "party_id": "PC",
     "name": "Alfredo Ape Cuello Baute",
-    "social_media": "https://www.camara.gov.co/representantes/alfredo-ape-cuello-baute",
+    "social_media": ["https://www.camara.gov.co/representantes/alfredo-ape-cuello-baute"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALFREDO%20APE%20CUELLO.png?itok=6y9YduOm",
     "chamber_id": 2,
     "saloon_id": "p28_1_"
@@ -83,7 +83,7 @@
     "id": 47,
     "party_id": "PH",
     "name": "Alfredo Mondragón Garzón",
-    "social_media": "https://www.camara.gov.co/representantes/alfredo-mondragon-garzon",
+    "social_media": ["https://www.camara.gov.co/representantes/alfredo-mondragon-garzon"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALFREDO%20MONDRAGON%20GARZON.png?itok=rmvqnzHf",
     "chamber_id": 2,
     "saloon_id": "p37"
@@ -92,7 +92,7 @@
     "id": 167,
     "party_id": "PH",
     "name": "Alirio Uribe Muñoz",
-    "social_media": "https://www.camara.gov.co/representantes/alirio-uribe-munoz",
+    "social_media": ["https://www.camara.gov.co/representantes/alirio-uribe-munoz"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALIRIO%20URIBE%20MU%C3%91OZ.png?itok=jmLGwYKG",
     "chamber_id": 2,
     "saloon_id": "p33"
@@ -101,7 +101,7 @@
     "id": 116,
     "party_id": "PL",
     "name": "Álvaro Henry Monedero Rivera",
-    "social_media": "https://www.camara.gov.co/representantes/alvaro-henry-monedero-rivera",
+    "social_media": ["https://www.camara.gov.co/representantes/alvaro-henry-monedero-rivera"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ALVARO%20HENRY%20MONEDERO.png?itok=9UwVLn6i",
     "chamber_id": 2,
     "saloon_id": "p56"
@@ -110,7 +110,7 @@
     "id": 117,
     "party_id": "PL",
     "name": "Álvaro Leonel Rueda caballero",
-    "social_media": "https://www.camara.gov.co/representantes/alvaro-leonel-rueda-caballero",
+    "social_media": ["https://www.camara.gov.co/representantes/alvaro-leonel-rueda-caballero"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-09/ALVARO%20LEONEL%20RUEDA_0.png?itok=7i-a2Btt",
     "chamber_id": 2,
     "saloon_id": "p136_2_"
@@ -119,7 +119,7 @@
     "id": 103,
     "party_id": "PU",
     "name": "Álvaro Mauricio Londoño Lugo",
-    "social_media": "https://www.camara.gov.co/representantes/alvaro-mauricio-londono-lugo",
+    "social_media": ["https://www.camara.gov.co/representantes/alvaro-mauricio-londono-lugo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/ALVARO%20MAURICIO%20LONDO%C3%91O.png?itok=3Toi1nJl",
     "chamber_id": 2,
     "saloon_id": "p46_2_"
@@ -128,7 +128,7 @@
     "id": 104,
     "party_id": "PU",
     "name": "Ana Paola García Soto",
-    "social_media": "https://www.camara.gov.co/representantes/ana-paola-garcia-soto",
+    "social_media": ["https://www.camara.gov.co/representantes/ana-paola-garcia-soto"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANA%20PAOLA%20GARCIA.png?itok=lzNn2Czu",
     "chamber_id": 2,
     "saloon_id": "p92_2_"
@@ -137,7 +137,7 @@
     "id": 248,
     "party_id": "PDC",
     "name": "Ana Rogelia Monsalve Álvarez",
-    "social_media": "https://www.camara.gov.co/representantes/ana-rogelia-monsalve-alvarez",
+    "social_media": ["https://www.camara.gov.co/representantes/ana-rogelia-monsalve-alvarez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-09/ANA%20ROGELIA%20MONSALVE_1.png?itok=6Zxc9dm8",
     "chamber_id": 2,
     "saloon_id": "p157_2",
@@ -147,7 +147,7 @@
     "id": 118,
     "party_id": "PL",
     "name": "Andrés David Calle Aguas",
-    "social_media": "https://www.camara.gov.co/representantes/andres-david-calle-aguas",
+    "social_media": ["https://www.camara.gov.co/representantes/andres-david-calle-aguas"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANDRES%20DAVID%20CALLE.png?itok=AyktCPJ3",
     "chamber_id": 2,
     "saloon_id": "p50"
@@ -156,7 +156,7 @@
     "id": 48,
     "party_id": "CD",
     "name": "Andrés Eduardo Forero Molina",
-    "social_media": "https://www.camara.gov.co/representantes/andres-eduardo-forero-molina",
+    "social_media": ["https://www.camara.gov.co/representantes/andres-eduardo-forero-molina"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANDRES%20EDUARDO%20FORERO.png?itok=2_Rbf6YN",
     "chamber_id": 2,
     "saloon_id": "p146_2_2"
@@ -165,7 +165,7 @@
     "id": 144,
     "party_id": "PC",
     "name": "Andrés Felipe Jiménez Vargas",
-    "social_media": "https://www.camara.gov.co/representantes/andres-felipe-jimenez-vargas",
+    "social_media": ["https://www.camara.gov.co/representantes/andres-felipe-jimenez-vargas"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANDRES%20FELIPE%20JIMENEZ.png?itok=AL2zUn-A",
     "chamber_id": 2,
     "saloon_id": "p48_2_"
@@ -174,7 +174,7 @@
     "id": 145,
     "party_id": "PC",
     "name": "Andrés Guillermo Montes Celedón",
-    "social_media": "https://www.camara.gov.co/representantes/andres-guillermo-montes-celedon",
+    "social_media": ["https://www.camara.gov.co/representantes/andres-guillermo-montes-celedon"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANDRES%20GUILLERMO%20MONTES.png?itok=WOuP0GUV",
     "chamber_id": 2,
     "saloon_id": "p24_1_"
@@ -183,7 +183,7 @@
     "id": 166,
     "party_id": "PC",
     "name": "Ángela María Vergara González",
-    "social_media": "https://www.camara.gov.co/representantes/angela-maria-vergara-gonzalez",
+    "social_media": ["https://www.camara.gov.co/representantes/angela-maria-vergara-gonzalez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-02/ANGELA%20MARIA%20VERGARA.png?itok=rOkQEPs6",
     "chamber_id": 2,
     "saloon_id": "p25_1_"
@@ -192,7 +192,7 @@
     "id": 119,
     "party_id": "PL",
     "name": "Aníbal Gustavo Hoyos Franco",
-    "social_media": "https://www.camara.gov.co/representantes/anibal-gustavo-hoyos-franco",
+    "social_media": ["https://www.camara.gov.co/representantes/anibal-gustavo-hoyos-franco"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ANIBAL%20GUSTAVO%20HOYOS.png?itok=1DzicJXc",
     "chamber_id": 2,
     "saloon_id": "p88_2_2"
@@ -201,7 +201,7 @@
     "id": 249,
     "party_id": "PC",
     "name": "Armando Antonio Zabaraín de Arce",
-    "social_media": "https://www.camara.gov.co/representantes/armando-antonio-zabarain-de-arce",
+    "social_media": ["https://www.camara.gov.co/representantes/armando-antonio-zabarain-de-arce"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2017-06/ARMANDO%20ANTONIO%20ZABARA%C3%8DN%20DE%20ARCE.jpg?itok=j-nkkswI",
     "chamber_id": 2,
     "saloon_id": "p21_1_",
@@ -211,7 +211,7 @@
     "id": 105,
     "party_id": "PU",
     "name": "Astrid Sánchez Montes De Oca",
-    "social_media": "https://www.camara.gov.co/representantes/astrid-sanchez-montes-de-oca",
+    "social_media": ["https://www.camara.gov.co/representantes/astrid-sanchez-montes-de-oca"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ASTRID%20SANCHEZ%20MONTES_0.png?itok=wkaSqAqG",
     "chamber_id": 2,
     "saloon_id": "p61"
@@ -220,7 +220,7 @@
     "id": 251,
     "party_id": "CR",
     "name": "Bayardo Gilberto Betancourt Pérez",
-    "social_media": "https://www.camara.gov.co/representantes/bayardo-gilberto-betancourt-perez",
+    "social_media": ["https://www.camara.gov.co/representantes/bayardo-gilberto-betancourt-perez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/BAYARDO%20GILBERTO%20BETANCOURT.png?itok=G8rp-LWa",
     "chamber_id": 2,
     "saloon_id": "p15_1",
@@ -230,7 +230,7 @@
     "id": 50,
     "party_id": "CR",
     "name": "Betsy Judith Pérez Arango",
-    "social_media": "https://www.camara.gov.co/representantes/betsy-judith-perez-arango",
+    "social_media": ["https://www.camara.gov.co/representantes/betsy-judith-perez-arango"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/BETSY%20JUDITH%20PEREZ.png?itok=iQxFxB9g",
     "chamber_id": 2,
     "saloon_id": "p110_2_"
@@ -239,7 +239,7 @@
     "id": 52,
     "party_id": "PU",
     "name": "Camilo Esteban Ávila Morales",
-    "social_media": "https://www.camara.gov.co/representantes/camilo-esteban-avila-morales",
+    "social_media": ["https://www.camara.gov.co/representantes/camilo-esteban-avila-morales"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/CAMILO%20ESTEBAN%20AVILA.png?itok=e4x2ew9z",
     "chamber_id": 2,
     "saloon_id": "p45_2_"
@@ -248,7 +248,7 @@
     "id": 120,
     "party_id": "PL",
     "name": "Carlos Adolfo Ardila Espinosa",
-    "social_media": "https://www.camara.gov.co/representantes/carlos-adolfo-ardila-espinosa",
+    "social_media": ["https://www.camara.gov.co/representantes/carlos-adolfo-ardila-espinosa"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/CARLOS%20ADOLFO%20ARDILA%20ESPINOSA_0.png?itok=oRNKB7kN",
     "chamber_id": 2,
     "saloon_id": "p48_2"
@@ -257,7 +257,7 @@
     "id": 189,
     "party_id": "COM",
     "name": "Carlos Alberto Carreño Marín",
-    "social_media": "https://www.camara.gov.co/representantes/carlos-alberto-carreno-marin",
+    "social_media": ["https://www.camara.gov.co/representantes/carlos-alberto-carreno-marin"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CARLOS%20ALBERTO%20CARRE%C3%91O.png?itok=pcbw5bxu",
     "chamber_id": 2,
     "saloon_id": "p153"
@@ -266,7 +266,7 @@
     "id": 67,
     "party_id": "CR",
     "name": "Carlos Alberto Cuenca Chaux",
-    "social_media": "https://www.camara.gov.co/representantes/carlos-alberto-cuenca-chaux",
+    "social_media": ["https://www.camara.gov.co/representantes/carlos-alberto-cuenca-chaux"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CARLOS%20ALBERTO%20CUENCA.png?itok=nPVHfC9Q",
     "chamber_id": 2,
     "saloon_id": "p1_1"
@@ -275,7 +275,7 @@
     "id": 245,
     "party_id": "AV",
     "name": "Carlos Arturo Vallejo Beltrán",
-    "social_media": "https://www.camara.gov.co/representantes/carlos-arturo-vallejo-beltran",
+    "social_media": ["https://www.camara.gov.co/representantes/carlos-arturo-vallejo-beltran"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-02/CARLOS%20ARTURO%20VALLEJO_0.png?itok=2VpTNFQs",
     "chamber_id": 2,
     "saloon_id": "p140_10",
@@ -285,7 +285,7 @@
     "id": 246,
     "party_id": "CD",
     "name": "Carlos Edward Osorio Aguiar",
-    "social_media": "https://www.camara.gov.co/representantes/carlos-edward-osorio-aguiar",
+    "social_media": ["https://www.camara.gov.co/representantes/carlos-edward-osorio-aguiar"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CARLOS%20EDWARD%20OSORIO.png?itok=7e6oFo29",
     "chamber_id": 2,
     "saloon_id": "p108",
@@ -295,7 +295,7 @@
     "id": 121,
     "party_id": "PL",
     "name": "Carlos Felipe Quintero Ovalle",
-    "social_media": "https://www.camara.gov.co/representantes/carlos-felipe-quintero-ovalle",
+    "social_media": ["https://www.camara.gov.co/representantes/carlos-felipe-quintero-ovalle"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CARLOS%20FELIPE%20QUINTERO%20OVALLE.png?itok=9ZDrPdr1",
     "chamber_id": 2,
     "saloon_id": "p90_2_2_"
@@ -304,7 +304,7 @@
     "id": 247,
     "party_id": "PH",
     "name": "Carmen Felisa Ramírez Boscán",
-    "social_media": "https://www.camara.gov.co/representantes/carmen-felisa-ramirez-boscan",
+    "social_media": ["https://www.camara.gov.co/representantes/carmen-felisa-ramirez-boscan"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2025-02/repreCarmen.png?itok=HwjwT7AE",
     "chamber_id": 2,
     "saloon_id": "p17",
@@ -314,7 +314,7 @@
     "id": 91,
     "party_id": "AV",
     "name": "Carolina Giraldo Botero",
-    "social_media": "https://www.camara.gov.co/representantes/carolina-giraldo-botero",
+    "social_media": ["https://www.camara.gov.co/representantes/carolina-giraldo-botero"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CAROLINA%20GIRALDO%20BOTERO.png?itok=MgeHuoU4",
     "chamber_id": 2,
     "saloon_id": "p144_2_1"
@@ -323,7 +323,7 @@
     "id": 92,
     "party_id": "AV",
     "name": "Catherine Juvinao Clavijo",
-    "social_media": "https://www.camara.gov.co/representantes/catherine-juvinao-clavijo",
+    "social_media": ["https://www.camara.gov.co/representantes/catherine-juvinao-clavijo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CATHERINE%20JUVINAO%20CLAVIJO.png?itok=CqiVChyC",
     "chamber_id": 2,
     "saloon_id": "p139_2_"
@@ -332,7 +332,7 @@
     "id": 122,
     "party_id": "PL",
     "name": "César Cristian Gómez Castro",
-    "social_media": "https://www.camara.gov.co/representantes/cesar-cristian-gomez-castro",
+    "social_media": ["https://www.camara.gov.co/representantes/cesar-cristian-gomez-castro"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/CESAR%20CRISTIAN%20GOMEZ.png?itok=le3r9oOX",
     "chamber_id": 2,
     "saloon_id": "p64_2_2"
@@ -341,7 +341,7 @@
     "id": 176,
     "party_id": "CD",
     "name": "Christian Munir Garcés Aljure",
-    "social_media": "https://www.camara.gov.co/representantes/christian-munir-garces-aljure",
+    "social_media": ["https://www.camara.gov.co/representantes/christian-munir-garces-aljure"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CHRISTIAN%20MUNIR%20GARCES.png?itok=vsKL5UpK",
     "chamber_id": 2,
     "saloon_id": "p150"
@@ -350,7 +350,7 @@
     "id": 147,
     "party_id": "PC",
     "name": "Ciro Antonio Rodríguez Pinzón",
-    "social_media": "https://www.camara.gov.co/representantes/ciro-antonio-rodriguez-pinzon",
+    "social_media": ["https://www.camara.gov.co/representantes/ciro-antonio-rodriguez-pinzon"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CIRO%20ANTONIO%20RODRIGUEZ.png?itok=vJIjxZmR",
     "chamber_id": 2,
     "saloon_id": "p7"
@@ -359,7 +359,7 @@
     "id": 93,
     "party_id": "AV",
     "name": "Cristian Danilo Avendaño Fino",
-    "social_media": "https://www.camara.gov.co/representantes/cristian-danilo-avendano-fino",
+    "social_media": ["https://www.camara.gov.co/representantes/cristian-danilo-avendano-fino"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/CRISTIAN%20DANILO%20AVENDA%C3%91O.png?itok=gxBxzUK1",
     "chamber_id": 2,
     "saloon_id": "p140_2_1"
@@ -368,7 +368,7 @@
     "id": 168,
     "party_id": "PH",
     "name": "Cristóbal Caicedo Angulo",
-    "social_media": "https://www.camara.gov.co/representantes/cristobal-caicedo-angulo",
+    "social_media": ["https://www.camara.gov.co/representantes/cristobal-caicedo-angulo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/CRISTOBAL%20CAICEDO%20ANGULO.png?itok=INN4xvG0",
     "chamber_id": 2,
     "saloon_id": "p35_2"
@@ -377,7 +377,7 @@
     "id": 194,
     "party_id": "VO",
     "name": "Daniel Carvalho Mejía",
-    "social_media": "https://www.camara.gov.co/representantes/daniel-carvalho-mejia",
+    "social_media": ["https://www.camara.gov.co/representantes/daniel-carvalho-mejia"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DANIEL%20CARVALO%20MEJIA.png?itok=X_nNWvBy",
     "chamber_id": 2,
     "saloon_id": "p161_2"
@@ -386,7 +386,7 @@
     "id": 21,
     "party_id": "PC",
     "name": "Daniel Restrepo Carmona",
-    "social_media": "https://www.camara.gov.co/representantes/daniel-restrepo-carmona",
+    "social_media": ["https://www.camara.gov.co/representantes/daniel-restrepo-carmona"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DANIEL%20RESTREPO%20CARMONA.png?itok=7VW6hnft",
     "chamber_id": 2,
     "saloon_id": "p11"
@@ -395,7 +395,7 @@
     "id": 195,
     "party_id": "PH",
     "name": "David Alejandro Toro Ramírez",
-    "social_media": "https://www.camara.gov.co/representantes/david-alejandro-toro-ramirez",
+    "social_media": ["https://www.camara.gov.co/representantes/david-alejandro-toro-ramirez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DAVID%20ALEJANDRO%20TORO.png?itok=yHSuFx11",
     "chamber_id": 2,
     "saloon_id": "p2"
@@ -404,7 +404,7 @@
     "id": 83,
     "party_id": "PH",
     "name": "David Ricardo Racero Mayorca",
-    "social_media": "https://www.camara.gov.co/representantes/david-ricardo-racero-mayorca",
+    "social_media": ["https://www.camara.gov.co/representantes/david-ricardo-racero-mayorca"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-07/DAVID%20RICARDO%20RACERO.png?itok=3a-AM-2C",
     "chamber_id": 2,
     "saloon_id": "p36"
@@ -413,7 +413,7 @@
     "id": 148,
     "party_id": "PC",
     "name": "Delcy Esperanza Isaza Buenaventura",
-    "social_media": "https://www.camara.gov.co/representantes/delcy-esperanza-isaza-buenaventura",
+    "social_media": ["https://www.camara.gov.co/representantes/delcy-esperanza-isaza-buenaventura"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DELCY%20ESPERANZA%20ISAZA.png?itok=7mAqV0hw",
     "chamber_id": 2,
     "saloon_id": "p9"
@@ -422,7 +422,7 @@
     "id": 106,
     "party_id": "PU",
     "name": "Diego Fernando Caicedo Navas",
-    "social_media": "https://www.camara.gov.co/representantes/diego-fernando-caicedo-navas",
+    "social_media": ["https://www.camara.gov.co/representantes/diego-fernando-caicedo-navas"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DIEGO%20FERNANDO%20CAICEDO.png?itok=CkX2o5r0",
     "chamber_id": 2,
     "saloon_id": "p94_2_"
@@ -431,7 +431,7 @@
     "id": 123,
     "party_id": "PL",
     "name": "Diego Patiño Amariles",
-    "social_media": "https://www.camara.gov.co/representantes/diego-patino-amariles",
+    "social_media": ["https://www.camara.gov.co/representantes/diego-patino-amariles"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DIEGO%20PATI%C3%91O%20AMARILES.png?itok=t7IQJvIj",
     "chamber_id": 2,
     "saloon_id": "p47_2"
@@ -440,7 +440,7 @@
     "id": 199,
     "party_id": "CITREP",
     "name": "Diógenes Quintero Amaya",
-    "social_media": "https://www.camara.gov.co/representantes/diogenes-quintero-amaya",
+    "social_media": ["https://www.camara.gov.co/representantes/diogenes-quintero-amaya"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DIOGENES%20QUINTERO%20AMAYA.png?itok=ypcrEoo0",
     "chamber_id": 2,
     "saloon_id": "p186"
@@ -449,7 +449,7 @@
     "id": 124,
     "party_id": "PL",
     "name": "Dolcey Oscar Torres Romero",
-    "social_media": "https://www.camara.gov.co/representantes/dolcey-oscar-torres-romero",
+    "social_media": ["https://www.camara.gov.co/representantes/dolcey-oscar-torres-romero"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-11/DOLCEY%20OSCAR%20TORRES.png?itok=6TAJbC43",
     "chamber_id": 2,
     "saloon_id": "p82_2_"
@@ -458,7 +458,7 @@
     "id": 196,
     "party_id": "PH",
     "name": "Dorina Hernández Palomino",
-    "social_media": "https://www.camara.gov.co/representantes/dorina-hernandez-palomino",
+    "social_media": ["https://www.camara.gov.co/representantes/dorina-hernandez-palomino"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DORINA%20HERNANDEZ%20PALOMINO.png?itok=5GlpbCQ7",
     "chamber_id": 2,
     "saloon_id": "p51"
@@ -467,7 +467,7 @@
     "id": 94,
     "party_id": "AV",
     "name": "Duvalier Sánchez Arango",
-    "social_media": "https://www.camara.gov.co/representantes/duvalier-sanchez-arango",
+    "social_media": ["https://www.camara.gov.co/representantes/duvalier-sanchez-arango"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/DUVALIER%20SANCHEZ%20ARANGO.png?itok=iyA5Cd-5",
     "chamber_id": 2,
     "saloon_id": "p138_2_"
@@ -476,7 +476,7 @@
     "id": 177,
     "party_id": "CD",
     "name": "Edinson Vladimir Olaya Mancipe",
-    "social_media": "https://www.camara.gov.co/representantes/edinson-vladimir-olaya-mancipe",
+    "social_media": ["https://www.camara.gov.co/representantes/edinson-vladimir-olaya-mancipe"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/EDINSON%20VLADIMIR%20OLAYA.png?itok=jE_5SJox",
     "chamber_id": 2,
     "saloon_id": "p150_2_2"
@@ -485,7 +485,7 @@
     "id": 252,
     "party_id": "CD",
     "name": "Eduard Alexis Triana Rincón",
-    "social_media": "https://www.camara.gov.co/representantes/eduard-alexis-triana-rincon",
+    "social_media": ["https://www.camara.gov.co/representantes/eduard-alexis-triana-rincon"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/EDUAR%20ALEXIS%20TRIANA.png?itok=lD2zc0FB",
     "chamber_id": 2,
     "saloon_id": "p146_2_",
@@ -495,7 +495,7 @@
     "id": 169,
     "party_id": "PH",
     "name": "Eduard Giovanny Sarmiento Hidalgo",
-    "social_media": "https://www.camara.gov.co/representantes/eduard-giovanny-sarmiento-hidalgo",
+    "social_media": ["https://www.camara.gov.co/representantes/eduard-giovanny-sarmiento-hidalgo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/EDUARD%20GIOVANNY%20SARMIENTO.png?itok=XEs6WsZP",
     "chamber_id": 2,
     "saloon_id": "p20"
@@ -504,7 +504,7 @@
     "id": 125,
     "party_id": "PL",
     "name": "Elizabeth Jay-Pang Díaz",
-    "social_media": "https://www.camara.gov.co/representantes/elizabeth-jay-pang-diaz",
+    "social_media": ["https://www.camara.gov.co/representantes/elizabeth-jay-pang-diaz"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ELIZABET%20JAI-PANG.png?itok=0VBAlqCE",
     "chamber_id": 2,
     "saloon_id": "p49"
@@ -513,7 +513,7 @@
     "id": 95,
     "party_id": "AV",
     "name": "Elkin Rodolfo Ospina Ospina",
-    "social_media": "https://www.camara.gov.co/representantes/elkin-rodolfo-ospina-ospina",
+    "social_media": ["https://www.camara.gov.co/representantes/elkin-rodolfo-ospina-ospina"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ELKIN%20RODOLFO%20OSPINA.png?itok=N4Ugo2rQ",
     "chamber_id": 2,
     "saloon_id": "p143_2_"
@@ -522,7 +522,7 @@
     "id": 170,
     "party_id": "PH",
     "name": "Erick Adrián Velasco Burbano",
-    "social_media": "https://www.camara.gov.co/representantes/erick-adrian-velasco-burbano",
+    "social_media": ["https://www.camara.gov.co/representantes/erick-adrian-velasco-burbano"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ERICK%20ADRIAN%20VELASCO.png?itok=Rs0NY0NJ",
     "chamber_id": 2,
     "saloon_id": "p16"
@@ -531,7 +531,7 @@
     "id": 215,
     "party_id": "LIGA",
     "name": "Erika Tatiana Sánchez Pinto",
-    "social_media": "https://www.camara.gov.co/representantes/erika-tatiana-sanchez-pinto",
+    "social_media": ["https://www.camara.gov.co/representantes/erika-tatiana-sanchez-pinto"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-07/ERIKA%20TATIANA%20SANCHEZ.png?itok=7VQ8mkLD",
     "chamber_id": 2,
     "saloon_id": "p155_2"
@@ -540,7 +540,7 @@
     "id": 218,
     "party_id": "PH",
     "name": "Ermes Evelio Pete Vivas",
-    "social_media": "https://www.camara.gov.co/representantes/ermes-evelio-pete-vivas",
+    "social_media": ["https://www.camara.gov.co/representantes/ermes-evelio-pete-vivas"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ERMES%20EVELIO%20PETE.png?itok=SYQ_8fnh",
     "chamber_id": 2,
     "saloon_id": "p29"
@@ -549,7 +549,7 @@
     "id": 171,
     "party_id": "PH",
     "name": "Etna Tamara Argote Calderón",
-    "social_media": "https://www.camara.gov.co/representantes/etna-tamara-argote-calderon",
+    "social_media": ["https://www.camara.gov.co/representantes/etna-tamara-argote-calderon"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ETNA%20TAMARA%20ARGOTE.png?itok=uExHygNJ",
     "chamber_id": 2,
     "saloon_id": "p30"
@@ -558,7 +558,7 @@
     "id": 149,
     "party_id": "PC",
     "name": "Fernando David Niño Mendoza",
-    "social_media": "https://www.camara.gov.co/representantes/fernando-david-nino-mendoza",
+    "social_media": ["https://www.camara.gov.co/representantes/fernando-david-nino-mendoza"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/FERNANDO%20DAVID%20NI%C3%91O.png?itok=U63vZyk7",
     "chamber_id": 2,
     "saloon_id": "p23_1_"
@@ -567,7 +567,7 @@
     "id": 9,
     "party_id": "PL",
     "name": "Flora Perdomo Andrade",
-    "social_media": "https://www.camara.gov.co/representantes/flora-perdomo-andrade",
+    "social_media": ["https://www.camara.gov.co/representantes/flora-perdomo-andrade"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-03/FLORA%20PERDOMO%20ANDRADE.png?itok=F86379iO",
     "chamber_id": 2,
     "saloon_id": "p71"
@@ -576,7 +576,7 @@
     "id": 220,
     "party_id": "PH",
     "name": "Gabriel Becerra Yañez",
-    "social_media": "https://www.camara.gov.co/representantes/gabriel-becerra-yanez",
+    "social_media": ["https://www.camara.gov.co/representantes/gabriel-becerra-yanez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GABRIEL%20BECERRA%20YA%C3%91EZ.png?itok=0zNcKyD1",
     "chamber_id": 2,
     "saloon_id": "p34"
@@ -585,7 +585,7 @@
     "id": 172,
     "party_id": "PH",
     "name": "Gabriel Ernesto Parrado Durán",
-    "social_media": "https://www.camara.gov.co/representantes/gabriel-ernesto-parrado-duran",
+    "social_media": ["https://www.camara.gov.co/representantes/gabriel-ernesto-parrado-duran"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GABRIEL%20ERNESTO%20PARRADO.png?itok=jLTp40Rp",
     "chamber_id": 2,
     "saloon_id": "p18"
@@ -594,7 +594,7 @@
     "id": 54,
     "party_id": "PC",
     "name": "Gerardo Yepes Caro",
-    "social_media": "https://www.camara.gov.co/representantes/gerardo-yepes-caro",
+    "social_media": ["https://www.camara.gov.co/representantes/gerardo-yepes-caro"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERARDO%20YEPES%20CARO.png?itok=5-FnVX2o",
     "chamber_id": 2,
     "saloon_id": "p38"
@@ -603,7 +603,7 @@
     "id": 64,
     "party_id": "COM",
     "name": "Germán José Gómez López",
-    "social_media": "https://www.camara.gov.co/representantes/german-jose-gomez-lopez",
+    "social_media": ["https://www.camara.gov.co/representantes/german-jose-gomez-lopez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERMAN%20JOSE%20GOMEZ.png?itok=qmvfs2lD",
     "chamber_id": 2,
     "saloon_id": "p165"
@@ -612,7 +612,7 @@
     "id": 56,
     "party_id": "PL",
     "name": "Germán Rogelio Rozo Anís",
-    "social_media": "https://www.camara.gov.co/representantes/german-rogelio-rozo-anis",
+    "social_media": ["https://www.camara.gov.co/representantes/german-rogelio-rozo-anis"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERMAN%20ROGELIO%20ROZO.png?itok=ZnSPMRGX",
     "chamber_id": 2,
     "saloon_id": "p64_2_"
@@ -621,7 +621,7 @@
     "id": 68,
     "party_id": "CR",
     "name": "Gersel Luis Pérez Altamiranda",
-    "social_media": "https://www.camara.gov.co/representantes/gersel-luis-perez-altamiranda",
+    "social_media": ["https://www.camara.gov.co/representantes/gersel-luis-perez-altamiranda"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERSEL%20LUIS%20PEREZ.png?itok=PReU060j",
     "chamber_id": 2,
     "saloon_id": "p111_2_"
@@ -630,7 +630,7 @@
     "id": 200,
     "party_id": "CITREP",
     "name": "Gerson Lisímaco Montaño Arizala",
-    "social_media": "https://www.camara.gov.co/representantes/gerson-lisimaco-montano-arizala",
+    "social_media": ["https://www.camara.gov.co/representantes/gerson-lisimaco-montano-arizala"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GERSON%20LISIMACO%20MONTA%C3%91O.png?itok=OVqea16M",
     "chamber_id": 2,
     "saloon_id": "p179"
@@ -639,7 +639,7 @@
     "id": 259,
     "party_id": "PH",
     "name": "Gildardo Silva Molina",
-    "social_media": "https://www.camara.gov.co/representantes/gildardo-silva-molina",
+    "social_media": ["https://www.camara.gov.co/representantes/gildardo-silva-molina"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-04/GILDARDO%20SILVA%20MOLINA.png?itok=nShZs6id",
     "chamber_id": 2,
     "saloon_id": "p140_11",
@@ -649,7 +649,7 @@
     "id": 126,
     "party_id": "PL",
     "name": "Gilma Díaz Arias",
-    "social_media": "https://www.camara.gov.co/representantes/gilma-diaz-arias",
+    "social_media": ["https://www.camara.gov.co/representantes/gilma-diaz-arias"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GILMA%20DIAZ%20ARIAS.png?itok=LVJQFYwG",
     "chamber_id": 2,
     "saloon_id": "p60_2_"
@@ -658,7 +658,7 @@
     "id": 221,
     "party_id": "PH",
     "name": "Gloria Elena Arizabaleta Corral",
-    "social_media": "https://www.camara.gov.co/representantes/gloria-elena-arizabaleta-corral",
+    "social_media": ["https://www.camara.gov.co/representantes/gloria-elena-arizabaleta-corral"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/GLORIA%20ELENA%20ARIZABALETA.png?itok=GKMxvW8I",
     "chamber_id": 2,
     "saloon_id": "p53"
@@ -667,7 +667,7 @@
     "id": 96,
     "party_id": "AV",
     "name": "Gloria Liliana Rodríguez Valencia",
-    "social_media": "https://www.camara.gov.co/representantes/gloria-liliana-rodriguez-valencia",
+    "social_media": ["https://www.camara.gov.co/representantes/gloria-liliana-rodriguez-valencia"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/GLORIA%20LILIANA%20RODRIGUEZ.png?itok=NDfWTg5h",
     "chamber_id": 2,
     "saloon_id": "p141_2"
@@ -676,7 +676,7 @@
     "id": 201,
     "party_id": "CITREP",
     "name": "Haiver Rincón Gutiérrez",
-    "social_media": "https://www.camara.gov.co/representantes/haiver-rincon-gutierrez",
+    "social_media": ["https://www.camara.gov.co/representantes/haiver-rincon-gutierrez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HAIVER%20RINCON%20GUTIERREZ.png?itok=VGilV8uB",
     "chamber_id": 2,
     "saloon_id": "p187"
@@ -685,7 +685,7 @@
     "id": 57,
     "party_id": "PL",
     "name": "Héctor David Chaparro Chaparro",
-    "social_media": "https://www.camara.gov.co/representantes/hector-david-chaparro-chaparro",
+    "social_media": ["https://www.camara.gov.co/representantes/hector-david-chaparro-chaparro"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HECTOR%20DAVID%20CHAPARRO.png?itok=Gd6H_UoR",
     "chamber_id": 2,
     "saloon_id": "p90_2_2_hdc"
@@ -694,7 +694,7 @@
     "id": 150,
     "party_id": "PC",
     "name": "Héctor Mauricio Cuéllar Pinzón",
-    "social_media": "https://www.camara.gov.co/representantes/hector-mauricio-cuellar-pinzon",
+    "social_media": ["https://www.camara.gov.co/representantes/hector-mauricio-cuellar-pinzon"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/HECTOR%20MAURICIO%20CUELLAR.png?itok=N1rxfWhI",
     "chamber_id": 2,
     "saloon_id": "p91_2_1"
@@ -703,7 +703,7 @@
     "id": 197,
     "party_id": "PH",
     "name": "Heraclito Landinez Suárez",
-    "social_media": "https://www.camara.gov.co/representantes/heraclito-landinez-suarez",
+    "social_media": ["https://www.camara.gov.co/representantes/heraclito-landinez-suarez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HERACLITO%20LANDINES%20SUAREZ.png?itok=jd2ytUry",
     "chamber_id": 2,
     "saloon_id": "p35_1_2"
@@ -712,7 +712,7 @@
     "id": 179,
     "party_id": "CD",
     "name": "Hernán Darío Cadavid Márquez",
-    "social_media": "https://www.camara.gov.co/representantes/hernan-dario-cadavid-marquez",
+    "social_media": ["https://www.camara.gov.co/representantes/hernan-dario-cadavid-marquez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HERNAN%20DARIO%20CADAVID.png?itok=pzP1WFXp",
     "chamber_id": 2,
     "saloon_id": "p145_2_11"
@@ -721,7 +721,7 @@
     "id": 69,
     "party_id": "CR",
     "name": "Hernando González",
-    "social_media": "https://www.camara.gov.co/representantes/hernando-gonzalez",
+    "social_media": ["https://www.camara.gov.co/representantes/hernando-gonzalez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HERNANDO%20GONZALEZ.png?itok=6cbYO7op",
     "chamber_id": 2,
     "saloon_id": "p95_2_4"
@@ -730,7 +730,7 @@
     "id": 107,
     "party_id": "PU",
     "name": "Hernando Guida Ponce",
-    "social_media": "https://www.camara.gov.co/representantes/hernando-guida-ponce",
+    "social_media": ["https://www.camara.gov.co/representantes/hernando-guida-ponce"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/HERNANDO%20GUIDA%20PONCE.png?itok=trFjdEwt",
     "chamber_id": 2,
     "saloon_id": "p64"
@@ -739,7 +739,7 @@
     "id": 58,
     "party_id": "PL",
     "name": "Hugo Alfonso Archila Suárez",
-    "social_media": "https://www.camara.gov.co/representantes/hugo-alfonso-archila-suarez",
+    "social_media": ["https://www.camara.gov.co/representantes/hugo-alfonso-archila-suarez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-09/HUGO%20ALFONSO%20ARCHILA.png?itok=QEBpS3b0",
     "chamber_id": 2,
     "saloon_id": "p135_2_"
@@ -748,7 +748,7 @@
     "id": 181,
     "party_id": "CD",
     "name": "Hugo Danilo Lozano Pimiento",
-    "social_media": "https://www.camara.gov.co/representantes/hugo-danilo-lozano-pimiento",
+    "social_media": ["https://www.camara.gov.co/representantes/hugo-danilo-lozano-pimiento"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/HUGO%20DANILO%20LOZANO.png?itok=N1FoYg43",
     "chamber_id": 2,
     "saloon_id": "p148_2"
@@ -757,7 +757,7 @@
     "id": 222,
     "party_id": "PFC",
     "name": "Ingrid Johana Aguirre Juvinao",
-    "social_media": "https://www.camara.gov.co/representantes/ingrid-johana-aguirre-juvinao",
+    "social_media": ["https://www.camara.gov.co/representantes/ingrid-johana-aguirre-juvinao"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/INGRID%20JOHANA%20AGUIRRE.png?itok=7AZF32CR",
     "chamber_id": 2,
     "saloon_id": "p3"
@@ -766,7 +766,7 @@
     "id": 151,
     "party_id": "PC",
     "name": "Ingrid Marlen Sogamoso Alfonso",
-    "social_media": "https://www.camara.gov.co/representantes/ingrid-marlen-sogamoso-alfonso",
+    "social_media": ["https://www.camara.gov.co/representantes/ingrid-marlen-sogamoso-alfonso"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/INGRID%20MARLEN%20SOGAMOSO_0.png?itok=F3erMNrq",
     "chamber_id": 2,
     "saloon_id": "p43"
@@ -775,7 +775,7 @@
     "id": 223,
     "party_id": "MIRA",
     "name": "Irma Luz Herrera Rodríguez",
-    "social_media": "https://www.camara.gov.co/representantes/irma-luz-herrera-rodriguez",
+    "social_media": ["https://www.camara.gov.co/representantes/irma-luz-herrera-rodriguez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-05/IRMA%20LUZ%20HERRERA.png?itok=3ioxp2Xa",
     "chamber_id": 2,
     "saloon_id": "p157"
@@ -784,7 +784,7 @@
     "id": 70,
     "party_id": "CR",
     "name": "Jaime Rodríguez Contreras",
-    "social_media": "https://www.camara.gov.co/representantes/jaime-rodriguez-contreras",
+    "social_media": ["https://www.camara.gov.co/representantes/jaime-rodriguez-contreras"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JAIME%20RODRIGUEZ%20CONTRERAS.png?itok=aC1GtkEL",
     "chamber_id": 2,
     "saloon_id": "p47"
@@ -793,7 +793,7 @@
     "id": 51,
     "party_id": "CR",
     "name": "Jairo Humberto Cristo Correa",
-    "social_media": "https://www.camara.gov.co/representantes/jairo-humberto-cristo-correa",
+    "social_media": ["https://www.camara.gov.co/representantes/jairo-humberto-cristo-correa"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JAIRO%20HUMBERTO%20CRISTO%20CORREA.png?itok=hdfR4_1U",
     "chamber_id": 2,
     "saloon_id": "p48"
@@ -802,7 +802,7 @@
     "id": 190,
     "party_id": "COM",
     "name": "Jairo Reinaldo Cala Suárez",
-    "social_media": "https://www.camara.gov.co/representantes/jairo-reinaldo-cala-suarez",
+    "social_media": ["https://www.camara.gov.co/representantes/jairo-reinaldo-cala-suarez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JAIRO%20REINALDO%20CALA.png?itok=AbZmZ4NS",
     "chamber_id": 2,
     "saloon_id": "p154"
@@ -811,7 +811,7 @@
     "id": 202,
     "party_id": "CITREP",
     "name": "James Hermenegildo Mosquera Torres",
-    "social_media": "https://www.camara.gov.co/representantes/james-hermenegildo-mosquera-torres",
+    "social_media": ["https://www.camara.gov.co/representantes/james-hermenegildo-mosquera-torres"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JAMES%20HERMENEGILDO%20MOSQUERA.png?itok=co20SiLp",
     "chamber_id": 2,
     "saloon_id": "p170"
@@ -820,7 +820,7 @@
     "id": 71,
     "party_id": "CR",
     "name": "Javier Alexander Sánchez Reyes",
-    "social_media": "https://www.camara.gov.co/representantes/javier-alexander-sanchez-reyes",
+    "social_media": ["https://www.camara.gov.co/representantes/javier-alexander-sanchez-reyes"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-11/JAVIER%20ALEXANDER%20SANCHEZ.png?itok=fJMi34uV",
     "chamber_id": 2,
     "saloon_id": "p99_2"
@@ -829,7 +829,7 @@
     "id": 224,
     "party_id": "DYC",
     "name": "Jennifer Dalley Pedraza Sandoval",
-    "social_media": "https://www.camara.gov.co/representantes/jennifer-dalley-pedraza-sandoval",
+    "social_media": ["https://www.camara.gov.co/representantes/jennifer-dalley-pedraza-sandoval"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JENNIFER%20DALLEY%20PEDRAZA.png?itok=FULSBsUq",
     "chamber_id": 2,
     "saloon_id": "p160_2"
@@ -838,7 +838,7 @@
     "id": 127,
     "party_id": "PL",
     "name": "Jezmi Lizeth Barraza Arraut",
-    "social_media": "https://www.camara.gov.co/representantes/jezmi-lizeth-barraza-arraut",
+    "social_media": ["https://www.camara.gov.co/representantes/jezmi-lizeth-barraza-arraut"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JEZMI%20LIZETH%20BARRAZA.png?itok=laiNN7eH",
     "chamber_id": 2,
     "saloon_id": "p94"
@@ -847,7 +847,7 @@
     "id": 128,
     "party_id": "PL",
     "name": "Jhoany Carlos Alberto Palacios Mosquera",
-    "social_media": "https://www.camara.gov.co/representantes/jhoany-carlos-alberto-palacios-mosquera",
+    "social_media": ["https://www.camara.gov.co/representantes/jhoany-carlos-alberto-palacios-mosquera"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JHOANY%20CARLOS%20PALACIOS.png?itok=ux2okeLG",
     "chamber_id": 2,
     "saloon_id": "p137_2_2"
@@ -856,7 +856,7 @@
     "id": 203,
     "party_id": "CITREP",
     "name": "Jhon Fredi Valencia Caicedo",
-    "social_media": "https://www.camara.gov.co/representantes/jhon-fredi-valencia-caicedo",
+    "social_media": ["https://www.camara.gov.co/representantes/jhon-fredi-valencia-caicedo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JOHN%20FREDY%20VALENCIA.png?itok=NvKVBaII",
     "chamber_id": 2,
     "saloon_id": "p180"
@@ -865,7 +865,7 @@
     "id": 204,
     "party_id": "CITREP",
     "name": "Jhon Fredy Núñez Ramos",
-    "social_media": "https://www.camara.gov.co/representantes/jhon-fredy-nunez-ramos",
+    "social_media": ["https://www.camara.gov.co/representantes/jhon-fredy-nunez-ramos"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JOHN%20FREDY%20NU%C3%91EZ.png?itok=jEhSAlXx",
     "chamber_id": 2,
     "saloon_id": "p185"
@@ -874,7 +874,7 @@
     "id": 253,
     "party_id": "CD",
     "name": "Jhon Jairo Berrio López",
-    "social_media": "https://www.camara.gov.co/representantes/jhon-jairo-berrio-lopez",
+    "social_media": ["https://www.camara.gov.co/representantes/jhon-jairo-berrio-lopez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JHON%20JAIRO%20BERRIO%20LOPEZ.png?itok=ftQa4Qcg",
     "chamber_id": 2,
     "saloon_id": "p130",
@@ -884,7 +884,7 @@
     "id": 72,
     "party_id": "CR",
     "name": "John Edgar Pérez Rojas",
-    "social_media": "https://www.camara.gov.co/representantes/john-edgar-perez-rojas",
+    "social_media": ["https://www.camara.gov.co/representantes/john-edgar-perez-rojas"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/JOHN%20EDGAR%20PEREZ_0.png?itok=kfF2bmKE",
     "chamber_id": 2,
     "saloon_id": "p95_2_"
@@ -893,7 +893,7 @@
     "id": 254,
     "party_id": "CITREP",
     "name": "John Jairo González Agudelo",
-    "social_media": "https://www.camara.gov.co/representantes/john-jairo-gonzalez-agudelo",
+    "social_media": ["https://www.camara.gov.co/representantes/john-jairo-gonzalez-agudelo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JOHN%20JAIRO%20GONZALEZ.png?itok=Hx7dQwDq",
     "chamber_id": 2,
     "saloon_id": "p181",
@@ -903,7 +903,7 @@
     "id": 225,
     "party_id": "CORE",
     "name": "Jorge Alberto Cerchiaro Figueroa",
-    "social_media": "https://www.camara.gov.co/representantes/jorge-alberto-cerchiaro-figueroa",
+    "social_media": ["https://www.camara.gov.co/representantes/jorge-alberto-cerchiaro-figueroa"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20ALBERTO%20CERCHIARO.png?itok=KwjxGTcH",
     "chamber_id": 2,
     "saloon_id": "p158_2"
@@ -912,7 +912,7 @@
     "id": 173,
     "party_id": "PH",
     "name": "Jorge Alejandro Ocampo Giraldo",
-    "social_media": "https://www.camara.gov.co/representantes/jorge-alejandro-ocampo-giraldo",
+    "social_media": ["https://www.camara.gov.co/representantes/jorge-alejandro-ocampo-giraldo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20ALEJANDRO%20CAMPO.png?itok=o71cbS3D",
     "chamber_id": 2,
     "saloon_id": "p52"
@@ -921,7 +921,7 @@
     "id": 55,
     "party_id": "PC",
     "name": "Jorge Alexander Quevedo Herrera",
-    "social_media": "https://www.camara.gov.co/representantes/jorge-alexander-quevedo-herrera",
+    "social_media": ["https://www.camara.gov.co/representantes/jorge-alexander-quevedo-herrera"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20ALEXANDER%20QUEVEDO.png?itok=qKbqw_bP",
     "chamber_id": 2,
     "saloon_id": "p50_2_"
@@ -930,7 +930,7 @@
     "id": 84,
     "party_id": "PH",
     "name": "Jorge Andrés Cancimance López",
-    "social_media": "https://www.camara.gov.co/representantes/jorge-andres-cancimance-lopez",
+    "social_media": ["https://www.camara.gov.co/representantes/jorge-andres-cancimance-lopez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/JORGE%20ANDRES%20CANCIMANCE.png?itok=ljfd0UJQ",
     "chamber_id": 2,
     "saloon_id": "p5"
@@ -939,7 +939,7 @@
     "id": 108,
     "party_id": "PU",
     "name": "Jorge Eliécer Tamayo Marulanda",
-    "social_media": "https://www.camara.gov.co/representantes/jorge-eliecer-tamayo-marulanda",
+    "social_media": ["https://www.camara.gov.co/representantes/jorge-eliecer-tamayo-marulanda"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20ELIECER%20TAMAYO.png?itok=JdXSLfz5",
     "chamber_id": 2,
     "saloon_id": "p83"
@@ -948,7 +948,7 @@
     "id": 85,
     "party_id": "PH",
     "name": "Jorge Hernán Bastidas Rosero",
-    "social_media": "https://www.camara.gov.co/representantes/jorge-hernan-bastidas-rosero",
+    "social_media": ["https://www.camara.gov.co/representantes/jorge-hernan-bastidas-rosero"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JORGE%20HERNAN%20BASTIDAS.png?itok=vGytZLQe",
     "chamber_id": 2,
     "saloon_id": "p1"
@@ -957,7 +957,7 @@
     "id": 73,
     "party_id": "CR",
     "name": "Jorge Méndez Hernández",
-    "social_media": "https://www.camara.gov.co/representantes/jorge-mendez-hernandez",
+    "social_media": ["https://www.camara.gov.co/representantes/jorge-mendez-hernandez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-07/JORGE%20MENDEZ.png?itok=1PLH5v25",
     "chamber_id": 2,
     "saloon_id": "p35"
@@ -966,7 +966,7 @@
     "id": 152,
     "party_id": "PC",
     "name": "José Alejandro Martínez Sánchez",
-    "social_media": "https://www.camara.gov.co/representantes/jose-alejandro-martinez-sanchez",
+    "social_media": ["https://www.camara.gov.co/representantes/jose-alejandro-martinez-sanchez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JOSE%20ALEJANDRO%20MARTINEZ.png?itok=hxpVUTkE",
     "chamber_id": 2,
     "saloon_id": "p39_2"
@@ -975,7 +975,7 @@
     "id": 109,
     "party_id": "PU",
     "name": "José Eliécer Salazar López",
-    "social_media": "https://www.camara.gov.co/representantes/jose-eliecer-salazar-lopez",
+    "social_media": ["https://www.camara.gov.co/representantes/jose-eliecer-salazar-lopez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-11/JOSE%20ELIECER%20SALAZAR_0.png?itok=hmQ9gtdI",
     "chamber_id": 2,
     "saloon_id": "p85"
@@ -984,7 +984,7 @@
     "id": 182,
     "party_id": "CD",
     "name": "José Jaime Uscátegui Pastrana",
-    "social_media": "https://www.camara.gov.co/representantes/jose-jaime-uscategui-pastrana",
+    "social_media": ["https://www.camara.gov.co/representantes/jose-jaime-uscategui-pastrana"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-02/JOSE%20JAIME%20USCATEGUI.png?itok=NxggtOB7",
     "chamber_id": 2,
     "saloon_id": "p104_1_"
@@ -993,7 +993,7 @@
     "id": 129,
     "party_id": "PL",
     "name": "José Octavio Cardona León",
-    "social_media": "https://www.camara.gov.co/representantes/jose-octavio-cardona-leon",
+    "social_media": ["https://www.camara.gov.co/representantes/jose-octavio-cardona-leon"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-01/JOSE%20OCTAVIO%20CARDONA.png?itok=EJ2tgciV",
     "chamber_id": 2,
     "saloon_id": "p63_2_"
@@ -1002,7 +1002,7 @@
     "id": 63,
     "party_id": "AV",
     "name": "Juan Camilo Londoño Barrera",
-    "social_media": "https://www.camara.gov.co/representantes/juan-camilo-londono-barrera",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-camilo-londono-barrera"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20CAMILO%20LONDO%C3%91O.png?itok=VwApFYE4",
     "chamber_id": 2,
     "saloon_id": "p163"
@@ -1011,7 +1011,7 @@
     "id": 258,
     "party_id": "PL",
     "name": "Juan Carlos Lozada Vargas",
-    "social_media": "https://www.camara.gov.co/representantes/juan-carlos-lozada-vargas",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-carlos-lozada-vargas"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JUAN%20CARLOS%20LOZADA%20VARGAS.png?itok=ansUP1P0",
     "chamber_id": 2,
     "saloon_id": "p74",
@@ -1021,7 +1021,7 @@
     "id": 207,
     "party_id": "CITREP",
     "name": "Juan Carlos Vargas Soler",
-    "social_media": "https://www.camara.gov.co/representantes/juan-carlos-vargas-soler",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-carlos-vargas-soler"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20CARLOS%20VARGAS.png?itok=LCC3iFos",
     "chamber_id": 2,
     "saloon_id": "p184"
@@ -1030,7 +1030,7 @@
     "id": 153,
     "party_id": "PC",
     "name": "Juan Carlos Wills Ospina",
-    "social_media": "https://www.camara.gov.co/representantes/juan-carlos-wills-ospina",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-carlos-wills-ospina"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20CARLOS%20WILLS.png?itok=OTZ_TIjH",
     "chamber_id": 2,
     "saloon_id": "p46"
@@ -1039,7 +1039,7 @@
     "id": 154,
     "party_id": "PC",
     "name": "Juan Daniel Peñuela Calvache",
-    "social_media": "https://www.camara.gov.co/representantes/juan-daniel-penuela-calvache",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-daniel-penuela-calvache"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20DANIEL%20PE%C3%91UELA.png?itok=nF1crZ6A",
     "chamber_id": 2,
     "saloon_id": "p8"
@@ -1048,7 +1048,7 @@
     "id": 49,
     "party_id": "CD",
     "name": "Juan Felipe Corzo Álvarez",
-    "social_media": "https://www.camara.gov.co/representantes/juan-felipe-corzo-alvarez",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-felipe-corzo-alvarez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/JUAN%20FELIPE%20CORZO.png?itok=CVl_ghRK",
     "chamber_id": 2,
     "saloon_id": "p188"
@@ -1057,7 +1057,7 @@
     "id": 183,
     "party_id": "CD",
     "name": "Juan Fernando Espinal Ramírez",
-    "social_media": "https://www.camara.gov.co/representantes/juan-fernando-espinal-ramirez",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-fernando-espinal-ramirez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JUAN%20FERNANDO%20ESPINAL%20RAMIREZ_0.png?itok=3rfxQ-u0",
     "chamber_id": 2,
     "saloon_id": "p102_1_"
@@ -1066,7 +1066,7 @@
     "id": 155,
     "party_id": "PC",
     "name": "Juan Loreto Gómez Soto",
-    "social_media": "https://www.camara.gov.co/representantes/juan-loreto-gomez-soto",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-loreto-gomez-soto"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20LORETO%20GOMEZ.png?itok=vqplvhx9",
     "chamber_id": 2,
     "saloon_id": "p44"
@@ -1075,7 +1075,7 @@
     "id": 216,
     "party_id": "LIGA",
     "name": "Juan Manuel Cortés Dueñas",
-    "social_media": "https://www.camara.gov.co/representantes/juan-manuel-cortes-duenas",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-manuel-cortes-duenas"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-03/JUAN%20MANUEL%20CORTES.png?itok=nIEUDaZ_",
     "chamber_id": 2,
     "saloon_id": "p153_2_"
@@ -1084,7 +1084,7 @@
     "id": 208,
     "party_id": "CITREP",
     "name": "Juan Pablo Salazar Rivera",
-    "social_media": "https://www.camara.gov.co/representantes/juan-pablo-salazar-rivera",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-pablo-salazar-rivera"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20PABLO%20SALAZAR.png?itok=MEo5kmrY",
     "chamber_id": 2,
     "saloon_id": "p183"
@@ -1093,7 +1093,7 @@
     "id": 226,
     "party_id": "NL",
     "name": "Juan Sebastián Gómez Gonzáles",
-    "social_media": "https://www.camara.gov.co/representantes/juan-sebastian-gomez-gonzales",
+    "social_media": ["https://www.camara.gov.co/representantes/juan-sebastian-gomez-gonzales"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUAN%20SEBASTIAN%20GOMEZ.png?itok=7h233cAe",
     "chamber_id": 2,
     "saloon_id": "p162"
@@ -1102,7 +1102,7 @@
     "id": 156,
     "party_id": "PC",
     "name": "Juana Carolina Londoño Jaramillo",
-    "social_media": "https://www.camara.gov.co/representantes/juana-carolina-londono-jaramillo",
+    "social_media": ["https://www.camara.gov.co/representantes/juana-carolina-londono-jaramillo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JUANA%20CAROLINA%20LONDO%C3%91O.png?itok=w47Ffx2G",
     "chamber_id": 2,
     "saloon_id": "p12"
@@ -1111,7 +1111,7 @@
     "id": 227,
     "party_id": "NL",
     "name": "Julia Miranda Londoño",
-    "social_media": "https://www.camara.gov.co/representantes/julia-miranda-londono",
+    "social_media": ["https://www.camara.gov.co/representantes/julia-miranda-londono"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JULIA%20MIRANDA%20LONDO%C3%91O.png?itok=_SW1_fZF",
     "chamber_id": 2,
     "saloon_id": "p137_2_"
@@ -1120,7 +1120,7 @@
     "id": 110,
     "party_id": "PU",
     "name": "Julián David López Tenorio",
-    "social_media": "https://www.camara.gov.co/representantes/julian-david-lopez-tenorio",
+    "social_media": ["https://www.camara.gov.co/representantes/julian-david-lopez-tenorio"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JULIAN%20DAVID%20LOPEZ.png?itok=tQ3H0jb6",
     "chamber_id": 2,
     "saloon_id": "p39_2_"
@@ -1129,7 +1129,7 @@
     "id": 131,
     "party_id": "PL",
     "name": "Julián Peinado Ramírez",
-    "social_media": "https://www.camara.gov.co/representantes/julian-peinado-ramirez",
+    "social_media": ["https://www.camara.gov.co/representantes/julian-peinado-ramirez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JULIAN%20PEINADO%20RAMIREZ.png?itok=mj54BoJp",
     "chamber_id": 2,
     "saloon_id": "p115"
@@ -1138,7 +1138,7 @@
     "id": 157,
     "party_id": "PC",
     "name": "Juliana Aray Franco",
-    "social_media": "https://www.camara.gov.co/representantes/juliana-aray-franco",
+    "social_media": ["https://www.camara.gov.co/representantes/juliana-aray-franco"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-03/JULIANA%20ARAY%20FRANCO.png?itok=O-0Iq8Aj",
     "chamber_id": 2,
     "saloon_id": "p26_2_"
@@ -1147,7 +1147,7 @@
     "id": 74,
     "party_id": "CR",
     "name": "Julio César Triana Quintero",
-    "social_media": "https://www.camara.gov.co/representantes/julio-cesar-triana-quintero",
+    "social_media": ["https://www.camara.gov.co/representantes/julio-cesar-triana-quintero"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/JULIO%20CESAR%20TRIANA%20QUINTERO.png?itok=VfH1eRIN",
     "chamber_id": 2,
     "saloon_id": "p100_2_"
@@ -1156,7 +1156,7 @@
     "id": 158,
     "party_id": "PC",
     "name": "Julio Roberto Salazar Pérdomo",
-    "social_media": "https://www.camara.gov.co/representantes/julio-roberto-salazar-perdomo",
+    "social_media": ["https://www.camara.gov.co/representantes/julio-roberto-salazar-perdomo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/JULIO%20ROBERTO%20SALAZAR.png?itok=bsCmGxYJ",
     "chamber_id": 2,
     "saloon_id": "p42"
@@ -1165,7 +1165,7 @@
     "id": 209,
     "party_id": "CITREP",
     "name": "Karen Astrith Manrique Olarte",
-    "social_media": "https://www.camara.gov.co/representantes/karen-astrith-manrique-olarte",
+    "social_media": ["https://www.camara.gov.co/representantes/karen-astrith-manrique-olarte"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-06/KAREN%20ASTRID%20MANRIQUE.png?itok=QcSlMyC7",
     "chamber_id": 2,
     "saloon_id": "p169"
@@ -1174,7 +1174,7 @@
     "id": 210,
     "party_id": "CITREP",
     "name": "Karen Juliana López Salazar",
-    "social_media": "https://www.camara.gov.co/representantes/karen-juliana-lopez-salazar",
+    "social_media": ["https://www.camara.gov.co/representantes/karen-juliana-lopez-salazar"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-05/KAREN%20JULIANA%20LOPEZ.png?itok=G8I_mT8-",
     "chamber_id": 2,
     "saloon_id": "p168"
@@ -1183,7 +1183,7 @@
     "id": 132,
     "party_id": "PL",
     "name": "Karyme Adrana Cotes Martínez",
-    "social_media": "https://www.camara.gov.co/representantes/karyme-adrana-cotes-martinez",
+    "social_media": ["https://www.camara.gov.co/representantes/karyme-adrana-cotes-martinez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/KARIME%20ADRIANA%20COTES.png?itok=iYVw_hip",
     "chamber_id": 2,
     "saloon_id": "p84_2_"
@@ -1192,7 +1192,7 @@
     "id": 133,
     "party_id": "PL",
     "name": "Kelyn Johana González Duarte",
-    "social_media": "https://www.camara.gov.co/representantes/kelyn-johana-gonzalez-duarte",
+    "social_media": ["https://www.camara.gov.co/representantes/kelyn-johana-gonzalez-duarte"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/KELYN%20JOHANA%20GONZALEZ.png?itok=hjDuh_UQ",
     "chamber_id": 2,
     "saloon_id": "p96"
@@ -1201,7 +1201,7 @@
     "id": 45,
     "party_id": "PH",
     "name": "Leider Alexandra Vásquez Ochoa",
-    "social_media": "https://www.camara.gov.co/representantes/leider-alexandra-vasquez-ochoa",
+    "social_media": ["https://www.camara.gov.co/representantes/leider-alexandra-vasquez-ochoa"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LEIDER%20ALEXANDRA%20VASQUEZ.png?itok=wUllInMf",
     "chamber_id": 2,
     "saloon_id": "p19"
@@ -1210,7 +1210,7 @@
     "id": 134,
     "party_id": "PL",
     "name": "Leonardo de Jesús Gallego Arroyave",
-    "social_media": "https://www.camara.gov.co/representantes/leonardo-de-jesus-gallego-arroyave",
+    "social_media": ["https://www.camara.gov.co/representantes/leonardo-de-jesus-gallego-arroyave"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LEONARDO%20DE%20JESUS%20GALLEGO.png?itok=iRvPUCxX",
     "chamber_id": 2,
     "saloon_id": "p87_2_"
@@ -1219,7 +1219,7 @@
     "id": 211,
     "party_id": "CITREP",
     "name": "Leonor María Palencia Vega",
-    "social_media": "https://www.camara.gov.co/representantes/leonor-maria-palencia-vega",
+    "social_media": ["https://www.camara.gov.co/representantes/leonor-maria-palencia-vega"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LEONOR%20MARIA%20PALENCIA.png?itok=6TNqWyUM",
     "chamber_id": 2,
     "saloon_id": "p167"
@@ -1228,7 +1228,7 @@
     "id": 174,
     "party_id": "PH",
     "name": "Leyla Marleny Rincón Trujillo",
-    "social_media": "https://www.camara.gov.co/representantes/leyla-marleny-rincon-trujillo",
+    "social_media": ["https://www.camara.gov.co/representantes/leyla-marleny-rincon-trujillo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LEYLA%20MARLENY%20RICON.png?itok=_c4WCEk3",
     "chamber_id": 2,
     "saloon_id": "p6"
@@ -1237,7 +1237,7 @@
     "id": 159,
     "party_id": "PC",
     "name": "Libardo Cruz Casado",
-    "social_media": "https://www.camara.gov.co/representantes/libardo-cruz-casado",
+    "social_media": ["https://www.camara.gov.co/representantes/libardo-cruz-casado"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LIBARDO%20CRUZ%20CASADO.png?itok=HRAofnf-",
     "chamber_id": 2,
     "saloon_id": "p22_1_"
@@ -1246,7 +1246,7 @@
     "id": 75,
     "party_id": "CR",
     "name": "Lina María Garrido Martín",
-    "social_media": "https://www.camara.gov.co/representantes/lina-maria-garrido-martin",
+    "social_media": ["https://www.camara.gov.co/representantes/lina-maria-garrido-martin"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2023-03/LINA%20MARIA%20GARRIDO.png?itok=rfgoawas",
     "chamber_id": 2,
     "saloon_id": "p108_2_2"
@@ -1255,7 +1255,7 @@
     "id": 191,
     "party_id": "COM",
     "name": "Luis Alberto Albán Urbano",
-    "social_media": "https://www.camara.gov.co/representantes/luis-alberto-alban-urbano",
+    "social_media": ["https://www.camara.gov.co/representantes/luis-alberto-alban-urbano"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/LUIS%20ALBERTO%20ALBAN%20URBANO.png?itok=asSclGCW",
     "chamber_id": 2,
     "saloon_id": "p155"
@@ -1264,7 +1264,7 @@
     "id": 135,
     "party_id": "PL",
     "name": "Luis Carlos Ochoa Tobón",
-    "social_media": "https://www.camara.gov.co/representantes/luis-carlos-ochoa-tobon",
+    "social_media": ["https://www.camara.gov.co/representantes/luis-carlos-ochoa-tobon"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20CARLOS%20OCHOA.png?itok=-Nq0rssI",
     "chamber_id": 2,
     "saloon_id": "p90_2_2"
@@ -1273,7 +1273,7 @@
     "id": 160,
     "party_id": "PC",
     "name": "Luis David Súarez Chadid",
-    "social_media": "https://www.camara.gov.co/representantes/luis-david-suarez-chadid",
+    "social_media": ["https://www.camara.gov.co/representantes/luis-david-suarez-chadid"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20DAVID%20SUAREZ.png?itok=KlsR_yg3",
     "chamber_id": 2,
     "saloon_id": "p41"
@@ -1282,7 +1282,7 @@
     "id": 161,
     "party_id": "PC",
     "name": "Luis Eduardo Díaz Mateus",
-    "social_media": "https://www.camara.gov.co/representantes/luis-eduardo-diaz-mateus",
+    "social_media": ["https://www.camara.gov.co/representantes/luis-eduardo-diaz-mateus"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20EDUARDO%20DIAZ.png?itok=NG1ev4R9",
     "chamber_id": 2,
     "saloon_id": "p40"
@@ -1291,7 +1291,7 @@
     "id": 162,
     "party_id": "PC",
     "name": "Luis Miguel López Aristizábal",
-    "social_media": "https://www.camara.gov.co/representantes/luis-miguel-lopez-aristizabal",
+    "social_media": ["https://www.camara.gov.co/representantes/luis-miguel-lopez-aristizabal"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20MIGUEL%20LOPEZ.png?itok=m-bIaPyF",
     "chamber_id": 2,
     "saloon_id": "p47_2_"
@@ -1300,7 +1300,7 @@
     "id": 212,
     "party_id": "CITREP",
     "name": "Luis Ramiro Ricardo Buelvas",
-    "social_media": "https://www.camara.gov.co/representantes/luis-ramiro-ricardo-buelvas",
+    "social_media": ["https://www.camara.gov.co/representantes/luis-ramiro-ricardo-buelvas"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUIS%20RAMIRO%20RICARDO.png?itok=pnB0PRLa",
     "chamber_id": 2,
     "saloon_id": "p178_1"
@@ -1309,7 +1309,7 @@
     "id": 98,
     "party_id": "AV",
     "name": "Luvi Katherine Miranda Peña",
-    "social_media": "https://www.camara.gov.co/representantes/luvi-katherine-miranda-pena",
+    "social_media": ["https://www.camara.gov.co/representantes/luvi-katherine-miranda-pena"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/LUVI%20KATHERINE%20MIRANDA.png?itok=IwbcoPVI",
     "chamber_id": 2,
     "saloon_id": "p135_1_"
@@ -1318,7 +1318,7 @@
     "id": 255,
     "party_id": "CR",
     "name": "Luz Ayda Pastrana Loaiza",
-    "social_media": "https://www.camara.gov.co/representantes/luz-ayda-pastrana-loaiza",
+    "social_media": ["https://www.camara.gov.co/representantes/luz-ayda-pastrana-loaiza"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-04/LUZ%20AYDA%20PASTRANA_0.png?itok=C1Ub1fpL",
     "chamber_id": 2,
     "saloon_id": "p140_12",
@@ -1328,7 +1328,7 @@
     "id": 217,
     "party_id": "LIGA",
     "name": "Marelen Castillo Torres",
-    "social_media": "https://www.camara.gov.co/representantes/marelen-castillo-torres",
+    "social_media": ["https://www.camara.gov.co/representantes/marelen-castillo-torres"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARELEN%20CASTILLO%20TORRES.png?itok=HomHkGv4",
     "chamber_id": 2,
     "saloon_id": "p154_2_"
@@ -1337,7 +1337,7 @@
     "id": 86,
     "party_id": "PH",
     "name": "María del Mar Pizarro García",
-    "social_media": "https://www.camara.gov.co/representantes/maria-del-mar-pizarro-garcia",
+    "social_media": ["https://www.camara.gov.co/representantes/maria-del-mar-pizarro-garcia"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARIA%20DEL%20MAR%20PIZARRO.png?itok=l9BUCmYQ",
     "chamber_id": 2,
     "saloon_id": "p54_2_"
@@ -1346,7 +1346,7 @@
     "id": 59,
     "party_id": "PL",
     "name": "María Eugenia Lopera Monsalve",
-    "social_media": "https://www.camara.gov.co/representantes/maria-eugenia-lopera-monsalve",
+    "social_media": ["https://www.camara.gov.co/representantes/maria-eugenia-lopera-monsalve"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARIA%20EUGENIA%20LOPERA.png?itok=pxzist78",
     "chamber_id": 2,
     "saloon_id": "p90_2_"
@@ -1355,7 +1355,7 @@
     "id": 46,
     "party_id": "PH",
     "name": "María Fernanda Carrascal Rojas",
-    "social_media": "https://www.camara.gov.co/representantes/maria-fernanda-carrascal-rojas",
+    "social_media": ["https://www.camara.gov.co/representantes/maria-fernanda-carrascal-rojas", "https://x.com/MafeCarrascal"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARIA%20FERNANDA%20CARRASCAL.png?itok=v_z7zWyl",
     "chamber_id": 2,
     "saloon_id": "p51_2_"
@@ -1364,7 +1364,7 @@
     "id": 62,
     "party_id": "AV",
     "name": "Martha Lisbeth Alfonso Jurado",
-    "social_media": "https://www.camara.gov.co/representantes/martha-lisbeth-alfonso-jurado",
+    "social_media": ["https://www.camara.gov.co/representantes/martha-lisbeth-alfonso-jurado"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARTHA%20LISBETH%20ALFOSO.png?itok=QyEdCzuS",
     "chamber_id": 2,
     "saloon_id": "p165_2"
@@ -1373,7 +1373,7 @@
     "id": 244,
     "party_id": "PH",
     "name": "Mary Anne Andrea Perdomo",
-    "social_media": "https://www.camara.gov.co/representantes/mary-anne-andrea-perdomo",
+    "social_media": ["https://www.camara.gov.co/representantes/mary-anne-andrea-perdomo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MARY%20ANNE%20ANDREA.png?itok=bt-bwKxl",
     "chamber_id": 2,
     "saloon_id": "p15",
@@ -1383,7 +1383,7 @@
     "id": 76,
     "party_id": "CR",
     "name": "Mauricio Parodi Díaz",
-    "social_media": "https://www.camara.gov.co/representantes/mauricio-parodi-diaz",
+    "social_media": ["https://www.camara.gov.co/representantes/mauricio-parodi-diaz"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-06/FOTO%20MAURICIO%20PARODI.jpg?itok=Q3f3ryhM",
     "chamber_id": 2,
     "saloon_id": "p111"
@@ -1392,7 +1392,7 @@
     "id": 229,
     "party_id": "PEC",
     "name": "Miguel Abraham Polo Polo",
-    "social_media": "https://www.camara.gov.co/representantes/miguel-abraham-polo-polo",
+    "social_media": ["https://www.camara.gov.co/representantes/miguel-abraham-polo-polo"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MIGUEL%20ABRAHAM%20POLO.png?itok=l4Gkhw1b",
     "chamber_id": 2,
     "saloon_id": "p151_2"
@@ -1401,7 +1401,7 @@
     "id": 111,
     "party_id": "PU",
     "name": "Milene Jarava Díaz",
-    "social_media": "https://www.camara.gov.co/representantes/milene-jarava-diaz",
+    "social_media": ["https://www.camara.gov.co/representantes/milene-jarava-diaz"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MILENE%20JARAVA%20DIAZ.png?itok=yRbqnZwp",
     "chamber_id": 2,
     "saloon_id": "p158"
@@ -1410,7 +1410,7 @@
     "id": 77,
     "party_id": "CR",
     "name": "Modesto Enrique Aguilera Vides",
-    "social_media": "https://www.camara.gov.co/representantes/modesto-enrique-aguilera-vides",
+    "social_media": ["https://www.camara.gov.co/representantes/modesto-enrique-aguilera-vides"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/MODESTO%20ENRIQUE%20AGUILERA%20VIDES.png?itok=YSs6r3zE",
     "chamber_id": 2,
     "saloon_id": "p17_2_"
@@ -1419,7 +1419,7 @@
     "id": 136,
     "party_id": "PL",
     "name": "Mónica Karina Bocanegra Pantoja",
-    "social_media": "https://www.camara.gov.co/representantes/monica-karina-bocanegra-pantoja",
+    "social_media": ["https://www.camara.gov.co/representantes/monica-karina-bocanegra-pantoja"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/MONICA%20KARINA%20BOCANEGRA.png?itok=S4k6RRq3",
     "chamber_id": 2,
     "saloon_id": "p59_2_"
@@ -1428,7 +1428,7 @@
     "id": 78,
     "party_id": "CR",
     "name": "Néstor Leonardo Rico Rico",
-    "social_media": "https://www.camara.gov.co/representantes/nestor-leonardo-rico-rico",
+    "social_media": ["https://www.camara.gov.co/representantes/nestor-leonardo-rico-rico"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-06/NESTOR%20LEONARDO%20RICO.png?itok=L40HCuyy",
     "chamber_id": 2,
     "saloon_id": "p32_2"
@@ -1437,7 +1437,7 @@
     "id": 163,
     "party_id": "PC",
     "name": "Nicolás Antonio Barguil Cubillos",
-    "social_media": "https://www.camara.gov.co/representantes/nicolas-antonio-barguil-cubillos",
+    "social_media": ["https://www.camara.gov.co/representantes/nicolas-antonio-barguil-cubillos"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/NICOLAS%20ANTONIO%20BARGUIL.png?itok=BEYdIlGf",
     "chamber_id": 2,
     "saloon_id": "p45"
@@ -1446,7 +1446,7 @@
     "id": 219,
     "party_id": "MAIS",
     "name": "Norman David Bañol Álvarez",
-    "social_media": "https://www.camara.gov.co/representantes/norman-david-banol-alvarez",
+    "social_media": ["https://www.camara.gov.co/representantes/norman-david-banol-alvarez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/NORMAN%20DAVID%20MU%C3%91OZ.png?itok=YwAnGYgS",
     "chamber_id": 2,
     "saloon_id": "p156_2"
@@ -1455,7 +1455,7 @@
     "id": 137,
     "party_id": "PL",
     "name": "Olga Beatriz González Correa",
-    "social_media": "https://www.camara.gov.co/representantes/olga-beatriz-gonzalez-correa",
+    "social_media": ["https://www.camara.gov.co/representantes/olga-beatriz-gonzalez-correa"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/OLGA%20BEATRIZ%20GONZALEZ.png?itok=KFTpXnXI",
     "chamber_id": 2,
     "saloon_id": "p83_2_"
@@ -1464,7 +1464,7 @@
     "id": 99,
     "party_id": "AV",
     "name": "Olga Lucia Velásquez Nieto",
-    "social_media": "https://www.camara.gov.co/representantes/olga-lucia-velasquez-nieto",
+    "social_media": ["https://www.camara.gov.co/representantes/olga-lucia-velasquez-nieto"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-03/OLGA%20LUCIA%20VELASQUEZ.png?itok=PIcnCeLI",
     "chamber_id": 2,
     "saloon_id": "p140_2_"
@@ -1473,7 +1473,7 @@
     "id": 261,
     "party_id": "CD",
     "name": "Olmes de Jesús Echeverría de la Rosa",
-    "social_media": "https://www.camara.gov.co/representantes/olmes-de-jesus-echeverria-de-la-rosa",
+    "social_media": ["https://www.camara.gov.co/representantes/olmes-de-jesus-echeverria-de-la-rosa"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/OLMES%20DE%20JESUS%20ECHEVERRIA.png?itok=4hVqooa5",
     "chamber_id": 2,
     "saloon_id": "p150_2_",
@@ -1483,7 +1483,7 @@
     "id": 213,
     "party_id": "CITREP",
     "name": "Orlando Castillo Advincula",
-    "social_media": "https://www.camara.gov.co/representantes/orlando-castillo-advincula",
+    "social_media": ["https://www.camara.gov.co/representantes/orlando-castillo-advincula"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/ORLANDO%20CASTILLO%20ADVINCULA.png?itok=7ny6VPI2",
     "chamber_id": 2,
     "saloon_id": "p171"
@@ -1492,7 +1492,7 @@
     "id": 184,
     "party_id": "CD",
     "name": "Óscar Darío Pérez Pineda",
-    "social_media": "https://www.camara.gov.co/representantes/oscar-dario-perez-pineda",
+    "social_media": ["https://www.camara.gov.co/representantes/oscar-dario-perez-pineda"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/OSCAR%20DARIO%20PEREZ.png?itok=SOcEOluX",
     "chamber_id": 2,
     "saloon_id": "p131"
@@ -1501,7 +1501,7 @@
     "id": 138,
     "party_id": "PL",
     "name": "Oscar Hernán Sánchez León",
-    "social_media": "https://www.camara.gov.co/representantes/oscar-hernan-sanchez-leon",
+    "social_media": ["https://www.camara.gov.co/representantes/oscar-hernan-sanchez-leon"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2017-12/OSCAR%20HERN%C3%81N%20S%C3%81NCHEZ%20LE%C3%93N.png?itok=-gnIo6sF",
     "chamber_id": 2,
     "saloon_id": "p92"
@@ -1510,7 +1510,7 @@
     "id": 185,
     "party_id": "CD",
     "name": "Oscar Leonardo Villamizar Meneses",
-    "social_media": "https://www.camara.gov.co/representantes/oscar-leonardo-villamizar-meneses",
+    "social_media": ["https://www.camara.gov.co/representantes/oscar-leonardo-villamizar-meneses"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2020-04/OSCAR%20LEONARDO%20VILLAMIZAR%20MENESES.png?itok=7K5BCtdK",
     "chamber_id": 2,
     "saloon_id": "p144_1_"
@@ -1519,7 +1519,7 @@
     "id": 79,
     "party_id": "CR",
     "name": "Oscar Rodrigo Campo Hurtado",
-    "social_media": "https://www.camara.gov.co/representantes/oscar-rodrigo-campo-hurtado",
+    "social_media": ["https://www.camara.gov.co/representantes/oscar-rodrigo-campo-hurtado"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/OSCAR%20RODRIGO%20CAMPO.png?itok=mhIEtPrj",
     "chamber_id": 2,
     "saloon_id": "p120_2_"
@@ -1528,7 +1528,7 @@
     "id": 192,
     "party_id": "COM",
     "name": "Pedro Baracutao García Ospina",
-    "social_media": "https://www.camara.gov.co/representantes/pedro-baracutao-garcia-ospina",
+    "social_media": ["https://www.camara.gov.co/representantes/pedro-baracutao-garcia-ospina"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/PEDRO%20BARACUTAO%20GARCIA.png?itok=5HZ6uZeO",
     "chamber_id": 2,
     "saloon_id": "p164"
@@ -1537,7 +1537,7 @@
     "id": 88,
     "party_id": "PH",
     "name": "Pedro José Súarez Vacca",
-    "social_media": "https://www.camara.gov.co/representantes/pedro-jose-suarez-vacca",
+    "social_media": ["https://www.camara.gov.co/representantes/pedro-jose-suarez-vacca"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/PEDRO%20JOSE%20SUAREZ.png?itok=k9Xf3Kl4",
     "chamber_id": 2,
     "saloon_id": "p14"
@@ -1546,7 +1546,7 @@
     "id": 139,
     "party_id": "PL",
     "name": "Piedad Correal Rubiano",
-    "social_media": "https://www.camara.gov.co/representantes/piedad-correal-rubiano",
+    "social_media": ["https://www.camara.gov.co/representantes/piedad-correal-rubiano"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/PIEDAD%20CORREAL%20RUBIANO.png?itok=cwWWTuyT",
     "chamber_id": 2,
     "saloon_id": "p89_2_"
@@ -1555,7 +1555,7 @@
     "id": 256,
     "party_id": "PC",
     "name": "Ruth Amelia Caycedo Rosero",
-    "social_media": "https://www.camara.gov.co/representantes/ruth-amelia-caycedo-rosero",
+    "social_media": ["https://www.camara.gov.co/representantes/ruth-amelia-caycedo-rosero"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/RUTH%20AMELIA%20CAICEDO_0.png?itok=mMkPEEfj",
     "chamber_id": 2,
     "saloon_id": "p10",
@@ -1565,7 +1565,7 @@
     "id": 140,
     "party_id": "PL",
     "name": "Sandra Bibiana Aristizábal Saleg",
-    "social_media": "https://www.camara.gov.co/representantes/sandra-bibiana-aristizabal-saleg",
+    "social_media": ["https://www.camara.gov.co/representantes/sandra-bibiana-aristizabal-saleg"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/SANDRA%20VIVIANA%20ARISTIZABAL.png?itok=jatXanqB",
     "chamber_id": 2,
     "saloon_id": "p65_2_"
@@ -1574,7 +1574,7 @@
     "id": 80,
     "party_id": "CR",
     "name": "Sandra Milena Ramírez Caviedes",
-    "social_media": "https://www.camara.gov.co/representantes/sandra-milena-ramirez-caviedes",
+    "social_media": ["https://www.camara.gov.co/representantes/sandra-milena-ramirez-caviedes"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-10/SANDRA%20MULENA%20RAMIREZ.png?itok=iqp8Y2gB",
     "chamber_id": 2,
     "saloon_id": "p98_2_"
@@ -1583,7 +1583,7 @@
     "id": 100,
     "party_id": "AV",
     "name": "Santiago Osorio Marín",
-    "social_media": "https://www.camara.gov.co/representantes/santiago-osorio-marin",
+    "social_media": ["https://www.camara.gov.co/representantes/santiago-osorio-marin"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/SANTIAGO%20OSORIO%20MARIN.png?itok=8d1enS49",
     "chamber_id": 2,
     "saloon_id": "p166"
@@ -1592,7 +1592,7 @@
     "id": 112,
     "party_id": "PU",
     "name": "Saray Elena Robayo Bechara",
-    "social_media": "https://www.camara.gov.co/representantes/saray-elena-robayo-bechara",
+    "social_media": ["https://www.camara.gov.co/representantes/saray-elena-robayo-bechara"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/SARAY%20ELENA%20ROBAYO.png?itok=tGVWXzs7",
     "chamber_id": 2,
     "saloon_id": "p91_2_"
@@ -1601,7 +1601,7 @@
     "id": 141,
     "party_id": "PL",
     "name": "Silvio José Carrasquilla Torres",
-    "social_media": "https://www.camara.gov.co/representantes/silvio-jose-carrasquilla-torres",
+    "social_media": ["https://www.camara.gov.co/representantes/silvio-jose-carrasquilla-torres"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-07/SILVIO%20JOSE%20CARRASQUILLA.png?itok=zBoIWLX4",
     "chamber_id": 2,
     "saloon_id": "p97"
@@ -1610,7 +1610,7 @@
     "id": 89,
     "party_id": "PH",
     "name": "Susana Gómez Castaño",
-    "social_media": "https://www.camara.gov.co/representantes/susana-gomez-castano",
+    "social_media": ["https://www.camara.gov.co/representantes/susana-gomez-castano"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-07/SUSANA%20GOMEZ%20CASTA%C3%91O.png?itok=YZAZaomo",
     "chamber_id": 2,
     "saloon_id": "p55_2_"
@@ -1619,7 +1619,7 @@
     "id": 113,
     "party_id": "PU",
     "name": "Teresa De Jesús Enríquez Rosero",
-    "social_media": "https://www.camara.gov.co/representantes/teresa-de-jesus-enriquez-rosero",
+    "social_media": ["https://www.camara.gov.co/representantes/teresa-de-jesus-enriquez-rosero"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2024-03/TERESA%20DE%20JESUS%20ENRIQUEZ.png?itok=onKW4w-n",
     "chamber_id": 2,
     "saloon_id": "p39"
@@ -1628,7 +1628,7 @@
     "id": 53,
     "party_id": "PU",
     "name": "Víctor Manuel Salcedo Guerrero",
-    "social_media": "https://www.camara.gov.co/representantes/victor-manuel-salcedo-guerrero",
+    "social_media": ["https://www.camara.gov.co/representantes/victor-manuel-salcedo-guerrero"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-09/VICTOR%20MANUEL%20SALCEDO.png?itok=thc8fCRs",
     "chamber_id": 2,
     "saloon_id": "p41_2_"
@@ -1637,7 +1637,7 @@
     "id": 165,
     "party_id": "PC",
     "name": "Wadith Alberto Manzur Imbett",
-    "social_media": "https://www.camara.gov.co/representantes/wadith-alberto-manzur-imbett",
+    "social_media": ["https://www.camara.gov.co/representantes/wadith-alberto-manzur-imbett"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WADITH%20ALBERTO%20MANZUR.png?itok=zJBi5Umh",
     "chamber_id": 2,
     "saloon_id": "p27_1_"
@@ -1646,7 +1646,7 @@
     "id": 228,
     "party_id": "GEM",
     "name": "Wilder Iberson Escobar Ortiz",
-    "social_media": "https://www.camara.gov.co/representantes/wilder-iberson-escobar-ortiz",
+    "social_media": ["https://www.camara.gov.co/representantes/wilder-iberson-escobar-ortiz"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WILDER%20IBERSON%20ESCOBAR.png?itok=XMhszj3b",
     "chamber_id": 2,
     "saloon_id": "p159_2"
@@ -1655,7 +1655,7 @@
     "id": 257,
     "party_id": "CITREP",
     "name": "William Ferney Aljure Martínez",
-    "social_media": "https://www.camara.gov.co/representantes/william-ferney-aljure-martinez",
+    "social_media": ["https://www.camara.gov.co/representantes/william-ferney-aljure-martinez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WILLIAM%20FERNEY%20ALJURE.png?itok=auiJIilM",
     "chamber_id": 2,
     "saloon_id": "p178",
@@ -1665,7 +1665,7 @@
     "id": 114,
     "party_id": "PU",
     "name": "Wilmer Ramiro Carrillo Mendoza",
-    "social_media": "https://www.camara.gov.co/representantes/wilmer-ramiro-carrillo-mendoza",
+    "social_media": ["https://www.camara.gov.co/representantes/wilmer-ramiro-carrillo-mendoza"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2017-08/WILMER%20RAMIRO%20CARRILLO%20MENDOZA.png?itok=JCVVFC4N",
     "chamber_id": 2,
     "saloon_id": "p90"
@@ -1674,7 +1674,7 @@
     "id": 101,
     "party_id": "AV",
     "name": "Wilmer Yair Castellanos Hernández",
-    "social_media": "https://www.camara.gov.co/representantes/wilmer-yair-castellanos-hernandez",
+    "social_media": ["https://www.camara.gov.co/representantes/wilmer-yair-castellanos-hernandez"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WILMER%20YAIR%20CASTELLANOS.png?itok=NHru7F1y",
     "chamber_id": 2,
     "saloon_id": "p144_2_"
@@ -1683,7 +1683,7 @@
     "id": 142,
     "party_id": "PL",
     "name": "Wilmer Yesid Guerrero Avendaño",
-    "social_media": "https://www.camara.gov.co/representantes/wilmer-yesid-guerrero-avendano",
+    "social_media": ["https://www.camara.gov.co/representantes/wilmer-yesid-guerrero-avendano"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/WILMER%20YESID%20GUERRERO.png?itok=Zw4ViQov",
     "chamber_id": 2,
     "saloon_id": "p133_2_"
@@ -1692,7 +1692,7 @@
     "id": 186,
     "party_id": "CD",
     "name": "Yenica Sugein Acosta Infante",
-    "social_media": "https://www.camara.gov.co/representantes/yenica-sugein-acosta-infante",
+    "social_media": ["https://www.camara.gov.co/representantes/yenica-sugein-acosta-infante"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/YENICA%20SUGEIN%20ACOSTA.png?itok=0E_a5HYm",
     "chamber_id": 2,
     "saloon_id": "p143_1_"
@@ -1701,7 +1701,7 @@
     "id": 187,
     "party_id": "CD",
     "name": "Yulieth Andrea Sánchez Carreño",
-    "social_media": "https://www.camara.gov.co/representantes/yulieth-andrea-sanchez-carreno",
+    "social_media": ["https://www.camara.gov.co/representantes/yulieth-andrea-sanchez-carreno"],
     "thumbnail": "https://www.camara.gov.co/sites/default/files/styles/minicuadrada/public/2022-08/YULIETH%20ANDREA%20SANCHEZ.png?itok=zK_KFSNZ",
     "chamber_id": 2,
     "saloon_id": "p130_2_2"

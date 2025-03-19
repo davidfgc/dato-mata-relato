@@ -1336,6 +1336,71 @@
           "vote": "yes"
         }
       ]
+    },
+    {
+      "voting-stage": 3,
+      "billId": "166/2023C",
+      "date": "2025-03-18",
+      "chamberId": "1",
+      "motion": "archive",
+      "votes": [
+        {
+          "representativeId": 230,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 231,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 232,
+          "vote": "no"
+        },
+        {
+          "representativeId": 233,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 234,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 236,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 237,
+          "vote": "no"
+        },
+        {
+          "representativeId": 238,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 239,
+          "vote": "no"
+        },
+        {
+          "representativeId": 240,
+          "vote": "no"
+        },
+        {
+          "representativeId": 241,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 242,
+          "vote": "no"
+        },
+        {
+          "representativeId": 243,
+          "vote": "no"
+        },
+        {
+          "representativeId": 376,
+          "vote": "yes"
+        }
+      ]
     }
   ]
 }
