@@ -196,11 +196,77 @@
     {
       "id": 17,
       "title": "Contratación directa - Hijo Ministra de Trabajo",
+      "description": "Prestar servicios profesionales para apoyar, la gestión de alianzas estratégicas, así como la formulación, desarrollo y seguimiento de iniciativas, planes, programas y proyectos, del Ministerio de Cultura, así como el manejo de agenda y proyectos de la Ministra de Cultura",
       "amount": 76000000,
       "date": "2023-04-11",
-      "description": "Prestar servicios profesionales para apoyar, la gestión de alianzas estratégicas, así como la formulación, desarrollo y seguimiento de iniciativas, planes, programas y proyectos, del Ministerio de Cultura, así como el manejo de agenda y proyectos de la Ministra de Cultura",
       "sources": ["https://x.com/Danielbricen/status/1666805669381668870"],
       "waste_filter": 1
+    },
+    {
+      "id": 18,
+      "title": "Contrato Laura Beltrán (@smilelalis) - Fondo Rotatorio del Ministerio de Relaciones Exteriores",
+      "description": "Prestación de servicios profesionales llevar a cabo estrategias de marketing digital en el marco del plan de comunicaciones 2025 del Ministerio De Relaciones Exteriores y su Fondo Rotatorio.",
+      "metadata": {
+        "entidada": "Ministerio de Relaciones Exteriores",
+        "type": "Contrato Directo",
+        "number": 5
+      },
+      "amount": 100000000,
+      "date": "2025-03-11",
+      "sources": ["https://x.com/JairoLadino_/status/1902694750009897236"],
+      "waste_filter": 4
+    },
+    {
+      "id": 19,
+      "title": "Contrato Laura Beltrán (@smilelalis) - Prosperidad Social",
+      "metadata": {
+        "entidada": "Prosperidad Social",
+        "type": "Contrato Directo",
+        "number": 4
+      },
+      "amount": 17503333,
+      "date": "2023-10-12",
+      "sources": ["https://x.com/JairoLadino_/status/1902694750009897236"],
+      "waste_filter": 4
+    },
+    {
+      "id": 20,
+      "title": "Contrato Laura Beltrán (@smilelalis) - Prosperidad Social",
+      "metadata": {
+        "entidada": "Prosperidad Social",
+        "type": "Contrato Directo",
+        "number": 4
+      },
+      "amount": 23600000,
+      "date": "2023-05-19",
+      "sources": ["https://x.com/JairoLadino_/status/1902694750009897236"],
+      "waste_filter": 4
+    },
+    {
+      "id": 21,
+      "title": "Contrato Laura Beltrán (@smilelalis) - Colombia Compra Eficiente",
+      "metadata": {
+        "entidada": "Colombia Compra Eficiente",
+        "type": "Contrato Directo",
+        "number": 2
+      },
+      "amount": 51596774,
+      "date": "2023-01-19",
+      "sources": ["https://x.com/JairoLadino_/status/1902694750009897236"],
+      "waste_filter": 4
+    },
+    {
+      "id": 22,
+      "title": "Contrato Laura Beltrán (@smilelalis) - Colombia Compra Eficiente",
+      "metadata": {
+        "entidada": "Colombia Compra Eficiente",
+        "type": "Contrato Directo",
+        "number": 1
+      },
+      "amount": 10645161,
+      "date": "2022-10-27",
+      "sources": ["https://x.com/JairoLadino_/status/1902694750009897236"],
+      "waste_filter": 4
     }
   ]
 }
