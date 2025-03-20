@@ -6,7 +6,8 @@
       "amount": 3965523131,
       "date": "2024-11-21",
       "description": "El señor RESIDENTE cobrará $2.185.000.000 y el resto se irá en la producción del evento. Todo esto en medio de una crisis fiscal.",
-      "sources": ["https://x.com/Danielbricen/status/1885183820216832238"]
+      "sources": ["https://x.com/Danielbricen/status/1885183820216832238"],
+      "waste_filter": 4
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "amount": 71400000,
       "date": "2024-11-12",
       "description": "Pago de pauta de prosperidad social para publicidad en el programa La Cloaca",
-      "sources": ["https://x.com/Danielbricen/status/1885668846394028478"]
+      "sources": ["https://x.com/Danielbricen/status/1885668846394028478"],
+      "waste_filter": 4
     },
     {
       "id": 3,
@@ -23,7 +25,8 @@
       "date": "2024-09-20",
       "description": "PRESTAR SERVICIOS DE APOYO A LA GESTION AL ORDENADOR DEL GASTO DEL FONDO NACIONAL DE GESTION DEL RIESGO DE DESASTRES FNGRD",
       "contract": "9677-PPAL001-475-2024",
-      "sources": ["https://x.com/Danielbricen/status/1885183820216832238"]
+      "sources": ["https://x.com/Danielbricen/status/1885183820216832238"],
+      "waste_filter": 4
     },
     {
       "id": 4,
@@ -37,7 +40,8 @@
         "obligaciones": 4231518869,
         "pagos": 4216534076
       },
-      "sources": ["https://x.com/Danielbricen/status/1779652751183458408"]
+      "sources": ["https://x.com/Danielbricen/status/1779652751183458408"],
+      "waste_filter": 2
     },
     {
       "id": 5,
@@ -45,7 +49,8 @@
       "amount": 188000000,
       "date": "2022-03-16",
       "description": "Fondos de USAID destinados a óperas transexuales en Colombia",
-      "sources": ["https://x.com/EmmaRincon/status/1886519837934969178", "https://x.com/silvajonathan01/status/1886557401161035987"]
+      "sources": ["https://x.com/EmmaRincon/status/1886519837934969178", "https://x.com/silvajonathan01/status/1886557401161035987"],
+      "waste_filter": 3
     },
     {
       "id": 6,
@@ -73,7 +78,8 @@
         "inversion": 21884891604,
         "funcionamiento": 139020442846
       },
-      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"],
+      "waste_filter": 2
     },
     {
       "id": 9,
@@ -86,7 +92,8 @@
         "funcionamiento": 202107623109,
         "variacion": 77
       },
-      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"],
+      "waste_filter": 2
     },
     {
       "id": 10,
@@ -99,7 +106,8 @@
         "funcionamiento": 201714000000,
         "variacion": 11
       },
-      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"],
+      "waste_filter": 2
     },
     {
       "id": 11,
@@ -112,7 +120,8 @@
         "funcionamiento": 211591000000,
         "variacion": 4
       },
-      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"],
+      "waste_filter": 2
     },
     {
       "id": 12,
@@ -125,7 +134,8 @@
         "funcionamiento": 218449000000,
         "variacion": 6
       },
-      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"],
+      "waste_filter": 2
     },
     {
       "id": 13,
@@ -138,7 +148,8 @@
         "funcionamiento": 390544544563,
         "variacion": 63
       },
-      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"],
+      "waste_filter": 2
     },
     {
       "id": 14,
@@ -151,7 +162,8 @@
         "funcionamiento": 500691768189,
         "variacion": 21
       },
-      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"],
+      "waste_filter": 2
     },
     {
       "id": 15,
@@ -164,7 +176,8 @@
         "funcionamiento": 547711000000,
         "variacion": 7
       },
-      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"]
+      "sources": ["https://x.com/AdrianaVeterin/status/1886745052497465585"],
+      "waste_filter": 2
     },
     {
       "id": 16,
@@ -179,6 +192,15 @@
         "https://www.infobae.com/colombia/2023/05/10/no-tengo-que-aclarar-nada-francia-marquez-sobre-el-costo-de-su-viaje-a-africa/",
         "https://www.vicepresidencia.gov.co/prensa/Paginas/Vicepresidenta-Francia-Marquez-Mina-inicia-visita-de-alto-nivel-a-tres-naciones-africanas.aspx"
       ]
+    },
+    {
+      "id": 17,
+      "title": "Contratación directa - Hijo Ministra de Trabajo",
+      "amount": 76000000,
+      "date": "2023-04-11",
+      "description": "Prestar servicios profesionales para apoyar, la gestión de alianzas estratégicas, así como la formulación, desarrollo y seguimiento de iniciativas, planes, programas y proyectos, del Ministerio de Cultura, así como el manejo de agenda y proyectos de la Ministra de Cultura",
+      "sources": ["https://x.com/Danielbricen/status/1666805669381668870"],
+      "waste_filter": 1
     }
   ]
 }

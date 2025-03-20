@@ -1,8 +1,7 @@
-import { ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon } from '@mui/icons-material';
-import { Box, Collapse, Divider, IconButton, Paper, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import PropTypes from 'prop-types';
-import SourcesList from './SourcesList';
-import { formatCurrency, formatDate } from './utils';
+import ContentCard from './ContentCard';
+import { formatDate } from './utils';
 
 const TimelineItem = ({ item, isLast, isExpanded, onToggle }) => {
   return (
@@ -77,59 +76,7 @@ const TimelineItem = ({ item, isLast, isExpanded, onToggle }) => {
           minWidth: 0,
         }}
       >
-        <Paper
-          elevation={isExpanded ? 2 : 1}
-          sx={{
-            cursor: 'pointer',
-            '&:hover': { boxShadow: 3 },
-            transition: 'box-shadow 200ms',
-          }}
-          onClick={onToggle}
-        >
-          <Box sx={{ p: 2 }}>
-            <Box
-              sx={{
-                display: 'flex',
-                flexDirection: { xs: 'column', sm: 'row' },
-                justifyContent: 'space-between',
-                alignItems: { xs: 'flex-start', sm: 'flex-start' },
-                gap: 1,
-              }}
-            >
-              <Box sx={{ width: '100%' }}>
-                <Typography variant="h6" component="div" sx={{ wordBreak: 'break-word' }}>
-                  {item.title}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Ver fuentes
-                </Typography>
-              </Box>
-              <Box
-                sx={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: { xs: 'space-between', sm: 'flex-end' },
-                  width: { xs: '100%', sm: 'auto' },
-                  mt: { xs: 1, sm: 0 },
-                  gap: 1,
-                  flexShrink: 0,
-                }}
-              >
-                <Typography variant="h6" color="error.main" noWrap>
-                  {formatCurrency(item.amount)}
-                </Typography>
-                <IconButton size="small">{isExpanded ? <ExpandLessIcon /> : <ExpandMoreIcon />}</IconButton>
-              </Box>
-            </Box>
-
-            <Collapse in={isExpanded}>
-              <Box sx={{ mt: 2 }}>
-                <Divider />
-                <SourcesList sources={item.sources} />
-              </Box>
-            </Collapse>
-          </Box>
-        </Paper>
+        <ContentCard item={item} isExpanded={isExpanded} onToggle={onToggle} />
       </Box>
     </Box>
   );

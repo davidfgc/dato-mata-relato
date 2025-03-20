@@ -1,16 +1,19 @@
 import { Alert, Box, CircularProgress, Stack } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { ENDPOINTS } from '../../config/api';
 
 // Import components
 import StatisticsAlerts from './components/StatisticsAlerts';
 import TimelineItem from './components/TimelineItem';
+import TagsFilter from './components/TagsFilter';
+import { WasteFilterProvider, WasteFilterContext } from './context/WasteFilterContext';
 
-const FiscalInefficiency = () => {
+const FiscalInefficiencyContent = () => {
   const [expandedCard, setExpandedCard] = useState(null);
   const [fiscalMismatches, setFiscalMismatches] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { activeFilter } = useContext(WasteFilterContext);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -35,6 +38,12 @@ const FiscalInefficiency = () => {
   // Calculate total waste
   const totalWaste = fiscalMismatches.reduce((sum, item) => sum + item.amount, 0);
 
+  // Filter items based on active filter
+  const filteredMismatches = activeFilter ? fiscalMismatches.filter((item) => item.waste_filter === activeFilter) : fiscalMismatches;
+
+  // Calculate filtered waste
+  const filteredWaste = filteredMismatches.reduce((sum, item) => sum + item.amount, 0);
+
   if (isLoading) {
     return (
       <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
@@ -53,22 +62,33 @@ const FiscalInefficiency = () => {
 
   return (
     <Box sx={{ maxWidth: 'lg', mx: 'auto', p: { xs: 2, lg: 1 } }}>
+      {/* Tags Filter */}
+      <TagsFilter />
+
       {/* Statistics Alerts */}
-      <StatisticsAlerts totalWaste={totalWaste} />
+      <StatisticsAlerts totalWaste={activeFilter ? filteredWaste : totalWaste} />
 
       {/* Timeline */}
       <Stack spacing={2}>
-        {fiscalMismatches.map((item, index) => (
+        {filteredMismatches.map((item, index) => (
           <TimelineItem
             key={item.id}
             item={item}
-            isLast={index === fiscalMismatches.length - 1}
+            isLast={index === filteredMismatches.length - 1}
             isExpanded={expandedCard === item.id}
             onToggle={() => toggleCard(item.id)}
           />
         ))}
       </Stack>
     </Box>
+  );
+};
+
+const FiscalInefficiency = () => {
+  return (
+    <WasteFilterProvider>
+      <FiscalInefficiencyContent />
+    </WasteFilterProvider>
   );
 };
 
