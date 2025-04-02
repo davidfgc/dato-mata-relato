@@ -1,4 +1,4 @@
-import { Alert, Box, CircularProgress } from '@mui/material';
+import { Alert, Box, CircularProgress, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -86,13 +86,17 @@ const VotingRecord = () => {
     >
       <BillCard bill={bill} />
       {sessions.length > 1 && <PartyStagesVoteChart rawData={graphData} />}
-      <VotingTabs
-        votingStages={votingStages}
-        sessions={sessions}
-        graphData={partiesWeightData}
-        selectedTab={selectedTab}
-        onTabChange={handleTabChange}
-      />
+      {sessions.length > 0 ? (
+        <VotingTabs
+          votingStages={votingStages}
+          sessions={sessions}
+          graphData={partiesWeightData}
+          selectedTab={selectedTab}
+          onTabChange={handleTabChange}
+        />
+      ) : (
+        <Typography variant="h5">{'No hay votaciones registradas'}</Typography>
+      )}
     </Box>
   );
 };

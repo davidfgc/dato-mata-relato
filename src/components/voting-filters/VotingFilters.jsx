@@ -5,9 +5,6 @@ import {
   Box,
   Button,
   ButtonGroup,
-  Card,
-  CardContent,
-  CardMedia,
   Chip,
   CircularProgress,
   Container,
@@ -22,6 +19,7 @@ import { useEffect, useState } from 'react';
 
 // Import the API functions
 import { fetchBills, fetchParties, fetchRepresentatives, fetchVotingRecords, fetchVotingStages } from '../../api/api';
+import RepresentativesList from './RepresentativesList';
 
 const VotingFilters = () => {
   // State for selections
@@ -102,21 +100,21 @@ const VotingFilters = () => {
   // Filter representatives by party and vote
   const filteredRepresentatives = currentVotingRecord
     ? representatives.filter((rep) => {
-      // First filter by party (if 'ALL' is selected, skip party filter)
-      if (selectedParty !== 'ALL' && rep.party_id !== selectedParty) {
+        // First filter by party (if 'ALL' is selected, skip party filter)
+        if (selectedParty !== 'ALL' && rep.party_id !== selectedParty) {
+          return false;
+        }
+
+        // Then find their vote in the current voting record
+        const vote = currentVotingRecord.votes.find((v) => v.representativeId === rep.id);
+
+        // Apply vote filter
+        if (voteFilter === 'all') return vote !== undefined;
+        if (voteFilter === 'yes') return vote && vote.vote === 'yes';
+        if (voteFilter === 'no') return vote && vote.vote === 'no';
+
         return false;
-      }
-
-      // Then find their vote in the current voting record
-      const vote = currentVotingRecord.votes.find((v) => v.representativeId === rep.id);
-
-      // Apply vote filter
-      if (voteFilter === 'all') return vote !== undefined;
-      if (voteFilter === 'yes') return vote && vote.vote === 'yes';
-      if (voteFilter === 'no') return vote && vote.vote === 'no';
-
-      return false;
-    })
+      })
     : [];
 
   // Get vote status for a representative
@@ -277,56 +275,12 @@ const VotingFilters = () => {
         </Box>
       )}
 
-      <Grid container spacing={2}>
-        {filteredRepresentatives.length > 0 ? (
-          filteredRepresentatives.map((rep) => {
-            const voteStatus = getVoteStatus(rep.id);
-            return (
-              <Grid item xs={12} sm={6} md={4} lg={3} key={rep.id}>
-                <Card
-                  sx={{
-                    display: 'flex',
-                    height: '100%',
-                    border: 1,
-                    borderColor: getVoteColor(voteStatus),
-                  }}
-                >
-                  <CardMedia
-                    component="img"
-                    sx={{ width: 80, height: 80, objectFit: 'cover' }}
-                    image={rep.thumbnail || 'https://via.placeholder.com/80'}
-                    alt={rep.name}
-                  />
-                  <CardContent sx={{ flexGrow: 1, p: 2 }}>
-                    <Typography variant="body2" gutterBottom>
-                      {rep.name}
-                    </Typography>
-                    {selectedParty === 'ALL' && (
-                      <Typography variant="caption" color="text.secondary" display="block">
-                        {getPartyName(rep.party_id)}
-                      </Typography>
-                    )}
-                    <Box sx={{ display: 'flex', alignItems: 'center', mt: 1 }}>
-                      {getVoteIcon(voteStatus)}
-                      <Typography variant="caption" sx={{ ml: 1 }}>
-                        {voteStatus === 'yes' ? 'A favor' : voteStatus === 'no' ? 'En contra' : 'Ausente'}
-                      </Typography>
-                    </Box>
-                  </CardContent>
-                </Card>
-              </Grid>
-            );
-          })
-        ) : (
-          <Grid item xs={12}>
-            <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
-              <Typography variant="body1" color="text.secondary">
-                No se encontraron representantes con los filtros seleccionados
-              </Typography>
-            </Box>
-          </Grid>
-        )}
-      </Grid>
+      <RepresentativesList
+        representatives={filteredRepresentatives}
+        getVoteStatus={getVoteStatus}
+        showParty={selectedParty === 'ALL'}
+        getPartyName={getPartyName}
+      />
     </Container>
   );
 };

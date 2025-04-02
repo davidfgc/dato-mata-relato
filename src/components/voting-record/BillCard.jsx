@@ -1,4 +1,4 @@
-import { Card, CardContent, Stack, Typography } from '@mui/material';
+import { Card, CardContent, Link, Stack, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import PropTypes from 'prop-types';
 import StatusChip from '../common/StatusChip';
@@ -26,6 +26,9 @@ const BillCard = ({ bill }) => {
               <Typography variant="body2" color="text.secondary">
                 {bill.date}
               </Typography>
+              <Link href={`/#/reformas/${bill.id}/autores`} underline="hover" variant="body2">
+                Ver autores
+              </Link>
             </Stack>
           </Grid>
         </Grid>
@@ -36,6 +39,7 @@ const BillCard = ({ bill }) => {
 
 BillCard.propTypes = {
   bill: PropTypes.shape({
+    id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     shortTitle: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired,

@@ -36,8 +36,12 @@ const BillsList = () => {
 
   // Format the bill ID for display and navigation
   const formatBillPath = (id) => {
-    const parts = id.split('/');
-    return `/reformas/${parts[1]}/${parts[0]}/votacion`;
+    // Original formatting for voting records
+    if (id.includes('/')) {
+      const parts = id.split('/');
+      return `/reformas/${parts[0]}/${parts[1]}/votacion`;
+      // return `/reformas/${parts[1]}/${parts[0]}`;
+    }
   };
 
   if (loading) {
