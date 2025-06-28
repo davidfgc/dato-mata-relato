@@ -248,3 +248,10 @@ sketch
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,git,node,react
+
+# ======================================
+# Dato Mata Relato rules
+# ======================================
+
+# Ignore temp folder and its contents
+temp/

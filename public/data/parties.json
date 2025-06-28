@@ -13,7 +13,8 @@
       "president": "César Gaviria",
       "international_affiliation": "Socialist International",
       "social_media": ["https://x.com/PartidoLiberal"],
-      "website": "https://partidoliberal.org.co/"
+      "website": "https://partidoliberal.org.co/",
+      "preferred_order": 0
     },
     {
       "id": "PC",
@@ -28,7 +29,8 @@
       "president": "Nadia Blel",
       "international_affiliation": "International Democrat Center",
       "social_media": ["https://x.com/soyconservador"],
-      "website": "https://www.partidoconservador.com/"
+      "website": "https://www.partidoconservador.com/",
+      "preferred_order": 0
     },
     {
       "id": "CR",
@@ -40,7 +42,8 @@
       "senators": 11,
       "representatives": 16,
       "president": "Germán Córdoba",
-      "social_media": ["https://x.com/PCambioRadical"]
+      "social_media": ["https://x.com/PCambioRadical"],
+      "preferred_order": 1
     },
     {
       "id": "CD",
@@ -61,7 +64,8 @@
       "president": "Gabriel Jaime Vallejo",
       "international_affiliation": "International Democrat Union",
       "social_media": ["https://x.com/CeDemocratico"],
-      "website": "https://centrodemocratico.com/"
+      "website": "https://centrodemocratico.com/",
+      "preferred_order": 0
     },
     {
       "id": "PU",
@@ -76,7 +80,8 @@
       "president": "Clara Luz Roldán",
       "international_affiliation": "Liberal International",
       "social_media": ["https://x.com/partidodelaucol"],
-      "website": "https://www.partidodelau.com/"
+      "website": "https://www.partidodelau.com/",
+      "preferred_order": 1
     },
     {
       "id": "AV",
@@ -89,7 +94,8 @@
       "representatives": 11,
       "president": "Carlos Ramón González",
       "international_affiliation": "Global Greens",
-      "social_media": ["https://x.com/PartidoVerdeCoL"]
+      "social_media": ["https://x.com/PartidoVerdeCoL"],
+      "preferred_order": 0
     },
     {
       "id": "CH",
@@ -262,7 +268,8 @@
       "representatives": -1,
       "president": "",
       "social_media": ["https://x.com/PartidoMIRA"],
-      "website": "https://partidomira.com/"
+      "website": "https://partidomira.com/",
+      "preferred_order": 2
     },
     {
       "id": "DYC",
@@ -298,7 +305,8 @@
       "government_position": "",
       "senators": -1,
       "representatives": -1,
-      "president": ""
+      "president": "",
+      "preferred_order": 2
     },
     {
       "id": "GEM",
