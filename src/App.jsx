@@ -4,6 +4,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import './App.css';
 import BillsList from './components/bills/BillsList';
+import BillDetail from './components/bills/BillDetail';
 import BillAuthors from './components/bills/BillAuthors';
 import Header from './components/common/Header';
 import CongressList from './components/congress/CongressList';
@@ -58,6 +59,7 @@ function App() {
             <Routes>
               <Route path="/" element={<BillsList />} />
               <Route path="/reformas" element={<BillsList />} />
+              <Route path="/reformas/:id/:year" element={<BillDetail />} />
               <Route path="/reformas/:id/:year/autores" element={<BillAuthors />} />
               <Route path="/reformas/:id/:year/votacion" element={<VotingRecord />} />
               <Route path="/voting-record" element={<VotingRecord />} />
