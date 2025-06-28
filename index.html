@@ -1,14 +1,21 @@
 <!doctype html>
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TC5WEG622Q"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      // Google Analytics setup
+      if (window.location.hostname !== 'localhost' && 
+          window.location.hostname !== '127.0.0.1' &&
+          !window.location.hostname.includes('.local')) {
 
-      gtag('config', 'G-TC5WEG622Q');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TC5WEG622Q');
+        
+        console.log('Google Analytics ENABLED in production mode');
+      } else {
+        console.log('Google Analytics disabled in development mode');
+      }
     </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
