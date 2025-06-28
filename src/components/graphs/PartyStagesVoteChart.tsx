@@ -2,10 +2,79 @@ import { Box, Typography } from '@mui/material';
 import { useMemo } from 'react';
 import { Bar, BarChart, CartesianGrid, LabelList, ResponsiveContainer, XAxis, YAxis } from 'recharts';
 
-const PartyStagesVoteChart = ({ rawData }) => {
+// Types for the component
+interface PartyResult {
+  yes: number;
+  no: number;
+  weight: number;
+}
+
+interface PartyStat {
+  party: string;
+  result: PartyResult;
+}
+
+interface Stage {
+  id: number;
+  motion: string;
+  partyStats: PartyStat[];
+}
+
+interface RawData {
+  stages: Stage[];
+}
+
+interface StageResult {
+  support: 'support' | 'oppose' | 'neutral' | 'unknown';
+  stageId: number;
+  weight?: number;
+}
+
+interface PartyData {
+  party: string;
+  supportWeight: number;
+  opposeWeight: number;
+  supportCount: number;
+  opposeCount: number;
+  stageResults: StageResult[];
+}
+
+interface StackedData {
+  party: string;
+  supportWeight: number;
+  opposeWeight: number;
+  support: number;
+  oppose: number;
+  stageResults: StageResult[];
+}
+
+interface PartyStagesVoteChartProps {
+  rawData: RawData;
+}
+
+// Props for Recharts components
+interface LabelProps {
+  x?: string | number;
+  y?: string | number;
+  width?: string | number;
+  height?: string | number;
+  value?: string | number;
+}
+
+interface TooltipPayload {
+  payload: StackedData;
+}
+
+interface TooltipProps {
+  active?: boolean;
+  payload?: TooltipPayload[];
+  label?: string;
+}
+
+const PartyStagesVoteChart = ({ rawData }: PartyStagesVoteChartProps) => {
   const chartData = useMemo(() => {
     // Get unique parties across all stages
-    const allParties = new Set();
+    const allParties = new Set<string>();
     rawData.stages.forEach((stage) => {
       stage.partyStats.forEach((partyStat) => {
         allParties.add(partyStat.party);
@@ -14,9 +83,9 @@ const PartyStagesVoteChart = ({ rawData }) => {
 
     // For each party, calculate support across stages
     return Array.from(allParties)
-      .map((partyName) => {
+      .map((partyName): PartyData => {
         // Track stages and results for this party
-        const partyData = { party: partyName, stageResults: [] };
+        const partyData = { party: partyName, stageResults: [] as StageResult[] };
 
         // For each stage, determine if the party supported the bill
         rawData.stages.forEach((stage) => {
@@ -29,7 +98,7 @@ const PartyStagesVoteChart = ({ rawData }) => {
           }
 
           // Determine if the party supported the bill in this stage
-          let support = 'unknown';
+          let support: StageResult['support'] = 'unknown';
 
           // If yes votes are more than no votes, the party supported the bill
           if (partyStats.result.yes > partyStats.result.no) {
@@ -51,15 +120,23 @@ const PartyStagesVoteChart = ({ rawData }) => {
             else if (support === 'oppose') support = 'support';
           }
 
-          partyData.stageResults.push({ support, stageId: stage.id, weight: partyStats.result.weight });
+          partyData.stageResults.push({ 
+            support, 
+            stageId: stage.id, 
+            weight: partyStats.result.weight 
+          });
         });
 
         const support = partyData.stageResults.filter((r) => r.support === 'support');
         const supportCount = support.length;
         const oppose = partyData.stageResults.filter((r) => r.support === 'oppose');
         const opposeCount = oppose.length;
-        const supportWeight = support.reduce((sum, result) => sum + (result.weight || 0), 0) / supportCount;
-        const opposeWeight = oppose.reduce((sum, result) => sum + (result.weight || 0), 0) / opposeCount;
+        const supportWeight = supportCount > 0 
+          ? support.reduce((sum, result) => sum + (result.weight || 0), 0) / supportCount 
+          : 0;
+        const opposeWeight = opposeCount > 0 
+          ? oppose.reduce((sum, result) => sum + (result.weight || 0), 0) / opposeCount 
+          : 0;
 
         return {
           party: partyName,
@@ -76,12 +153,12 @@ const PartyStagesVoteChart = ({ rawData }) => {
         if (a.supportWeight && b.supportWeight) return b.supportWeight - a.supportWeight;
         else if (a.supportWeight && !b.supportWeight) return -1;
         else if (!a.supportWeight && b.supportWeight) return 1;
-        else if (a.opposeWeight && b.opposeCount) return a.opposeWeight - b.opposeWeight;
+        else if (a.opposeWeight && b.opposeWeight) return a.opposeWeight - b.opposeWeight;
         else return 0;
       });
   }, [rawData]);
 
-  const stackedData = useMemo(() => {
+  const stackedData = useMemo((): StackedData[] => {
     return chartData.map((party) => {
       return {
         party: party.party,
@@ -96,22 +173,30 @@ const PartyStagesVoteChart = ({ rawData }) => {
 
   const height = (stackedData.length + 1) * 40;
 
-  const renderCustomizedLabel = (props) => {
-    const { x, y, width, height, value } = props;
+  const renderCustomizedLabel = (props: LabelProps) => {
+    // eslint-disable-next-line react/prop-types
+    const { x, y, width, value } = props;
 
-    if (isNaN(value)) {
+    // Convert to numbers and validate
+    const numValue = typeof value === 'number' ? value : parseFloat(value?.toString() || '0');
+    const numX = typeof x === 'number' ? x : parseFloat(x?.toString() || '0');
+    const numY = typeof y === 'number' ? y : parseFloat(y?.toString() || '0');
+    const numWidth = typeof width === 'number' ? width : parseFloat(width?.toString() || '0');
+
+    if (isNaN(numValue) || numValue === 0) {
       return null;
     }
     return (
       <g>
-        <text x={x + width - 33} y={y + 14} fill="#fff" textAnchor="middle" dominantBaseline="middle">
-          {`${value.toFixed(2)} %`}
+        <text x={numX + numWidth - 33} y={numY + 14} fill="#fff" textAnchor="middle" dominantBaseline="middle">
+          {`${numValue.toFixed(2)} %`}
         </text>
       </g>
     );
   };
 
-  const CustomTooltip = ({ active, payload, label }) => {
+  // Note: CustomTooltip is currently unused but kept for potential future use
+  const CustomTooltip = ({ active, payload }: TooltipProps) => {
     if (active && payload && payload.length) {
       const party = payload[0].payload;
       return (
@@ -137,10 +222,15 @@ const PartyStagesVoteChart = ({ rawData }) => {
     return null;
   };
 
+  // Silence the unused variable warning
+  void CustomTooltip;
+
   return (
     <Box>
       <Typography variant="h6">Cantidad debates a favor por partido</Typography>
-      <Typography variant="h7">y peso promedio sobre el resultado final</Typography>
+      <Typography variant="h6" component="p" sx={{ fontSize: '0.875rem' }}>
+        y peso promedio sobre el resultado final
+      </Typography>
       <ResponsiveContainer width={'100%'} height={height}>
         <BarChart layout="vertical" data={stackedData} margin={{ top: 20, right: 30, left: 20, bottom: 15 }}>
           <CartesianGrid strokeDasharray="1 1" />
@@ -150,8 +240,8 @@ const PartyStagesVoteChart = ({ rawData }) => {
             allowDataOverflow
             allowDecimals={false}
             tickFormatter={(value) => {
-              if (value == 0) return '';
-              else return value;
+              if (value === 0) return '';
+              else return value.toString();
             }}
           />
           <YAxis dataKey="party" type="category" width={200} tick={{ fontSize: 14 }} />

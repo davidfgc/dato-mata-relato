@@ -1,5 +1,18 @@
 import { Box, Grid, Typography } from '@mui/material';
+// @ts-expect-error - RepresentativeCard will be migrated to TypeScript later
 import RepresentativeCard from '../common/RepresentativeCard';
+import type Representative from '../../domain/representative';
+
+// Types for this component
+type VoteStatus = 'yes' | 'no' | 'absent' | null;
+
+interface RepresentativesListProps {
+  representatives?: Representative[];
+  getVoteStatus?: (representativeId: number) => VoteStatus;
+  showParty?: boolean;
+  getPartyName?: (partyId: string) => string;
+  emptyMessage?: string;
+}
 
 const RepresentativesList = ({
   representatives = [],
@@ -7,7 +20,7 @@ const RepresentativesList = ({
   showParty = false,
   getPartyName = () => '',
   emptyMessage = 'No se encontraron representantes con los filtros seleccionados',
-}) => {
+}: RepresentativesListProps) => {
   return (
     <Grid container spacing={2}>
       {representatives.length > 0 ? (

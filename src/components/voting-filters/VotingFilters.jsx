@@ -1,6 +1,3 @@
-import CancelIcon from '@mui/icons-material/Cancel';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import HelpIcon from '@mui/icons-material/Help';
 import {
   Box,
   Button,
@@ -125,31 +122,31 @@ const VotingFilters = () => {
     return vote ? vote.vote : 'absent';
   };
 
-  // Get color based on vote status
-  const getVoteColor = (status) => {
-    switch (status) {
-      case 'yes':
-        return 'success.main';
-      case 'no':
-        return 'error.main';
-      case 'absent':
-        return 'text.disabled';
-      default:
-        return 'text.secondary';
-    }
-  };
+  // // Get color based on vote status
+  // const getVoteColor = (status) => {
+  //   switch (status) {
+  //     case 'yes':
+  //       return 'success.main';
+  //     case 'no':
+  //       return 'error.main';
+  //     case 'absent':
+  //       return 'text.disabled';
+  //     default:
+  //       return 'text.secondary';
+  //   }
+  // };
 
-  // Get icon based on vote status
-  const getVoteIcon = (status) => {
-    switch (status) {
-      case 'yes':
-        return <CheckCircleIcon color="success" />;
-      case 'no':
-        return <CancelIcon color="error" />;
-      default:
-        return <HelpIcon color="disabled" />;
-    }
-  };
+  // // Get icon based on vote status
+  // const getVoteIcon = (status) => {
+  //   switch (status) {
+  //     case 'yes':
+  //       return <CheckCircleIcon color="success" />;
+  //     case 'no':
+  //       return <CancelIcon color="error" />;
+  //     default:
+  //       return <HelpIcon color="disabled" />;
+  //   }
+  // };
 
   // Get party name for a representative
   const getPartyName = (partyId) => {

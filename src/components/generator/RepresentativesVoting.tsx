@@ -20,13 +20,37 @@ import {
   Typography,
 } from '@mui/material';
 import { useEffect, useState } from 'react';
+import type Representative from '../../domain/representative';
+import type Party from '../../domain/party';
+import type RepresentativeVote from '../../domain/representative-vote';
 
-const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) => {
+// Types specific to this component
+type VoteValue = 'yes' | 'no' | 'absent';
+
+interface VotingFilters {
+  name: string;
+  partyId: string;
+  hideVoted: boolean;
+}
+
+// Extension of domain types for component needs
+interface RepresentativeWithVote extends Representative {
+  vote?: VoteValue | null;
+}
+
+// Props using domain types
+interface VotingRecordGeneratorProps {
+  representatives: Representative[];
+  parties: Party[];
+  initialVotes?: RepresentativeVote[];
+}
+
+const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }: VotingRecordGeneratorProps) => {
   // State for the representatives data and votes
-  const [filteredReps, setFilteredReps] = useState([]);
-  const [allReps, setAllReps] = useState([]);
-  const [votes, setVotes] = useState({});
-  const [filters, setFilters] = useState({
+  const [filteredReps, setFilteredReps] = useState<RepresentativeWithVote[]>([]);
+  const [allReps, setAllReps] = useState<RepresentativeWithVote[]>([]);
+  const [votes, setVotes] = useState<Record<number, VoteValue>>({});
+  const [filters, setFilters] = useState<VotingFilters>({
     name: '',
     partyId: '',
     hideVoted: false,
@@ -35,7 +59,7 @@ const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) 
   // Initialize representatives with voting state and load initial votes
   useEffect(() => {
     if (representatives && representatives.length > 0) {
-      const repsWithVoting = representatives.map((rep) => ({
+      const repsWithVoting: RepresentativeWithVote[] = representatives.map((rep) => ({
         ...rep,
         vote: null, // Initially no vote
       }));
@@ -43,9 +67,11 @@ const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) 
 
       // Process initial votes if provided
       if (initialVotes && initialVotes.length > 0) {
-        const votesObj = {};
+        const votesObj: Record<number, VoteValue> = {};
         initialVotes.forEach((vote) => {
-          votesObj[vote.representativeId] = vote.vote;
+          if (vote.vote === 'yes' || vote.vote === 'no' || vote.vote === 'absent') {
+            votesObj[vote.representativeId] = vote.vote as VoteValue;
+          }
         });
         setVotes(votesObj);
       }
@@ -67,15 +93,17 @@ const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) 
   }, [filters, allReps, votes]);
 
   // Handle vote selection
-  const handleVote = (repId, voteValue) => {
-    setVotes((prev) => ({
-      ...prev,
-      [repId]: voteValue,
-    }));
+  const handleVote = (repId: number, voteValue: string) => {
+    if (voteValue === 'yes' || voteValue === 'no' || voteValue === 'absent') {
+      setVotes((prev) => ({
+        ...prev,
+        [repId]: voteValue as VoteValue,
+      }));
+    }
   };
 
   // Handle filter changes
-  const handleFilterChange = (field, value) => {
+  const handleFilterChange = (field: keyof VotingFilters, value: string | boolean) => {
     setFilters((prev) => ({
       ...prev,
       [field]: value,
@@ -83,8 +111,8 @@ const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) 
   };
 
   // Generate JSON with voting data
-  const generateVotingData = () => {
-    const votingData = Object.entries(votes).map(([repId, vote]) => ({
+  const generateVotingData = (): RepresentativeVote[] => {
+    const votingData: RepresentativeVote[] = Object.entries(votes).map(([repId, vote]) => ({
       representativeId: parseInt(repId, 10),
       vote,
     }));
@@ -94,15 +122,15 @@ const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) 
   };
 
   // Get party name from party ID
-  const getPartyName = (partyId) => {
+  const getPartyName = (partyId: string): string => {
     if (!parties) return partyId;
     const party = parties.find((p) => p.id === partyId);
     return party ? party.name : partyId;
   };
 
   // Get party color based on party ID (simplified version)
-  const getPartyColor = (partyId) => {
-    const colorMap = {
+  const getPartyColor = (partyId: string): string => {
+    const colorMap: Record<string, string> = {
       PL: '#cc0000', // Liberal
       PC: '#1863dc', // Conservador
       CD: '#234874', // Centro Democrático
@@ -144,7 +172,11 @@ const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) 
           <Grid item xs={12} md={4}>
             <FormControl fullWidth>
               <InputLabel>Filter by Party</InputLabel>
-              <Select value={filters.partyId} label="Filter by Party" onChange={(e) => handleFilterChange('partyId', e.target.value)}>
+              <Select 
+                value={filters.partyId} 
+                label="Filter by Party" 
+                onChange={(e) => handleFilterChange('partyId', e.target.value as string)}
+              >
                 <MenuItem value="">
                   <em>All Parties</em>
                 </MenuItem>
@@ -208,16 +240,14 @@ const VotingRecordGenerator = ({ representatives, parties, initialVotes = [] }) 
                         mb: 1,
                       }}
                     />
-                    {rep.social_media && (
-                      <Typography variant="body2" color="text.secondary">
-                        {rep.social_media}
-                      </Typography>
-                    )}
                   </Grid>
 
                   <Grid item xs={4}>
                     <FormControl component="fieldset">
-                      <RadioGroup value={votes[rep.id] || ''} onChange={(e) => handleVote(rep.id, e.target.value)}>
+                      <RadioGroup 
+                        value={votes[rep.id] || ''} 
+                        onChange={(e) => handleVote(rep.id, e.target.value)}
+                      >
                         <FormControlLabel value="yes" control={<Radio size="small" color="success" />} label="Yes" />
                         <FormControlLabel value="no" control={<Radio size="small" color="error" />} label="No" />
                         <FormControlLabel value="absent" control={<Radio size="small" color="default" />} label="Absent" />
