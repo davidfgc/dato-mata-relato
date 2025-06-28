@@ -53,3 +53,10 @@ export const fetchVotingStages = async (): Promise<VotingStage[]> => {
 
   return data.stages as VotingStage[];
 };
+
+export const fetchLocations = async (): Promise<any[]> => {
+  const response = await fetch(ENDPOINTS.locations);
+  const data = await response.json();
+
+  return data;
+};

@@ -12,6 +12,7 @@ import GeneratorApp from './components/generator/GeneratorApp';
 import FiscalInefficiency from './components/government-waste-tracker/FiscalInefficiency';
 import VotingRecord from './components/voting-record/VotingRecord';
 import VotingFilters from './components/voting-filters/VotingFilters';
+import ChamberMap from './components/map/ChamberMap';
 
 function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
@@ -67,6 +68,7 @@ function App() {
               <Route path="/congresistas" element={<CongressList />} />
               <Route path="/despilfarro" element={<FiscalInefficiency />} />
               <Route path="/generator" element={<GeneratorApp />} />
+              <Route path="/map" element={<ChamberMap />} />
             </Routes>
           </Container>
         </Box>
