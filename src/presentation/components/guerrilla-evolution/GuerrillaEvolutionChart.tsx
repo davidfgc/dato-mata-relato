@@ -1,9 +1,25 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import { ToggleButton, ToggleButtonGroup } from '@mui/material';
-import { useActiveChart, useShowKeyData, useShowResearchSources, useShowTotalAnalysis, useGuerrillaEvolutionActions } from './context';
-import { calculateTotalData, formatTooltip, membershipData, territorialData } from './data';
+import { Stack, ToggleButton, ToggleButtonGroup } from '@mui/material';
+import {
+  useActiveChart,
+  useShowKeyData,
+  useShowResearchSources,
+  useShowTotalAnalysis,
+  useFromYear,
+  useGuerrillaEvolutionActions,
+} from './context';
+import {
+  calculateTotalData,
+  formatTooltip,
+  membershipData,
+  territorialData,
+  filterMembershipDataFromYear,
+  filterTerritorialDataFromYear,
+  getAvailableYears,
+} from './data';
 import ExpandableSection from '../../../shared/components/ui/ExpandableSection';
+import { YearFilter } from './YearFilter';
 
 /**
  * Componente refactorizado para usar patrón Redux con useReducer + Context
@@ -15,10 +31,14 @@ const GuerrillaEvolutionChart: React.FC = () => {
   const showKeyData = useShowKeyData();
   const showResearchSources = useShowResearchSources();
   const showTotalAnalysis = useShowTotalAnalysis();
-  const { setActiveChart, toggleKeyData, toggleResearchSources, toggleTotalAnalysis } = useGuerrillaEvolutionActions();
+  const fromYear = useFromYear();
+  const { setActiveChart, toggleKeyData, toggleResearchSources, toggleTotalAnalysis, setFromYear } = useGuerrillaEvolutionActions();
 
-  // Datos calculados (memoizados implícitamente por ser pure functions)
-  const totalData = calculateTotalData(membershipData);
+  // Datos filtrados (memoizados implícitamente por ser pure functions)
+  const filteredMembershipData = filterMembershipDataFromYear(membershipData, fromYear);
+  const filteredTerritorialData = filterTerritorialDataFromYear(territorialData, fromYear);
+  const totalData = calculateTotalData(filteredMembershipData);
+  const availableYears = getAvailableYears(membershipData);
 
   return (
     <div className="w-full p-6 bg-white">
@@ -28,28 +48,31 @@ const GuerrillaEvolutionChart: React.FC = () => {
           Análisis cuantitativo basado en datos oficiales del MinDefensa, INDEPAZ, Crisis Group y fuentes académicas
         </p>
 
-        <ToggleButtonGroup
-          value={activeChart}
-          exclusive
-          onChange={(_, newChart) => {
-            if (newChart !== null) {
-              setActiveChart(newChart);
-            }
-          }}
-          aria-label="chart selection"
-          size="small"
-          sx={{ mb: 2 }}
-        >
-          <ToggleButton value="total" aria-label="total combatientes">
-            Total Combatientes
-          </ToggleButton>
-          <ToggleButton value="miembros" aria-label="por grupo">
-            Por Grupo
-          </ToggleButton>
-          <ToggleButton value="territorial" aria-label="presencia territorial">
-            Presencia Territorial
-          </ToggleButton>
-        </ToggleButtonGroup>
+        <Stack direction="row" sx={{ justifyContent: 'center', alignItems: 'center', mb: 2, flexWrap: 'wrap', gap: 2 }}>
+          <ToggleButtonGroup
+            value={activeChart}
+            exclusive
+            onChange={(_, newChart) => {
+              if (newChart !== null) {
+                setActiveChart(newChart);
+              }
+            }}
+            aria-label="chart selection"
+            size="small"
+          >
+            <ToggleButton value="total" aria-label="total combatientes">
+              Total Combatientes
+            </ToggleButton>
+            <ToggleButton value="miembros" aria-label="por grupo">
+              Por Grupo
+            </ToggleButton>
+            <ToggleButton value="territorial" aria-label="presencia territorial">
+              Presencia Territorial
+            </ToggleButton>
+          </ToggleButtonGroup>
+
+          <YearFilter fromYear={fromYear} availableYears={availableYears} onYearChange={setFromYear} />
+        </Stack>
       </div>
 
       {activeChart === 'total' && (
@@ -106,7 +129,7 @@ const GuerrillaEvolutionChart: React.FC = () => {
         <div>
           <h3 className="text-lg font-semibold text-gray-700 mb-4">Número de Miembros por Grupo Guerrillero</h3>
           <ResponsiveContainer width="100%" height={500}>
-            <LineChart data={membershipData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+            <LineChart data={filteredMembershipData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
               <XAxis dataKey="año" stroke="#666" tick={{ fontSize: 12 }} />
               <YAxis stroke="#666" tick={{ fontSize: 12 }} tickFormatter={(value: number) => value.toLocaleString()} />
@@ -161,7 +184,7 @@ const GuerrillaEvolutionChart: React.FC = () => {
         <div>
           <h3 className="text-lg font-semibold text-gray-700 mb-4">Presencia Territorial (Número de Municipios)</h3>
           <ResponsiveContainer width="100%" height={500}>
-            <BarChart data={territorialData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+            <BarChart data={filteredTerritorialData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
               <XAxis dataKey="año" stroke="#666" tick={{ fontSize: 12 }} />
               <YAxis stroke="#666" tick={{ fontSize: 12 }} label={{ value: 'Municipios', angle: -90, position: 'insideLeft' }} />

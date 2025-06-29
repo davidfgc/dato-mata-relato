@@ -41,6 +41,12 @@ export const guerrillaEvolutionReducer = (
         showTotalAnalysis: !state.showTotalAnalysis,
       };
 
+    case GUERRILLA_ACTION_TYPES.SET_FROM_YEAR:
+      return {
+        ...state,
+        fromYear: action.payload,
+      };
+
     default:
       // En Redux, siempre retornamos el estado actual si no hay match
       return state;
@@ -56,3 +62,4 @@ export const selectActiveChart = (state: GuerrillaEvolutionState) => state.activ
 export const selectShowKeyData = (state: GuerrillaEvolutionState) => state.showKeyData;
 export const selectShowResearchSources = (state: GuerrillaEvolutionState) => state.showResearchSources;
 export const selectShowTotalAnalysis = (state: GuerrillaEvolutionState) => state.showTotalAnalysis;
+export const selectFromYear = (state: GuerrillaEvolutionState) => state.fromYear;

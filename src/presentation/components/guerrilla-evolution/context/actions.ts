@@ -4,6 +4,7 @@ export const GUERRILLA_EVOLUTION_ACTION_TYPES = {
   TOGGLE_KEY_DATA: 'TOGGLE_KEY_DATA',
   TOGGLE_RESEARCH_SOURCES: 'TOGGLE_RESEARCH_SOURCES',
   TOGGLE_TOTAL_ANALYSIS: 'TOGGLE_TOTAL_ANALYSIS',
+  SET_FROM_YEAR: 'SET_FROM_YEAR',
 } as const;
 
 // Types
@@ -13,7 +14,8 @@ export type GuerrillaEvolutionAction =
   | { type: typeof GUERRILLA_EVOLUTION_ACTION_TYPES.SET_ACTIVE_CHART; payload: ChartType }
   | { type: typeof GUERRILLA_EVOLUTION_ACTION_TYPES.TOGGLE_KEY_DATA }
   | { type: typeof GUERRILLA_EVOLUTION_ACTION_TYPES.TOGGLE_RESEARCH_SOURCES }
-  | { type: typeof GUERRILLA_EVOLUTION_ACTION_TYPES.TOGGLE_TOTAL_ANALYSIS };
+  | { type: typeof GUERRILLA_EVOLUTION_ACTION_TYPES.TOGGLE_TOTAL_ANALYSIS }
+  | { type: typeof GUERRILLA_EVOLUTION_ACTION_TYPES.SET_FROM_YEAR; payload: number };
 
 // Action Creators
 export const guerrillaEvolutionActions = {
@@ -32,5 +34,10 @@ export const guerrillaEvolutionActions = {
 
   toggleTotalAnalysis: (): GuerrillaEvolutionAction => ({
     type: GUERRILLA_EVOLUTION_ACTION_TYPES.TOGGLE_TOTAL_ANALYSIS,
+  }),
+
+  setFromYear: (year: number): GuerrillaEvolutionAction => ({
+    type: GUERRILLA_EVOLUTION_ACTION_TYPES.SET_FROM_YEAR,
+    payload: year,
   }),
 };

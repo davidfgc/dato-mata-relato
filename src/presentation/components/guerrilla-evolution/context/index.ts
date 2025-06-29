@@ -16,6 +16,7 @@ export {
   useShowKeyData,
   useShowResearchSources,
   useShowTotalAnalysis,
+  useFromYear,
   useGuerrillaEvolutionActions,
 } from './hooks';
 
@@ -26,4 +27,4 @@ export type { ChartType, GuerrillaEvolutionState, GuerrillaEvolutionAction } fro
 export { guerrillaEvolutionActions, GUERRILLA_EVOLUTION_ACTION_TYPES } from './actions';
 
 // Selectors (para uso avanzado)
-export { selectActiveChart, selectShowKeyData, selectShowResearchSources, selectShowTotalAnalysis } from './reducer';
+export { selectActiveChart, selectShowKeyData, selectShowResearchSources, selectShowTotalAnalysis, selectFromYear } from './reducer';

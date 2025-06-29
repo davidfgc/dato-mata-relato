@@ -14,6 +14,7 @@ export interface GuerrillaEvolutionState {
   showKeyData: boolean;
   showResearchSources: boolean;
   showTotalAnalysis: boolean;
+  fromYear: number;
 }
 
 // Initial State
@@ -22,4 +23,5 @@ export const initialState: GuerrillaEvolutionState = {
   showKeyData: false,
   showResearchSources: false,
   showTotalAnalysis: false,
+  fromYear: 2000, // Año inicial por defecto
 };

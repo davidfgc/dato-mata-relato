@@ -85,3 +85,29 @@ export const formatTooltip = (value: number, name: string): [string, string] => 
   }
   return [value?.toLocaleString(), name];
 };
+
+/**
+ * Funciones de filtrado por año
+ * Pure functions para mantener consistencia con el patrón Redux
+ */
+
+/**
+ * Filtra datos de membresía desde un año específico
+ */
+export const filterMembershipDataFromYear = (data: MembershipDataEntry[], fromYear: number): MembershipDataEntry[] => {
+  return data.filter(item => item.año >= fromYear);
+};
+
+/**
+ * Filtra datos territoriales desde un año específico
+ */
+export const filterTerritorialDataFromYear = (data: TerritorialDataEntry[], fromYear: number): TerritorialDataEntry[] => {
+  return data.filter(item => item.año >= fromYear);
+};
+
+/**
+ * Obtiene el rango de años disponibles en los datos
+ */
+export const getAvailableYears = (data: MembershipDataEntry[]): number[] => {
+  return data.map(item => item.año).sort((a, b) => a - b);
+};
