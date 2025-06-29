@@ -1,8 +1,8 @@
 import { Box, Card, CardContent, CircularProgress, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchBills, fetchParties, fetchRepresentatives } from '../../api/api';
-import RepresentativesList from '../voting-filters/RepresentativesList';
+import { fetchBills, fetchParties, fetchRepresentatives } from '../../../infrastructure/api/api';
+import RepresentativesList from '../filters/RepresentativesList';
 
 const BillAuthors = () => {
   const { id, year } = useParams();

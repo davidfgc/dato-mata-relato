@@ -16,7 +16,7 @@ import {
   Typography,
 } from '@mui/material';
 import { useEffect, useState } from 'react';
-import { fetchChamber2, fetchParties, fetchSenators } from '../../api/api';
+import { fetchChamber2, fetchParties, fetchSenators } from '../../../infrastructure/api/api';
 import CodeIcon from '@mui/icons-material/Code';
 
 const CongressList = () => {

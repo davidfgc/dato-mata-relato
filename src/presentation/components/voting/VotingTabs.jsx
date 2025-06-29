@@ -2,8 +2,8 @@ import { Box, Checkbox, FormControlLabel, FormGroup, Switch, Tab, Tabs } from '@
 import PropTypes from 'prop-types';
 
 import { useState } from 'react';
-import WarningAlert from '../common/WarningAlert';
-import PartyWeightChart from '../graphs/PartyWeightChart';
+import WarningAlert from '../../../shared/components/ui/WarningAlert';
+import PartyWeightChart from '../charts/PartyWeightChart';
 import PartyVotingList from './PartyVotingList';
 import TabLabel from './TabLabel';
 

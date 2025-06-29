@@ -18,7 +18,7 @@ import {
   Typography,
 } from '@mui/material';
 import { useEffect, useState } from 'react';
-import { fetchLocations } from '../../api/api';
+import { fetchLocations } from '../../../infrastructure/api/api';
 
 const ChamberMap = () => {
   const [locations, setLocations] = useState([]);

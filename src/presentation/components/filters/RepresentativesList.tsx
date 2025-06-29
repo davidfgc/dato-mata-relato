@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from '@mui/material';
 // @ts-expect-error - RepresentativeCard will be migrated to TypeScript later
-import RepresentativeCard from '../common/RepresentativeCard';
-import type Representative from '../../domain/representative';
+import RepresentativeCard from '../../../shared/components/ui/RepresentativeCard';
+import type Representative from '../../../domain/representative';
 
 // Types for this component
 type VoteStatus = 'yes' | 'no' | 'absent' | null;

@@ -2,8 +2,8 @@ import { Alert, Box, CircularProgress, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { useVotingRecordData } from '../../hooks/useVotingRecordData';
-import PartyStagesVoteChart from '../graphs/PartyStagesVoteChart';
+import { useVotingRecordData } from '../../../application/hooks/queries/useVotingRecordData';
+import PartyStagesVoteChart from '../charts/PartyStagesVoteChart';
 import BillCard from './BillCard';
 import VotingTabs from './VotingTabs';
 

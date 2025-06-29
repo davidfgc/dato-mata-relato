@@ -18,8 +18,8 @@ import {
 } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchBills } from '../../api/api';
-import BillCard from '../voting-record/BillCard';
+import { fetchBills } from '../../../infrastructure/api/api';
+import BillCard from '../voting/BillCard';
 
 const BillDetail = () => {
   const { year, id } = useParams();

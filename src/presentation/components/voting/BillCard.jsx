@@ -1,7 +1,7 @@
 import { Card, CardContent, Link, Stack, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import PropTypes from 'prop-types';
-import StatusChip from '../common/StatusChip';
+import StatusChip from '../../../shared/components/ui/StatusChip';
 
 const BillCard = ({ bill }) => {
   return (

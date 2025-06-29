@@ -20,9 +20,9 @@ import {
   Typography,
 } from '@mui/material';
 import { useEffect, useState } from 'react';
-import type Representative from '../../domain/representative';
-import type Party from '../../domain/party';
-import type RepresentativeVote from '../../domain/representative-vote';
+import type Representative from '../../../domain/representative';
+import type Party from '../../../domain/party';
+import type RepresentativeVote from '../../../domain/representative-vote';
 
 // Types specific to this component
 type VoteValue = 'yes' | 'no' | 'absent';

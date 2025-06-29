@@ -3,16 +3,16 @@ import { useMemo } from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import './App.css';
-import BillsList from './components/bills/BillsList';
-import BillDetail from './components/bills/BillDetail';
-import BillAuthors from './components/bills/BillAuthors';
-import Header from './components/common/Header';
-import CongressList from './components/congress/CongressList';
-import GeneratorApp from './components/generator/GeneratorApp';
-import FiscalInefficiency from './components/government-waste-tracker/FiscalInefficiency';
-import VotingRecord from './components/voting-record/VotingRecord';
-import VotingFilters from './components/voting-filters/VotingFilters';
-import ChamberMap from './components/map/ChamberMap';
+import BillsList from './presentation/components/bills/BillsList';
+import BillDetail from './presentation/components/bills/BillDetail';
+import BillAuthors from './presentation/components/bills/BillAuthors';
+import Header from './shared/components/ui/Header';
+import CongressList from './presentation/components/representatives/CongressList';
+import GeneratorApp from './presentation/components/generator/GeneratorApp';
+import FiscalInefficiency from './presentation/components/government-waste-tracker/FiscalInefficiency';
+import VotingRecord from './presentation/components/voting/VotingRecord';
+import VotingFilters from './presentation/components/filters/VotingFilters';
+import ChamberMap from './presentation/components/map/ChamberMap';
 
 function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');

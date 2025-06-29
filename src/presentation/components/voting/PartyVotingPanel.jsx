@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 
 import { useState } from 'react';
 
-import VotingDecisionChip from '../common/VotingDecisionChip';
-import PartyVoteBar from '../graphs/PartyVoteBar';
+import VotingDecisionChip from '../../../shared/components/ui/VotingDecisionChip';
+import PartyVoteBar from '../charts/PartyVoteBar';
 
 const VoteChip = ({ vote }) => {
   switch (vote) {

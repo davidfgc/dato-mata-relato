@@ -2,7 +2,7 @@ import { Box, CircularProgress, Container, FormControl, Grid, InputLabel, MenuIt
 import { useEffect, useState } from 'react';
 import VotingRecordGenerator from './RepresentativesVoting';
 
-import { fetchBills, fetchParties, fetchRepresentatives, fetchVotingRecords, fetchVotingStages } from '../../api/api';
+import { fetchBills, fetchParties, fetchRepresentatives, fetchVotingRecords, fetchVotingStages } from '../../../infrastructure/api/api';
 
 const GeneratorApp = () => {
   const [representatives, setRepresentatives] = useState([]);

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
-import { fetchBills, fetchParties, fetchRepresentatives, fetchVotingRecords, fetchVotingStages } from '../api/api';
-import { processData } from '../api/processData';
+import { fetchBills, fetchParties, fetchRepresentatives, fetchVotingRecords, fetchVotingStages } from '../../../infrastructure/api/api';
+import { processData } from '../../../infrastructure/api/processData';
 
 export const useVotingRecordData = (billId) => {
   const [bill, setBill] = useState({});

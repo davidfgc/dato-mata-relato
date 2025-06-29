@@ -2,8 +2,8 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Box, CircularProgress, List, ListItem, ListItemButton, ListItemText, Paper, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { fetchBills } from '../../api/api';
-import StatusChip from '../common/StatusChip';
+import { fetchBills } from '../../../infrastructure/api/api';
+import StatusChip from '../../../shared/components/ui/StatusChip';
 
 const BillsList = () => {
   const [bills, setBills] = useState([]);

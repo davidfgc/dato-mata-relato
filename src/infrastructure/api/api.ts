@@ -1,10 +1,10 @@
-import { ENDPOINTS } from '../config/api';
+import { ENDPOINTS } from '../../shared/config/api';
 
-import Party from '../domain/party';
-import Bill from '../domain/bill';
-import VotingRecord from '../domain/voting-record';
-import Representative from '../domain/representative';
-import VotingStage from '../domain/voting-stage';
+import Party from '../../domain/party';
+import Bill from '../../domain/bill';
+import VotingRecord from '../../domain/voting-record';
+import Representative from '../../domain/representative';
+import VotingStage from '../../domain/voting-stage';
 
 export const fetchBills = async (): Promise<Bill[]> => {
   const response = await fetch(ENDPOINTS.bills);

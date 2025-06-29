@@ -1,10 +1,10 @@
 import _ from 'lodash';
 
-import Bill from '../domain/bill';
-import VotingRecord from '../domain/voting-record';
-import Representative from '../domain/representative';
-import Party from '../domain/party';
-import VotingStage from '../domain/voting-stage';
+import Bill from '../../domain/bill';
+import VotingRecord from '../../domain/voting-record';
+import Representative from '../../domain/representative';
+import Party from '../../domain/party';
+import VotingStage from '../../domain/voting-stage';
 
 export const processData = (
   bills: Bill[],

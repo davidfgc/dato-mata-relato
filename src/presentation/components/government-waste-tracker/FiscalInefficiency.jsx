@@ -1,6 +1,6 @@
 import { Alert, Box, CircularProgress, Stack } from '@mui/material';
 import { useEffect, useState, useContext } from 'react';
-import { ENDPOINTS } from '../../config/api';
+import { ENDPOINTS } from '../../../shared/config/api';
 
 // Import components
 import StatisticsAlerts from './components/StatisticsAlerts';

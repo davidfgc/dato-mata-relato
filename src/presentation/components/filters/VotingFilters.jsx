@@ -15,7 +15,7 @@ import {
 import { useEffect, useState } from 'react';
 
 // Import the API functions
-import { fetchBills, fetchParties, fetchRepresentatives, fetchVotingRecords, fetchVotingStages } from '../../api/api';
+import { fetchBills, fetchParties, fetchRepresentatives, fetchVotingRecords, fetchVotingStages } from '../../../infrastructure/api/api';
 import RepresentativesList from './RepresentativesList';
 
 const VotingFilters = () => {
