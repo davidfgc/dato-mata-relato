@@ -35,6 +35,12 @@ export const guerrillaEvolutionReducer = (
         showResearchSources: !state.showResearchSources,
       };
 
+    case GUERRILLA_ACTION_TYPES.TOGGLE_TOTAL_ANALYSIS:
+      return {
+        ...state,
+        showTotalAnalysis: !state.showTotalAnalysis,
+      };
+
     default:
       // En Redux, siempre retornamos el estado actual si no hay match
       return state;
@@ -49,3 +55,4 @@ export const guerrillaEvolutionReducer = (
 export const selectActiveChart = (state: GuerrillaEvolutionState) => state.activeChart;
 export const selectShowKeyData = (state: GuerrillaEvolutionState) => state.showKeyData;
 export const selectShowResearchSources = (state: GuerrillaEvolutionState) => state.showResearchSources;
+export const selectShowTotalAnalysis = (state: GuerrillaEvolutionState) => state.showTotalAnalysis;

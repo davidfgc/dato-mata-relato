@@ -13,6 +13,7 @@ export interface GuerrillaEvolutionState {
   activeChart: ChartType;
   showKeyData: boolean;
   showResearchSources: boolean;
+  showTotalAnalysis: boolean;
 }
 
 // Initial State
@@ -20,4 +21,5 @@ export const initialState: GuerrillaEvolutionState = {
   activeChart: 'total',
   showKeyData: false,
   showResearchSources: false,
+  showTotalAnalysis: false,
 };

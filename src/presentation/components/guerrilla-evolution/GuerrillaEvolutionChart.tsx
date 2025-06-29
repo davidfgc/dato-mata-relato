@@ -1,7 +1,9 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import { useActiveChart, useShowKeyData, useShowResearchSources, useGuerrillaEvolutionActions } from './context';
+import { ToggleButton, ToggleButtonGroup } from '@mui/material';
+import { useActiveChart, useShowKeyData, useShowResearchSources, useShowTotalAnalysis, useGuerrillaEvolutionActions } from './context';
 import { calculateTotalData, formatTooltip, membershipData, territorialData } from './data';
+import ExpandableSection from '../../../shared/components/ui/ExpandableSection';
 
 /**
  * Componente refactorizado para usar patrón Redux con useReducer + Context
@@ -12,7 +14,8 @@ const GuerrillaEvolutionChart: React.FC = () => {
   const activeChart = useActiveChart();
   const showKeyData = useShowKeyData();
   const showResearchSources = useShowResearchSources();
-  const { setActiveChart, toggleKeyData, toggleResearchSources } = useGuerrillaEvolutionActions();
+  const showTotalAnalysis = useShowTotalAnalysis();
+  const { setActiveChart, toggleKeyData, toggleResearchSources, toggleTotalAnalysis } = useGuerrillaEvolutionActions();
 
   // Datos calculados (memoizados implícitamente por ser pure functions)
   const totalData = calculateTotalData(membershipData);
@@ -25,32 +28,28 @@ const GuerrillaEvolutionChart: React.FC = () => {
           Análisis cuantitativo basado en datos oficiales del MinDefensa, INDEPAZ, Crisis Group y fuentes académicas
         </p>
 
-        <div className="flex gap-2 mb-4">
-          <button
-            onClick={() => setActiveChart('total')}
-            className={`px-4 py-2 rounded text-sm font-medium transition-colors ${
-              activeChart === 'total' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-            }`}
-          >
+        <ToggleButtonGroup
+          value={activeChart}
+          exclusive
+          onChange={(_, newChart) => {
+            if (newChart !== null) {
+              setActiveChart(newChart);
+            }
+          }}
+          aria-label="chart selection"
+          size="small"
+          sx={{ mb: 2 }}
+        >
+          <ToggleButton value="total" aria-label="total combatientes">
             Total Combatientes
-          </button>
-          <button
-            onClick={() => setActiveChart('miembros')}
-            className={`px-4 py-2 rounded text-sm font-medium transition-colors ${
-              activeChart === 'miembros' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-            }`}
-          >
+          </ToggleButton>
+          <ToggleButton value="miembros" aria-label="por grupo">
             Por Grupo
-          </button>
-          <button
-            onClick={() => setActiveChart('territorial')}
-            className={`px-4 py-2 rounded text-sm font-medium transition-colors ${
-              activeChart === 'territorial' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-            }`}
-          >
+          </ToggleButton>
+          <ToggleButton value="territorial" aria-label="presencia territorial">
             Presencia Territorial
-          </button>
-        </div>
+          </ToggleButton>
+        </ToggleButtonGroup>
       </div>
 
       {activeChart === 'total' && (
@@ -78,9 +77,14 @@ const GuerrillaEvolutionChart: React.FC = () => {
               <Bar dataKey="total" fill="#0d6efd" name="Total Combatientes" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
-          <div className="mt-4 bg-yellow-50 border-l-4 border-yellow-400 p-4">
-            <h4 className="font-semibold text-yellow-800 mb-2">Análisis del Total:</h4>
-            <div className="text-sm text-yellow-700 space-y-1">
+          <div className="mt-4">
+            <ExpandableSection
+              title="Análisis del Total"
+              isExpanded={showTotalAnalysis}
+              onToggle={toggleTotalAnalysis}
+              className="bg-yellow-50 border-l-4 border-yellow-400"
+              contentClassName="text-sm text-yellow-700 space-y-1 p-4"
+            >
               <p>
                 <strong>• Pico histórico:</strong> ~23,500 combatientes (2001) durante la máxima expansión FARC-ELN
               </p>
@@ -93,7 +97,7 @@ const GuerrillaEvolutionChart: React.FC = () => {
               <p>
                 <strong>• Paradoja cuantitativa:</strong> Cifras similares al año 2000 pero en contexto cualitativamente diferente
               </p>
-            </div>
+            </ExpandableSection>
           </div>
         </div>
       )}
@@ -181,102 +185,96 @@ const GuerrillaEvolutionChart: React.FC = () => {
       )}
 
       <div className="mt-6 bg-gray-50 p-4 rounded-lg">
-        <div>
-          <button onClick={toggleKeyData} className="flex items-center gap-2 text-sm text-gray-800 hover:text-gray-600 font-medium mb-2">
-            <span>{showKeyData ? '▼' : '▶'}</span>
-            Datos Clave
-          </button>
+        <ExpandableSection
+          title="Datos Clave"
+          isExpanded={showKeyData}
+          onToggle={toggleKeyData}
+          contentClassName="pl-6 text-sm text-gray-700"
+        >
+          <div className="space-y-2">
+            <p className="text-left">
+              <strong>• FARC-EP:</strong> Pico de 20,000 miembros (2001) → Desmovilización total (2017)
+            </p>
+            <p className="text-left">
+              <strong>• ELN:</strong> Crecimiento sostenido de 1,500 (2002) a 6,200+ miembros (2025)
+            </p>
+            <p className="text-left">
+              <strong>• Disidencias FARC:</strong> Surgimiento post-acuerdo, 5,300+ miembros actuales
+            </p>
+            <p className="text-left">
+              <strong>• Clan del Golfo:</strong> Expansión más dramática: 1,800 (2017) → 13,500+ (2025)
+            </p>
+          </div>
+        </ExpandableSection>
 
-          {showKeyData && (
-            <div className="pl-6 text-sm text-gray-700">
-              <div className="space-y-2">
-                <p className="text-left">
-                  <strong>• FARC-EP:</strong> Pico de 20,000 miembros (2001) → Desmovilización total (2017)
-                </p>
-                <p className="text-left">
-                  <strong>• ELN:</strong> Crecimiento sostenido de 1,500 (2002) a 6,200+ miembros (2025)
-                </p>
-                <p className="text-left">
-                  <strong>• Disidencias FARC:</strong> Surgimiento post-acuerdo, 5,300+ miembros actuales
-                </p>
-                <p className="text-left">
-                  <strong>• Clan del Golfo:</strong> Expansión más dramática: 1,800 (2017) → 13,500+ (2025)
-                </p>
-              </div>
+        <ExpandableSection
+          title="Ver Fuentes de la Investigación"
+          isExpanded={showResearchSources}
+          onToggle={toggleResearchSources}
+          titleClassName="text-sm text-blue-600 hover:text-blue-800 font-medium"
+          contentClassName="mt-3 p-4 bg-white rounded border text-xs text-gray-700"
+          className="mt-4"
+        >
+          <h5 className="font-semibold mb-3 text-gray-800">Fuentes Principales:</h5>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <h6 className="font-medium text-gray-800 mb-2">Oficiales/Gubernamentales:</h6>
+              <ul className="space-y-1 ml-2">
+                <li>
+                  • <strong>MinDefensa Colombia:</strong> Estadísticas oficiales 2023-2025
+                </li>
+                <li>
+                  • <strong>CERAC:</strong> Análisis de conflicto por municipios
+                </li>
+                <li>
+                  • <strong>Centro Nacional de Memoria Histórica:</strong> Bases de datos históricas
+                </li>
+                <li>
+                  • <strong>UNODC:</strong> Informes sobre cultivos ilícitos y producción de cocaína
+                </li>
+              </ul>
             </div>
-          )}
-        </div>
-
-        <div className="mt-4">
-          <button onClick={toggleResearchSources} className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 font-medium">
-            <span>{showResearchSources ? '▼' : '▶'}</span>
-            Ver Fuentes de la Investigación
-          </button>
-
-          {showResearchSources && (
-            <div className="mt-3 p-4 bg-white rounded border text-xs text-gray-700">
-              <h5 className="font-semibold mb-3 text-gray-800">Fuentes Principales:</h5>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <h6 className="font-medium text-gray-800 mb-2">Oficiales/Gubernamentales:</h6>
-                  <ul className="space-y-1 ml-2">
-                    <li>
-                      • <strong>MinDefensa Colombia:</strong> Estadísticas oficiales 2023-2025
-                    </li>
-                    <li>
-                      • <strong>CERAC:</strong> Análisis de conflicto por municipios
-                    </li>
-                    <li>
-                      • <strong>Centro Nacional de Memoria Histórica:</strong> Bases de datos históricas
-                    </li>
-                    <li>
-                      • <strong>UNODC:</strong> Informes sobre cultivos ilícitos y producción de cocaína
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h6 className="font-medium text-gray-800 mb-2">Académicas/Investigación:</h6>
-                  <ul className="space-y-1 ml-2">
-                    <li>
-                      • <strong>INDEPAZ:</strong> Monitoreo continuo grupos armados
-                    </li>
-                    <li>
-                      • <strong>Crisis Group:</strong> Informes especializados Colombia
-                    </li>
-                    <li>
-                      • <strong>La Silla Vacía:</strong> Investigación periodística especializada
-                    </li>
-                    <li>
-                      • <strong>CINEP/PPP:</strong> Análisis de transformaciones del conflicto
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="mt-4">
-                <h6 className="font-medium text-gray-800 mb-2">Internacionales:</h6>
-                <ul className="space-y-1 ml-2">
-                  <li>
-                    • <strong>ONU Colombia:</strong> Informes de verificación misión ONU
-                  </li>
-                  <li>
-                    • <strong>Human Rights Watch:</strong> Informe Mundial 2025 - Colombia
-                  </li>
-                  <li>
-                    • <strong>OHCHR:</strong> Informes sobre violencia en zonas rurales
-                  </li>
-                  <li>
-                    • <strong>Reuters, CNN:</strong> Coberturas especializadas conflict
-                  </li>
-                </ul>
-              </div>
-              <div className="mt-3 p-2 bg-gray-100 rounded text-xs">
-                <strong>Metodología:</strong> Los datos integran fuentes múltiples con triangulación de información oficial, académica e
-                internacional. Las estimaciones de membership varían entre fuentes; se priorizaron datos oficiales cuando disponibles y se
-                usaron promedios ponderados para períodos con información fragmentada.
-              </div>
+            <div>
+              <h6 className="font-medium text-gray-800 mb-2">Académicas/Investigación:</h6>
+              <ul className="space-y-1 ml-2">
+                <li>
+                  • <strong>INDEPAZ:</strong> Monitoreo continuo grupos armados
+                </li>
+                <li>
+                  • <strong>Crisis Group:</strong> Informes especializados Colombia
+                </li>
+                <li>
+                  • <strong>La Silla Vacía:</strong> Investigación periodística especializada
+                </li>
+                <li>
+                  • <strong>CINEP/PPP:</strong> Análisis de transformaciones del conflicto
+                </li>
+              </ul>
             </div>
-          )}
-        </div>
+          </div>
+          <div className="mt-4">
+            <h6 className="font-medium text-gray-800 mb-2">Internacionales:</h6>
+            <ul className="space-y-1 ml-2">
+              <li>
+                • <strong>ONU Colombia:</strong> Informes de verificación misión ONU
+              </li>
+              <li>
+                • <strong>Human Rights Watch:</strong> Informe Mundial 2025 - Colombia
+              </li>
+              <li>
+                • <strong>OHCHR:</strong> Informes sobre violencia en zonas rurales
+              </li>
+              <li>
+                • <strong>Reuters, CNN:</strong> Coberturas especializadas conflict
+              </li>
+            </ul>
+          </div>
+          <div className="mt-3 p-2 bg-gray-100 rounded text-xs">
+            <strong>Metodología:</strong> Los datos integran fuentes múltiples con triangulación de información oficial, académica e
+            internacional. Las estimaciones de membership varían entre fuentes; se priorizaron datos oficiales cuando disponibles y se
+            usaron promedios ponderados para períodos con información fragmentada.
+          </div>
+        </ExpandableSection>
 
         <p className="mt-3 text-xs text-gray-600">
           <strong>Última actualización:</strong> Junio 2025 | <strong>Período analizado:</strong> 2000-2025

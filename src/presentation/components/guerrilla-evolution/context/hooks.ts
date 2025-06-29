@@ -1,5 +1,5 @@
 import { useGuerrillaEvolutionContext } from './contextHook';
-import { selectActiveChart, selectShowKeyData, selectShowResearchSources } from './reducer';
+import { selectActiveChart, selectShowKeyData, selectShowResearchSources, selectShowTotalAnalysis } from './reducer';
 import { guerrillaEvolutionActions, type ChartType } from './actions';
 
 /**
@@ -66,6 +66,11 @@ export const useShowResearchSources = () => {
   return selectShowResearchSources(state);
 };
 
+export const useShowTotalAnalysis = () => {
+  const state = useGuerrillaEvolutionState();
+  return selectShowTotalAnalysis(state);
+};
+
 /**
  * Hook que combina actions con dispatch para mayor comodidad
  * Ahora usa los action creators de actions.ts
@@ -77,6 +82,7 @@ export const useGuerrillaEvolutionActions = () => {
     setActiveChart: (chartType: ChartType) => dispatch(guerrillaEvolutionActions.setActiveChart(chartType)),
     toggleKeyData: () => dispatch(guerrillaEvolutionActions.toggleKeyData()),
     toggleResearchSources: () => dispatch(guerrillaEvolutionActions.toggleResearchSources()),
+    toggleTotalAnalysis: () => dispatch(guerrillaEvolutionActions.toggleTotalAnalysis()),
     // Backwards compatibility - will be removed later
     toggleSources: () => dispatch(guerrillaEvolutionActions.toggleKeyData()),
   };

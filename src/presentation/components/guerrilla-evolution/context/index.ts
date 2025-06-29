@@ -15,21 +15,15 @@ export {
   useShowSources,
   useShowKeyData,
   useShowResearchSources,
+  useShowTotalAnalysis,
   useGuerrillaEvolutionActions,
 } from './hooks';
 
 // Types (para TypeScript)
-export type {
-  ChartType,
-  GuerrillaEvolutionState,
-  GuerrillaEvolutionAction,
-} from './types';
+export type { ChartType, GuerrillaEvolutionState, GuerrillaEvolutionAction } from './types';
 
 // Action Creators y Types
-export {
-  guerrillaEvolutionActions,
-  GUERRILLA_EVOLUTION_ACTION_TYPES,
-} from './actions';
+export { guerrillaEvolutionActions, GUERRILLA_EVOLUTION_ACTION_TYPES } from './actions';
 
 // Selectors (para uso avanzado)
-export { selectActiveChart, selectShowKeyData, selectShowResearchSources } from './reducer';
+export { selectActiveChart, selectShowKeyData, selectShowResearchSources, selectShowTotalAnalysis } from './reducer';
