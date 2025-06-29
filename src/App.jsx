@@ -13,6 +13,7 @@ import FiscalInefficiency from './presentation/components/government-waste-track
 import VotingRecord from './presentation/components/voting/VotingRecord';
 import VotingFilters from './presentation/components/filters/VotingFilters';
 import ChamberMap from './presentation/components/map/ChamberMap';
+import { GuerrillaEvolutionChart } from './presentation/components/guerrilla-evolution';
 
 function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
@@ -69,6 +70,7 @@ function App() {
               <Route path="/despilfarro" element={<FiscalInefficiency />} />
               <Route path="/generator" element={<GeneratorApp />} />
               <Route path="/map" element={<ChamberMap />} />
+              <Route path="/guerrilla-evolution" element={<GuerrillaEvolutionChart />} />
             </Routes>
           </Container>
         </Box>

@@ -5,6 +5,17 @@ import Bill from '../../domain/bill';
 import VotingRecord from '../../domain/voting-record';
 import Representative from '../../domain/representative';
 import VotingStage from '../../domain/voting-stage';
+import { MembershipDataEntry, TerritorialDataEntry } from '../../presentation/components/guerrilla-evolution/data';
+
+interface GuerrillaEvolutionApiResponse {
+  membershipData: MembershipDataEntry[];
+  territorialData: TerritorialDataEntry[];
+  lastUpdated?: string;
+  metadata?: {
+    sources: string[];
+    methodology: string;
+  };
+}
 
 export const fetchBills = async (): Promise<Bill[]> => {
   const response = await fetch(ENDPOINTS.bills);
@@ -54,8 +65,15 @@ export const fetchVotingStages = async (): Promise<VotingStage[]> => {
   return data.stages as VotingStage[];
 };
 
-export const fetchLocations = async (): Promise<any[]> => {
+export const fetchLocations = async (): Promise<unknown[]> => {
   const response = await fetch(ENDPOINTS.locations);
+  const data = await response.json();
+
+  return data;
+};
+
+export const fetchGuerrillaEvolutionData = async (): Promise<GuerrillaEvolutionApiResponse> => {
+  const response = await fetch(ENDPOINTS.guerrillaEvolution);
   const data = await response.json();
 
   return data;

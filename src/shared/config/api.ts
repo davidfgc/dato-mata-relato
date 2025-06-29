@@ -15,4 +15,5 @@ export const ENDPOINTS = {
   fiscalMismatches: `${API_BASE_URL}/data/fiscal-mismatches.json`,
   votingStages: `${API_BASE_URL}/data/voting-stages.json`,
   locations: `${API_BASE_URL}/data/locations.json`,
+  guerrillaEvolution: `${API_BASE_URL}/data/guerrilla-evolution.json`,
 };
