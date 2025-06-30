@@ -16,4 +16,5 @@ export const ENDPOINTS = {
   votingStages: `${API_BASE_URL}/data/voting-stages.json`,
   locations: `${API_BASE_URL}/data/locations.json`,
   guerrillaEvolution: `${API_BASE_URL}/data/guerrilla-evolution.json`,
+  employmentData: `${API_BASE_URL}/data/employment-data.json`,
 };

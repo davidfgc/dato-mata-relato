@@ -1,0 +1,182 @@
+{
+  "employmentData": [
+    {
+      "año": 2002,
+      "poblacion_ocupada_total_miles": 17500,
+      "sector_publico_total_miles": 950,
+      "sector_publico_nacional_miles": 500,
+      "sector_publico_territorial_miles": 450,
+      "sector_privado_derivado_miles": 16550,
+      "tasa_ocupacion_formal": 30.0,
+      "tasa_ocupacion_informal": 70.0,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 15.6
+    },
+    {
+      "año": 2005,
+      "poblacion_ocupada_total_miles": 18500,
+      "sector_publico_total_miles": 1000,
+      "sector_publico_nacional_miles": 520,
+      "sector_publico_territorial_miles": 480,
+      "sector_privado_derivado_miles": 17500,
+      "tasa_ocupacion_formal": 32.0,
+      "tasa_ocupacion_informal": 68.0,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 11.4
+    },
+    {
+      "año": 2008,
+      "poblacion_ocupada_total_miles": 19000,
+      "sector_publico_total_miles": 1050,
+      "sector_publico_nacional_miles": null,
+      "sector_publico_territorial_miles": null,
+      "sector_privado_derivado_miles": 17950,
+      "tasa_ocupacion_formal": 35.0,
+      "tasa_ocupacion_informal": 65.0,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 11.1
+    },
+    {
+      "año": 2012,
+      "poblacion_ocupada_total_miles": 20500,
+      "sector_publico_total_miles": 1100,
+      "sector_publico_nacional_miles": 550,
+      "sector_publico_territorial_miles": 550,
+      "sector_privado_derivado_miles": 19400,
+      "tasa_ocupacion_formal": 37.1,
+      "tasa_ocupacion_informal": 62.9,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 10.6
+    },
+    {
+      "año": 2014,
+      "poblacion_ocupada_total_miles": null,
+      "sector_publico_total_miles": null,
+      "sector_publico_nacional_miles": null,
+      "sector_publico_territorial_miles": null,
+      "sector_privado_derivado_miles": null,
+      "tasa_ocupacion_formal": 39.0,
+      "tasa_ocupacion_informal": 61.0,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 9.1
+    },
+    {
+      "año": 2016,
+      "poblacion_ocupada_total_miles": 22300,
+      "sector_publico_total_miles": 1180,
+      "sector_publico_nacional_miles": null,
+      "sector_publico_territorial_miles": null,
+      "sector_privado_derivado_miles": 21120,
+      "tasa_ocupacion_formal": null,
+      "tasa_ocupacion_informal": null,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 9.2
+    },
+    {
+      "año": 2017,
+      "poblacion_ocupada_total_miles": null,
+      "sector_publico_total_miles": 1200,
+      "sector_publico_nacional_miles": 580,
+      "sector_publico_territorial_miles": 620,
+      "sector_privado_derivado_miles": null,
+      "tasa_ocupacion_formal": 39.4,
+      "tasa_ocupacion_informal": 60.6,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 9.8
+    },
+    {
+      "año": 2018,
+      "poblacion_ocupada_total_miles": null,
+      "sector_publico_total_miles": null,
+      "sector_publico_nacional_miles": null,
+      "sector_publico_territorial_miles": null,
+      "sector_privado_derivado_miles": null,
+      "tasa_ocupacion_formal": null,
+      "tasa_ocupacion_informal": null,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 10.0
+    },
+    {
+      "año": 2019,
+      "poblacion_ocupada_total_miles": 22500,
+      "sector_publico_total_miles": 1250,
+      "sector_publico_nacional_miles": null,
+      "sector_publico_territorial_miles": null,
+      "sector_privado_derivado_miles": 21250,
+      "tasa_ocupacion_formal": 39.5,
+      "tasa_ocupacion_informal": 60.5,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 11.0
+    },
+    {
+      "año": 2020,
+      "poblacion_ocupada_total_miles": 20500,
+      "sector_publico_total_miles": 1260,
+      "sector_publico_nacional_miles": null,
+      "sector_publico_territorial_miles": null,
+      "sector_privado_derivado_miles": 19240,
+      "tasa_ocupacion_formal": 41.4,
+      "tasa_ocupacion_informal": 58.6,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 22.0
+    },
+    {
+      "año": 2021,
+      "poblacion_ocupada_total_miles": null,
+      "sector_publico_total_miles": 1280,
+      "sector_publico_nacional_miles": 610,
+      "sector_publico_territorial_miles": 670,
+      "sector_privado_derivado_miles": null,
+      "tasa_ocupacion_formal": 39.2,
+      "tasa_ocupacion_informal": 60.8,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 15.2
+    },
+    {
+      "año": 2022,
+      "poblacion_ocupada_total_miles": null,
+      "sector_publico_total_miles": null,
+      "sector_publico_nacional_miles": null,
+      "sector_publico_territorial_miles": null,
+      "sector_privado_derivado_miles": null,
+      "tasa_ocupacion_formal": 41.6,
+      "tasa_ocupacion_informal": 58.4,
+      "tasa_global_participacion": null,
+      "tasa_desocupacion": 10.6
+    },
+    {
+      "año": 2023,
+      "poblacion_ocupada_total_miles": 23182,
+      "sector_publico_total_miles": 1310,
+      "sector_publico_nacional_miles": 625,
+      "sector_publico_territorial_miles": 685,
+      "sector_privado_derivado_miles": 21872,
+      "tasa_ocupacion_formal": 42.8,
+      "tasa_ocupacion_informal": 57.2,
+      "tasa_global_participacion": 63.9,
+      "tasa_desocupacion": 10.5
+    },
+    {
+      "año": 2024,
+      "poblacion_ocupada_total_miles": null,
+      "sector_publico_total_miles": null,
+      "sector_publico_nacional_miles": null,
+      "sector_publico_territorial_miles": null,
+      "sector_privado_derivado_miles": null,
+      "tasa_ocupacion_formal": 43.5,
+      "tasa_ocupacion_informal": 56.5,
+      "tasa_global_participacion": 63.8,
+      "tasa_desocupacion": 10.3
+    }
+  ],
+  "lastUpdated": "2025-06-29T00:00:00.000Z",
+  "metadata": {
+    "sources": [
+      "DANE - Departamento Administrativo Nacional de Estadística",
+      "Ministerio del Trabajo",
+      "SENA - Servicio Nacional de Aprendizaje",
+      "DNP - Departamento Nacional de Planeación"
+    ],
+    "methodology": "Los datos integran múltiples fuentes oficiales con validación cruzada. Se priorizan datos del DANE cuando están disponibles y se aplican técnicas de interpolación para períodos con información fragmentada."
+  }
+}

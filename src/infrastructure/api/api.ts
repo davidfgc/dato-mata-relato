@@ -5,11 +5,21 @@ import Bill from '../../domain/bill';
 import VotingRecord from '../../domain/voting-record';
 import Representative from '../../domain/representative';
 import VotingStage from '../../domain/voting-stage';
-import { MembershipDataEntry, TerritorialDataEntry } from '../../presentation/components/guerrilla-evolution/data';
+import { MembershipDataEntry, TerritorialDataEntry } from '../../domain/guerrilla-group';
+import { EmploymentDataEntry } from '../../domain/employment';
 
 interface GuerrillaEvolutionApiResponse {
   membershipData: MembershipDataEntry[];
   territorialData: TerritorialDataEntry[];
+  lastUpdated?: string;
+  metadata?: {
+    sources: string[];
+    methodology: string;
+  };
+}
+
+interface EmploymentDataApiResponse {
+  employmentData: EmploymentDataEntry[];
   lastUpdated?: string;
   metadata?: {
     sources: string[];
@@ -74,6 +84,13 @@ export const fetchLocations = async (): Promise<unknown[]> => {
 
 export const fetchGuerrillaEvolutionData = async (): Promise<GuerrillaEvolutionApiResponse> => {
   const response = await fetch(ENDPOINTS.guerrillaEvolution);
+  const data = await response.json();
+
+  return data;
+};
+
+export const fetchEmploymentData = async (): Promise<EmploymentDataApiResponse> => {
+  const response = await fetch(ENDPOINTS.employmentData);
   const data = await response.json();
 
   return data;

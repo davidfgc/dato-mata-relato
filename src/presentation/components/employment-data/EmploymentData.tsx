@@ -1,72 +1,41 @@
 /**
  * EmploymentData - Componente principal de visualización de datos de empleo
- * Implementa el patrón Redux con Context + useReducer
- * Preparado para futura migración a Redux Toolkit
+ * Implementa el patrón Redux con Context + useReducer para estado local
+ * Usa hooks de aplicación para obtener datos remotos
  */
 
 import React from 'react';
 import { LineChart, Line, ResponsiveContainer, CartesianGrid, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import { Stack, ToggleButton, ToggleButtonGroup } from '@mui/material';
-import {
-  useActiveChart,
-  useFromYear,
-  useShowAnalysis,
-  useShowSources,
-  useIsLoading,
-  useError,
-  useEmploymentDataActions,
-} from './context';
-import {
-  employmentData,
-  processUnemploymentRateData,
-  processPublicEmploymentGrowthData,
-  getAvailableYears,
-  filterDataFromYear,
-  formatTooltip,
-  validateDataIntegrity,
-} from './data';
+import { useActiveChart, useFromYear, useShowAnalysis, useShowSources, useEmploymentDataActions } from './context';
+import { useEmploymentData } from '../../../application/hooks/queries/useEmploymentData';
+import { EmploymentService } from '../../../domain/services/employment.service';
 import { YearFilter } from './YearFilter';
 import ExpandableSection from '../../../shared/components/ui/ExpandableSection';
 
 /**
  * Componente principal que renderiza visualizaciones de datos de empleo
- * Siguiendo el patrón Redux con useReducer + Context
- * Preparado para futura migración a Redux Toolkit
+ * Combina estado local Redux con datos remotos de la aplicación
  */
 const EmploymentData: React.FC = () => {
-  // Hooks personalizados que siguen el patrón Redux
+  // Hooks personalizados que siguen el patrón Redux para estado local de UI
   const activeChart = useActiveChart();
   const fromYear = useFromYear();
   const showAnalysis = useShowAnalysis();
   const showSources = useShowSources();
-  const isLoading = useIsLoading();
-  const error = useError();
-  const { 
-    setActiveChart, 
-    setFromYear, 
-    toggleAnalysis, 
-    toggleSources,
-    setError,
-    clearError
-  } = useEmploymentDataActions();
+  const { setActiveChart, setFromYear, toggleAnalysis, toggleSources } = useEmploymentDataActions();
 
-  // Validación de datos y manejo de errores
-  React.useEffect(() => {
-    if (!validateDataIntegrity(employmentData)) {
-      setError('Error en la integridad de los datos de empleo');
-    } else {
-      clearError();
-    }
-  }, [setError, clearError]);
+  // Hook de aplicación para datos remotos
+  const { employmentData, loading, error, lastUpdated } = useEmploymentData();
 
-  // Datos procesados y filtrados (memoizados implícitamente por ser pure functions)
-  const filteredData = filterDataFromYear(employmentData, fromYear);
-  const unemploymentData = processUnemploymentRateData(filteredData);
-  const publicEmploymentGrowthData = processPublicEmploymentGrowthData(filteredData);
-  const availableYears = getAvailableYears(employmentData);
+  // Datos procesados y filtrados usando el servicio del dominio
+  const filteredEmploymentData = EmploymentService.filterDataFromYear(employmentData, fromYear);
+  const filteredUnemploymentData = EmploymentService.processUnemploymentRateData(filteredEmploymentData);
+  const filteredPublicEmploymentData = EmploymentService.processPublicEmploymentGrowthData(filteredEmploymentData);
+  const availableYears = EmploymentService.getAvailableYears(employmentData);
 
   // Manejo de estados de carga y error
-  if (isLoading) {
+  if (loading) {
     return (
       <div className="w-full p-6 bg-white flex items-center justify-center">
         <div className="text-gray-600">Cargando datos de empleo...</div>
@@ -119,7 +88,7 @@ const EmploymentData: React.FC = () => {
         <div>
           <h3 className="text-lg font-semibold text-gray-700 mb-4">Tasa de Desocupación por Año</h3>
           <ResponsiveContainer width="100%" height={500}>
-            <LineChart data={unemploymentData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+            <LineChart data={filteredUnemploymentData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
               <XAxis dataKey="año" stroke="#666" tick={{ fontSize: 12 }} />
               <YAxis
@@ -129,7 +98,7 @@ const EmploymentData: React.FC = () => {
                 label={{ value: 'Tasa de Desocupación (%)', angle: -90, position: 'insideLeft' }}
               />
               <Tooltip
-                formatter={(value: number) => formatTooltip(value, 'tasa_desocupacion')}
+                formatter={(value: number) => EmploymentService.formatTooltip(value, 'tasa_desocupacion')}
                 labelFormatter={(value: number) => `Año: ${value}`}
                 contentStyle={{
                   backgroundColor: '#f8f9fa',
@@ -176,7 +145,7 @@ const EmploymentData: React.FC = () => {
         <div>
           <h3 className="text-lg font-semibold text-gray-700 mb-4">Empleo Público y Crecimiento Anual</h3>
           <ResponsiveContainer width="100%" height={500}>
-            <LineChart data={publicEmploymentGrowthData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+            <LineChart data={filteredPublicEmploymentData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
               <XAxis dataKey="año" stroke="#666" tick={{ fontSize: 12 }} />
               <YAxis
@@ -197,9 +166,9 @@ const EmploymentData: React.FC = () => {
               <Tooltip
                 formatter={(value: number, name: string) => {
                   if (name === 'Empleo Público') {
-                    return formatTooltip(value, 'sector_publico_total_miles');
+                    return EmploymentService.formatTooltip(value, 'sector_publico_total_miles');
                   }
-                  return formatTooltip(value, 'crecimiento_porcentual');
+                  return EmploymentService.formatTooltip(value, 'crecimiento_porcentual');
                 }}
                 labelFormatter={(value: number) => `Año: ${value}`}
                 contentStyle={{
@@ -310,7 +279,7 @@ const EmploymentData: React.FC = () => {
         </ExpandableSection>
 
         <p className="mt-3 text-xs text-gray-600">
-          <strong>Última actualización:</strong> Junio 2025 | <strong>Período analizado:</strong> 2002-2024
+          <strong>Última actualización:</strong> {lastUpdated || 'Junio 2025'} | <strong>Período analizado:</strong> 2002-2024
         </p>
       </div>
     </div>
