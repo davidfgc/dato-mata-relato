@@ -9,24 +9,14 @@ import {
   useFromYear,
   useGuerrillaEvolutionActions,
 } from './context';
-import {
-  calculateTotalData,
-  formatTooltip,
-  membershipData,
-  territorialData,
-  filterMembershipDataFromYear,
-  filterTerritorialDataFromYear,
-  getAvailableYears,
-} from './data';
+import { GuerrillaEvolutionService } from '../../../domain/services/guerrilla-evolution.service';
+import { useGuerrillaEvolutionData } from '../../../application/hooks/queries/useGuerrillaEvolutionData';
 import ExpandableSection from '../../../shared/components/ui/ExpandableSection';
 import { YearFilter } from './YearFilter';
 
-/**
- * Componente refactorizado para usar patrón Redux con useReducer + Context
- * Preparado para futura migración a Redux Toolkit
- */
 const GuerrillaEvolutionChart: React.FC = () => {
-  // Hooks personalizados que siguen el patrón Redux
+  const { membershipData, territorialData, loading, error } = useGuerrillaEvolutionData();
+
   const activeChart = useActiveChart();
   const showKeyData = useShowKeyData();
   const showResearchSources = useShowResearchSources();
@@ -34,11 +24,36 @@ const GuerrillaEvolutionChart: React.FC = () => {
   const fromYear = useFromYear();
   const { setActiveChart, toggleKeyData, toggleResearchSources, toggleTotalAnalysis, setFromYear } = useGuerrillaEvolutionActions();
 
-  // Datos filtrados (memoizados implícitamente por ser pure functions)
-  const filteredMembershipData = filterMembershipDataFromYear(membershipData, fromYear);
-  const filteredTerritorialData = filterTerritorialDataFromYear(territorialData, fromYear);
-  const totalData = calculateTotalData(filteredMembershipData);
-  const availableYears = getAvailableYears(membershipData);
+  // Datos filtrados usando domain service
+  const filteredMembershipData = GuerrillaEvolutionService.filterMembershipFromYear(membershipData, fromYear);
+  const filteredTerritorialData = GuerrillaEvolutionService.filterTerritorialFromYear(territorialData, fromYear);
+  const totalData = GuerrillaEvolutionService.calculateTotalCombatants(filteredMembershipData);
+  const availableYears = GuerrillaEvolutionService.getAvailableYears(membershipData);
+
+  if (loading) {
+    return (
+      <div className="w-full p-6 bg-white">
+        <div className="flex items-center justify-center h-96">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-2"></div>
+            <p className="text-gray-600">Cargando datos de evolución guerrillera...</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="w-full p-6 bg-white">
+        <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+          <h3 className="text-red-800 font-semibold mb-2">Error al cargar los datos</h3>
+          <p className="text-red-700 text-sm">{error}</p>
+          <p className="text-red-600 text-xs mt-2">Se están mostrando datos de respaldo cuando están disponibles.</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="w-full p-6 bg-white">
@@ -134,7 +149,7 @@ const GuerrillaEvolutionChart: React.FC = () => {
               <XAxis dataKey="año" stroke="#666" tick={{ fontSize: 12 }} />
               <YAxis stroke="#666" tick={{ fontSize: 12 }} tickFormatter={(value: number) => value.toLocaleString()} />
               <Tooltip
-                formatter={formatTooltip}
+                formatter={GuerrillaEvolutionService.formatTooltip}
                 labelFormatter={(value: number) => `Año: ${value}`}
                 contentStyle={{
                   backgroundColor: '#f8f9fa',

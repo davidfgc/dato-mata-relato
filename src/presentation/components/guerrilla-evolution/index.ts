@@ -28,11 +28,4 @@ export {
 } from './context';
 
 // Datos y utilidades
-export {
-  membershipData,
-  territorialData,
-  calculateTotalData,
-  formatTooltip,
-  type MembershipDataEntry,
-  type TerritorialDataEntry,
-} from './data';
+export { type MembershipDataEntry, type TerritorialDataEntry } from '../../../domain/guerrilla-group';

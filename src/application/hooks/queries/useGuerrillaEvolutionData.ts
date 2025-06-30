@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
-import { MembershipDataEntry, TerritorialDataEntry } from '../../../presentation/components/guerrilla-evolution/data';
+import { MembershipDataEntry, TerritorialDataEntry } from '../../../domain/guerrilla-group';
 import { fetchGuerrillaEvolutionData } from '../../../infrastructure/api/api';
+import { GuerrillaEvolutionService } from '../../../domain/services/guerrilla-evolution.service';
 
 /**
  * Hook para obtener datos de evolución guerrillera de una fuente remota
- * Sigue el mismo patrón que useVotingRecordData.ts
+ * Sigue el mismo patrón que useVotingRecordData.ts pero usa la lógica del dominio
  */
 export const useGuerrillaEvolutionData = () => {
   const [membershipData, setMembershipData] = useState<MembershipDataEntry[]>([]);
@@ -22,23 +23,21 @@ export const useGuerrillaEvolutionData = () => {
         // Usar la función de API centralizada
         const data = await fetchGuerrillaEvolutionData();
 
-        setMembershipData(data.membershipData || []);
-        setTerritorialData(data.territorialData || []);
+        // Transformar usando el servicio del dominio
+        const { membershipData: domainMembership, territorialData: domainTerritorial } =
+          GuerrillaEvolutionService.transformApiResponse(data);
+
+        // Convertir a formato de presentación para compatibilidad
+        const presentationMembership = GuerrillaEvolutionService.transformToChartFormat(domainMembership);
+        const presentationTerritorial = GuerrillaEvolutionService.transformTerritorialToChartFormat(domainTerritorial);
+
+        setMembershipData(presentationMembership);
+        setTerritorialData(presentationTerritorial);
         setLastUpdated(data.lastUpdated || null);
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : 'Error desconocido al cargar datos';
         setError(errorMessage);
         console.error('Error fetching guerrilla evolution data:', err);
-        
-        // Fallback a datos locales si la API falla
-        try {
-          const { membershipData: fallbackMembership, territorialData: fallbackTerritorial } = 
-            await import('../../../presentation/components/guerrilla-evolution/data');
-          setMembershipData(fallbackMembership);
-          setTerritorialData(fallbackTerritorial);
-        } catch (fallbackError) {
-          console.error('Error loading fallback data:', fallbackError);
-        }
       } finally {
         setLoading(false);
       }
