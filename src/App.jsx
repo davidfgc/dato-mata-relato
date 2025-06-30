@@ -14,6 +14,7 @@ import VotingRecord from './presentation/components/voting/VotingRecord';
 import VotingFilters from './presentation/components/filters/VotingFilters';
 import ChamberMap from './presentation/components/map/ChamberMap';
 import { GuerrillaEvolutionChart } from './presentation/components/guerrilla-evolution';
+import { EmploymentData } from './presentation/components/employment-data';
 
 function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
@@ -71,6 +72,7 @@ function App() {
               <Route path="/generator" element={<GeneratorApp />} />
               <Route path="/map" element={<ChamberMap />} />
               <Route path="/grupos-armados" element={<GuerrillaEvolutionChart />} />
+              <Route path="/datos-empleo" element={<EmploymentData />} />
             </Routes>
           </Container>
         </Box>

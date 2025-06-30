@@ -14,9 +14,6 @@
 // Componente principal recomendado (incluye Provider)
 export { default as GuerrillaEvolutionChart } from './GuerrillaEvolutionWithProvider';
 
-// Componente sin Provider (para uso con Provider externo)
-export { default as GuerrillaEvolutionChartCore } from './GuerrillaEvolutionChart';
-
 // Context y Provider para uso manual
 export {
   GuerrillaEvolutionProvider,

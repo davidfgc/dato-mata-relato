@@ -32,6 +32,7 @@ const Header = () => {
     { text: 'Reformas', href: '/#/reformas' },
     { text: 'Congresistas', href: '/#/congresistas' },
     { text: 'Despilfarro', href: '/#/despilfarro' },
+    { text: 'Empleo Público', href: '/#/datos-empleo' },
   ];
 
   const drawer = (
