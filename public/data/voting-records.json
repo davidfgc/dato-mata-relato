@@ -1343,6 +1343,7 @@
       "date": "2025-03-18",
       "chamberId": "1",
       "motion": "archive",
+      "reverted": true,
       "votes": [
         {
           "representativeId": 230,
@@ -1581,6 +1582,526 @@
       "chamberId": "2",
       "warning": "Estado: Completando información de votos...",
       "votes": []
+    },
+    {
+      "voting-stage": 5,
+      "billId": "166/2023C",
+      "date": "2025-06-20",
+      "chamberId": "2",
+      "votes": [
+        {
+          "representativeId": 191,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 62,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 58,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 120,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 171,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 140,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 221,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 93,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 219,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 163,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 127,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 85,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 220,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 115,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 251,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 136,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 190,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 84,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 129,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 189,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 194,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 101,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 256,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 139,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 161,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 113,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 228,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 90,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 75,
+          "vote": "no"
+        },
+        {
+          "representativeId": 91,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 89,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 226,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 64,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 137,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 133,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 102,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 142,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 107,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 196,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 119,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 148,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 111,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 125,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 144,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 92,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 197,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 103,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 59,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 110,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 258,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 165,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 227,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 47,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 116,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 248,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 149,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 173,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 135,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 100,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 128,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 172,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 123,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 224,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 154,
+          "vote": "no"
+        },
+        {
+          "representativeId": 9,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 244,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 218,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 86,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 55,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 199,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 121,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 83,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 247,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 21,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 212,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 201,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 174,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 147,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 96,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 56,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 117,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 97,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 94,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 138,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 105,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 215,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 259,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 151,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 160,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 88,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 108,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 167,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 167,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 203,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 207,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 45,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 170,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 99,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 54,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 170,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 222,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 257,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 168,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 46,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 213,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 225,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 57,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 132,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 159,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 150,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 126,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 44,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 104,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 122,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 155,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 63,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 210,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 145,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 202,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 204,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 211,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 131,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 78,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 112,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 70,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 208,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 124,
+          "vote": "yes"
+        },
+        {
+          "representativeId": 153,
+          "vote": "yes"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Primer debate"
+  },
+  {
+    "id": 2,
+    "name": "Segundo debate"
+  },
+  {
+    "id": 3,
+    "name": "Tercer debate"
+  },
+  {
+    "id": 4,
+    "name": "Cuarto debate"
+  },
+  {
+    "id": 5,
+    "name": "Conciliación"
+  },
+  {
+    "id": 6,
+    "name": "Archivo"
+  },
+  {
+    "id": 7,
+    "name": "Pendiente enviar a sanción"
+  }
+]

@@ -2,27 +2,45 @@
   "stages": [
     {
       "id": 1,
-      "name": "Primer debate",
-      "description": "Comisión de Cámara"
+      "name": "Comisión de Cámara",
+      "description": "Primer debate en Comisión de Cámara",
+      "chamberId": 2
     },
     {
       "id": 2,
-      "name": "Segundo debate",
-      "description": "Plenaria de Cámara"
+      "name": "Plenaria de Cámara",
+      "description": "Segundo debate en Plenaria de Cámara",
+      "chamberId": 2
     },
     {
       "id": 3,
-      "name": "Tercer debate",
-      "description": "Comisión de Senado"
+      "name": "Comisión de Senado",
+      "description": "Tercer debate en Comisión de Senado",
+      "chamberId": 1
     },
     {
       "id": 4,
-      "name": "Cuarto debate",
-      "description": "Plenaria de Senado"
+      "name": "Plenaria de Senado",
+      "description": "Cuarto debate en Plenaria de Senado",
+      "chamberId": 1
     },
     {
       "id": 5,
-      "name": "Debate de conciliación"
+      "name": "Conciliación Cámara",
+      "description": "Debate de conciliación",
+      "chamberId": 2
+    },
+    {
+      "id": 6,
+      "name": "Conciliación Senado",
+      "description": "Debate de conciliación",
+      "chamberId": 1
+    },
+    {
+      "id": 7,
+      "name": "Archivo",
+      "description": "Archivo de la iniciativa",
+      "chamberId": 1
     }
   ]
 }

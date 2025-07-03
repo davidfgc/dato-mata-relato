@@ -28,6 +28,7 @@ export const processData = (
 
   const processedVotingRecords = votingRecords
     .filter((votingRecord) => votingRecord.billId === bill.id)
+    .filter((record) => !record.reverted)
     .map((votingRecord) => {
       const votingStageVotes = votingRecord.votes
         .map((vote) => {

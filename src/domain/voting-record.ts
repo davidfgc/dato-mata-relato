@@ -7,4 +7,5 @@ export default interface VotingRecord {
   votes: RepresentativeVote[];
   warning?: string;
   motion?: string;
+  reverted?: boolean;
 }

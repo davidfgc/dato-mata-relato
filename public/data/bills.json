@@ -6,6 +6,7 @@
       "shortTitle": "Reforma a la Salud",
       "description": "Por medio de la presente ley se realizan ajustes al sistema de salud en el marco del Sistema General de Seguridad Social en Salud, se desarrolla lo consagrado en la Ley 1751 de 2015, y se dictan medidas para garantizar a toda la población el derecho fundamental a la salud, mejorar los resultados en salud, aumentar la satisfacción del usuario y del talento humano en salud, y garantizar la sostenibilidad del Sistema.",
       "tags": ["Salud", "Seguridad Social"],
+      "statusId": 6,
       "status": "archivado",
       "date": "2023-02-28",
       "type": "Ley Ordinaria",
@@ -78,7 +79,8 @@
       "authorRole": "Ministra del Trabajo",
       "type": "Ley Ordinaria",
       "legislature": "2023 - 2024",
-      "status": "archivado",
+      "statusId": 7,
+      "status": "Pendiente enviar a sanción",
       "sources": [
         {
           "title": "Proyecto Cámara",
