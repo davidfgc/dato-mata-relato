@@ -272,6 +272,15 @@ const VotingFilters = () => {
         </Box>
       )}
 
+      {/* Title for selected bill */}
+      <Typography variant="h6" sx={{ mb: 2 }}>
+        {selectedBill} -{' '}
+        {(() => {
+          const bill = bills.find((b) => b.id === selectedBill);
+          return bill ? bill.shortTitle : '';
+        })()}{' '}
+        - {selectedStage ? stages.find((s) => s.id === selectedStage)?.name : ''}
+      </Typography>
       <RepresentativesList
         representatives={filteredRepresentatives}
         getVoteStatus={getVoteStatus}

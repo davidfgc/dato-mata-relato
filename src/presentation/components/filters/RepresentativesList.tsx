@@ -22,12 +22,12 @@ const RepresentativesList = ({
   emptyMessage = 'No se encontraron representantes con los filtros seleccionados',
 }: RepresentativesListProps) => {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} alignItems="stretch">
       {representatives.length > 0 ? (
         representatives.map((rep) => {
           const vote = getVoteStatus(rep.id);
           return (
-            <Grid item xs={12} sm={6} md={4} lg={3} key={rep.id}>
+            <Grid item xs={12} sm={6} md={4} lg={3} key={rep.id} style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
               <RepresentativeCard
                 representative={rep}
                 vote={vote}
