@@ -1,0 +1,11 @@
+Following the domain entity ADR pattern (see ADR-001-domain-entity-structure-pattern.md), create a new entity class for [ENTITY NAME] in the appropriate entities directory.
+
+Then, replace all usages of the old [ENTITY NAME] interface or type throughout the project with the new entity class, updating imports and usages as needed. Finally, delete the old [ENTITY NAME] file.
+
+Make sure to:
+
+Use private constructors and factory methods (create, fromPersistence)
+Implement getters, business methods, and toPersistence
+Enforce validation and business rules as described in the ADR
+Ensure no direct property access or public fields remain
+Let me know when the migration is complete.
