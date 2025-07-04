@@ -1,6 +1,6 @@
 // import { DomainError } from '../domain-error';
 import PartyVote from '../party-vote';
-import BillSource from '../bill-source';
+import { BillSource } from './bill-source.entity';
 
 // Value objects would be imported here if defined (e.g., BillId, BillStatus, etc.)
 
@@ -21,6 +21,7 @@ interface BillCreationParams {
   coordinators?: string[];
   sources?: BillSource[];
 }
+
 
 interface BillPersistenceData extends BillCreationParams {}
 
