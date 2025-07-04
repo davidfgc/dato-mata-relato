@@ -55,7 +55,7 @@ src/
 │
 ├── domain/                       # Capa de dominio (entidades y reglas de negocio)
 │   ├── entities/                 # Entidades del dominio
-│   │   ├── Bill.ts              # Entidad Bill
+│   │   ├── bill.entity.ts       # Entidad Bill
 │   │   ├── Representative.ts     # Entidad Representative
 │   │   ├── Party.ts             # Entidad Party
 │   │   ├── VotingRecord.ts      # Entidad VotingRecord
@@ -466,7 +466,7 @@ export default defineConfig({
 #### 🏗️ Crear estructura base:
 
 **Entidades del dominio:**
-- `src/domain/entities/Bill.ts`
+- `src/domain/entities/bill.entity.ts`
 - `src/domain/entities/Representative.ts`
 - `src/domain/entities/Party.ts`
 - `src/domain/entities/VotingRecord.ts`

@@ -1,7 +1,7 @@
 import { ENDPOINTS } from '../../shared/config/api';
 
 import Party from '../../domain/party';
-import Bill from '../../domain/bill';
+import { BillEntity } from '../../domain/entities/bill.entity';
 import VotingRecord from '../../domain/voting-record';
 import Representative from '../../domain/representative';
 import VotingStage from '../../domain/voting-stage';
@@ -27,11 +27,11 @@ interface EmploymentDataApiResponse {
   };
 }
 
-export const fetchBills = async (): Promise<Bill[]> => {
+export const fetchBills = async (): Promise<BillEntity[]> => {
   const response = await fetch(ENDPOINTS.bills);
   const data = await response.json();
 
-  return data.bills as Bill[];
+  return data.bills as BillEntity[];
 };
 
 export const fetchVotingRecords = async (): Promise<VotingRecord[]> => {
