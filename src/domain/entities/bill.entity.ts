@@ -1,4 +1,4 @@
-// import { DomainError } from '../domain-error';
+import { InvalidDomainValueError } from '../errors/InvalidDomainValueError';
 import PartyVote from '../party-vote';
 import { BillSource } from './bill-source.entity';
 
@@ -21,7 +21,6 @@ interface BillCreationParams {
   coordinators?: string[];
   sources?: BillSource[];
 }
-
 
 interface BillPersistenceData extends BillCreationParams {}
 
@@ -46,10 +45,11 @@ export class BillEntity {
 
   // Factory method for creation
   static create(params: BillCreationParams): BillEntity {
-    // Example validation (expand as needed)
-    if (!params.id || !params.title) {
-      // TODO: Replace with DomainError when available
-      throw new Error('Bill must have an id and title');
+    if (!params.id) {
+      throw new InvalidDomainValueError('Bill must have an id', 'id', params.id, { suggestion: 'Provide a valid bill id' });
+    }
+    if (!params.title) {
+      throw new InvalidDomainValueError('Bill must have a title', 'title', params.title, { suggestion: 'Provide a title for the bill' });
     }
     return new BillEntity(
       params.id,
@@ -76,28 +76,58 @@ export class BillEntity {
   }
 
   // Getters
-  get id() { return this._id; }
-  get title() { return this._title; }
-  get description() { return this._description; }
-  get tags() { return this._tags; }
-  get status() { return this._status; }
-  get date() { return this._date; }
-  get type() { return this._type; }
-  get author() { return this._author; }
-  get authorRole() { return this._authorRole; }
-  get committee() { return this._committee; }
-  get legislature() { return this._legislature; }
-  get origin() { return this._origin; }
-  get partyVotes() { return this._partyVotes; }
-  get coordinators() { return this._coordinators; }
-  get sources() { return this._sources; }
+  get id() {
+    return this._id;
+  }
+  get title() {
+    return this._title;
+  }
+  get description() {
+    return this._description;
+  }
+  get tags() {
+    return this._tags;
+  }
+  get status() {
+    return this._status;
+  }
+  get date() {
+    return this._date;
+  }
+  get type() {
+    return this._type;
+  }
+  get author() {
+    return this._author;
+  }
+  get authorRole() {
+    return this._authorRole;
+  }
+  get committee() {
+    return this._committee;
+  }
+  get legislature() {
+    return this._legislature;
+  }
+  get origin() {
+    return this._origin;
+  }
+  get partyVotes() {
+    return this._partyVotes;
+  }
+  get coordinators() {
+    return this._coordinators;
+  }
+  get sources() {
+    return this._sources;
+  }
 
   // Example business method
   updateStatus(newStatus: string) {
-    // Add business rule validation as needed
     if (!newStatus) {
-      // TODO: Replace with DomainError when available
-      throw new Error('Status cannot be empty');
+      throw new InvalidDomainValueError('Status cannot be empty', 'status', newStatus, {
+        suggestion: 'Provide a valid status for the bill',
+      });
     }
     this._status = newStatus;
   }
@@ -119,7 +149,7 @@ export class BillEntity {
       origin: this._origin,
       partyVotes: this._partyVotes,
       coordinators: this._coordinators,
-      sources: this._sources
+      sources: this._sources,
     };
   }
 }

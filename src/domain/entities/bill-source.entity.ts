@@ -1,4 +1,4 @@
-import { DomainError } from "../domain-error";
+import { InvalidDomainValueError } from '../errors/InvalidDomainValueError';
 
 export interface BillSourcePersistenceData {
   title: string;
@@ -13,8 +13,14 @@ export class BillSource {
 
   // Factory method for creation
   static create(params: { title: string; url: string }): BillSource {
-    if (!params.title || !params.url) {
-      throw new DomainError("BillSource requires both title and url");
+    if (!params.title) {
+      throw new InvalidDomainValueError('Title is required', 'title', params.title, {
+        suggestion: 'Please provide a title for the bill source',
+      });
+    }
+
+    if (!params.url) {
+      throw new InvalidDomainValueError('URL is required', 'url', params.url, { suggestion: 'Please provide a URL for the bill source' });
     }
     // Add further validation as needed
     return new BillSource(params.title, params.url);
