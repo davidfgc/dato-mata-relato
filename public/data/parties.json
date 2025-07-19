@@ -355,6 +355,18 @@
       "senators": -1,
       "representatives": -1,
       "president": ""
+    },
+    {
+      "id": "AICO",
+      "name": "AICO",
+      "official_name": "AICO",
+      "founding_year": -1,
+      "ideology": [],
+      "position": "",
+      "government_position": "",
+      "senators": -1,
+      "representatives": -1,
+      "president": ""
     }
   ]
 }

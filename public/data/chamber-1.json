@@ -6,6 +6,7 @@
     "comision": "Primera",
     "gender": "Femenino",
     "chamber_id": 1,
+    "party_id": "MAIS",
     "id": 262
   },
   {
@@ -256,6 +257,7 @@
     "comision": "Quinta",
     "gender": "Masculino",
     "chamber_id": 1,
+    "party_id": "MAIS",
     "id": 287
   },
   {
@@ -405,6 +407,7 @@
     "comision": "Sexta",
     "gender": "Masculino",
     "chamber_id": 1,
+    "party_id": "ASI",
     "id": 302
   },
   {
@@ -414,6 +417,7 @@
     "comision": "Sexta",
     "gender": "Masculino",
     "chamber_id": 1,
+    "party_id": "ASI",
     "id": 303
   },
   {
@@ -524,6 +528,7 @@
     "comision": "Tercera",
     "gender": "Masculino",
     "chamber_id": 1,
+    "party_id": "ASI",
     "id": 314
   },
   {
@@ -794,6 +799,7 @@
     "comision": "Primera",
     "gender": "Femenino",
     "chamber_id": 1,
+    "party_id": "MAIS",
     "id": 341
   },
   {
@@ -983,6 +989,7 @@
     "comision": "Séptima",
     "gender": "Masculino",
     "chamber_id": 1,
+    "party_id": "AICO",
     "id": 360
   },
   {
@@ -1132,6 +1139,7 @@
     "comision": "Tercera",
     "gender": "Masculino",
     "chamber_id": 1,
+    "party_id": "MAIS",
     "id": 375
   },
   {
@@ -1153,5 +1161,45 @@
     "chamber_id": 1,
     "id": 376,
     "party_id": "PC"
+  },
+  {
+    "name": "Sonia Shirley Bernal Sánchez",
+    "thumbnail": "https://apicongresovisible.uniandes.edu.co/uploads/persona/28257/figura-Sonia%20Bernal%20Sanche-510px.jpeg",
+    "party_name": "Pacto Histórico",
+    "comision": "Primera",
+    "gender": "Femenino",
+    "chamber_id": 1,
+    "party_id": "PH",
+    "id": 377
+  },
+  {
+    "name": "León Fredy Muñoz Lopera",
+    "thumbnail": "https://www.senado.gov.co/images/Fotos_Senadores_2022/Leon_Fredy_Mu%C3%B1oz.jpg",
+    "party_name": "Alianza Verde",
+    "comision": "Primera",
+    "gender": "Masculino",
+    "chamber_id": 1,
+    "party_id": "AV",
+    "id": 378
+  },
+  {
+    "name": "Temístocles Ortega Narváez",
+    "thumbnail": "https://www.senado.gov.co/images/Fotos_Senadores_2022/temistocles_ortega.jpg",
+    "party_name": "Cambio Radical",
+    "comision": "Primera",
+    "gender": "Masculino",
+    "chamber_id": 1,
+    "party_id": "CR",
+    "id": 379
+  },
+  {
+    "name": "Richard Humberto Fuelantala Delgado",
+    "thumbnail": "https://www.senado.gov.co/images/Fotos_Senadores_2022/Richard_Fuelantala_Delgado.jpg",
+    "party_name": "AICO",
+    "comision": "Cuarta",
+    "gender": "Masculino",
+    "chamber_id": 1,
+    "party_id": "AICO",
+    "id": 380
   }
 ]
