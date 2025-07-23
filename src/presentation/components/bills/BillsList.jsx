@@ -16,8 +16,9 @@ const BillsList = () => {
         setLoading(true);
         const data = await fetchBills();
 
-        // Sort bills by date (newest to oldest)
-        const sortedBills = [...data].sort((a, b) => {
+        // Filter out hidden bills and sort by date (newest to oldest)
+        const visibleBills = data.filter((bill) => !bill.hidden);
+        const sortedBills = [...visibleBills].sort((a, b) => {
           return new Date(b.date) - new Date(a.date);
         });
 

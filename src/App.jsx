@@ -60,7 +60,7 @@ function App() {
             disableGutters
           >
             <Routes>
-              <Route path="/" element={<GuerrillaEvolutionChart />} />
+              <Route path="/" element={<BillsList />} />
               <Route path="/reformas" element={<BillsList />} />
               <Route path="/reformas/:id/:year" element={<BillDetail />} />
               <Route path="/reformas/:id/:year/autores" element={<BillAuthors />} />
@@ -69,6 +69,7 @@ function App() {
               <Route path="/filtros" element={<VotingFilters />} />
               <Route path="/congresistas" element={<CongressList />} />
               <Route path="/despilfarro" element={<FiscalInefficiency />} />
+              <Route path="/guerrilla" element={<GuerrillaEvolutionChart />} />
               <Route path="/generator" element={<GeneratorApp />} />
               <Route path="/map" element={<ChamberMap />} />
               <Route path="/grupos-armados" element={<GuerrillaEvolutionChart />} />

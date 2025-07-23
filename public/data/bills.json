@@ -89,6 +89,10 @@
         {
           "title": "Proyecto Senado",
           "url": "https://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2024-2025/article/312-por-medio-del-cual-se-modifica-parcialmente-normas-laborales-y-se-adopta-una-reforma-laboral-para-el-trabajo-decente-y-digno-en-colombia"
+        },
+        {
+          "title": "Votación Tercer Debate",
+          "url": "https://www.youtube.com/live/HwHvJF9dpyw?si=GE9bm-ciiaYHEbuQ&t=13289"
         }
       ]
     },
@@ -272,6 +276,7 @@
       "shortTitle": "Prohibición de prácticas de conversión",
       "description": "La presente ley tiene por objeto prevenir y sancionar las prácticas de conversión, así como promover la no discriminación en el territorio nacional; establece mecanismos de protección y garantía de los derechos a la dignidad, a la autonomía personal y a tener una vida libre de violencia según los estándares previstos en la Constitución Política de Colombia y en los Tratados o Convenios Internacionales de derechos humanos ratificados por Colombia.",
       "tags": ["Derechos Humanos", "Discriminación", "LGBTIQ+"],
+      "hidden": true,
       "status": "En trámite",
       "date": "2024-10-01",
       "type": "Ley Ordinaria",

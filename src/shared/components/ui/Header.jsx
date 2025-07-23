@@ -30,9 +30,10 @@ const Header = () => {
   const navItems = [
     { text: 'Home', href: '/#/' },
     { text: 'Reformas', href: '/#/reformas' },
-    { text: 'Congresistas', href: '/#/congresistas' },
+    { text: 'Guerrilla', href: '/#/guerrilla' },
     { text: 'Despilfarro', href: '/#/despilfarro' },
     { text: 'Empleo Público', href: '/#/datos-empleo' },
+    { text: 'Congresistas', href: '/#/congresistas' },
   ];
 
   const drawer = (

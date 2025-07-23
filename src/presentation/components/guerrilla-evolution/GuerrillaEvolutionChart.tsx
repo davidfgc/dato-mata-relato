@@ -309,7 +309,7 @@ const GuerrillaEvolutionChart: React.FC = () => {
           </div>
           <div className="mt-3 p-2 bg-gray-100 rounded text-xs">
             <strong>Metodología:</strong> Los datos integran fuentes múltiples con triangulación de información oficial, académica e
-            internacional. Las estimaciones de membership varían entre fuentes; se priorizaron datos oficiales cuando disponibles y se
+            internacional. Las estimaciones de miembros totales varían entre fuentes; se priorizaron datos oficiales cuando disponibles y se
             usaron promedios ponderados para períodos con información fragmentada.
           </div>
         </ExpandableSection>
