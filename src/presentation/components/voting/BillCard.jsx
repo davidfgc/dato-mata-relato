@@ -4,6 +4,10 @@ import PropTypes from 'prop-types';
 import StatusChip from '../../../shared/components/ui/StatusChip';
 
 const BillCard = ({ bill }) => {
+
+  // Find specs source
+  const specsSource = bill.sources?.find((source) => source.type === 'specs');
+
   return (
     <Card elevation={2} sx={{ mb: 3 }}>
       <CardContent>
@@ -29,6 +33,11 @@ const BillCard = ({ bill }) => {
               <Link href={`/#/reformas/${bill.id}/autores`} underline="hover" variant="body2">
                 Ver autores
               </Link>
+              {specsSource && (
+                <Link href={specsSource.url} underline="hover" variant="body2" target="_blank" rel="noopener noreferrer">
+                  {specsSource.title}
+                </Link>
+              )}
             </Stack>
           </Grid>
         </Grid>
@@ -52,6 +61,13 @@ BillCard.propTypes = {
     tags: PropTypes.arrayOf(PropTypes.string),
     committee: PropTypes.string,
     origin: PropTypes.string,
+    sources: PropTypes.arrayOf(
+      PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        type: PropTypes.string,
+        url: PropTypes.string.isRequired,
+      })
+    ),
   }).isRequired,
 };
 

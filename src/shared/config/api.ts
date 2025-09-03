@@ -7,6 +7,7 @@ export const API_BASE_URL = getBaseUrl();
 
 export const ENDPOINTS = {
   bills: `${API_BASE_URL}/data/bills.json`,
+  billStatus: `${API_BASE_URL}/data/bill-status.json`,
   votingRecords: `${API_BASE_URL}/data/voting-records.json`,
   chamber1: `${API_BASE_URL}/data/chamber-1.json`,
   chamber2: `${API_BASE_URL}/data/chamber-2.json`,

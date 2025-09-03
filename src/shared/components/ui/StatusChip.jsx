@@ -19,7 +19,7 @@ const StatusChip = ({ status, color, size = 'small', sx, ...props }) => {
 
     if (statusLower.includes('approved') || statusLower.includes('passed')) {
       return 'success';
-    } else if (statusLower.includes('rejected') || statusLower.includes('failed') || statusLower.includes('archivado')) {
+    } else if (statusLower.includes('rejected') || statusLower.includes('failed') || statusLower.includes('archivo')) {
       return 'error';
     } else {
       return 'warning';

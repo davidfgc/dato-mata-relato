@@ -26,5 +26,9 @@
   {
     "id": 7,
     "name": "Pendiente enviar a sanción"
+  },
+  {
+    "id": 8,
+    "name": "Ley"
   }
 ]

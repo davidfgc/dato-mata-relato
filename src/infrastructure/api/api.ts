@@ -30,7 +30,26 @@ interface EmploymentDataApiResponse {
 export const fetchBills = async (): Promise<BillEntity[]> => {
   const response = await fetch(ENDPOINTS.bills);
   const data = await response.json();
+  // Fetch bill status data
+  const statusResponse = await fetch(ENDPOINTS.billStatus);
+  const statusData = await statusResponse.json();
 
+  // Create lookup map of status id to name
+  const statusMap = statusData.reduce((acc: Record<number, string>, status: { id: number; name: string }) => {
+    acc[status.id] = status.name;
+    return acc;
+  }, {});
+
+  // Add status name to each bill based on statusId
+  data.bills = data.bills.map((bill: BillEntity) => {
+    if (bill.statusId && statusMap[bill.statusId]) {
+      return {
+        ...bill,
+        status: statusMap[bill.statusId],
+      };
+    }
+    return bill;
+  });
   return data.bills as BillEntity[];
 };
 

@@ -33,7 +33,8 @@
       ],
       "sources": [
         {
-          "title": "Proyecto Cámara",
+          "title": "Ficha Técnica",
+          "type": "specs",
           "url": "https://www.camara.gov.co/reforma-a-la-salud-6"
         },
         {
@@ -48,6 +49,7 @@
       "shortTitle": "Reforma a la Salud",
       "description": "La presente ley tiene por objeto transformar el Sistema General de Seguridad Social en Salud en un Sistema de Salud basado en el Aseguramiento Social en Salud, para garantizar el derecho fundamental a la salud",
       "tags": ["Salud", "Seguridad Social"],
+      "statusId": 2,
       "status": "Trámite a Senado",
       "date": "2024-09-13",
       "type": "Ley Ordinaria",
@@ -59,7 +61,8 @@
       "coordinators": [],
       "sources": [
         {
-          "title": "Proyecto Cámara",
+          "title": "Ficha Técnica",
+          "type": "specs",
           "url": "https://www.camara.gov.co/reforma-a-la-salud-10"
         },
         {
@@ -79,11 +82,11 @@
       "authorRole": "Ministra del Trabajo",
       "type": "Ley Ordinaria",
       "legislature": "2023 - 2024",
-      "statusId": 7,
-      "status": "Sancion Presidencial",
+      "statusId": 8,
       "sources": [
         {
-          "title": "Proyecto Cámara",
+          "title": "Ficha Técnica",
+          "type": "specs",
           "url": "https://www.camara.gov.co/reforma-laboral-1"
         },
         {
@@ -102,7 +105,7 @@
       "shortTitle": "Muerte Médicamente Asistida",
       "description": "Esta ley tiene por objeto regular el acceso al derecho fundamental a la muerte digna en la modalidad de muerte médicamente asistida y garantizar la seguridad jurídica de los participantes involucrados en el procedimiento por medio del cual se aplica la muerte médicamente asistida.",
       "tags": ["Salud", "Derechos Fundamentales"],
-      "status": "En trámite",
+      "statusId": 1,
       "date": "2024-07-20",
       "type": "Ley Estatutaria",
       "authors": [
@@ -261,7 +264,8 @@
       ],
       "sources": [
         {
-          "title": "Proyecto Cámara",
+          "title": "Ficha Técnica",
+          "type": "specs",
           "url": "https://www.camara.gov.co/muerte-medicamente-asistida"
         },
         {
@@ -277,7 +281,8 @@
       "description": "La presente ley tiene por objeto prevenir y sancionar las prácticas de conversión, así como promover la no discriminación en el territorio nacional; establece mecanismos de protección y garantía de los derechos a la dignidad, a la autonomía personal y a tener una vida libre de violencia según los estándares previstos en la Constitución Política de Colombia y en los Tratados o Convenios Internacionales de derechos humanos ratificados por Colombia.",
       "tags": ["Derechos Humanos", "Discriminación", "LGBTIQ+"],
       "hidden": true,
-      "status": "En trámite",
+      "statusId": 2,
+      "status": "Trámite en Plenaria",
       "date": "2024-10-01",
       "type": "Ley Ordinaria",
       "author": "",
@@ -505,7 +510,8 @@
       "coordinators": [],
       "sources": [
         {
-          "title": "URL",
+          "title": "Ficha Técnica",
+          "type": "specs",
           "url": "https://www.camara.gov.co/sancion-a-las-practicas-de-convercion"
         },
         {
@@ -523,8 +529,10 @@
       "title": "Por medio de la cual se establece un tratamiento penal diferenciado para el desmantelamiento y sometimiento de organizaciones al margen de la ley, y reglas para la consolidación de la paz total, el orden público y la seguridad ciudadana",
       "shortTitle": "Tratamiento Penal Diferenciado - Paz Total",
       "description": "La presente ley tiene por objeto fijar la implementación de los procedimientos y tratamientos penales diferenciados para integrantes de grupos armados organizados al margen de la ley (GAOML), grupos armados organizados (GAO), estructuras armadas organizadas de crimen de alto impacto (EAOCAI), financiadores y colaboradores; así como de aquellas personas procesadas con ocasión del ejercicio de la protesta social, garantizando los derechos de las víctimas a la verdad, la justicia, la reparación y la no repetición, para contribuir a la consolidación de la paz, el orden público y la seguridad ciudadana.",
+      "hidden": true,
       "tags": ["Paz Total", "Justicia", "Seguridad", "Derechos Humanos", "Proceso de Paz"],
-      "status": "En trámite",
+      "statusId": 1,
+      "status": "Trámite en Comisión",
       "date": "2025-07-20",
       "type": "Ley Ordinaria",
       "authors": [
@@ -545,28 +553,60 @@
       "committee": "Comisión Primera Constitucional Permanente",
       "legislature": "2025 - 2026",
       "origin": "Cámara",
-      "coordinators": [],
       "sources": [
         {
-          "title": "Documento del Proyecto",
-          "url": "VER DOCUMENTO"
+          "date": "2025-07-20",
+          "title": "Resumen - Hilo en X",
+          "type": "summary",
+          "url": "https://x.com/davidfgonzalezc/status/1948585325451739407"
+        },
+        {
+          "title": "Ficha Técnica",
+          "type": "specs",
+          "url": "https://www.camara.gov.co/paz-total-0"
+        }
+      ]
+    },
+    {
+      "id": "328/24",
+      "title": "Por medio de la cual se establece amnistía de intereses y alivios económicos a los deudores del Instituto Colombiano de Crédito Educativo y Estudios Técnicos en el Exterior \"Mariano Ospina Pérez\" ICETEX, y se posibilita la suscripción de acuerdos de pagos y se dictan otras disposiciones sobre los fondos propios de las entidades nacionales y territoriales de naturaleza pública",
+      "shortTitle": "Amnistía intereses ICETEX",
+      "description": "Esta ley tiene por objeto establecer amnistía de intereses y alivios económicos para los deudores del ICETEX, facilitando acuerdos de pago y dictando disposiciones sobre fondos públicos.",
+      "hidden": true,
+      "tags": ["Educación", "ICETEX", "Amnistía", "Alivios Económicos"],
+      "statusId": 2,
+      "date": "2024-11-27",
+      "type": "Ley Ordinaria",
+      "author": "Josué Alirio Barrera Rodríguez",
+      "authorRole": "H.S.",
+      "committee": "Trámite en Senado",
+      "legislature": "2024 - 2025",
+      "origin": "Senado",
+      "coordinators": ["Esteban Quintero Cardona"],
+      "sources": [
+        {
+          "title": "Ficha Técnica",
+          "type": "specs",
+          "url": "https://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2024-2025/article/329-por-medio-de-la-cual-se-establece-amnistia-de-intereses-y-alivios-economicos-a-los-deudores-del-instituto-colombiano-de-credito-educativo-y-estudios-tecnicos-en-el-exterior-mariano-ospina-perez-icetex-y-se-posibilita-la-suscripcion-de-acuerdos-de-pagos-y-se-dictan-otras-disposiciones-sobre-los-fondos-propios-de-las-entidades-nacionales-y-territoriales-de-naturaleza-publica"
+        },
+        {
+          "title": "Votación Proposición positiva",
+          "url": "https://www.youtube.com/live/1nwx0h6UEjw?si=A7rleliGh60mu1oE&t=11276"
         }
       ],
       "chamberInfo": {
-        "chamber": "002/2025C",
-        "senate": "",
-        "filingDate": "2025-07-20",
-        "senateDate": "",
-        "content": "VER DOCUMENTO"
+        "chamber": "",
+        "senate": "328/24",
+        "filingDate": "2024-11-27",
+        "senateDate": "2024-11-28",
+        "content": "Trámite en Senado de la República"
       },
-      "observations": "",
-      "summary": [
-        {
-          "date": "2025-07-20",
-          "title": "X Thread",
-          "url": "https://x.com/davidfgonzalezc/status/1948585325451739407"
-        }
-      ]
+      "observations": "Pendiente discutir ponencia para segundo debate en Senado. Fecha de aprobación primer debate: 08 Abril 2025",
+      "firstDebateApproval": "2025-04-08",
+      "speakers": {
+        "firstDebate": "Esteban Quintero Cardona",
+        "secondDebate": "Esteban Quintero Cardona"
+      }
     }
   ]
 }

@@ -10,6 +10,7 @@ interface BillCreationParams {
   description: string;
   tags: string[];
   status: string;
+  statusId?: number;
   date: string;
   type: string;
   author: string;
@@ -22,7 +23,7 @@ interface BillCreationParams {
   sources?: BillSource[];
 }
 
-interface BillPersistenceData extends BillCreationParams {}
+// Removed redundant interface - using BillCreationParams directly for persistence
 
 export class BillEntity {
   private constructor(
@@ -36,6 +37,7 @@ export class BillEntity {
     private _author: string,
     private _authorRole: string,
     private _committee: string,
+    private _statusId?: number,
     private _legislature?: string,
     private _origin?: string,
     private _partyVotes: Record<string, PartyVote> = {},
@@ -62,6 +64,7 @@ export class BillEntity {
       params.author,
       params.authorRole,
       params.committee,
+      params.statusId,
       params.legislature,
       params.origin,
       params.partyVotes,
@@ -71,7 +74,7 @@ export class BillEntity {
   }
 
   // Factory method for reconstitution from persistence
-  static fromPersistence(data: BillPersistenceData): BillEntity {
+  static fromPersistence(data: BillCreationParams): BillEntity {
     return BillEntity.create(data);
   }
 
@@ -90,6 +93,9 @@ export class BillEntity {
   }
   get status() {
     return this._status;
+  }
+  get statusId() {
+    return this._statusId;
   }
   get date() {
     return this._date;
@@ -133,13 +139,14 @@ export class BillEntity {
   }
 
   // Persistence method
-  toPersistence(): BillPersistenceData {
+  toPersistence(): BillCreationParams {
     return {
       id: this._id,
       title: this._title,
       description: this._description,
       tags: this._tags,
       status: this._status,
+      statusId: this._statusId,
       date: this._date,
       type: this._type,
       author: this._author,
